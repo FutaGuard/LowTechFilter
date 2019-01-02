@@ -1,7 +1,6 @@
-!
-!
-!
-!
+[Adblock Plus]
+! Version: 2019.0101.1
+! Expires: 1 hour
 !
 ! AdGuard 台灣討論群
 ! https://t.me/adguard_tw
