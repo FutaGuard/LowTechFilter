@@ -1,0 +1,10 @@
+!
+!
+!
+!
+!
+! AdGuard 台灣討論群
+! https://t.me/adguard_tw
+
+!全聯的頁面
+@@||pxmart.com.tw/px/index.px$document
