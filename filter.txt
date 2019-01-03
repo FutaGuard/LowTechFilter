@@ -1,9 +1,13 @@
 [Adblock Plus]
-! Version: 2019.0101.1
+! Title: Make futa great again!
+! Version: 2019.0102.1
 ! Expires: 1 hour
-!
-! AdGuard 台灣討論群
-! https://t.me/adguard_tw
-
-!全聯的頁面
+! Homepage: https://t.me/adguard_tw
+! ----------------------------------------------------------------------
+! 全聯的頁面
 @@||pxmart.com.tw/px/index.px$document
+! ----------------------------------------------------------------------
+plurk.com##section#rightPanel
+solidot.org##div#headads
+solidot.org##div.adv
+solidot.org##div.combined_log

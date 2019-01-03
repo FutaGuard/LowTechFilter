@@ -1,3 +1,3 @@
 # FutaFilter
 
-一個專為台灣設計的 Adguard Filter List
+- 專為臺灣人設計的廣告阻擋規則
