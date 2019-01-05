@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2019.0105.1
+! Version: 2019.0105.2
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -13,6 +13,7 @@ anime1.me##section#execphp-6
 plurk.com##div#resp_banner_ads
 plurk.com##section#rightPanel
 r3sub.com##section.container>div>div>a:first-child
+r3sub.com##div.ad_movie--preview
 ||scupio.com^$third-party
 ||sitemaji.com^$third-party
 solidot.org##div#headads
