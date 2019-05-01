@@ -1,13 +1,19 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2019.0408.1
+! Version: 2019.0501.1
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
+! 注入
+! 批踢踢自動 R18
+ptt.cc#%#document.onreadystatechange=()=>{if(location.pathname.includes('/ask/')){document.querySelector('.over18-button-container>button').click()}};
+! ----------------------------------------------------------------------
 ! ebb.io
-@@||ebb.io^$document
-! 全聯的頁面
-@@||pxmart.com.tw/px/index.px$document
+@@||ebb.io^$important,document,~extension
+! 中華郵政
+@@||postserv.post.gov.tw/pstmail/main_mail.html$important,document,~extension
+! 全聯
+@@||pxmart.com.tw^$important,document,~extension
 ! ----------------------------------------------------------------------
 ani.gamer.com.tw##a.vast-blocker
 anime1.me##div#anime-top
