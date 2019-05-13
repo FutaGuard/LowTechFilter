@@ -29,3 +29,4 @@ r3sub.com##div.ad_movie--preview
 solidot.org##div#headads
 solidot.org##div.adv
 solidot.org##div.combined_log
+##.pixnet-happix-pilot__launcher-bubble
