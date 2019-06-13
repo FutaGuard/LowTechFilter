@@ -40,3 +40,4 @@ m.cnyes.com##div._3Yy
 m.eprice.com.tw##div.ad-320x480-popup-g
 m.eprice.com.tw##div.parallax-ads-container
 m.eprice.com.tw##div.ad-300x250-g
+m.eprice.com.tw##div.ad-320x100-g
