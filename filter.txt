@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2019.0614.1
+! Version: 2019.0617.1
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -43,3 +43,6 @@ m.eprice.com.tw##div.ad-300x250-g
 m.eprice.com.tw##div.ad-320x100-g
 udn.com##dt.more_ad
 udn.com##dt.only_mobile
+m.gamer.com.tw##div.goAPP
+www.businessweekly.com.tw##div.reveal-modal
+www.businessweekly.com.tw##div.reveal-modal-bg
