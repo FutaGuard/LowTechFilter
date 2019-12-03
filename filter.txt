@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2019.1112.5
+! Version: 2019.1112.6
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -65,7 +65,3 @@ pixnet.net##div.fbbox
 ||lap-click.tr.line.me^$empty
 ||crs-event.line.me^$empty
 ||api.today.line.me/webapi/TW/recommendation/articles/articleend^$empty
-! 阻擋廣告圖，除了貼圖
-@@||obs.line-scdn.net/r
-||obs.line-scdn.net^$empty
-||obs-tw.line-apps.com
