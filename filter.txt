@@ -61,6 +61,11 @@ pixnet.net##div.fbbox
 ! Line
 ||sch.line.me/api/v1/ads^$empty
 ||w.line.me/lass/api/v1/ads^$empty
+||w.line-scdn.net
 ||lap-click.tr.line.me^$empty
 ||crs-event.line.me^$empty
 ||api.today.line.me/webapi/TW/recommendation/articles/articleend^$empty
+! 阻擋廣告圖，除了貼圖
+@@||obs.line-scdn.net/r
+||obs.line-scdn.net^$empty
+||obs-tw.line-apps.com
