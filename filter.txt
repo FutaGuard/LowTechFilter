@@ -1,10 +1,12 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2020.0119.2
+! Version: 2020.0119.3
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
 ! 注入
+! NTM
+appledaily.com#%#;(()=>{const date=new Date();date.setTime(date.getTime()-86400);const aid=document.cookie.match(/articleid(.+?)=/i)[1];if(aid){document.cookie=`articleId${aid}=;path=/;expires=${date.toUTCString()}`}})()
 ! 卡卡洛普
 gamme.com.tw#%#if(!document.cookie.match(/r18=1/)){document.cookie='r18=1;domain=gamme.com.tw;path=/';location.reload()};
 ! 批踢踢
