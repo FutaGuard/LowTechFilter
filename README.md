@@ -19,9 +19,11 @@ https://futaguard.github.io/FutaFilter/filter.txt
 
 ## Windows 
 
-（求助中。）
+![win1](https://p176.p0.n0.cdn.getcloudapp.com/items/kpuYRn1n/Image%202020-03-22%20at%203.38.12%20PM.png)
 
+![win2](https://p176.p0.n0.cdn.getcloudapp.com/items/6quBwY9O/Image%202020-03-22%20at%203.42.01%20PM.png)（不知道寫這個界面的是誰搞的，macOS 是 add custom 在 Windows 是 Import ...）
 
+![win3](https://p176.p0.n0.cdn.getcloudapp.com/items/z8uXdrpk/Image%202020-03-22%20at%203.45.12%20PM.png)
 
 # Q&A
 
