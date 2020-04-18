@@ -86,3 +86,4 @@ pixnet.net##div.fbbox
 ! 針對台灣的簡訊詐騙
 ||awetd.club
 ||sexsa.xyz
+||waetd.xyz
