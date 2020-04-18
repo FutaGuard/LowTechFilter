@@ -61,14 +61,28 @@ pixnet.net##div.pixnet-happix-pilot__launcher-bar__gift-notification
 pixnet.net##div.pixnet-happix-pilot__launcher-bar__happix-notification
 pixnet.net##div.header-fixed-area
 pixnet.net##div.fbbox
+
 ! Line
-||sch.line.me/api/v1/ads^$empty
-||w.line.me/lass/api/v1/ads^$empty
-! ||w.line-scdn.net
-||lap-click.tr.line.me^$empty
+! 白名單
+@@||obs.line-scdn.net/r
+@@||obs-tw.line-apps.com/talk
+@@||stickershop.line-scdn.net
+
+! UA 偽裝
+||a.line.me/er/la*/v1/$image,empty
+||w.line.me/la*/api/v*/ads^$empty
+! 廣告媒體
+||d.line-scdn.net/lcp-prod-photo/$image,empty
+||obs.line-scdn.net/0h*/w750$empty
+||obs.line-scdn.net/0h*/o1280x720$empty
+||obs.line-scdn.net/0h*/*p.mp4$empty
+! 廣告資料
+||sch.line.me/api/v*/ads^$empty
+||buy.line.me/api/graphql?variables$empty
+! Line 新聞
 ||crs-event.line.me^$empty
 ||api.today.line.me/webapi/TW/recommendation/articles/articleend^$empty
 
 ! 針對台灣的簡訊詐騙
-awetd.club
-sexsa.xyz
+||awetd.club
+||sexsa.xyz
