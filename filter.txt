@@ -87,3 +87,16 @@ pixnet.net##div.fbbox
 ||awetd.club
 ||sexsa.xyz
 ||waetd.xyz
+
+! YouTube
+||googlevideo.com/ptracking?pltype=adhost^$empty
+||youtube.com/api/stats/ads^$empty
+||youtube.com/get_midroll_^$empty
+||youtube.com/pagead^$empty
+||youtube.com/ptracking?^$empty
+||m.youtube.com/_get_ads^$empty
+||premiumyva.appspot.com/vmclickstoadvertisersite^$empty
+||s0.2mdn.net/ads/^$empty
+||stats.tubemogul.com/stats^$empty
+||youtubei.googleapis.com/*ad_break^$empty
+||/youtubei.googleapis.com\/youtubei\/.+(ad|log)^$empty
