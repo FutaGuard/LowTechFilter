@@ -83,11 +83,6 @@ pixnet.net##div.fbbox
 ||crs-event.line.me^$empty
 ||api.today.line.me/webapi/TW/recommendation/articles/articleend^$empty
 
-! 針對台灣的簡訊詐騙
-||awetd.club
-||sexsa.xyz
-||waetd.xyz
-
 ! YouTube
 ||googlevideo.com/ptracking?pltype=adhost^$empty
 ||youtube.com/api/stats/ads^$empty

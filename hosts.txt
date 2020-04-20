@@ -9,3 +9,8 @@
 ! 新聞
 ||ad.ettoday.net
 ||ad*.nownews.com
+
+! 針對台灣的簡訊詐騙
+||awetd.club
+||sexsa.xyz
+||waetd.xyz
