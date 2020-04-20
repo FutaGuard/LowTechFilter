@@ -99,4 +99,4 @@ pixnet.net##div.fbbox
 ||s0.2mdn.net/ads/^$empty
 ||stats.tubemogul.com/stats^$empty
 ||youtubei.googleapis.com/*ad_break^$empty
-||/youtubei.googleapis.com\/youtubei\/.+(ad|log)^$empty
+/youtubei.googleapis.com\/youtubei\/.+(ad|log)^/$empty
