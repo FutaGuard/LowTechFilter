@@ -5,3 +5,7 @@
 ! --------------------------------------------------
 ! SEO 濫用
 ||pizzaseo.com
+
+! 新聞
+||ad.ettoday.net
+||ad*.nownews.com
