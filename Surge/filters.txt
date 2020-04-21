@@ -1,0 +1,26 @@
+#!name=FutaFilter
+#!desc=Make Futa Great Again!
+
+[Rule]
+#! Line 廣告
+#! 白名單
+URL-REGEX,^https:\/\/obs\.line\-scdn\.net\/r,DIRECT
+URL-REGEX,^https:\/\/obs\-tw\.line\-apps\.com\/talk,DIRECT
+URL-REGEX,^https:\/\/stickershop\.line\-scdn\.net,DIRECT
+#! 黑名單
+#! UA 偽裝
+URL-REGEX,^https:\/\/a\.line\.me\/er\/la.*\/v1\/,REJECT
+URL-REGEX,^https:\/\/.\.line\.me\/la.*\/api\/v\d\/ads,REJECT
+#! 廣告媒體
+URL-REGEX,^https:\/\/d\.line\-scdn\.net\/lcp\-prod\-photo,REJECT
+URL-REGEX,^https:\/\/obs\.line\-scdn\.net\/0h.*\/(w750|o1280x720|.*\.mp4),REJECT
+! 廣告資料
+URL-REGEX,^https:\/\/sch\.line\.me\/api\/v\d+\/ads,REJECT
+URL-REGEX,^https:\/\/buy\.line\.me\/api\/graphql\?variables,REJECT
+! Line 新聞
+URL-REGEX,^https:\/\/crs\-event\.line\.me,REJECT
+URL-REGEX,^https:\/\/api\.today\.line\.me\/webapi\/TW\/recommendation\/articles\/articleend,REJECT
+
+
+[MITM]
+hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me
