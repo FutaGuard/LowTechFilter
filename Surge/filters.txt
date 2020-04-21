@@ -14,10 +14,10 @@ URL-REGEX,^https:\/\/.\.line\.me\/la.*\/api\/v\d\/ads,REJECT
 #! 廣告媒體
 URL-REGEX,^https:\/\/d\.line\-scdn\.net\/lcp\-prod\-photo,REJECT
 URL-REGEX,^https:\/\/obs\.line\-scdn\.net\/0h.*\/(w750|o1280x720|.*\.mp4),REJECT
-! 廣告資料
+#! 廣告資料
 URL-REGEX,^https:\/\/sch\.line\.me\/api\/v\d+\/ads,REJECT
 URL-REGEX,^https:\/\/buy\.line\.me\/api\/graphql\?variables,REJECT
-! Line 新聞
+#! Line 新聞
 URL-REGEX,^https:\/\/crs\-event\.line\.me,REJECT
 URL-REGEX,^https:\/\/api\.today\.line\.me\/webapi\/TW\/recommendation\/articles\/articleend,REJECT
 
