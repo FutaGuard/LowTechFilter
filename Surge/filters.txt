@@ -18,6 +18,7 @@ URL-REGEX,^https:\/\/obs\.line\-scdn\.net\/0h.*\/(w750|o1280x720|.*\.mp4),REJECT
 #! 廣告資料
 URL-REGEX,^https:\/\/sch\.line\.me\/api\/v\d+\/ads,REJECT
 URL-REGEX,^https:\/\/buy\.line\.me\/api\/graphql\?variables,REJECT
+URL-REGEX,^https:\/\/scdn\.line-apps\.com\/appresources\/moretab\/list\.json,REJECT
 #! Line 新聞
 URL-REGEX,^https:\/\/crs\-event\.line\.me,REJECT
 URL-REGEX,^https:\/\/api\.today\.line\.me\/webapi\/TW\/recommendation\/articles\/articleend,REJECT
@@ -25,9 +26,26 @@ URL-REGEX,^https:\/\/api\.today\.line\.me\/webapi\/TW\/recommendation\/articles\
 URL-REGEX,^https:\/\/a\.line\.me\/cs\/v\d\/oa$,REJECT
 #! 通用阻擋
 DOMAIN-KEYWORD,aotter,REJECT
-DOMAIN-KEYWORD,inmobi,REJECT
+DOMAIN-KEYWORD,app-measurement,REJECT
+DOMAIN-KEYWORD,adsage,REJECT
+DOMAIN-KEYWORD,adsrvmedia,REJECT
+DOMAIN-KEYWORD,adwords,REJECT
+DOMAIN-KEYWORD,admarvel,REJECT
+DOMAIN-KEYWORD,admaster,REJECT
 DOMAIN-KEYWORD,adsystem,REJECT
 DOMAIN-KEYWORD,appsflyer,REJECT
+DOMAIN-KEYWORD,adservice,REJECT
+DOMAIN-KEYWORD,analytics,REJECT
+DOMAIN-KEYWORD,crashlytics,REJECT
+DOMAIN-KEYWORD,doubleclick,REJECT
+DOMAIN-KEYWORD,inmobi,REJECT
+DOMAIN-KEYWORD,meetrics,REJECT
+DOMAIN-KEYWORD,supersonicads,REJECT
+DOMAIN,itad.linetv.tw,REJECT
+DOMAIN-SUFFIX,admob.com,REJECT
+DOMAIN-SUFFIX,mopub.com,REJECT
+DOMAIN-SUFFIX,openx.com,REJECT
+DOMAIN-SUFFIX,flurry.com,REJECT
 
 [MITM]
-hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me
+hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me, scdn.line-apps.com
