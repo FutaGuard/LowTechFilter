@@ -10,6 +10,9 @@
 ||ad.ettoday.net^
 ||ad*.nownews.com^
 
+! Yahoo 新聞影片
+@@||edgecast-vod.yahoo.net
+
 ! 針對台灣的簡訊詐騙
 ||awetd.club^
 ||sexsa.xyz^
