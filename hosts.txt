@@ -24,3 +24,6 @@
 ! Apple 網頁元件
 ! 應該是 Icon Font
 @@||securemetrics.apple.com
+
+! 漫畫人廣告
+||videoapi.manhuaren.com
