@@ -98,3 +98,7 @@ pixnet.net##div.fbbox
 ||stats.tubemogul.com/stats^$empty
 ||youtubei.googleapis.com/*ad_break^$empty
 /youtubei.googleapis.com\/youtubei\/.+(ad|log)^/$empty
+
+! 漫畫人
+||mangaapi.manhuaren.com/*/public/getMangaPromotionActivity^$empty
+||mangaapi.manhuaren.com/*/public/getShelfActivity^$empty
