@@ -21,9 +21,14 @@
 ! 大概是追蹤
 ||t.holmesmind.com^
 
+! 漫畫人廣告
+||videoapi.manhuaren.com^
+
+! 白名單
+
 ! Apple 網頁元件
 ! 應該是 Icon Font
 @@||securemetrics.apple.com^
 
-! 漫畫人廣告
-||videoapi.manhuaren.com^
+! 短網址
+@@||s.yam.com
