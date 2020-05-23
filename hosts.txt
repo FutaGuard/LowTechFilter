@@ -31,4 +31,7 @@
 @@||securemetrics.apple.com^
 
 ! 短網址
-@@||s.yam.com
+@@||s.yam.com^
+
+! udn 部落格
+@@||blog.udn.com^
