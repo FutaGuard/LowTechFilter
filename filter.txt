@@ -100,6 +100,6 @@ pixnet.net##div.fbbox
 /youtubei.googleapis.com\/youtubei\/.+(ad|log)^/$empty
 
 ! 漫畫人
-||mangaapi.manhuaren.com/*/public/getMangaPromotionActivity^$empty
+||mangaapi.manhuaren.com/*/manga/getMangaPromotionActivity^$empty
 ||mangaapi.manhuaren.com/*/public/getShelfActivity^$empty
 ||mangaapi.manhuaren.com/*/ad^$empty
