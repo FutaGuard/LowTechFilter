@@ -27,7 +27,7 @@ URL-REGEX,^https:\/\/a\.line\.me\/cs\/v\d\/oa$,REJECT
 
 #! 漫畫人
 URL-REGEX,^https:\/\/mangaapi.manhuaren.com\/.+\/public\/(getMangaPromotionActivity|getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame),REJECT
-URL-REGEX,^https:\/\/mangaapi.manhuaren.com\/.+\/ad\/,REJECT
+REGEX,^https:\/\/mangaapi.manhuaren.com\/.+\/ad\/,REJECT
 
 #! 通用阻擋
 DOMAIN-KEYWORD,aotter,REJECT
