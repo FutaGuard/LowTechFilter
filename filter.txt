@@ -102,3 +102,4 @@ pixnet.net##div.fbbox
 ! 漫畫人
 ||mangaapi.manhuaren.com/*/public/getMangaPromotionActivity^$empty
 ||mangaapi.manhuaren.com/*/public/getShelfActivity^$empty
+||mangaapi.manhuaren.com/*/ad^$empty
