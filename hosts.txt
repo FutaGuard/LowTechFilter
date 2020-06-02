@@ -35,3 +35,6 @@
 
 ! udn 部落格
 @@||blog.udn.com^
+
+! Line Pay 公告
+@@||torimochi.line-apps.com^
