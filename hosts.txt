@@ -1,7 +1,7 @@
 ! FutaFilter 
 ! Make Futa Great Again !
 ! URL: https://github.com/FutaGuard/FutaFilter
-! 2020.0420.01
+! 2020.0607.01
 ! --------------------------------------------------
 ! SEO 濫用
 ||pizzaseo.com^
@@ -38,3 +38,6 @@
 
 ! Line Pay 公告
 @@||torimochi.line-apps.com^
+
+! 台灣樂透
+@@||www.taiwanlottery.com.tw^
