@@ -26,10 +26,6 @@ twitter.com#%#document.onreadystatechange=()=>{if(document.readyState==='complet
 ! 微雲
 share.weiyun.com#@#.page-ad
 ! ----------------------------------------------------------------------
-anime1.me##div#anime-top
-anime1.me##div#anime-top+div
-anime1.me##div[class^=kiwi-ad]+div
-anime1.me##section#execphp-6
 ani.gamer.com.tw##a.vast-blocker
 appledaily.com##div.omoPaywall
 appledaily.com##div.paywall_fade
