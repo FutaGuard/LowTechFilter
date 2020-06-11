@@ -1,43 +1,50 @@
-! FutaFilter 
+! FutaHosts
 ! Make Futa Great Again !
-! URL: https://github.com/FutaGuard/FutaFilter
-! 2020.0607.01
+! URL: <https://github.com/FutaGuard/FutaFilter>
+! 2020.0611.1
 ! --------------------------------------------------
-! SEO 濫用
-||pizzaseo.com^
-
-! 新聞
-||ad.ettoday.net^
-||ad*.nownews.com^
-
-! Yahoo 新聞影片
-@@||edgecast-vod.yahoo.net
-
-! 針對台灣的簡訊詐騙
-||awetd.club^
-||sexsa.xyz^
-||waetd.xyz^
-
-! 大概是追蹤
-||t.holmesmind.com^
-
-! 漫畫人廣告
-||videoapi.manhuaren.com^
-
-! 白名單
-
-! Apple 網頁元件
-! 應該是 Icon Font
-@@||securemetrics.apple.com^
+! 白清單
+@@||ip2location.com^
 
 ! 短網址
 @@||s.yam.com^
 
-! udn 部落格
+! 部落格
 @@||blog.udn.com^
+
+! Amazon 數位商品購買驗證
+@@||fls-na.amazon.com
+
+! Apple 網頁元件
+@@||securemetrics.apple.com^
 
 ! Line Pay 公告
 @@||torimochi.line-apps.com^
 
 ! 台灣樂透
 @@||www.taiwanlottery.com.tw^
+
+! Yahoo! 新聞影片
+@@||edgecast-vod.yahoo.net
+
+! --------------------------------------------------
+! 黑名單
+||5hz.org^
+
+! 針對台灣的簡訊詐騙
+||awetd.club^
+||sexsa.xyz^
+||waetd.xyz^
+
+! 追蹤
+||t.holmesmind.com^
+
+! 新聞
+||ad.ettoday.net^
+||ad*.nownews.com^
+
+! SEO 濫用
+||pizzaseo.com^
+
+! 漫畫人廣告
+||videoapi.manhuaren.com^
