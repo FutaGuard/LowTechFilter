@@ -101,3 +101,7 @@ ltn.com.tw##div[data-desc="內廣"]
 ||mangaapi.manhuaren.com/*/manga/getMangaPromotionActivity^$empty
 ||mangaapi.manhuaren.com/*/public/getShelfActivity^$empty
 ||mangaapi.manhuaren.com/*/ad^$empty
+
+! YouTube
+! 官方暫時解方，只負責搬運
+youtube.com#%#//scriptlet("set-constant", "ytInitialPlayerResponse.adPlacements", "undefined")
