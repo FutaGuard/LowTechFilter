@@ -62,6 +62,8 @@ pixnet.net##div.header-fixed-area
 pixnet.net##div.fbbox
 ! 自由時報
 ltn.com.tw##div[data-desc="內廣"]
+! 三立新聞
+setn.com##.rightFloatContent
 
 ! Line
 ! 白名單
