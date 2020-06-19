@@ -1,7 +1,7 @@
 ! FutaHosts
 ! Make Futa Great Again !
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2020.0611.1
+! 2020.0619.1
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
