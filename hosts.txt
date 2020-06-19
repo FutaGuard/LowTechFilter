@@ -48,3 +48,6 @@
 
 ! 漫畫人廣告
 ||videoapi.manhuaren.com^
+
+! 詐騙
+||wildernbus1.live^
