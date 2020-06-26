@@ -43,6 +43,9 @@
 ||ad.ettoday.net^
 ||ad*.nownews.com^
 
+! Yahoo! 新聞廣告
+||fc.yahoo.com^
+
 ! SEO 濫用
 ||pizzaseo.com^
 
