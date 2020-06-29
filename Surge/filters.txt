@@ -14,6 +14,7 @@ URL-REGEX,^https:\/\/a\.line\.me\/er\/la.*\/v1\/,REJECT
 URL-REGEX,^https:\/\/.\.line\.me\/la.*\/api\/v\d\/ads,REJECT
 #! 廣告媒體
 URL-REGEX,^https:\/\/d\.line\-scdn\.net\/lcp\-prod\-photo,REJECT
+URL-REGEX,^https:\/\/obs\.line-scdn\.net\/0h.*\/m540x540$,REJECT
 URL-REGEX,^https:\/\/obs\.line\-scdn\.net\/0h.*\/(w750|o1280x720|.*\.mp4),REJECT
 #! 廣告資料
 URL-REGEX,^https:\/\/sch\.line\.me\/api\/v\d+\/ads,REJECT
