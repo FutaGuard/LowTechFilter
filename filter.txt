@@ -37,6 +37,7 @@ pixnet.net##div.pixnet-happix-pilot__launcher-bubble
 ||l.plurk.com^$empty
 plurk.com##div#resp_banner_ads
 plurk.com##section#rightPanel
+plurk.com##div[data-respcount="廣告"]
 r3sub.com##section.container>div:first-child>div:first-child>a:first-child
 r3sub.com##div.ad_movie--preview
 ||scupio.com^$third-party
