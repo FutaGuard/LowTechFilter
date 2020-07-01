@@ -27,9 +27,6 @@ twitter.com#%#document.onreadystatechange=()=>{if(document.readyState==='complet
 share.weiyun.com#@#.page-ad
 ! ----------------------------------------------------------------------
 ani.gamer.com.tw##a.vast-blocker
-appledaily.com##div.omoPaywall
-appledaily.com##div.paywall_fade
-appledaily.com#$#div#article-body>div#articleBody{height:100%!important;}
 share.dmhy.org##div[id='1280_ad']>a
 pixnet.net##div.pixnet-happix-pilot__launcher-bubble
 ||plurk.com/go^$empty
