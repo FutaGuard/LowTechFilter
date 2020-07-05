@@ -4,6 +4,8 @@
 
 - <https://filter.futa.gg/filter.txt>
 - <https://filter.futa.gg/hosts.txt>
+- <https://filter.futa.gg/nofarm_hosts.txt>
+
 
 ## 說明
 
