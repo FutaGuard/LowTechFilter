@@ -16,6 +16,9 @@
 ||hklocalpress.com^
 ||iso2.cc^
 ||iso2.cx^
+||iter01.com^
+||itread01.com^
+||jb51.net^
 ||jishuwen.com^
 ||kknews.cc^
 ||peekme.cc^
@@ -30,6 +33,4 @@
 ||twgreatdaily.life^
 ||twgreatdaily.live^
 ||uwenku.com^
-||www.itread01.com^
-||www.jb51.net^
 ||teepr.com^  
