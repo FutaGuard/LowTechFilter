@@ -58,10 +58,13 @@ pixnet.net##div.pixnet-happix-pilot__launcher-bar__gift-notification
 pixnet.net##div.pixnet-happix-pilot__launcher-bar__happix-notification
 pixnet.net##div.header-fixed-area
 pixnet.net##div.fbbox
+
 ! 自由時報
 ltn.com.tw##div[data-desc="內廣"]
 ! 三立新聞
 setn.com##.rightFloatContent
+! ettoday
+ettoday.net##div[class="pcbt_kw active"]
 
 ! Line
 ! 白名單
