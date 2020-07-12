@@ -1,5 +1,5 @@
 #!name=FutaFilter
-#!desc=Make Futa Great Again!
+#!desc=Make Futa Great Again! v20200712.01
 #!system=ios
 
 [Rule]
@@ -15,6 +15,7 @@ URL-REGEX,^https:\/\/.\.line\.me\/la.*\/api\/v\d\/ads,REJECT
 #! 廣告媒體
 URL-REGEX,^https:\/\/d\.line\-scdn\.net\/lcp\-prod\-photo,REJECT
 URL-REGEX,^https:\/\/obs\.line-scdn\.net\/0h.*\/m540x540$,REJECT
+URL-REGEX,^https:\/\/obs\.line-scdn\.net\/0h.*\/m1280x720$,REJECT
 URL-REGEX,^https:\/\/obs\.line\-scdn\.net\/0h.*\/(w750|o1280x720|.*\.mp4),REJECT
 #! 廣告資料
 URL-REGEX,^https:\/\/sch\.line\.me\/api\/v\d+\/ads,REJECT
@@ -33,28 +34,58 @@ URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/manga\/getMangaPromotionActivity
 URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/ad\/,REJECT
 
 #! 通用阻擋
-DOMAIN-KEYWORD,aotter,REJECT
-DOMAIN-KEYWORD,app-measurement,REJECT
-DOMAIN-KEYWORD,adsage,REJECT
-DOMAIN-KEYWORD,adsrvmedia,REJECT
-DOMAIN-KEYWORD,adwords,REJECT
-DOMAIN-KEYWORD,admarvel,REJECT
-DOMAIN-KEYWORD,admaster,REJECT
-DOMAIN-KEYWORD,adsystem,REJECT
-DOMAIN-KEYWORD,appsflyer,REJECT
-DOMAIN-KEYWORD,adservice,REJECT-DROP
-DOMAIN-KEYWORD,analytics,REJECT
-DOMAIN-KEYWORD,crashlytics,REJECT
-DOMAIN-KEYWORD,doubleclick,REJECT
-DOMAIN-KEYWORD,inmobi,REJECT
-DOMAIN-KEYWORD,meetrics,REJECT
-DOMAIN-KEYWORD,supersonicads,REJECT
 DOMAIN,itad.linetv.tw,REJECT
 DOMAIN,sessions.bugsnag.com,REJECT
+DOMAIN-KEYWORD,admarvel,REJECT
+DOMAIN-KEYWORD,admaster,REJECT
+DOMAIN-KEYWORD,admdfs,REJECT
+DOMAIN-KEYWORD,adnewnc,REJECT
+DOMAIN-KEYWORD,adsage,REJECT
+DOMAIN-KEYWORD,adsame,REJECT
+DOMAIN-KEYWORD,adsensor,REJECT
+DOMAIN-KEYWORD,adserver,REJECT
+DOMAIN-KEYWORD,adservice,REJECT-DROP
+DOMAIN-KEYWORD,adsmogo,REJECT
+DOMAIN-KEYWORD,adsrvmedia,REJECT
+DOMAIN-KEYWORD,adsserving,REJECT
+DOMAIN-KEYWORD,adsystem,REJECT
+DOMAIN-KEYWORD,advert,REJECT
+DOMAIN-KEYWORD,adwords,REJECT
+DOMAIN-KEYWORD,allyes,REJECT
+DOMAIN-KEYWORD,analysis,REJECT
+DOMAIN-KEYWORD,analysys,REJECT
+DOMAIN-KEYWORD,analytics,REJECT
+DOMAIN-KEYWORD,aotter,REJECT
+DOMAIN-KEYWORD,app-measurement,REJECT
+DOMAIN-KEYWORD,applovin,REJECT
+DOMAIN-KEYWORD,appsflyer,REJECT
+DOMAIN-KEYWORD,crashlytics,REJECT
+DOMAIN-KEYWORD,dnserror,REJECT
+DOMAIN-KEYWORD,domob,REJECT
+DOMAIN-KEYWORD,doubleclick,REJECT
+DOMAIN-KEYWORD,duomeng,REJECT
+DOMAIN-KEYWORD,dwtrack,REJECT
+DOMAIN-KEYWORD,fenxi,REJECT
+DOMAIN-KEYWORD,guanggao,REJECT
+DOMAIN-KEYWORD,inmobi,REJECT
+DOMAIN-KEYWORD,lianmeng,REJECT
+DOMAIN-KEYWORD,meetrics,REJECT
+DOMAIN-KEYWORD,mobaders,REJECT
+DOMAIN-KEYWORD,omgmta,REJECT
+DOMAIN-KEYWORD,openx,REJECT
+DOMAIN-KEYWORD,partnerad,REJECT
+DOMAIN-KEYWORD,securepubads,REJECT
+DOMAIN-KEYWORD,socdm,REJECT
+DOMAIN-KEYWORD,supersonicads,REJECT
+DOMAIN-KEYWORD,taboola,REJECT
+DOMAIN-KEYWORD,uedas,REJECT
+DOMAIN-KEYWORD,umtrack,REJECT
+DOMAIN-KEYWORD,uploadMobileData,REJECT
+DOMAIN-KEYWORD,wlmonitor,REJECT
+DOMAIN-KEYWORD,zjtoolbar,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
-DOMAIN-SUFFIX,mopub.com,REJECT
-DOMAIN-SUFFIX,openx.com,REJECT
 DOMAIN-SUFFIX,flurry.com,REJECT
+DOMAIN-SUFFIX,mopub.com,REJECT
 
 [MITM]
 hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com
