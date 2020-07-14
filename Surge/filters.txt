@@ -1,5 +1,5 @@
 #!name=FutaFilter
-#!desc=Make Futa Great Again! v20200714.01
+#!desc=Make Futa Great Again! v20200714.02
 #!system=ios
 
 [Rule]
@@ -91,4 +91,4 @@ DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
 
 [MITM]
-hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, 4gamers.com.tw
+hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, *.4gamers.com.tw
