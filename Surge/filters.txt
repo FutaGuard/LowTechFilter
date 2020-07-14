@@ -1,5 +1,5 @@
 #!name=FutaFilter
-#!desc=Make Futa Great Again! v20200712.01
+#!desc=Make Futa Great Again! v20200714.01
 #!system=ios
 
 [Rule]
@@ -32,6 +32,9 @@ URL-REGEX,^https:\/\/a\.line\.me\/cs\/v\d\/oa$,REJECT
 URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/public\/(getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame|getAditem|getAds),REJECT
 URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/manga\/getMangaPromotionActivity,REJECT
 URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/ad\/,REJECT
+
+#! 4Gamer
+URL-REGEX,^https:\/\/4gamers.com.tw/site/api/aols/media\/.+,REJECT
 
 #! 通用阻擋
 DOMAIN,itad.linetv.tw,REJECT
@@ -88,4 +91,4 @@ DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
 
 [MITM]
-hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com
+hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, 4gamers.com.tw
