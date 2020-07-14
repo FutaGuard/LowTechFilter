@@ -59,6 +59,9 @@ pixnet.net##div.pixnet-happix-pilot__launcher-bar__happix-notification
 pixnet.net##div.header-fixed-area
 pixnet.net##div.fbbox
 
+! 4Gamer
+||4gamers.com.tw/site/api/aols/media?
+
 ! 自由時報
 ltn.com.tw##div[data-desc="內廣"]
 ! 三立新聞
