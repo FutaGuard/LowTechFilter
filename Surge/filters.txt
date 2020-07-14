@@ -1,5 +1,5 @@
 #!name=FutaFilter
-#!desc=Make Futa Great Again! v20200714.02
+#!desc=Make Futa Great Again! v20200714.03
 #!system=ios
 
 [Rule]
@@ -34,7 +34,7 @@ URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/manga\/getMangaPromotionActivity
 URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/ad\/,REJECT
 
 #! 4Gamer
-URL-REGEX,^https:\/\/4gamers.com.tw/site/api/aols/media\/.+,REJECT
+URL-REGEX,^https:\/\/www.4gamers.com.tw\/site\/api\/aols\/media\?,REJECT
 
 #! 通用阻擋
 DOMAIN,itad.linetv.tw,REJECT
