@@ -60,4 +60,4 @@
 ||in.appcenter.ms^
 
 ! $ony 耳機 App
-||bdcore-apr-lb.bda.ndmdhs.com^
+||ndmdhs.com^
