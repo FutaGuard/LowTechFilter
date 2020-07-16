@@ -24,6 +24,9 @@
 ! 台灣樂透
 @@||www.taiwanlottery.com.tw^
 
+! M$ Appcenter log
+||in.appcenter.ms^
+
 ! Yahoo! 新聞影片
 @@||edgecast-vod.yahoo.net
 
