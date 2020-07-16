@@ -108,8 +108,4 @@ ettoday.net##div[class="pcbt_kw active"]
 ||mangaapi.manhuaren.com/*/public/getShelfActivity^$empty
 ||mangaapi.manhuaren.com/*/ad^$empty
 
-! YouTube
-! 官方暫時解方，只負責搬運
-youtube.com#%#//scriptlet("json-prune", "playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds")
-youtube.com#%#//scriptlet("set-constant", "ytInitialPlayerResponse.adPlacements", "undefined")
-@@||youtube.com/get_video_info
+
