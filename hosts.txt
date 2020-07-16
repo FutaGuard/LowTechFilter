@@ -1,7 +1,7 @@
 ! FutaHosts
 ! Make Futa Great Again !
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2020.0619.1
+! 2020.0716.02
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -23,9 +23,6 @@
 
 ! 台灣樂透
 @@||www.taiwanlottery.com.tw^
-
-! M$ Appcenter log
-||in.appcenter.ms^
 
 ! Yahoo! 新聞影片
 @@||edgecast-vod.yahoo.net
@@ -58,3 +55,9 @@
 ! 詐騙
 ||wildernbus1.live^
 ||ladiestofuck.com^
+
+! M$ Appcenter log
+||in.appcenter.ms^
+
+! $ony 耳機 App
+||bdcore-apr-lb.bda.ndmdhs.com^
