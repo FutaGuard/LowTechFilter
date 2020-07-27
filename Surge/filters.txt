@@ -1,5 +1,5 @@
 #!name=FutaFilter
-#!desc=Make Futa Great Again! v20200714.03
+#!desc=Make Futa Great Again! v20200727.01
 #!system=ios
 
 [Rule]
