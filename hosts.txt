@@ -8,6 +8,7 @@
 
 ! 短網址
 @@||s.yam.com^
+@@||buff.ly^
 
 ! 部落格
 @@||blog.udn.com^
