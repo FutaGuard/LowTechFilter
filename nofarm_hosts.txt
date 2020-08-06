@@ -1,6 +1,7 @@
 ||apple01.cc^
 ||apple01.co^
 ||apple01.net^
+||bangqu.com^
 ||buzzhand.com^
 ||buzzhand.net^
 ||buzzhand.org^
