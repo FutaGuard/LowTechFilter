@@ -33,6 +33,7 @@
 ||ptt01.cc^
 ||ptt01.tv^
 ||read01.com^
+||teepr.com^
 ||thinbug.com^
 ||twblogs.net^
 ||twgreatdaily.com^
@@ -40,4 +41,3 @@
 ||twgreatdaily.life^
 ||twgreatdaily.live^
 ||uwenku.com^
-||teepr.com^
