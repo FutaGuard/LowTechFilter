@@ -30,6 +30,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add hide_farm_from_search.txt
+          git add hide_farm_from_search_ff.txt
           git commit -m "🤖 自動更新 NoFarm"
       - name: Push changes
         uses: ad-m/github-push-action@master
