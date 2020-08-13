@@ -4,6 +4,7 @@ from datetime import datetime, timedelta, timezone
 tz = timezone(timedelta(hours=+8))
 
 domain_list = ''
+domain_list_ff = ''
 with open('../nofarm_hosts.txt', 'r') as files:
     for domains in files.read().split('\n'):
         if domains:
@@ -11,9 +12,16 @@ with open('../nofarm_hosts.txt', 'r') as files:
             domain_list += 'google.*##div[data-hveid]:has(a[href*="{domain}"])\n'.format(
                 domain=domain
             )
+            domain_list_ff += 'google.*##div div div:has(a[href*="{domain}"])\n'.format(
+                domain=domain
+            )
 
 if not os.path.exists('../hide_farm_from_search.txt'):
     with open('../hide_farm_from_search.txt', 'w') as files:
+        pass
+
+if not os.path.exists('../hide_farm_from_search_ff.txt'):
+    with open('../hide_farm_from_search_ff.txt', 'w') as files:
         pass
 
 with open('../hide_farm_from_search.txt', 'r') as orig:
@@ -31,13 +39,17 @@ with open('../hide_farm_from_search.txt', 'r') as orig:
     else:
         v += str(int(version[-2:])+1).zfill(2)
 
+head = '[Adblock Plus]\n' \
+       '! Title: Make futa great again!\n' \
+       '! Version: {version}\n' \
+       '! Expires: 1 hour\n' \
+       '! Homepage: https://t.me/adguard_tw\n' \
+       '! ----------------------------------------------------------------------\n'.format(
+           version=v
+       )
+
 with open('../hide_farm_from_search.txt', 'w') as files:
-    head = '[Adblock Plus]\n' \
-           '! Title: Make futa great again!\n' \
-           '! Version: {version}\n' \
-           '! Expires: 1 hour\n' \
-           '! Homepage: https://t.me/adguard_tw\n' \
-           '! ----------------------------------------------------------------------\n'.format(
-               version=v
-           )
     files.write(head + domain_list)
+
+with open('../hide_farm_from_search_ff.txt', 'w') as files:
+    files.write(head + domain_list_ff)
