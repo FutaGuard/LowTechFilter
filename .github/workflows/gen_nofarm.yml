@@ -2,7 +2,7 @@ name: Hide_FarmContent_From_Search
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   # This workflow contains a single job called "build"
@@ -11,25 +11,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
 
-    - name: Run AutoBuild
-      run: |
-        cd AutoBuild
-        python hide_farm.py
+      - name: Run AutoBuild
+        run: |
+          cd AutoBuild
+          python hide_farm.py
 
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add hide_farm_from_search.txt
-        git commit -m "AutoBuild"
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.FUTAFILTERAUTOBUILD }}
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add hide_farm_from_search.txt
+          git commit -m "🤖 自動更新 NoFarm"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.FUTAFILTERAUTOBUILD }}
