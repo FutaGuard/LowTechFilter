@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "nofarm_hosts.txt"
+      - "AutoBuild/hide_farm.py"
 
 jobs:
   # This workflow contains a single job called "build"
