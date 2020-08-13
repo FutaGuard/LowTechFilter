@@ -2,7 +2,8 @@ name: Hide_FarmContent_From_Search
 
 on:
   push:
-    branches: [master]
+    paths:
+      - "nofarm_hosts.txt"
 
 jobs:
   # This workflow contains a single job called "build"
