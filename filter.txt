@@ -109,4 +109,4 @@ ettoday.net##div[class="pcbt_kw active"]
 ||mangaapi.manhuaren.com/*/ad^$empty
 
 ! $ony 耳機 App
-||mds.csx.sony.com/csx/csxwin^$empty
+! ||mds.csx.sony.com/csx/csxwin^$empty
