@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2020.0814.01
+! Version: 2020.0920.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -32,6 +32,7 @@ google.*##div[data-hveid]:has(a[href*="jb51.net"])
 google.*##div[data-hveid]:has(a[href*="jishuwen.com"])
 google.*##div[data-hveid]:has(a[href*="kknews.cc"])
 google.*##div[data-hveid]:has(a[href*="kutu66.com"])
+google.*##div[data-hveid]:has(a[href*="manongdao.com"])
 google.*##div[data-hveid]:has(a[href*="moptt.tw"])
 google.*##div[data-hveid]:has(a[href*="peekme.cc"])
 google.*##div[data-hveid]:has(a[href*="presslocalhk.com"])
@@ -39,6 +40,7 @@ google.*##div[data-hveid]:has(a[href*="pressyourmum.com"])
 google.*##div[data-hveid]:has(a[href*="ptt01.cc"])
 google.*##div[data-hveid]:has(a[href*="ptt01.tv"])
 google.*##div[data-hveid]:has(a[href*="read01.com"])
+google.*##div[data-hveid]:has(a[href*="stackoom.com"])
 google.*##div[data-hveid]:has(a[href*="teepr.com"])
 google.*##div[data-hveid]:has(a[href*="thinbug.com"])
 google.*##div[data-hveid]:has(a[href*="twblogs.net"])
