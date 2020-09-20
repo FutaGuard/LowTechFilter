@@ -34,6 +34,7 @@
 ||ptt01.cc^
 ||ptt01.tv^
 ||read01.com^
+||stackoom.com^
 ||teepr.com^
 ||thinbug.com^
 ||twblogs.net^
