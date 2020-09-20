@@ -26,6 +26,7 @@
 ||jishuwen.com^
 ||kknews.cc^
 ||kutu66.com^
+||manongdao.com^
 ||moptt.tw^
 ||peekme.cc^
 ||presslocalhk.com^
@@ -33,6 +34,7 @@
 ||ptt01.cc^
 ||ptt01.tv^
 ||read01.com^
+||stackoom.com^
 ||teepr.com^
 ||thinbug.com^
 ||twblogs.net^
