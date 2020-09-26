@@ -9,6 +9,7 @@
 ! 短網址
 @@||s.yam.com^
 @@||buff.ly^
+@@||0rz.tw^
 
 ! 部落格
 @@||blog.udn.com^
