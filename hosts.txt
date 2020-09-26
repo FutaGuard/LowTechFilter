@@ -1,7 +1,7 @@
 ! FutaHosts
 ! Make Futa Great Again !
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2020.0926.01
+! 2020.0926.02
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -63,3 +63,6 @@
 
 ! $ony 耳機 App
 ||ndmdhs.com^
+
+! 垃圾 Line 貼圖詐騙
+||freedlinestore.com^
