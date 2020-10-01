@@ -1,5 +1,5 @@
 #!name=FutaFilter
-#!desc=Make Futa Great Again! v20200714.03
+#!desc=Make Futa Great Again! v20201002.01
 #!system=ios
 
 [Rule]
@@ -29,7 +29,7 @@ URL-REGEX,^https:\/\/api\.today\.line\.me\/webapi\/TW\/recommendation\/articles\
 URL-REGEX,^https:\/\/a\.line\.me\/cs\/v\d\/oa$,REJECT
 
 #! 漫畫人
-URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/public\/(getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame|getAditem|getAds|getMultiAds|getHome),REJECT
+URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/public\/(getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame|getAditem|getAds|getMultiAds),REJECT
 URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/manga\/getMangaPromotionActivity,REJECT
 URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/ad\/,REJECT
 
@@ -39,6 +39,7 @@ URL-REGEX,^https:\/\/www.4gamers.com.tw\/site\/api\/aols\/media\?,REJECT
 #! 通用阻擋
 DOMAIN,itad.linetv.tw,REJECT
 DOMAIN,sessions.bugsnag.com,REJECT
+DOMAIN,m.vpon.com,REJECT
 DOMAIN-KEYWORD,admarvel,REJECT
 DOMAIN-KEYWORD,admaster,REJECT
 DOMAIN-KEYWORD,admdfs,REJECT
