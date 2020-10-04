@@ -58,6 +58,8 @@
 ! 詐騙
 ||wildernbus1.live^
 ||ladiestofuck.com^
+||taiwan-bestdeals.com^
+||fghjkd.com^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
@@ -69,3 +71,5 @@
 ||freedlinestore.com^
 ||sjpop1z.com^
 ||xvlpazn.cn^
+||free-point-receive.weebly.com^
+||linemestickershop.weebly.com^
