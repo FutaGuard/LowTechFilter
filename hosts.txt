@@ -58,6 +58,8 @@
 ! 詐騙
 ||wildernbus1.live^
 ||ladiestofuck.com^
+||taiwan-bestdeals.com^
+||fghjkd.com^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
