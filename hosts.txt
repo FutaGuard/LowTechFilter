@@ -78,3 +78,6 @@
 ||sjpop1z.com^
 ||xtwnjf.com^
 ||xvlpazn.cn^
+
+! Weebly 詐騙
+||netfllx.weebly.com^
