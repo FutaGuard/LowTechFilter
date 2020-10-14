@@ -1,5 +1,11 @@
 # FutaFilter
 
+## 討論群組
+嘿，有使用上的問題嗎？ \
+歡迎到 Telegram 群組上討拍喔。 \
+https://t.me/adguard_tw
+
+
 ## 訂閱網址
 
 - <https://filter.futa.gg/filter.txt>
