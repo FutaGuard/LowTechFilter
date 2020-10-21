@@ -1,9 +1,10 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2020.0920.01
+! Version: 2020.1022.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
+google.*##div[data-hveid]:has(a[href*="366service.com"])
 google.*##div[data-hveid]:has(a[href*="apple01.cc"])
 google.*##div[data-hveid]:has(a[href*="apple01.co"])
 google.*##div[data-hveid]:has(a[href*="apple01.net"])
@@ -18,6 +19,7 @@ google.*##div[data-hveid]:has(a[href*="coco01.net"])
 google.*##div[data-hveid]:has(a[href*="coco01.today"])
 google.*##div[data-hveid]:has(a[href*="cocomy.net"])
 google.*##div[data-hveid]:has(a[href*="codebug.vip"])
+google.*##div[data-hveid]:has(a[href*="codenong.com"])
 google.*##div[data-hveid]:has(a[href*="coder.work"])
 google.*##div[data-hveid]:has(a[href*="codertw.com"])
 google.*##div[data-hveid]:has(a[href*="fbiavip.com"])
@@ -29,6 +31,7 @@ google.*##div[data-hveid]:has(a[href*="itdaan.com"])
 google.*##div[data-hveid]:has(a[href*="iter01.com"])
 google.*##div[data-hveid]:has(a[href*="itread01.com"])
 google.*##div[data-hveid]:has(a[href*="jb51.net"])
+google.*##div[data-hveid]:has(a[href*="jeepxie.net"])
 google.*##div[data-hveid]:has(a[href*="jishuwen.com"])
 google.*##div[data-hveid]:has(a[href*="kknews.cc"])
 google.*##div[data-hveid]:has(a[href*="kutu66.com"])
