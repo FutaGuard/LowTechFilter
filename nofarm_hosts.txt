@@ -1,3 +1,4 @@
+||366service.com^
 ||apple01.cc^
 ||apple01.co^
 ||apple01.net^
@@ -24,6 +25,7 @@
 ||iter01.com^
 ||itread01.com^
 ||jb51.net^
+||jeepxie.net^
 ||jishuwen.com^
 ||kknews.cc^
 ||kutu66.com^
