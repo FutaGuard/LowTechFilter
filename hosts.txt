@@ -1,10 +1,13 @@
 ! FutaHosts
 ! Make Futa Great Again !
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2020.0929.01
+! 2020.1026.01
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
+
+! hackmd 登入必要
+@@||quantserve.com^
 
 ! 短網址
 @@||s.yam.com^
