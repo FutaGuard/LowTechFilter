@@ -1,7 +1,7 @@
 ! FutaHosts
 ! Make Futa Great Again !
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2020.1026.01
+! 2020.1104.01
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -84,3 +84,6 @@
 
 ! Weebly 詐騙
 ||netfllx.weebly.com^
+
+! 臉輸詐騙
+||dented-sun-colt.glitch.me^
