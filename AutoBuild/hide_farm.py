@@ -9,7 +9,7 @@ with open('../nofarm_hosts.txt', 'r') as files:
     for domains in files.read().split('\n'):
         if domains:
             domain = domains[2:-1]
-            domain_list += 'google.*##div[data-hveid]:has(a[href*="{domain}"])\n'.format(
+            domain_list += 'google.*##div.g:has(div[data-hveid] a[href*="{domain}"])\n'.format(
                 domain=domain
             )
             domain_list_ff += 'google.*##div div div:has(a[href*="{domain}"])\n'.format(
