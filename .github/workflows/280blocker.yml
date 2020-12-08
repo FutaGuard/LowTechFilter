@@ -25,4 +25,4 @@ jobs:
         uses: actions-go/push@v1
         with:
           commit-files: 280blocker/280blocker_domain_ag.txt, 280blocker/280blocker_adblock.txt
-          commit-message: "🤖 update 280blocker_${{ steps.date.outputs.date }}"
+          commit-message: 🤖 update 280blocker_${{ steps.date.outputs.date }}
