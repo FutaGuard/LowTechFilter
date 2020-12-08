@@ -3,7 +3,7 @@ name: 280blocker
 on:
   push:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "0 */1 * * *"
 
 jobs:
   go:
@@ -20,7 +20,7 @@ jobs:
           args: https://280blocker.net/files/280blocker_domain_ag_$(date +%Y%m).txt -o 280blocker/280blocker_domain_ag.txt
       - name: get today date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d-%H')"
       - name: push
         uses: actions-go/push@v1
         with:
