@@ -6,8 +6,40 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2020-11-19
-##.blocker280-20201119
+! Last updated: 2020-12-09
+##.blocker280-20201209
+
+!2020/12/09
+~tablo.jp,~nknews.jp,~dailynk.jp###im_interstitial_panel
+comic.pixiv.net##.ad-content
+comic.pixiv.net##[class^="FixedFooter"]
+ramendb.supleks.jp##[style*="text-align:center;vertical-align:bottom;"]
+ramendb.supleks.jp###footer-banner
+tamapon.com###chuokikaku
+hostlove.com###shop_list5
+hostlove.com##.job_ad_list_in
+apexlegends-leaksnews.com##.code-block
+altema.jp###sidebar-50
+driver-times.com##.driver-works-sidebar
+kurashi-no.jp##.Ad_widget
+willof.jp###code-mc-container-199
+willof.jp##.code-mc-container
+creema.jp##.js-ad-item
+mynavi.jp##.c-interstitial-ad
+||img.ananweb.jp/core/js/modal-dist
+||img.ananweb.jp/core/js/ad-page
+||topdisplaynetwork.com^
+||hiprofitnetworks.com^
+||yourwebbars.com^
+||easy-bars.com^
+||in-page-push.com^
+||creamssicsite.com^
+||publish.gacraft.jp^
+||nkis.nikkei.com^
+!||googletagmanager.com/gtm.js
+!||www.ads-i.org^
+!||experience-ap.piano.io/xbuilder/experience/load
+
 
 !2020/11/19
 ###DLsite_blog_parts_001
@@ -29,7 +61,6 @@ eikaiwa.weblio.jp###eikaiwa-column-bottom-of-1st-ad-sp
 ||sync.relaido.jp^
 ||tracker.relaido.jp^
 ||googletagservices.com/tag/js/gpt.js
-||googletagmanager.com/gtm.js
 ||dlsite.com/maniax/api/=/blogparts
 
 
@@ -72,7 +103,7 @@ yahoo.co.jp##a[href^="https://rd.listing.yahoo.co.jp/"]
 
 ! dummy domain for operation check in future
 ||abp.dummy280280.net^
-
+||check.dummy280280.net^
 !koe-koe.com###ad_mask
 
 
@@ -156,7 +187,7 @@ detail.chiebukuro.yahoo.co.jp##a[href^="https://rd.listing.yahoo.co.jp/o/"]
 ||terrout9.biz^
 ||vpn3protectplus.com^
 ||cdn.zx-adnet.com/adx
-!||experience-ap.piano.io/xbuilder/experience/load
+
 ||blog.livedoor.jp/jyoseisama/js/top_randomlink
 google.com###tadsb
 google.co.jp###tadsb
@@ -367,7 +398,6 @@ youtube.com##.promoted-sparkles-text-search-root-container
 ||v16-ad.byteoversea.com^
 ||verajohn.digital^
 ||vs-api.voodoo-tech.io^
-||www.ads-i.org^
 
 
 
@@ -452,7 +482,7 @@ routinehub.co###advertisement
 
 !2020/05/31	
 !~nknews.jp###im_interstitial_panel
-~tablo.jp,~nknews.jp###im_interstitial_panel
+
 bohbi-log.com###rek_fixed
 senzaiishiki-navi.com###mobile_kk_wrap
 daimangajiten.com##.simple-box7
@@ -5106,3 +5136,4 @@ nakasoku.blog18.fc2.com##.rss_box
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~news-edge.com##a[href*=".news-edge.com"] 
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~world-best-news.doorblog.jp##a[href*="//world-best-news.doorblog.jp/"]
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~matometatta-news.net##a[href*="//matometatta-news.net/"]
+

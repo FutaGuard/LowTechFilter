@@ -10,10 +10,11 @@
 # Please use it in a system that can block subdomains.
 #
 #
-# Lastupdate: 2020-11-19
+# Lastupdate: 2020-12-09
 #
 
 ||domain.dummy280280.net^
+||check.dummy280280.net^
 ||pagead2.googlesyndication.com^
 ||exosrv.com^
 ||coremetrics.com^
@@ -1010,7 +1011,6 @@
 ||adform.net^
 ||adpon-prd-asset.sslcs.cdngc.net^
 ||ads-delivery.gunosy.com^
-||ads-i.org^
 ||ads.2mdnsys.com^
 ||ads.adorca.com^
 ||ads.mobring.co^
@@ -1232,6 +1232,14 @@
 ||api.relaido.jp^
 ||sync.relaido.jp^
 ||tracker.relaido.jp^
+||topdisplaynetwork.com^
+||hiprofitnetworks.com^
+||yourwebbars.com^
+||easy-bars.com^
+||in-page-push.com^
+||creamssicsite.com^
+||publish.gacraft.jp^
+||nkis.nikkei.com^
 
 @@||www.googleadservices.com^
 
