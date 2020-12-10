@@ -9,6 +9,9 @@
 ! Last updated: 2020-12-09
 ##.blocker280-20201209
 
+!2020/12/10
+altema.jp###osusume-game-ranking-area
+
 !2020/12/09
 ~tablo.jp,~nknews.jp,~dailynk.jp###im_interstitial_panel
 comic.pixiv.net##.ad-content
