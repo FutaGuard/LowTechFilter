@@ -113,3 +113,6 @@ coffeehunter.tw##div[class^="fancybox-wrap"]
 
 ! 巴哈姆特勇者福利社
 @@||fuli.gamer.com.tw^$document,~extension
+
+! Shopback 導購
+@@||tracking.shopback.com/client/v1/events^$important,domain=shopback.com
