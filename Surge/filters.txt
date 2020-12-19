@@ -27,6 +27,8 @@ URL-REGEX,^https:\/\/crs\-event\.line\.me,REJECT
 URL-REGEX,^https:\/\/api\.today\.line\.me\/webapi\/TW\/recommendation\/articles\/articleend,REJECT
 #! Line 小紅紅
 URL-REGEX,^https:\/\/a\.line\.me\/cs\/v\d\/oa$,REJECT
+#! Dcard 
+URL-REGEX,^https:\/\/bilanx\.dcard\.tw\/v\d\/events$,REJECT
 
 #! 漫畫人
 URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/public\/(getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame|getAditem|getAds|getMultiAds),REJECT
