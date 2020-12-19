@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2020.1127.02
+! Version: 2020.1219.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -90,19 +90,6 @@ ettoday.net##div[class="pcbt_kw active"]
 ||crs-event.line.me^$empty
 ||api.today.line.me/webapi/TW/recommendation/articles/articleend^$empty
 
-! YouTube
-||googlevideo.com/ptracking?pltype=adhost^$empty
-||youtube.com/api/stats/ads^$empty
-||youtube.com/get_midroll_^$empty
-||youtube.com/pagead^$empty
-||youtube.com/ptracking?^$empty
-||m.youtube.com/_get_ads^$empty
-||premiumyva.appspot.com/vmclickstoadvertisersite^$empty
-||s0.2mdn.net/ads/^$empty
-||stats.tubemogul.com/stats^$empty
-||youtubei.googleapis.com/*ad_break^$empty
-/youtubei.googleapis.com\/youtubei\/.+(ad|log)^/$empty
-
 ! 漫畫人
 ||mangaapi.manhuaren.com/*/manga/getMangaPromotionActivity^$empty
 ||mangaapi.manhuaren.com/*/public/getShelfActivity^$empty
@@ -116,3 +103,6 @@ coffeehunter.tw##div[class^="fancybox-wrap"]
 
 ! Shopback 導購
 @@||tracking.shopback.com/client/v1/events^$important,domain=shopback.com
+
+! Dcard
+bilanx.dcard.tw/v1/events
