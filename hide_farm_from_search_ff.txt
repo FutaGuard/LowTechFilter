@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2020.1124.01
+! Version: 2020.1221.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -43,6 +43,7 @@ google.*##div div div:has(a[href*="pressyourmum.com"])
 google.*##div div div:has(a[href*="ptt01.cc"])
 google.*##div div div:has(a[href*="ptt01.tv"])
 google.*##div div div:has(a[href*="read01.com"])
+google.*##div div div:has(a[href*="setn.com"])
 google.*##div div div:has(a[href*="stackoom.com"])
 google.*##div div div:has(a[href*="teepr.com"])
 google.*##div div div:has(a[href*="thinbug.com"])
