@@ -1,4 +1,5 @@
 ||366service.com^
+||7box.vip^
 ||apple01.cc^
 ||apple01.co^
 ||apple01.net^
@@ -47,3 +48,4 @@
 ||twgreatdaily.life^
 ||twgreatdaily.live^
 ||uwenku.com^
+||yuutoday.com^

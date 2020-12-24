@@ -91,3 +91,7 @@
 
 ! 臉輸詐騙
 ||dented-sun-colt.glitch.me^
+
+! 混淆垃圾農場網頁
+||7box.vip^
+||yuutoday.com^
