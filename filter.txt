@@ -9,7 +9,7 @@
 appledaily.com#%#;(()=>{const date=new Date();date.setTime(date.getTime()-86400);const aid=document.cookie.match(/articleid(.+?)=/i);if(aid){document.cookie=`articleId${aid[1]}=;path=/;expires=${date.toUTCString()}`}})();
 ! 卡卡洛普
 gamme.com.tw#%#if(!document.cookie.match(/r18=1/)){document.cookie='r18=1;domain=gamme.com.tw;path=/';location.reload()};
-! 批踢踢
+! 批踢踢 自動點R18
 www.ptt.cc#%#document.onreadystatechange=()=>{if(location.pathname.includes('/ask/over18')){document.querySelectorAll('.over18-button-container>button[name="yes"]').forEach(x=>x.click())}};
 www.ptt.cc#%#if(!document.cookie.match(/over18=1/)){document.cookie='over18=1;path=/';location.reload()};
 ! 風傳媒
@@ -105,4 +105,7 @@ coffeehunter.tw##div[class^="fancybox-wrap"]
 @@||tracking.shopback.com/client/v1/events^$important,domain=shopback.com
 
 ! Dcard
-bilanx.dcard.tw/v1/events
+||bilanx.dcard.tw/v1/events^$document
+
+! PTT 相關
+||pttbrain.herokuapp.com/api/ptt/metric/user-geo-distributions^$document

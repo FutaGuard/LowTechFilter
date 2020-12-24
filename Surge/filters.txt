@@ -38,6 +38,10 @@ URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/ad\/,REJECT
 #! 4Gamer
 URL-REGEX,^https:\/\/www.4gamers.com.tw\/site\/api\/aols\/media\?,REJECT
 
+#! PTT 相關
+URL-REGEX,^https:\/\/pttbrain\.herokuapp\.com\/api\/ptt\/metric\/user\-geo\-distributions,REJECT
+
+
 #! 通用阻擋
 DOMAIN,itad.linetv.tw,REJECT
 DOMAIN,sessions.bugsnag.com,REJECT
@@ -94,4 +98,4 @@ DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
 
 [MITM]
-hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, *.4gamers.com.tw *.dcard.tw
+hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, *.4gamers.com.tw, *.dcard.tw, *.heroku.com 
