@@ -10,7 +10,7 @@
 # Please use it in a system that can block subdomains.
 #
 #
-# Lastupdate: 2020-12-09
+# Lastupdate: 2020-12-29
 #
 
 ||domain.dummy280280.net^
@@ -161,7 +161,6 @@
 ||ads1.jp.msn.com^
 ||ads1.msads.net^
 ||ads2-adnow.com^
-||ads280dummy.com^
 ||adsee.jp^
 ||adsensecustomsearchads.com^
 ||adservice.google.com^
