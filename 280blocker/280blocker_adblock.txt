@@ -6,8 +6,30 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2020-12-09
-##.blocker280-20201209
+! Last updated: 2020-12-29
+##.blocker280-20201229
+
+!2020/12/29
+comingout.tokyo##.alignnone
+comingout.tokyo##.review
+gamespark.jp##.pickup-list
+google.co.jp##g-bottom-sheet
+google.com##g-bottom-sheet
+hunade.com##.post-matome-area
+nan-net.jp##[id^="active_overlay"]
+vipsister23.com##blockquote
+wotopi.jp##[href*="https://ac.ebis.ne.jp/"]
+###xeory-fixed-banner-sp
+##.i2i-rss-thumbnail
+##.i2i-rss-wrap
+##.yyi-rinker-box
+##a[href^="https://www.dlsite.com/maniax/dlaf/="]
+||hm.mieru-ca.com
+||livedoor.blogimg.jp/diet2channel/imgs
+||www.npttech.com/advertising.js
+!yahoo.co.jp##.sc-GMQeP
+!yahoo.co.jp##.zXUFa
+!||ads280dummy.com
 
 !2020/12/10
 altema.jp###osusume-game-ranking-area
@@ -347,8 +369,7 @@ nanos.jp##a[href*="blove.jp/contest"]
 rakukoi.com###footer_ban
 send-anywhere.com##.dimmed
 twitter.com##[class$="css-1dbjc4n"][data-testid="placementTracking"] 
-yahoo.co.jp##.sc-GMQeP
-yahoo.co.jp##.zXUFa
+
 yakugakulab.info###footer-ad
 
 youtube.com##ytm-promoted-sparkles-text-search-rendere
@@ -2895,7 +2916,6 @@ amazon.co.jp###div-gpt-ad
 
 !2017/07/08
 ##[class$="-sns-box"]
-||ads280dummy.com
 !||durasite.net
 
 !2017/07/05
