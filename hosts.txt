@@ -1,7 +1,7 @@
 ! FutaHosts
 ! Make Futa Great Again !
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2020.1223.01
+! 2021.0116.01
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -41,6 +41,9 @@
 ||sexsa.xyz^
 ||waetd.xyz^
 ||super-1.vip^
+
+! 針對香港的簡訊詐騙
+||hongkongpost.cf^
 
 ! 追蹤
 ||t.holmesmind.com^
