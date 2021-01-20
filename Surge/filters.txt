@@ -1,42 +1,45 @@
 #!name=FutaFilter
-#!desc=Make Futa Great Again! v20201224.01
+#!desc=Make Futa Great Again! v20210120.01
 #!system=ios
 
 [Rule]
 #! Line 廣告
 #! 白名單
-URL-REGEX,^https:\/\/obs\.line\-scdn\.net\/r,DIRECT
-URL-REGEX,^https:\/\/obs\-tw\.line\-apps\.com\/talk,DIRECT
-URL-REGEX,^https:\/\/stickershop\.line\-scdn\.net,DIRECT
+URL-REGEX,^https:\/\/obs\.line-scdn\.net\/r,DIRECT
+URL-REGEX,^https:\/\/obs-tw\.line-apps\.com\/talk,DIRECT
+DOMAIN,stickershop.line-scdn.net,DIRECT
 #! 黑名單
 #! UA 偽裝
-URL-REGEX,^https:\/\/a\.line\.me\/er\/la.*\/v1\/,REJECT
-URL-REGEX,^https:\/\/.\.line\.me\/la.*\/api\/v\d\/ads,REJECT
+URL-REGEX,^https:\/\/a\.line\.me\/er\/la.*\/v1\/,REJECT-DROP
+URL-REGEX,^https:\/\/a\.line\.me\/lass\/api\/v\d\/ads$,REJECT-DROP
 #! 廣告媒體
-URL-REGEX,^https:\/\/d\.line\-scdn\.net\/lcp\-prod\-photo,REJECT
+URL-REGEX,^https:\/\/d\.line-scdn\.net\/lcp\-prod\-photo,REJECT
 URL-REGEX,^https:\/\/obs\.line-scdn\.net\/0h.*\/m540x540$,REJECT
 URL-REGEX,^https:\/\/obs\.line-scdn\.net\/0h.*\/m1280x720$,REJECT
-URL-REGEX,^https:\/\/obs\.line\-scdn\.net\/0h.*\/(w750|o1280x720|.*\.mp4),REJECT
+URL-REGEX,^https:\/\/obs\.line-scdn\.net\/0h.*\/(w750|o1280x720|.*\.mp4),REJECT
 #! 廣告資料
-URL-REGEX,^https:\/\/sch\.line\.me\/api\/v\d+\/ads,REJECT
+URL-REGEX,^https:\/\/sch\.line\.me\/api\/v\d+\/ads,REJECT-DROP
 URL-REGEX,^https:\/\/buy\.line\.me\/api\/graphql\?variables,REJECT
 URL-REGEX,^https:\/\/scdn\.line-apps\.com\/appresources\/moretab\/list\.json,REJECT
 URL-REGEX,^https:\/\/scdn\.line-apps\.com\/lan\/image\/line\/bannerImageEvent\/,REJECT
+URL-REGEX,^https:\/\/w\.line\.me\/adp\/api\/ad\/v\d\/,REJECT-DROP
 #! Line 新聞
-URL-REGEX,^https:\/\/crs\-event\.line\.me,REJECT
+URL-REGEX,^https:\/\/crs-event\.line\.me,REJECT
 URL-REGEX,^https:\/\/api\.today\.line\.me\/webapi\/TW\/recommendation\/articles\/articleend,REJECT
 #! Line 小紅紅
-URL-REGEX,^https:\/\/a\.line\.me\/cs\/v\d\/oa$,REJECT
+URL-REGEX,^https:\/\/a\.line\.me\/cs\/v\d\/oa$,REJECT-DROP
+URL-REGEX,^https:\/\/a\.line\.me\/oa\/v\d\/e$,REJECT-DROP
+
 #! Dcard 
 URL-REGEX,^https:\/\/bilanx\.dcard\.tw\/v\d\/events$,REJECT
 
 #! 漫畫人
-URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/public\/(getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame|getAditem|getAds|getMultiAds),REJECT
-URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/manga\/getMangaPromotionActivity,REJECT
-URL-REGEX,^http:\/\/mangaapi.manhuaren.com\/.+\/ad\/,REJECT
+URL-REGEX,^http:\/\/mangaapi\.manhuaren\.com\/.+\/public\/(getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame|getAditem|getAds|getMultiAds),REJECT
+URL-REGEX,^http:\/\/mangaapi\.manhuaren\.com\/.+\/manga\/getMangaPromotionActivity,REJECT
+URL-REGEX,^http:\/\/mangaapi\.manhuaren\.com\/.+\/ad\/,REJECT
 
 #! 4Gamer
-URL-REGEX,^https:\/\/www.4gamers.com.tw\/site\/api\/aols\/media\?,REJECT
+URL-REGEX,^https:\/\/www\.4gamers\.com\.tw\/site\/api\/aols\/media\?,REJECT
 
 #! PTT 相關
 URL-REGEX,^https:\/\/pttbrain\.herokuapp\.com\/api\/ptt\/metric\/user\-geo\-distributions,REJECT
@@ -44,7 +47,7 @@ URL-REGEX,^https:\/\/pttbrain\.herokuapp\.com\/api\/ptt\/metric\/user\-geo\-dist
 
 #! 通用阻擋
 DOMAIN,itad.linetv.tw,REJECT
-DOMAIN,sessions.bugsnag.com,REJECT
+DOMAIN,sessions.bugsnag.com,REJECT-DROP
 DOMAIN,m.vpon.com,REJECT
 DOMAIN-KEYWORD,admarvel,REJECT
 DOMAIN-KEYWORD,admaster,REJECT
@@ -65,11 +68,10 @@ DOMAIN-KEYWORD,allyes,REJECT
 DOMAIN-KEYWORD,analysis,REJECT
 DOMAIN-KEYWORD,analysys,REJECT
 DOMAIN-KEYWORD,analytics,REJECT
-DOMAIN-KEYWORD,aotter,REJECT
 DOMAIN-KEYWORD,app-measurement,REJECT
 DOMAIN-KEYWORD,applovin,REJECT
 DOMAIN-KEYWORD,appsflyer,REJECT
-DOMAIN-KEYWORD,crashlytics,REJECT
+DOMAIN-KEYWORD,crashlytics,REJECT-DROP
 DOMAIN-KEYWORD,dnserror,REJECT
 DOMAIN-KEYWORD,domob,REJECT
 DOMAIN-KEYWORD,doubleclick,REJECT
@@ -98,4 +100,4 @@ DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
 
 [MITM]
-hostname = %APPEND% a.line.me, buy.line.me, *.line-scdn.net, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, *.4gamers.com.tw, *.dcard.tw, *.heroku.com 
+hostname = %APPEND% a.line.me, w.line.me, buy.line.me, crs-event.line.me, obs.line-scdn.net, d.line-scdn.net, obs-tw.line-apps.com, api.today.line.me, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, www.4gamers.com.tw, bilanx.dcard.tw, pttbrain.herokuapp.com
