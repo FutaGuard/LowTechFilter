@@ -6,8 +6,40 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2020-12-29
-##.blocker280-20201229
+! Last updated: 2021-01-21
+##.blocker280-20210121
+
+!2021/01/21
+jma.go.jp##.jma_ad_space
+2ch-matomenews.com##.RssBox
+2ch-matomenews.com##.postTextRss_box
+2ch-matomenews.com##.MgsBox
+2ch-matomenews.com##.ex_link
+2ch-matomenews.com##.linkcard
+2ch-matomenews.com##.postMiddleRss
+2ch-matomenews.com###list
+enesuke.jp##a[href^="http://enesuke.jp/re9/link/"]
+enesuke.jp##.sp-display
+2039.jp##.link-wrap
+app-liv.jp##.ad-area--pd
+app-liv.jp##a[data-ad-id]
+google.co.jp##mobile-promo
+google.com##mobile-promo
+simchange.jp##.rectangle_bnr
+simchange.jp##.hikaku
+##a[href^="https://rd.listing.yahoo.co.jp/"]
+##a[href^="https://rd-listing.yahoo.jp/"]
+
+
+##a[href^="https://cv-check.app/dispersion"]
+
+||sekindo.com^
+/ads_batch
+
+!||nakanohito.jp^$domain=~enjoytokyo.jp|~iphone-mania.jp|~itmedia.co.jp
+||nakanohito.jp^$domain=~enjoytokyo.jp|~iphone-mania.jp|~itmedia.co.jp|~bookoffonline.co.jp
+
+
 
 !2020/12/29
 comingout.tokyo##.alignnone
@@ -534,7 +566,7 @@ news.goo.ne.jp###overlay_app_dl
 
 ~asahi.com,~newsweekjapan.jp,~iza.ne.jp,~allabout.co.jp,~book.hostlove.com,~find-method.com,~accounts.yahoo.co.jp,~gadgetdamage.blog.fc2.com,~thisav.com,~savevideo.me,~pixiv.net,~gmail.com,~mail.google.com,~inbox.google.com##.ads:not(body)
 ~gnt24365.net,~yakkun.com,~gadgetdamage.blog.fc2.com,~go.jp,~lg.jp,~db-siken.com,~pm-siken.com,~sg-siken.com,~sc-siken.com,~nw-siken.com,~itpassportsiken.com,~fe-siken.com,~ap-siken.com,~nazolog.com,~mobagate.net,~mushinavi.com,~impress.co.jp,~houdoukyoku.jp,~1000mg.jp,~mapion.co.jp,~gmail.com,~doujin-free.com,~mydocomo.com,~smt.docomo.ne.jp,~inbox.google.com,~mail.google.com,~www.afpbb.com##.ad:not(body):not(nav)
-!~surveyenquete.net,~doujin-free.com,~douga-getter.com,~jami2010.com,~gtoys.blog48.fc2.com,~monara.net,~mydocomo.com,~smt.docomo.ne.jp,~gmail.com,~ec-bought.com,~ferrarilamborghininews.com,~sorasi.net,~akb48gnittimatome.com,~gametter.com,~halchim.jp,~jinseinokiduki.com,~kamikiyuki.hatenablog.com,~kyukyoku-matome.com,~mukulog.com,~omutulove.blog.fc2.com,~repeat-drama.info,~shindan-apps.net,~wakudan.seesaa.net,~www.anime-drama.com,~www.footballnews.jp,~eikaiwamastery.blogspot.jp,~nasubiblog.com,~kashinoen.com###adsense
+
 
 ~gadgetdamage.blog.fc2.com##[class^="ads_"]:not(body)
 ###textAd
@@ -706,7 +738,6 @@ plaza.rakuten.co.jp###mkdiv_header_pitari
 ||d18g6t7whf8ejf.cloudfront.net^
 ||served-by.pixfuture.com/www/delivery/ads.js
 
-||nakanohito.jp^$domain=~enjoytokyo.jp|~iphone-mania.jp|~itmedia.co.jp
 ||feed.mikle.com$domain=~l-lal.space|~funato.us
 ||ad-api-v01.uliza.jp$domain=~excite.co.jp|~tv.golfnetwork.co.jp
 ||aka-uae-dl.uliza.jp$domain=~excite.co.jp|~tv.golfnetwork.co.jp
@@ -5159,4 +5190,6 @@ nakasoku.blog18.fc2.com##.rss_box
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~news-edge.com##a[href*=".news-edge.com"] 
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~world-best-news.doorblog.jp##a[href*="//world-best-news.doorblog.jp/"]
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~matometatta-news.net##a[href*="//matometatta-news.net/"]
+
+
 
