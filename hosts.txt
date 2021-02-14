@@ -1,7 +1,7 @@
 ! FutaHosts
 ! Make Futa Great Again !
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2021.0116.01
+! 2021.0214.01
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -68,6 +68,10 @@
 ||fghjkd.com^
 ||track-post-tw.com^
 ||track-post-gov-tw.info^
+
+! 釣魚
+||track-post-gov-tw.info^
+||goodluckdog.space^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
