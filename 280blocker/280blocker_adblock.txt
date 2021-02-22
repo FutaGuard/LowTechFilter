@@ -6,8 +6,25 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-01-21
-##.blocker280-20210121
+! Last updated: 2021-02-12
+##.blocker280-20210212
+
+!2021/02/12
+||sitefeytout.com
+||dlsite.com/js/blogparts.js
+withnews.jp###pickupNewsModal_gallary
+businesschatmaster.com##.cta_wrap
+businesschatmaster.com##.bcm_single_img_a
+dekki.com##div[pb-serve-label*="advertUnit"]
+omega-saisentan.com###mfuolnr-blanket
+omega-saisentan.com###st_custom_html_widget-2
+gizmodo.jp###cxOverlayTarget
+##[id^="DLsite_blog_parts"]
+
+~doda.jp##[class^="appBanner"]
+! /ads_batch
+!||a-cast.jp^
+
 
 !2021/01/21
 jma.go.jp##.jma_ad_space
@@ -29,17 +46,11 @@ simchange.jp##.rectangle_bnr
 simchange.jp##.hikaku
 ##a[href^="https://rd.listing.yahoo.co.jp/"]
 ##a[href^="https://rd-listing.yahoo.jp/"]
-
-
 ##a[href^="https://cv-check.app/dispersion"]
-
 ||sekindo.com^
-/ads_batch
 
 !||nakanohito.jp^$domain=~enjoytokyo.jp|~iphone-mania.jp|~itmedia.co.jp
 ||nakanohito.jp^$domain=~enjoytokyo.jp|~iphone-mania.jp|~itmedia.co.jp|~bookoffonline.co.jp
-
-
 
 !2020/12/29
 comingout.tokyo##.alignnone
@@ -4475,7 +4486,7 @@ BannerLoader$domain=wikipedia.org
 ##.smart_app_banner
 ##[class*="unitedblades"]
 ##[class="imob_rectangle"]
-##[class^="appBanner"]
+
 ##[id*="unitedblades"]
 ##[id^="gmossp_"]
 ##[id^="imobile_ad"]
@@ -5190,6 +5201,4 @@ nakasoku.blog18.fc2.com##.rss_box
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~news-edge.com##a[href*=".news-edge.com"] 
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~world-best-news.doorblog.jp##a[href*="//world-best-news.doorblog.jp/"]
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~matometatta-news.net##a[href*="//matometatta-news.net/"]
-
-
 
