@@ -109,3 +109,93 @@ coffeehunter.tw##div[class^="fancybox-wrap"]
 
 ! PTT 相關
 ||pttbrain.herokuapp.com/api/ptt/metric/user-geo-distributions^$document
+
+! ====== removeparam ====== !
+! facebook
+$removeparam=fb_action_ids
+$removeparam=fb_action_types
+$removeparam=fb_ref
+$removeparam=fb_source
+$removeparam=fbclid
+
+! Google
+$removeparam=gclid
+$removeparam=gclsrc
+
+! Yandex
+$removeparam=yclid
+$removeparam=_openstat
+
+! Adobe
+$removeparam=sc_cid
+$removeparam=mkt_tok
+
+$removeparam=utm_campaign
+$removeparam=utm_content
+$removeparam=utm_medium
+$removeparam=utm_source
+$removeparam=utm_term
+
+$removeparam=WT.mc_id
+$removeparam=hss_channel
+$removeparam=cid_source
+$removeparam=cid_medium
+$removeparam=cid
+$removeparam=cid_content
+
+$removeparam=action_object_map
+$removeparam=action_type_map
+$removeparam=action_ref_map
+$removeparam=aff_platform
+$removeparam=aff_trace_key
+$removeparam=btsid
+$removeparam=ws_ab_test
+$removeparam=trk
+$removeparam=trkCampaign
+
+! Humble
+$removeparam=hmb_campaign
+$removeparam=hmb_medium
+$removeparam=hmb_source
+
+$removeparam=spReportId
+$removeparam=spJobID
+$removeparam=spUserID
+$removeparam=spMailingID
+$removeparam=s_cid
+$removeparam=elqTrackId
+$removeparam=elqTrack
+$removeparam=assetType
+$removeparam=assetId
+$removeparam=recipientId
+$removeparam=campaignId
+$removeparam=siteId
+$removeparam=mc_cid
+$removeparam=mc_eid
+$removeparam=sc_campaign
+$removeparam=sc_channel
+$removeparam=sc_content
+$removeparam=sc_medium
+$removeparam=sc_outcome
+$removeparam=sc_geo
+$removeparam=sc_country
+$removeparam=nr_email_referer
+$removeparam=vero_conv
+$removeparam=vero_id
+$removeparam=mbid
+$removeparam=cmpid
+$removeparam=campaign_id
+$removeparam=Campaign
+$removeparam=gs_l
+$removeparam=_hsenc
+$removeparam=_hsmi
+$removeparam=__hssc
+$removeparam=__hstc
+$removeparam=hsCtaTracking
+$removeparam=source@sourceforge.net
+$removeparam=position@sourceforge.net
+$removeparam=tt_medium
+$removeparam=tt_content
+$removeparam=feature@youtube.com
+$removeparam=kw@youtube.com
+$removeparam=wt_zmc
