@@ -10,7 +10,9 @@ https://t.me/adguard_tw
 ### Adblock 語法（AdBlock, AdGuard）
 > FutaFilter 專門處理網頁上的 DOM 元素處理。例：側邊廣告欄
 - <https://filter.futa.gg/filter.txt>
-
+> 直接隱藏 Google 搜尋結果裡的[農場文](https://content-farm-terminator.blogspot.com/2018/12/about-content-farm-terminator.html)專用清單，標示 `ff` 為 [firefox](https://www.mozilla.org/firefox) 專用
+- <https://filter.futa.gg/hide_farm_from_search.txt>
+- <https://filter.futa.gg/hide_farm_from_search_ff.txt>
 > removeparam 專門移除網址後的追蹤碼。例：`fbclid=123abc`
 - <https://filter.futa.gg/removeparam.txt>
 ### hosts 語法（AdGuard Home, Pi-hole, AdAway）
