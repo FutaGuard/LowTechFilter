@@ -7,11 +7,18 @@ https://t.me/adguard_tw
 
 
 ## 訂閱網址
-
+### Adblock 語法（AdBlock, AdGuard）
+> FutaFilter 專門處理網頁上的 DOM 元素處理。例：側邊廣告欄
 - <https://filter.futa.gg/filter.txt>
+
+> removeparam 專門移除網址後的追蹤碼。例：`fbclid=123abc`
+- <https://filter.futa.gg/removeparam.txt>
+### hosts 語法（AdGuard Home, Pi-hole, AdAway）
 - <https://filter.futa.gg/hosts.txt>
 - <https://filter.futa.gg/nofarm_hosts.txt>
-
+### Surge 語法
+> Surge 專用的語法。
+- <https://filter.futa.gg/Surge/filters.txt>
 
 ## 說明
 
@@ -19,22 +26,8 @@ https://t.me/adguard_tw
 - 本規則專注於補強 AdGuard 基本規則的遺漏
 - 本規則用於處理其他規則的誤判
 
-## 使用方式
-
-- 打開 AdGuard 或是其他支援 AdBlockPlus 規則的 ad blocker
-
-### macOS
-
-按照圖片按接著貼上網址即可。
-
-![macos1](https://p176.p0.n0.cdn.getcloudapp.com/items/X6uznlqD/Xnip2020-03-22_15-23-22.jpg)
-
-### Windows
-
-![win1](https://p176.p0.n0.cdn.getcloudapp.com/items/kpuYRn1n/Image%202020-03-22%20at%203.38.12%20PM.png)
-![win2](https://p176.p0.n0.cdn.getcloudapp.com/items/6quBwY9O/Image%202020-03-22%20at%203.42.01%20PM.png)\
-（不知道寫這個界面的是誰搞的，macOS 是 add custom 在 Windows 是 Import ...）
-![win3](https://p176.p0.n0.cdn.getcloudapp.com/items/z8uXdrpk/Image%202020-03-22%20at%203.45.12%20PM.png)
+## 如何安裝
+請參考 [wiki](https://github.com/FutaGuard/FutaFilter/wiki)
 
 ## Q&A
 
