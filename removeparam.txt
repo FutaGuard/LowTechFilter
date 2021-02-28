@@ -11,6 +11,7 @@ $removeparam=fb_action_types
 $removeparam=fb_ref
 $removeparam=fb_source
 $removeparam=fbclid
+$removeparam=extid
 
 ! Google
 $removeparam=gclid
