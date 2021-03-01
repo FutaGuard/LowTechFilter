@@ -35,6 +35,7 @@ bangumi.org###ad_area
 ferret-plus.com##.action-list
 shiri-tai.net###rek_fixed
 2ch-c.net##[id*="dlsite"]
+2ch-c.net###amazon_header_ios
 vippers.jp##.include-ad
 automaton-media.com##.td-a-rec
 darl.jp##a[href*="utm_source"]
