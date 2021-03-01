@@ -6,8 +6,40 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-02-12
-##.blocker280-20210212
+! Last updated: 2021-02-27
+##.blocker280-20210227
+
+!2021/02/27
+||rednews.me^
+||truenat.bid^
+||ads.themoneytizer.com^
+||fadslimz.com^
+||truenat.bid^
+||purpleads.io^
+||cstwpush.com^
+||doublepimp.com^
+||mmaaxx.com^
+||bidgear.com^
+||wpu.sh^
+||ddmax20.xyz^
+||e2wysbacctt1.com^
+||ad.pornimg.xyz^
+||eatsidebicep.com^
+||netcatx.com^
+||drawnperink.com^
+||smac-ad.com^
+
+blogmura.com##.ad-overlay
+casinoconcierge.cc###bnr_sp_bottom
+bangumi.org###ad_area
+ferret-plus.com##.action-list
+shiri-tai.net###rek_fixed
+2ch-c.net##[id*="dlsite"]
+vippers.jp##.include-ad
+automaton-media.com##.td-a-rec
+darl.jp##a[href*="utm_source"]
+
+!~mudainodocument.com,~tablo.jp,~nknews.jp,~dailynk.jp###im_interstitial_panel
 
 !2021/02/12
 ||sitefeytout.com
@@ -78,7 +110,7 @@ wotopi.jp##[href*="https://ac.ebis.ne.jp/"]
 altema.jp###osusume-game-ranking-area
 
 !2020/12/09
-~tablo.jp,~nknews.jp,~dailynk.jp###im_interstitial_panel
+
 comic.pixiv.net##.ad-content
 comic.pixiv.net##[class^="FixedFooter"]
 ramendb.supleks.jp##[style*="text-align:center;vertical-align:bottom;"]
@@ -2367,7 +2399,7 @@ okutta.blog.jp##a[href*="//goo.gl/"]
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~antennabank.com##a[href*="//antennabank.com/"]
 
 !anti-adblock target
-||pagead2.googlesyndication.com$domain=~kanajo.com|~oz3gamer.blog.fc2.com|~monnsutogatya.com|~ferrarilamborghininews.com|~antiblock.org|~sakano.wp-x.jp|~gametter.com|~kikra.jp|~thisav.com|~togeko.net|~doujin-free.com|~valuetrust.net|~surveyenquete.net|~8wayrun.com|~aeoncinema.com|~battlecats-db.com|~earthyworld.com|~db-siken.com|~pm-siken.com|~sg-siken.com|~sc-siken.com|~nw-siken.com|~itpassportsiken.com|~fe-siken.com|~ap-siken.com|~9ketsuki.info|~yalujailbreak.net|~monst.today|~coron.tech|~dqmsl-search.net|~gadgetdamage.blog.fc2.com|~mirm.jp|~jp-horse-breaking.blogspot.com|~itby.net|~netbystander.blog
+||pagead2.googlesyndication.com$domain=~kanajo.com|~oz3gamer.blog.fc2.com|~monnsutogatya.com|~ferrarilamborghininews.com|~antiblock.org|~sakano.wp-x.jp|~gametter.com|~kikra.jp|~thisav.com|~togeko.net|~doujin-free.com|~valuetrust.net|~surveyenquete.net|~8wayrun.com|~aeoncinema.com|~battlecats-db.com|~earthyworld.com|~db-siken.com|~pm-siken.com|~sg-siken.com|~sc-siken.com|~nw-siken.com|~itpassportsiken.com|~fe-siken.com|~ap-siken.com|~9ketsuki.info|~yalujailbreak.net|~monst.today|~coron.tech|~dqmsl-search.net|~gadgetdamage.blog.fc2.com|~mirm.jp|~jp-horse-breaking.blogspot.com|~itby.net|~netbystander.blog|~crefan.jp
 
 
 

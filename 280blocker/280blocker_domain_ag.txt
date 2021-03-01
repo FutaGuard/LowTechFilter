@@ -10,7 +10,7 @@
 # Please use it in a system that can block subdomains.
 #
 #
-# Lastupdate: 2020-12-29
+# Lastupdate: 2021-02-27
 #
 
 ||domain.dummy280280.net^
@@ -23,7 +23,6 @@
 ||2mdn.info^
 ||4clvr.jp^
 ||a-c-engine.com^
-||a-cast.jp^
 ||a.cookpad-ads.com^
 ||a1.goo.ne.jp^
 ||aaaf.jp^
@@ -1239,6 +1238,24 @@
 ||creamssicsite.com^
 ||publish.gacraft.jp^
 ||nkis.nikkei.com^
+||rednews.me^
+||truenat.bid^
+||ads.themoneytizer.com^
+||fadslimz.com^
+||purpleads.io^
+||cstwpush.com^
+||doublepimp.com^
+||wpu.sh^
+||ddmax20.xyz^
+||e2wysbacctt1.com^
+||ad.pornimg.xyz^
+||eatsidebicep.com^
+||netcatx.com^
+||drawnperink.com^
+||smac-ad.com^
+||sitefeytout.com^
+||sekindo.com^
+||hm.mieru-ca.com^
 
 @@||www.googleadservices.com^
 
