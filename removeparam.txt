@@ -1,98 +1,98 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2021.0228.01
+! Version: 2021.0301.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
 
 ! facebook
-$removeparam=fb_action_ids
-$removeparam=fb_action_types
-$removeparam=fb_ref
-$removeparam=fb_source
-$removeparam=fbclid
-$removeparam=extid
+$removeparam=/fb_action_ids/i
+$removeparam=/fb_action_types/i
+$removeparam=/fb_ref/i
+$removeparam=/fb_source/i
+$removeparam=/fbclid/i
+$removeparam=/extid/i
 
 ! Google
-$removeparam=gclid
-$removeparam=gclsrc
+$removeparam=/gclid/i
+$removeparam=/gclsrc/i
 
 ! YouTube
-||youtube.com^$removeparam=feature|feature|kw
+||youtube.com^$removeparam=/feature|feature|kw/i
 
 ! Yandex
-$removeparam=yclid
-$removeparam=_openstat
+$removeparam=/yclid/i
+$removeparam=/_openstat/i
 
 ! Adobe
-$removeparam=sc_cid
-$removeparam=mkt_tok
+$removeparam=/sc_cid/i
+$removeparam=/mkt_tok/i
 
 ! sourceforge
-||sourceforge.net^$removeparam=source|position
+||sourceforge.net^$removeparam=/source|position/i
 
-$removeparam=utm_campaign
-$removeparam=utm_content
-$removeparam=utm_medium
-$removeparam=utm_source
-$removeparam=utm_term
+$removeparam=/utm_campaign/i
+$removeparam=/utm_content/i
+$removeparam=/utm_medium/i
+$removeparam=/utm_source/i
+$removeparam=/utm_term/i
 
-$removeparam=WT.mc_id
-$removeparam=hss_channel
-$removeparam=cid_source
-$removeparam=cid_medium
-$removeparam=cid
-$removeparam=cid_content
+$removeparam=/mc_id/i
+$removeparam=/hss_channel/i
+$removeparam=/cid_source/i
+$removeparam=/cid_medium/i
+$removeparam=/cid/i
+$removeparam=/cid_content/i
 
-$removeparam=action_object_map
-$removeparam=action_type_map
-$removeparam=action_ref_map
-$removeparam=aff_platform
-$removeparam=aff_trace_key
-$removeparam=btsid
-$removeparam=ws_ab_test
-$removeparam=trk
-$removeparam=trkCampaign
+$removeparam=/action_object_map/i
+$removeparam=/action_type_map/i
+$removeparam=/action_ref_map/i
+$removeparam=/aff_platform/i
+$removeparam=/aff_trace_key/i
+$removeparam=/btsid/i
+$removeparam=/ws_ab_test/i
+$removeparam=/trk/i
+$removeparam=/trkCampaign/i
 
 ! Humble
-$removeparam=hmb_campaign
-$removeparam=hmb_medium
-$removeparam=hmb_source
+$removeparam=/hmb_campaign/i
+$removeparam=/hmb_medium/i
+$removeparam=/hmb_source/i
 
-$removeparam=spReportId
-$removeparam=spJobID
-$removeparam=spUserID
-$removeparam=spMailingID
-$removeparam=s_cid
-$removeparam=elqTrackId
-$removeparam=elqTrack
-$removeparam=assetType
-$removeparam=assetId
-$removeparam=recipientId
-$removeparam=campaignId
-$removeparam=siteId
-$removeparam=mc_cid
-$removeparam=mc_eid
-$removeparam=sc_campaign
-$removeparam=sc_channel
-$removeparam=sc_content
-$removeparam=sc_medium
-$removeparam=sc_outcome
-$removeparam=sc_geo
-$removeparam=sc_country
-$removeparam=nr_email_referer
-$removeparam=vero_conv
-$removeparam=vero_id
-$removeparam=mbid
-$removeparam=cmpid
-$removeparam=campaign_id
-$removeparam=Campaign
-$removeparam=gs_l
-$removeparam=_hsenc
-$removeparam=_hsmi
-$removeparam=__hssc
-$removeparam=__hstc
-$removeparam=hsCtaTracking
-$removeparam=tt_medium
-$removeparam=tt_content
-$removeparam=wt_zmc
+$removeparam=/spReportId/i
+$removeparam=/spJobID/i
+$removeparam=/spUserID/i
+$removeparam=/spMailingID/i
+$removeparam=/s_cid/i
+$removeparam=/elqTrackId/i
+$removeparam=/elqTrack/i
+$removeparam=/assetType/i
+$removeparam=/assetId/i
+$removeparam=/recipientId/i
+$removeparam=/campaignId/i
+$removeparam=/siteId/i
+$removeparam=/mc_cid/i
+$removeparam=/mc_eid/i
+$removeparam=/sc_campaign/i
+$removeparam=/sc_channel/i
+$removeparam=/sc_content/i
+$removeparam=/sc_medium/i
+$removeparam=/sc_outcome/i
+$removeparam=/sc_geo/i
+$removeparam=/sc_country/i
+$removeparam=/nr_email_referer/i
+$removeparam=/vero_conv/i
+$removeparam=/vero_id/i
+$removeparam=/mbid/i
+$removeparam=/cmpid/i
+$removeparam=/campaign_id/i
+$removeparam=/Campaign/i
+$removeparam=/gs_l/i
+$removeparam=/_hsenc/i
+$removeparam=/_hsmi/i
+$removeparam=/__hssc/i
+$removeparam=/__hstc/i
+$removeparam=/hsCtaTracking/i
+$removeparam=/tt_medium/i
+$removeparam=/tt_content/i
+$removeparam=/wt_zmc/i
