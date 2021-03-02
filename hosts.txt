@@ -1,7 +1,7 @@
 ! FutaHosts
 ! Make Futa Great Again !
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2021.0214.01
+! 2021.0302.01
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -92,6 +92,7 @@
 ||xvlpazn.cn^
 ||healthy007.top^
 ||vip-l53.work^
+||cjfeicui.net^
 
 ! Weebly 詐騙
 ||netfllx.weebly.com^
@@ -102,3 +103,5 @@
 ! 混淆垃圾農場網頁
 ||7box.vip^
 ||yuutoday.com^
+
+
