@@ -15,6 +15,8 @@ https://t.me/adguard_tw
 - <https://filter.futa.gg/hide_farm_from_search_ff.txt>
 > removeparam 專門移除網址後的追蹤碼。例：`fbclid=123abc`
 - <https://filter.futa.gg/removeparam.txt>
+> experimental 實驗性清單，公開測試封鎖對策是否對現行服務有影響，無偵錯能力使用者不建議使用。
+> - <https://filter.futa.gg/experimental.txt>
 ### hosts 語法（AdGuard Home, Pi-hole, AdAway）
 - <https://filter.futa.gg/hosts.txt>
 - <https://filter.futa.gg/nofarm_hosts.txt>
