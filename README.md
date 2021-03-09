@@ -1,4 +1,6 @@
 # FutaFilter
+- 專為臺灣人設計的廣告阻擋規則
+- 本規則專注於補強 AdGuard 基本規則的遺漏
 
 ## 討論群組
 嘿，有使用上的問題嗎？ \
@@ -23,12 +25,6 @@ https://t.me/adguard_tw
 ### Surge 語法
 > Surge 專用的語法。
 - <https://filter.futa.gg/Surge/filters.txt>
-
-## 說明
-
-- 專為臺灣人設計的廣告阻擋規則
-- 本規則專注於補強 AdGuard 基本規則的遺漏
-- 本規則用於處理其他規則的誤判
 
 ## 如何安裝
 請參考 [wiki](https://github.com/FutaGuard/FutaFilter/wiki)
