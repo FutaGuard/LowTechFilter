@@ -1,21 +1,18 @@
 [Adblock Plus]
 ! Title: Make futa great again!
-! Version: 2021.0227.01
+! Version: 2021.0309.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
 ! 注入
-! NTM
-appledaily.com#%#;(()=>{const date=new Date();date.setTime(date.getTime()-86400);const aid=document.cookie.match(/articleid(.+?)=/i);if(aid){document.cookie=`articleId${aid[1]}=;path=/;expires=${date.toUTCString()}`}})();
 ! 卡卡洛普
-gamme.com.tw#%#if(!document.cookie.match(/r18=1/)){document.cookie='r18=1;domain=gamme.com.tw;path=/';location.reload()};
-! 批踢踢 自動點R18
-www.ptt.cc#%#document.onreadystatechange=()=>{if(location.pathname.includes('/ask/over18')){document.querySelectorAll('.over18-button-container>button[name="yes"]').forEach(x=>x.click())}};
-www.ptt.cc#%#if(!document.cookie.match(/over18=1/)){document.cookie='over18=1;path=/';location.reload()};
+gamme.com.tw#%#//scriptlet('set-cookie-reload', 'r18', '1')
+! 批踢踢
+www.ptt.cc#%#//scriptlet('set-cookie-reload', 'over18', '1')
 ! 風傳媒
-storm.mg#%#document.onreadystatechange=()=>{if(document.readyState==='complete'){show_idle_alert=show_new7_popup=show_popup_ad=()=>{}}};
-! 推特
-twitter.com#%#document.onreadystatechange=()=>{if(document.readyState==='complete'){document.querySelectorAll('.ProfileWarningTimeline-button').forEach(x=>x.click());document.querySelectorAll('.Tombstone-action').forEach(x=>x.click());if(document.querySelector('.stream')){(new MutationObserver(mutations=>document.querySelectorAll('.Tombstone-action').forEach(x=>x.click()))).observe(document.querySelector('.stream'),{childList:true,subtree:true})}}};
+storm.mg#%#//scriptlet('abort-current-inline-script', 'show_idle_alert')
+storm.mg#%#//scriptlet('abort-current-inline-script', 'show_new7_popup')
+storm.mg#%#//scriptlet('abort-current-inline-script', 'show_popup_ad')
 ! ----------------------------------------------------------------------
 ! ebb.io
 @@||ebb.io^$important,document,~extension
