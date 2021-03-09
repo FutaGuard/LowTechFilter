@@ -4,24 +4,16 @@ from datetime import datetime, timedelta, timezone
 tz = timezone(timedelta(hours=+8))
 
 domain_list = ''
-domain_list_ff = ''
 with open('../nofarm_hosts.txt', 'r') as files:
     for domains in files.read().split('\n'):
-        if domains:
+        if domains[1] != '!':
             domain = domains[2:-1]
             domain_list += 'google.*##div.g:has(div[data-hveid] a[href*="{domain}"])\n'.format(
-                domain=domain
-            )
-            domain_list_ff += 'google.*##div div div:has(a[href*="{domain}"])\n'.format(
                 domain=domain
             )
 
 if not os.path.exists('../hide_farm_from_search.txt'):
     with open('../hide_farm_from_search.txt', 'w') as files:
-        pass
-
-if not os.path.exists('../hide_farm_from_search_ff.txt'):
-    with open('../hide_farm_from_search_ff.txt', 'w') as files:
         pass
 
 with open('../hide_farm_from_search.txt', 'r') as orig:
@@ -51,5 +43,3 @@ head = '[Adblock Plus]\n' \
 with open('../hide_farm_from_search.txt', 'w') as files:
     files.write(head + domain_list)
 
-with open('../hide_farm_from_search_ff.txt', 'w') as files:
-    files.write(head + domain_list_ff)
