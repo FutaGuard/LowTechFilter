@@ -1,3 +1,8 @@
+! FutaHosts
+! FutaFilter nofarm
+! URL: <https://github.com/FutaGuard/FutaFilter>
+! 2021.0309.01
+! --------------------------------------------------
 ||366service.com^
 ||7box.vip^
 ||apple01.cc^

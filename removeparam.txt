@@ -1,5 +1,5 @@
 [Adblock Plus]
-! Title: Make futa great again!
+! Title: FutaFilter removeparam
 ! Version: 2021.0303.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
