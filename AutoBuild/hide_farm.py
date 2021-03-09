@@ -40,7 +40,7 @@ with open('../hide_farm_from_search.txt', 'r') as orig:
         v += str(int(version[-2:])+1).zfill(2)
 
 head = '[Adblock Plus]\n' \
-       '! Title: Make futa great again!\n' \
+       '! Title: hide farm content from google\n' \
        '! Version: {version}\n' \
        '! Expires: 1 hour\n' \
        '! Homepage: https://t.me/adguard_tw\n' \
