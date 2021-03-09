@@ -1,5 +1,5 @@
 ! FutaHosts
-! Make Futa Great Again !
+! FutaFilter Host
 ! URL: <https://github.com/FutaGuard/FutaFilter>
 ! 2021.0302.01
 ! --------------------------------------------------

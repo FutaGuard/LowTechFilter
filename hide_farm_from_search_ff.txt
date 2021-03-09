@@ -1,5 +1,5 @@
 [Adblock Plus]
-! Title: Make futa great again!
+! Title: hide farm content from google (fireforx)
 ! Version: 2020.1224.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
