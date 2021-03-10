@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0309.03
+! Version: 2021.0310.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -110,4 +110,5 @@ coffeehunter.tw##div[class^="fancybox-wrap"]
 
 ! 天下雜誌
 ! 上面有一塊莫名其妙ㄉ空白廣告
-||cw.com.tw##div.banner.text-center
+www.cw.com.tw##div.banner.text-center
+www.cw.com.tw##section.ad.text-center
