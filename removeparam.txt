@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter removeparam
-! Version: 2021.0311.01
+! Version: 2021.0317.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -34,6 +34,9 @@ $removeparam=/mkt_tok/i
 
 ! MSN
 ||www.msn.com^$removeparam=/ocid/i
+
+! ettoday
+||www.ettoday.net^$removeparam=/from/i|/ercamp/i
 
 $removeparam=/utm_campaign/i
 $removeparam=/utm_content/i
