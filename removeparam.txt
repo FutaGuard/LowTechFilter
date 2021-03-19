@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter removeparam
-! Version: 2021.0319.01
+! Version: 2021.0319.02
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -33,6 +33,9 @@ $removeparam=/mkt_tok/i
 
 ! ettoday redirect
 ||ettoday.net^$removeparam=/redirect/i
+
+! 104找工作
+||104.com.tw^$removeparam=/jobsource/i
 
 $removeparam=/utm_campaign/i
 $removeparam=/utm_content/i
