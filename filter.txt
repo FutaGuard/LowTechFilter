@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0309.03
+! Version: 2021.0319.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -26,30 +26,32 @@ share.weiyun.com#@#.page-ad
 ani.gamer.com.tw##a.vast-blocker
 share.dmhy.org##div[id='1280_ad']>a
 pixnet.net##div.pixnet-happix-pilot__launcher-bubble
+
+! 噗浪
 ||plurk.com/go^$empty
 ||go.plurk.com^$empty
 ||l.plurk.com^$empty
 plurk.com##div#resp_banner_ads
 plurk.com##section#rightPanel
 plurk.com##div[data-respcount="廣告"]
+
 r3sub.com##section.container>div:first-child>div:first-child>a:first-child
 r3sub.com##div.ad_movie--preview
 ||scupio.com^$third-party
 ||sitemaji.com^$third-party
-solidot.org##div#headads
-solidot.org##div.adv
-solidot.org##div.combined_log
+
+! cnyes
 m.cnyes.com##div._12E
 m.cnyes.com##div._3Yy
+
+! eprice
 m.eprice.com.tw##div.ad-320x480-popup-g
 m.eprice.com.tw##div.parallax-ads-container
 m.eprice.com.tw##div.ad-300x250-g
 m.eprice.com.tw##div.ad-320x100-g
-udn.com##dt.more_ad
-udn.com##dt.only_mobile
 m.gamer.com.tw##div.goAPP
-www.businessweekly.com.tw##div.reveal-modal
-www.businessweekly.com.tw##div.reveal-modal-bg
+
+! pixnet
 pixnet.net##div.pixnet-happix-pilot__launcher-bar__button-container
 pixnet.net##div.pixnet-happix-pilot__launcher-bar__gift-notification
 pixnet.net##div.pixnet-happix-pilot__launcher-bar__happix-notification
@@ -59,19 +61,39 @@ pixnet.net##div.fbbox
 ! 4Gamer
 ||4gamers.com.tw/site/api/aols/media?
 
+! ---------------------------------------------------------------------- 
+! 新聞或媒體
+! udn 新聞
+udn.com##dt.more_ad
+udn.com##dt.only_mobile
 ! 自由時報
 ltn.com.tw##div[data-desc="內廣"]
 ! 三立新聞
 setn.com##.rightFloatContent
 ! ettoday
 ettoday.net##div[class="pcbt_kw active"]
+! 數位時代
+||bnext.com.tw##div[class="IdleBox"]
+! 商周
+www.businessweekly.com.tw##div.reveal-modal
+www.businessweekly.com.tw##div.reveal-modal-bg
+! solidot
+solidot.org##div#headads
+solidot.org##div.adv
+solidot.org##div.combined_log
+! 天下雜誌
+cw.com.tw##div.banner.text-center
+! TVBS
+news.tvbs.com.tw##[class="advertising_lightbox"]
+! CNA 新聞
+www.cna.com.tw##[class="overlayidle showidle"]
+! ----------------------------------------------------------------------
 
 ! Line
 ! 白名單
 @@||obs.line-scdn.net/r
 @@||obs-tw.line-apps.com/talk
 @@||stickershop.line-scdn.net
-
 ! UA 偽裝
 ||a.line.me/er/la*/v1/$image,empty
 ||w.line.me/la*/api/v*/ads^$empty
@@ -107,7 +129,3 @@ coffeehunter.tw##div[class^="fancybox-wrap"]
 
 ! PTT 相關
 ||pttbrain.herokuapp.com/api/ptt/metric/user-geo-distributions^$document
-
-! 天下雜誌
-! 上面有一塊莫名其妙ㄉ空白廣告
-||cw.com.tw##div.banner.text-center
