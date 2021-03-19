@@ -1,6 +1,10 @@
 [Adblock Plus]
 ! Title: FutaFilter
+<<<<<<< HEAD
 ! Version: 2021.0319.01
+=======
+! Version: 2021.0310.01
+>>>>>>> 839a9a9492c9a04cc386786d880af91fb0acc079
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
