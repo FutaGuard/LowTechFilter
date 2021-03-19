@@ -132,6 +132,7 @@ coffeehunter.tw##div[class^="fancybox-wrap"]
 
 ! 飛比價格
 feebee.com.tw###event_flybee_idle
+feebee.com.tw#%#//scriptlet('set-cookie-reload', 'flybee_float', 'false')
 
 ! 愛料理
 icook.tw##div[class="recipe-ad-placeholder"]
