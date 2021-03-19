@@ -10,7 +10,7 @@
 # Please use it in a system that can block subdomains.
 #
 #
-# Lastupdate: 2021-02-27
+# Lastupdate: 2020-03-18
 #
 
 ||domain.dummy280280.net^
@@ -1256,6 +1256,15 @@
 ||sitefeytout.com^
 ||sekindo.com^
 ||hm.mieru-ca.com^
+||samuraiclick.com^
+||alwys.net^
+||wpncdn.com^
+||boost-next.co.jp^
+||app-department.report^
+||peachsecurecn.com^
+||apstore.enterprises^
+||adskeeper.co.uk^
+
 
 @@||www.googleadservices.com^
 

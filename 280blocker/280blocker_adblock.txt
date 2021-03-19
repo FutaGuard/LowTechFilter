@@ -6,8 +6,31 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-02-27
-##.blocker280-20210227
+! Last updated: 2021-03-18
+##.blocker280-20210318
+
+!2021/03/18
+||samuraiclick.com^
+||permalink-system.com^
+||alwys.net^
+||wpncdn.com^
+||boost-next.co.jp^
+||app-department.report^
+||peachsecurecn.com^
+||apstore.enterprises^
+||adskeeper.co.uk^
+||fnf.jp/ad/
+automaton-media.com##div[style*="min-height: 250px"]
+another-chance.love###bfb_content_sp
+dictionary.goo.ne.jp##.NR-ad
+kando-syukyaku.co.jp##a[href^="https://www.infocart.jp/"]
+warotanikki.com###sprss
+kanaloco.jp###rt_popup
+amazon.co.jp##.sbv-video-single-product
+hokkaido-np.co.jp##.bnrBlock
+kurashi-no.jp##.Ad_Rectangle_Widget
+
+!##div#satori__creative_container
 
 !2021/02/27
 ||rednews.me^
@@ -401,17 +424,17 @@ video.fc2.com##.bottom-bnr
 !||snva.jp^
 
 !2020/08/02
-||*0.live^
-||*1.live^
-||*2.live^
-||*3.live^
-||*4.live^
-||*5.live^
-||*6.live^
-||*6.live^
-||*7.live^$domain=~17.live
-||*8.live^
-||*9.live^
+!||*0.live^
+!||*1.live^
+!||*2.live^
+!||*3.live^
+!||*4.live^
+!||*5.live^
+!||*6.live^
+!||*6.live^
+!||*7.live^$domain=~17.live
+!||*8.live^
+!||*9.live^
 
 ! live domain ads
 live/media/mainstream/
@@ -904,7 +927,6 @@ blogspot.com##div#teaser2
 gamerstand.net##div.bnr
 manindensha.com##img[width="300"]
 
-##div#satori__creative_container
 ##div.gsad
 ##div#gn_interstitial_area
 ##a[href^="https://lushlife-asp.com/ad/"]
