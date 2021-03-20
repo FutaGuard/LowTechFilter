@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0320.04
+! Version: 2021.0321.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -83,6 +83,7 @@ solidot.org##div.adv
 solidot.org##div.combined_log
 ! 天下雜誌
 cw.com.tw##div.banner.text-center
+cw.com.tw##div[class$="idleBox"]
 ! TVBS
 news.tvbs.com.tw##[class="advertising_lightbox"]
 ! CNA 新聞
