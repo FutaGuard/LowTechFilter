@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0320.01
+! Version: 2021.0320.02
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -140,3 +140,11 @@ icook.tw##div[class="recipe-ad-placeholder"]
 
 ! momo 購物
 momoshop.com.tw##div[class^="downloadApp shown"]
+
+! popdaily
+popdaily.com.tw##div[class^="StyledStaticContent"]
+popdaily.com.tw##div[class^="Container-sc"]
+
+! 早安健康
+! 蓋板
+edh.tw##iframe#omnisegment-iframe
