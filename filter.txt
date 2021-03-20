@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0321.01
+! Version: 2021.0321.02
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -154,3 +154,7 @@ edh.tw#%#//scriptlet('remove-attr', 'data-autoplay', 'div[class^="fb-video"]')
 
 ! 每日健康
 healthylives.tw#%#//scriptlet('remove-attr', 'data-autoplay', 'div[class^="fb-video"]')
+
+! 遠見雜誌
+gvm.com.tw##div[class="footer-ad"]
+gvm.com.tw##div[class="m-footer-ad"]
