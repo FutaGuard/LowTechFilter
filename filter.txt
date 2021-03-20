@@ -11,6 +11,8 @@ gamme.com.tw#%#//scriptlet('set-cookie-reload', 'r18', '1')
 storm.mg#%#//scriptlet('abort-current-inline-script', 'show_idle_alert')
 storm.mg#%#//scriptlet('abort-current-inline-script', 'show_new7_popup')
 storm.mg#%#//scriptlet('abort-current-inline-script', 'show_popup_ad')
+! momo 購物
+momoshop.com.tw#%#//scriptlet('set-cookie-reload', 'pwaLifeCircle', '1')
 ! ----------------------------------------------------------------------
 ! ebb.io
 @@||ebb.io^$important,document,~extension
@@ -135,3 +137,6 @@ feebee.com.tw#%#//scriptlet('set-cookie-reload', 'flybee_float', 'false')
 
 ! 愛料理
 icook.tw##div[class="recipe-ad-placeholder"]
+
+! momo 購物
+momoshop.com.tw##div[class^="downloadApp shown"]
