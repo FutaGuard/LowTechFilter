@@ -1,0 +1,9 @@
+#!name=BigGo 彈跳頁面
+#!desc=需開啟 Rewrite 跟 MITM。 v20210320
+#!system=ios
+
+[Header Rewrite]
+^https://biggo.com.tw header-add Cookie noad=9999999999
+
+[MITM]
+hostname = %APPEND% biggo.com.tw
