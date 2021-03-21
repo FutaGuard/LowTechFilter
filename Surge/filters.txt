@@ -1,5 +1,5 @@
 #!name=FutaFilter
-#!desc=Make Futa Great Again! v20210309.01
+#!desc=Make Futa Great Again! v20210321.01
 #!system=ios
 
 [Rule]
@@ -45,6 +45,8 @@ URL-REGEX,^https:\/\/www\.4gamers\.com\.tw\/site\/api\/aols\/media\?,REJECT
 #! PTT 相關
 URL-REGEX,^https:\/\/pttbrain\.herokuapp\.com\/api\/ptt\/metric\/user\-geo\-distributions,REJECT
 
+#! pixnet
+URL-REGEX,^https:\/\/front\.pixfs\.net\/module\/idlePop\/js\/,REJECT
 
 #! 通用阻擋
 DOMAIN,itad.linetv.tw,REJECT
@@ -101,4 +103,4 @@ DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
 
 [MITM]
-hostname = %APPEND% a.line.me, w.line.me, buy.line.me, crs-event.line.me, obs.line-scdn.net, d.line-scdn.net, obs-tw.line-apps.com, api.today.line.me, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, www.4gamers.com.tw, bilanx.dcard.tw, pttbrain.herokuapp.com
+hostname = %APPEND% a.line.me, w.line.me, buy.line.me, crs-event.line.me, obs.line-scdn.net, d.line-scdn.net, obs-tw.line-apps.com, api.today.line.me, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, www.4gamers.com.tw, bilanx.dcard.tw, pttbrain.herokuapp.com, front.pixfs.net

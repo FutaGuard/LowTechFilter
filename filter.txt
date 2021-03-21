@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0321.03
+! Version: 2021.0321.04
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -25,7 +25,6 @@ share.weiyun.com#@#.page-ad
 ! ----------------------------------------------------------------------
 ani.gamer.com.tw##a.vast-blocker
 share.dmhy.org##div[id='1280_ad']>a
-pixnet.net##div.pixnet-happix-pilot__launcher-bubble
 
 ! 噗浪
 ||plurk.com/go^$empty
@@ -52,11 +51,13 @@ m.eprice.com.tw##div.ad-320x100-g
 m.gamer.com.tw##div.goAPP
 
 ! pixnet
+pixnet.net##div.pixnet-happix-pilot__launcher-bubble
 pixnet.net##div.pixnet-happix-pilot__launcher-bar__button-container
 pixnet.net##div.pixnet-happix-pilot__launcher-bar__gift-notification
 pixnet.net##div.pixnet-happix-pilot__launcher-bar__happix-notification
 pixnet.net##div.header-fixed-area
 pixnet.net##div.fbbox
+||front.pixfs.net/module/idlePop/js/*
 
 ! 4Gamer
 ||4gamers.com.tw/site/api/aols/media?
@@ -89,6 +90,8 @@ cw.com.tw##div[class$="idlebox__opened"]
 news.tvbs.com.tw##[class="advertising_lightbox"]
 ! CNA 新聞
 www.cna.com.tw##[class="overlayidle showidle"]
+! 風傳媒
+storm.mg##div[class^="ad_wrapper"]
 ! ----------------------------------------------------------------------
 
 ! Line
