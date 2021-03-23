@@ -183,3 +183,6 @@ wealth.com.tw###idle_modal
 ! 經理人
 managertoday.com.tw##.mtaa.effect
 managertoday.com.tw##.social_item
+
+! liveabc
+@@||amazonaws.com/storage.liveabc.com/ads/*
