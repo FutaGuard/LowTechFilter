@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0323.02
+! Version: 2021.0323.03
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -178,3 +178,8 @@ eprice.com.tw#$#.news-slider { width: 100%!important; height: 100%!important; }
 
 ! 財訊
 wealth.com.tw##.top_ads_box
+wealth.com.tw###idle_modal
+
+! 經理人
+managertoday.com.tw##.mtaa.effect
+managertoday.com.tw##.social_item
