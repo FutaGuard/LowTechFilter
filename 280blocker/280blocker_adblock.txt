@@ -6,8 +6,12 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-03-18
-##.blocker280-20210318
+! Last updated: 2021-03-22
+##.blocker280-20210322
+
+!2021/03/22
+youtube.com##.ytp-ad-action-interstitial-background-container
+youtube.com##.ytp-ad-action-interstitial-slot
 
 !2021/03/18
 ||samuraiclick.com^
