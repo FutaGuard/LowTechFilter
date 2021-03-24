@@ -141,7 +141,6 @@ coffeehunter.tw##div[class^="fancybox-wrap"]
 ! Dcard
 ||bilanx.dcard.tw/*/configs
 ||bilanx.dcard.tw/*/events
-dcard.tw##div.__portal
 dcard.tw##div[class^="sc-1bx44oc-2"]
 
 ! PTT 相關
