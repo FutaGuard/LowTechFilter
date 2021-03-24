@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0324.01
+! Version: 2021.0324.02
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -142,6 +142,7 @@ coffeehunter.tw##div[class^="fancybox-wrap"]
 ||bilanx.dcard.tw/*/configs
 ||bilanx.dcard.tw/*/events
 dcard.tw##div[class^="sc-1bx44oc-2"]
+dcard.tw#?#button[-ext-contains="/app 內打開/i"]
 
 ! PTT 相關
 ||pttbrain.herokuapp.com/api/ptt/metric/user-geo-distributions^$document
