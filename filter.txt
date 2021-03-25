@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0325.02
+! Version: 2021.0325.03
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -195,3 +195,6 @@ managertoday.com.tw##.social_item
 moneynet.com.tw#?#button[-ext-contains="開啟APP閱讀全文"]
 moneynet.com.tw###mobile-ad-bottom
 moneynet.com.tw##.forArticleTagSwitch p:last-of-type
+
+! cio
+cio.com.tw##div[class^="dialog-widget"]
