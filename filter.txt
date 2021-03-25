@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0324.03
+! Version: 2021.0325.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -70,6 +70,10 @@ pixnet.net##div.fbbox
 ! udn 新聞
 udn.com##dt.more_ad
 udn.com##dt.only_mobile
+udn.com##.udn-idle
+udn.com##div[class^="udn-ads"]
+udn.com##.udn-overlay
+udn.com#%#//scriptlet('remove-class', 'idle-open')
 ! 自由時報
 ltn.com.tw##div[data-desc="內廣"]
 ! 三立新聞
@@ -77,7 +81,7 @@ setn.com##.rightFloatContent
 ! ettoday
 ettoday.net##div[class="pcbt_kw active"]
 ! 數位時代
-||bnext.com.tw##div[class="IdleBox"]
+bnext.com.tw##div[class="IdleBox"]
 ! 商周
 www.businessweekly.com.tw##div.reveal-modal
 www.businessweekly.com.tw##div.reveal-modal-bg
