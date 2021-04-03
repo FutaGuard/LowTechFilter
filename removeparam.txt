@@ -80,7 +80,14 @@ $removeparam=/assetType/i
 $removeparam=/assetId/i
 $removeparam=/recipientId/i
 $removeparam=/campaignId/i
+
 $removeparam=/siteId/i
+! whitelist for CHT login issue
+@@||member.cht.com.tw$removeparam=/siteId/i
+@@||member.emome.net$removeparam=/siteId/i
+@@||member.hinet.net$removeparam=/siteId/i
+@@||member.xuite.net$removeparam=/siteId/i
+
 $removeparam=/mc_cid/i
 $removeparam=/mc_eid/i
 $removeparam=/sc_campaign/i
