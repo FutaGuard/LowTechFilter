@@ -206,3 +206,6 @@ cio.com.tw##div[class^="dialog-widget"]
 
 ! 亞洲週刊
 yzzk.com##.content div.promo
+
+! 蝦皮
+||c-api-bit.shopeemobile.com/*/tr^

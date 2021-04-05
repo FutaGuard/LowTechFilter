@@ -13,5 +13,3 @@
 ||log-collector.shopee.tw^
 @@||api.shopback.com.tw/whale/events^
 
-! https://github.com/FutaGuard/FutaFilter/issues/39
-||c-api-bit.shopeemobile.com/*/tr^
