@@ -10,7 +10,7 @@
 # Please use it in a system that can block subdomains.
 #
 #
-# Lastupdate: 2020-03-18
+# Lastupdate: 2021-04-05
 #
 
 ||domain.dummy280280.net^
@@ -1264,7 +1264,8 @@
 ||peachsecurecn.com^
 ||apstore.enterprises^
 ||adskeeper.co.uk^
-
+||av-mov.com^
+||congrab.com^
 
 @@||www.googleadservices.com^
 

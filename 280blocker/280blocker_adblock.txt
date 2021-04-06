@@ -6,8 +6,22 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-03-22
-##.blocker280-20210322
+! Last updated: 2021-04-05
+##.blocker280-20210405
+
+!2021/04/05
+||av-mov.com^
+||congrab.com^
+##a[href^="https://ac.congrab.com/"]
+asahi.com###p7box
+asahi.com##div[aria-label="cookieconsent"]
+gamespark.jp###ad_above_comment_html
+gamespark.jp##.header-toolbar
+gorillawiki.jp###sp_overlay
+kikublog.com##[id^="kikub-"]
+mainichi.jp##.popuppanel
+shukatsuhack.com##[class^="boxzilla-"]
+
 
 !2021/03/22
 youtube.com##.ytp-ad-action-interstitial-background-container
