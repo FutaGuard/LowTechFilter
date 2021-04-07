@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter removeparam
-! Version: 2021.0403.01
+! Version: 2021.0407.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -10,8 +10,9 @@ $removeparam=/fb_action_ids/i
 $removeparam=/fb_action_types/i
 $removeparam=/fb_ref/i
 $removeparam=/fb_source/i
-$removeparam=/fbclid/i
+$removeparam=/fbclid/i,domain=~l.facebook.com
 $removeparam=/extid/i
+
 
 ! Google
 $removeparam=/gclid/i
