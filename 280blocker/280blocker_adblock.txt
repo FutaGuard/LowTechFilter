@@ -6,8 +6,19 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-04-05
-##.blocker280-20210405
+! Last updated: 2021-04-06
+##.blocker280-20210406
+
+!2021/04/06
+||youtube.com/pagead/
+||youtube.com*=adunit
+||youtube.com/get_midroll_
+||youtube.com/api/stats/ads
+||youtube.com/csi_204?
+!||youtube.com/embed/rT6L6viE89g
+!||youtube.com/ptracking
+!||youtube.com/player_204
+!||youtube.com/generate_204
 
 !2021/04/05
 ||av-mov.com^
@@ -1139,9 +1150,6 @@ find-method.com##.cont_sis
 ||advimg.ad-mapps.com^
 ||hyperpromote.com^
 ||spotxchange.com^
-||youtube.com/get_midroll_
-||youtube.com/csi_204?
-||youtube.com/generate_204
 
 !2019/09/28
 bing.com##li[data-bm="7"]:not(.b_ans):not(.b_algo):not(.b_pag):not(.b_msg)
@@ -1151,7 +1159,6 @@ dtmstation.com##div[id^="bn_"]
 ||dtmstation.com/wp-content/uploads/banner/
 ||google.com/pagead/
 ||google.com/generate_204
-||youtube.com/api/stats/ads
 ||s.yimg.jp/images/advertising/
 ||s-onetag.com^
 ||analytics.yahoo.com^
@@ -2350,10 +2357,6 @@ kaimin-times.com##.h2-banner-sp
 !twitter.com##.W1P7mM7E
 
 !2018/01/26
-||youtube.com/pagead/
-||youtube.com*=adunit
-||youtube.com/ptracking
-||youtube.com/player_204
 
 !2018/01/24
 
@@ -2787,7 +2790,6 @@ gamewith.jp##.js-ad-overlay
 pwpr.life##.jquery-modal
 pwpr.life##.ujipopup
 vippers.jp##a[href*="rT6L6viE89g"]
-||youtube.com/embed/rT6L6viE89g
 ~amano-jack.jp##.social-bottom
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~applinews24.com##a[href*="//applinews24.com/"]
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~new-soku.net##a[href*="//new-soku.net/"]
