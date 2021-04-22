@@ -6,12 +6,31 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-04-06
-##.blocker280-20210406
+! Last updated: 2021-04-21
+##.blocker280-20210421
+
+!2021/04/21
+||youtube.com/api/stats/qoe
+||youtube.com/ptracking
+||youtube.com/api/stats/atr
+||youtube.com/api/stats/ads
+||youtube.com/youtubei/v1/log_event
+||youtube.com/youtubei/v1/player/ad_break
+||csx.jp/banner
+||youtube.com/*adunit
+youtube.com##.ytp-ad-action-interstitial
+tsukimicoffee.com##.code-block
+tsukimicoffee.com##.kaisetsu-box5
+bizgate.nikkei.co.jp##div[id*="_banner_"]
+smarby.jp##.spu-top-bar
+hacknote.jp##.floatwidget show
+tfm-plus.gsj.mobi##.docodemoBnr
+tokyo-keizai.com##[id*="banner"]
+tokyo-keizai.com##.mb_30
+mensfashion.cc##.karte-widget
 
 !2021/04/06
 ||youtube.com/pagead/
-||youtube.com*=adunit
 ||youtube.com/get_midroll_
 ||youtube.com/api/stats/ads
 ||youtube.com/csi_204?
@@ -19,6 +38,8 @@
 !||youtube.com/ptracking
 !||youtube.com/player_204
 !||youtube.com/generate_204
+!||youtube.com*=adunit
+
 
 !2021/04/05
 ||av-mov.com^
@@ -725,7 +746,6 @@ casinoconcierge.cc###bottom
 ##[class^="ad-slot"]
 ##[class^="ad-space"]
 ##[class^="ad-title"]
-##[class^="ad-top"]
 ##[class^="ad-wrap"]
 ##.ad-adsense
 ##.ad-adlink
