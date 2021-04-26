@@ -1,7 +1,7 @@
 ! FutaHosts
 ! FutaFilter Host
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2021.0302.01
+! 2021.0426.01
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -106,3 +106,4 @@
 
 ! 抽獎廣告
 ||weeklywinningluckydayextra.cyou^
+||winning-coupon-theday-congrats.cyou^
