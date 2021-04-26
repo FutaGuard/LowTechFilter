@@ -104,4 +104,5 @@
 ||7box.vip^
 ||yuutoday.com^
 
-
+! 抽獎廣告
+||weeklywinningluckydayextra.cyou^
