@@ -16,6 +16,8 @@ storm.mg#%#//scriptlet('abort-current-inline-script', 'show_new7_popup')
 storm.mg#%#//scriptlet('abort-current-inline-script', 'show_popup_ad')
 ! momo 購物
 momoshop.com.tw#%#//scriptlet('set-cookie-reload', 'pwaLifeCircle', '1')
+! udn 蓋板
+udn.com#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('bd2021-read-news', '1'); }
 ! ----------------------------------------------------------------------
 ! ebb.io
 @@||ebb.io^$important,document,~extension
