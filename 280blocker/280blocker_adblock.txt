@@ -23,7 +23,7 @@ itest.5ch.net###js-last_comment_ad
 itest.5ch.net###js-bottom-ad-320x250
 itest.5ch.net##.ad_320x50
 ||googlevideo.com/*adhost
-||af.fukuishimbun.co.jp
+||af.fukuishimbun.co.jp^
 
 !2021/04/21
 ||youtube.com/api/stats/qoe
@@ -5312,6 +5312,4 @@ nakasoku.blog18.fc2.com##.rss_box
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~news-edge.com##a[href*=".news-edge.com"] 
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~world-best-news.doorblog.jp##a[href*="//world-best-news.doorblog.jp/"]
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~matometatta-news.net##a[href*="//matometatta-news.net/"]
-
-
 
