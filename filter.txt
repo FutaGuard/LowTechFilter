@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0430.05
+! Version: 2021.0518.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
