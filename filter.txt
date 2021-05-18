@@ -87,6 +87,7 @@ setn.com##.rightFloatContent
 ! ettoday
 ettoday.net##div[class="pcbt_kw active"]
 ettoday.net##div[class="top-sky"]
+ettoday.net##div[class="ad120x50-1"]
 ! 數位時代
 bnext.com.tw##div[class="IdleBox"]
 ! 商周
