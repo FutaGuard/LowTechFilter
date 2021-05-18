@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0518.01
+! Version: 2021.0518.03
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -88,6 +88,7 @@ setn.com##.rightFloatContent
 ettoday.net##div[class="pcbt_kw active"]
 ettoday.net##div[class="top-sky"]
 ettoday.net##div[class="ad120x50-1"]
+ettoday.net##div[class="idleAd"]
 ! 數位時代
 bnext.com.tw##div[class="IdleBox"]
 ! 商周
