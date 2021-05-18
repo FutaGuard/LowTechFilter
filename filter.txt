@@ -86,6 +86,7 @@ ltn.com.tw##div[class="idle_lightbox_target"]
 setn.com##.rightFloatContent
 ! ettoday
 ettoday.net##div[class="pcbt_kw active"]
+ettoday.net##div[class="top-sky"]
 ! 數位時代
 bnext.com.tw##div[class="IdleBox"]
 ! 商周
