@@ -6,8 +6,40 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-05-09
-##.blocker280-20210509
+! Last updated: 2021-05-27
+##.blocker280-20210527
+
+!2021/05/26
+||duckdns.org^
+
+orangepage.net##.sponsored
+manabitimes.jp##.a--banner
+tenshoku.mynavi.jp###karte-c
+uraaka.com##.ad-gallery
+keyaki.tech##[id*="rss"]
+||s.yimg.jp/images/jpnews/v2/all/images/sns_
+||keyaki.tech/img
+
+
+!2021/05/18
+tenshoku.mynavi.jp###karte-c
+uraaka.com##.ad-gallery
+
+!2021/05/15
+olive-hitomawashi.com##.slideMovie_SP1
+fragrantica-japan.com##.spu-container
+aniani.smx.jp##.__isboostBottomOverlay
+youtube.com##.ytp-cued-thumbnail-overlay-image
+
+!2021/05/17
+=adhost$domain=youtube.com|googlevideo.com
+=adunit$domain=youtube.com|googlevideo.com
+
+!Problems may occur on non-iOS devices
+!ctier=$domain=youtube.com|googlevideo.com
+
+!||googlevideo.com/*adhost
+!||youtube.com/*adunit
 
 !2021/05/09
 ##[id^="zucksad"]
@@ -22,7 +54,6 @@ itest.5ch.net##.socialwrap
 itest.5ch.net###js-last_comment_ad
 itest.5ch.net###js-bottom-ad-320x250
 itest.5ch.net##.ad_320x50
-||googlevideo.com/*adhost
 ||af.fukuishimbun.co.jp^
 
 !2021/04/21
@@ -33,7 +64,6 @@ itest.5ch.net##.ad_320x50
 ||youtube.com/youtubei/v1/log_event
 ||youtube.com/youtubei/v1/player/ad_break
 ||csx.jp/banner
-||youtube.com/*adunit
 youtube.com##.ytp-ad-action-interstitial
 tsukimicoffee.com##.code-block
 tsukimicoffee.com##.kaisetsu-box5
@@ -96,7 +126,6 @@ amazon.co.jp##.sbv-video-single-product
 hokkaido-np.co.jp##.bnrBlock
 kurashi-no.jp##.Ad_Rectangle_Widget
 
-!##div#satori__creative_container
 
 !2021/02/27
 ||rednews.me^
@@ -1929,7 +1958,6 @@ kashi-mo.com##.l-footer
 ||xn--zuzy24d.co
 ||multiquicks.net
 ||ad.unispire.jp
-!||delivery.satr.jp
 ||onesignal.com/webPushAnalytics
 
 ##a[href^="https://prf.hn/click/"]

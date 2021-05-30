@@ -10,7 +10,7 @@
 # Please use it in a system that can block subdomains.
 #
 #
-# Lastupdate: 2021-04-05
+# Lastupdate: 2021-05-27
 #
 
 ||domain.dummy280280.net^
@@ -1266,6 +1266,9 @@
 ||adskeeper.co.uk^
 ||av-mov.com^
 ||congrab.com^
+||af.fukuishimbun.co.jp^
+||duckdns.org^
+
 
 @@||www.googleadservices.com^
 
