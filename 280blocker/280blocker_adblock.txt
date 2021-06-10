@@ -6,8 +6,21 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-05-27
-##.blocker280-20210527
+! Last updated: 2021-06-08
+##.blocker280-20210608
+
+!2021/06/08
+soubun.com##.spjournalbnr
+dic.pixiv.net###ad-d-sp-toparticle
+dic.pixiv.net###ad-d-sp-rectangle
+dic.pixiv.net###ad-d-sp-footer
+||google.com/async/ampfp
+||google.co.jp/async/ampfp
+google.co.jp##a[data-ad-tracking-url*="googleadservices"]
+google.com##a[data-ad-tracking-url*="googleadservices"]
+!google.co.jp##g-bottom-sheet
+!google.com##g-bottom-sheet
+
 
 !2021/05/26
 ||duckdns.org^
@@ -207,8 +220,6 @@ simchange.jp##.hikaku
 comingout.tokyo##.alignnone
 comingout.tokyo##.review
 gamespark.jp##.pickup-list
-google.co.jp##g-bottom-sheet
-google.com##g-bottom-sheet
 hunade.com##.post-matome-area
 nan-net.jp##[id^="active_overlay"]
 vipsister23.com##blockquote
