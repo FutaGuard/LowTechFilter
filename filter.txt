@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0613.01
+! Version: 2021.0617.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -223,3 +223,7 @@ yzzk.com##.content div.promo
 
 ! 蝦皮
 ||c-api-bit.shopeemobile.com/*/tr^
+
+! 知乎
+zhihu.com##div[class="Modal-wrapper undefined Modal-enter-done"]
+zhihu.com#$#html { overflow: scroll !important; }
