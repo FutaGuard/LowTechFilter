@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.0617.01
+! Version: 2021.0618.01
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -124,7 +124,7 @@ newtalk.tw##div[class="ad_content_mask"]
 chinatimes.com##div[class="page-idle-prompt"]
 chinatimes.com##div[class="modal-backdrop fade show"]
 ! shoppingdesign
-shoppingdesign.com.##div[class$="IdleBox"]
+shoppingdesign.com.tw#$#.IdleBox { display: none !important; }
 ! ----------------------------------------------------------------------
 
 ! Line
