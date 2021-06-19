@@ -55,7 +55,7 @@ URL-REGEX,^https:\/\/pttbrain\.herokuapp\.com\/api\/ptt\/metric\/user\-geo\-dist
 URL-REGEX,^https:\/\/front\.pixfs\.net\/module\/idlePop\/js\/,REJECT
 
 #! Poke Genie 團體戰
-DOMAIN-SUFFIX,us-central1-admob-app-id-4587251595.cloudfunctions.net,DIRECT
+DOMAIN-SUFFIX,cloudfunctions.net,DIRECT
 DOMAIN-SUFFIX,admob-app-id-4587251595.firebaseio.com,DIRECT
 
 #! 通用阻擋
