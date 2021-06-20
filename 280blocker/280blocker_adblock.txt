@@ -3845,7 +3845,6 @@ yahoo.co.jp###yjsmhExtArea
 yahoo.co.jp##.yjsmhExtTxt
 !##[class*="share-button"]
 iphone-mania.jp##.gunosy-article-spot
-iphone-mania.jp##.socal
 
 !before 2016/10/20
 
