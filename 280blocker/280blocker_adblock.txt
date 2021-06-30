@@ -6,16 +6,32 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-06-08
-##.blocker280-20210608
+! Last updated: 2021-06-29
+##.blocker280-20210629
+
+!2021/06/29
+||373news.com/373ad
+||buy-ap.piano.io$domain=snrec.jp
+s.kakaku.com##.mobileBillboardWrapper
+syosetu.com##div[class^="koukoku"]
+##div[id^="msmaflink"]
+##.pochipp-box
+josei-bigaku.jp##.btm_ad
+wallpapershome.com##.adblock
+google.com##[class*="__mobile-promo"]
+google.co.jp##[class*="__mobile-promo"]
+
+!iphone-mania.jp##.socal
+
 
 !2021/06/08
 soubun.com##.spjournalbnr
 dic.pixiv.net###ad-d-sp-toparticle
 dic.pixiv.net###ad-d-sp-rectangle
 dic.pixiv.net###ad-d-sp-footer
-||google.com/async/ampfp
-||google.co.jp/async/ampfp
+! cause trouble in some apps (not iOS)
+!||google.com/async/ampfp
+!||google.co.jp/async/ampfp
 google.co.jp##a[data-ad-tracking-url*="googleadservices"]
 google.com##a[data-ad-tracking-url*="googleadservices"]
 !google.co.jp##g-bottom-sheet
@@ -737,7 +753,7 @@ news.goo.ne.jp###overlay_app_dl
 
 ~knshow.com,~kakomonn.com,~jp-horse-breaking.blogspot.com,~mirm.jp,~gadgetdamage.blog.fc2.com,~alicex.jp,~server-setting.info,~server-domain.info,~monst.today,~publicdomainq.net,~8wayrun.com,~battlecats-db.com,~9ketsuki.info,~nazolog.com,~z0i.net,~ff14angler.com,~db-siken.com,~pm-siken.com,~sg-siken.com,~sc-siken.com,~nw-siken.com,~mushinavi.com,~k05.biz,~itpassportsiken.com,~fe-siken.com,~douga-getter.com,~ap-siken.com,~off-soft.net,~earthyworld.com,~coron.tech##.adsbygoogle:not(body)
 
-~knshow.com,~asahi.com,~newsweekjapan.jp,~iza.ne.jp,~allabout.co.jp,~book.hostlove.com,~find-method.com,~accounts.yahoo.co.jp,~gadgetdamage.blog.fc2.com,~thisav.com,~savevideo.me,~pixiv.net,~gmail.com,~mail.google.com,~inbox.google.com##.ads:not(body)
+~pedi.in,~knshow.com,~asahi.com,~newsweekjapan.jp,~iza.ne.jp,~allabout.co.jp,~book.hostlove.com,~find-method.com,~accounts.yahoo.co.jp,~gadgetdamage.blog.fc2.com,~thisav.com,~savevideo.me,~pixiv.net,~gmail.com,~mail.google.com,~inbox.google.com##.ads:not(body)
 ~gnt24365.net,~yakkun.com,~gadgetdamage.blog.fc2.com,~go.jp,~lg.jp,~db-siken.com,~pm-siken.com,~sg-siken.com,~sc-siken.com,~nw-siken.com,~itpassportsiken.com,~fe-siken.com,~ap-siken.com,~nazolog.com,~mobagate.net,~mushinavi.com,~impress.co.jp,~houdoukyoku.jp,~1000mg.jp,~mapion.co.jp,~gmail.com,~doujin-free.com,~mydocomo.com,~smt.docomo.ne.jp,~inbox.google.com,~mail.google.com,~www.afpbb.com##.ad:not(body):not(nav)
 
 
