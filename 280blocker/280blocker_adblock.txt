@@ -6,8 +6,29 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-06-29
-##.blocker280-20210629
+! Last updated: 2021-07-22
+##.blocker280-20210722
+
+!2021/07/22
+||whazugho.com^
+||cs.nakanohito.jp^
+||ezoic.net^
+||flux-cdn.com^
+||dmmzkfd82wayn.cloudfront.net^
+||d1ev866ubw90c6.cloudfront.net^
+||livezombymil.com^
+animanch.com##.abox
+note.com##.p-article__share
+kyodo.co.jp##.textwidget
+jp.motorsport.com##.ms-ap
+chisou-media.jp##.c-ad--overlay
+shiru2.jp##a[href*="utm_source"]
+kosodate-march.jp##.btm_ad
+googirl.jp###area-front-four-frames
+iphone-mania.jp##.socal
+google.com###stUuGf
+google.co.jp###stUuGf
+
 
 !2021/06/29
 ||373news.com/373ad
@@ -21,7 +42,6 @@ wallpapershome.com##.adblock
 google.com##[class*="__mobile-promo"]
 google.co.jp##[class*="__mobile-promo"]
 
-!iphone-mania.jp##.socal
 
 
 !2021/06/08
@@ -229,8 +249,6 @@ simchange.jp##.hikaku
 ##a[href^="https://cv-check.app/dispersion"]
 ||sekindo.com^
 
-!||nakanohito.jp^$domain=~enjoytokyo.jp|~iphone-mania.jp|~itmedia.co.jp
-||nakanohito.jp^$domain=~enjoytokyo.jp|~iphone-mania.jp|~itmedia.co.jp|~bookoffonline.co.jp
 
 !2020/12/29
 comingout.tokyo##.alignnone
@@ -5366,4 +5384,3 @@ nakasoku.blog18.fc2.com##.rss_box
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~news-edge.com##a[href*=".news-edge.com"] 
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~world-best-news.doorblog.jp##a[href*="//world-best-news.doorblog.jp/"]
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~matometatta-news.net##a[href*="//matometatta-news.net/"]
-

@@ -10,7 +10,7 @@
 # Please use it in a system that can block subdomains.
 #
 #
-# Lastupdate: 2021-05-27
+# Lastupdate: 2021-07-22
 #
 
 ||domain.dummy280280.net^
@@ -1267,8 +1267,13 @@
 ||av-mov.com^
 ||congrab.com^
 ||af.fukuishimbun.co.jp^
-||duckdns.org^
-
+||whazugho.com^
+||cs.nakanohito.jp^
+||ezoic.net^
+||flux-cdn.com^
+||dmmzkfd82wayn.cloudfront.net^
+||d1ev866ubw90c6.cloudfront.net^
+||livezombymil.com^
 
 @@||www.googleadservices.com^
 
