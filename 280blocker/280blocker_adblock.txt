@@ -9,6 +9,8 @@
 ! Last updated: 2021-07-22
 ##.blocker280-20210722
 
+gorin.jp###entranceAD
+
 !2021/07/22
 ||whazugho.com^
 ||cs.nakanohito.jp^
