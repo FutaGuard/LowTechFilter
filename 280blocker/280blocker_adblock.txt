@@ -6,12 +6,43 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-07-22
-##.blocker280-20210722
+! Last updated: 2021-08-13
+##.blocker280-20210813
 
+!2021/08/13
+altema.jp##.adsClick
+altema.jp##.head_koukoku_wrapper
+altema.jp##.new_koukokuwaku_wrapper
+appmedia.jp###ad_left_box
+appmedia.jp###ad_pr_ranking
+appmedia.jp###ad_right_box
+bloomberg.co.jp##.leaderboard-wrapper
+enfant.living.jp##.tie_up_box
+folk-media.com###_fs_push_dialog_pp
+folk-media.com##.Ad_widget
+googirl.jp###area-front-four-frames
+google.com##.kxhcC
+google.com##[data-id^="CarouselPLA"]
+libae.jp##.sp_display
+m.mail.yahoo.co.jp###ad_container_top
+sportingnews.com##.topNativeAdPlacement
+sportingnews.com##[href^="https://bit.ly/"]
+yoshidakenkou.net###my_artcl_break_msg
+yourmystar.jp##.pickup-item-block
+yugioh-antenna.sakura.ne.jp##.amazon_list
+yugioh-antenna.sakura.ne.jp##.amazon_ranking
 gorin.jp###entranceAD
+||4dex.io^
+||anymind360.com^
 ||uselnk.com^
+||fc2.com/video/js/u/sp/hdr/
+||mediavoice.com/nativeads
+||regulationprivilegescan.top
+||superten.ga/wp-content/plugins/ad-inserter
+||yahoo.com/v2/ads
+||yimg.com/dy/ads/native
 ||musenboya.com/wp-content/uploads/veszdl
+
 
 !2021/07/22
 ||whazugho.com^
@@ -4575,7 +4606,6 @@ BannerLoader$domain=wikipedia.org
 
 ##a[href*="comic-promotion.com"]
 ##a[href*="cyber-ad01.cc/"]
-##a[href*="dmm_affiliate"]
 ##a[href*="erodougaxvideo.com"]
 ##a[href*="facebook.com/dialog/feed"]
 ##a[href*="feedback.promotionalads.yahoo.co.jp"]
@@ -4689,6 +4719,7 @@ BannerLoader$domain=wikipedia.org
 ##iframe[src*="twitter.com/widgets/tweet_button"]
 ~dmm.com,~dmm.co.jp##a[href*="dmm.co"][href*="-0"]
 ~dmm.com,~dmm.co.jp##a[href*="dmm.co"][href*="-1"]
+~dmm.com,~dmm.co.jp##a[href*="dmm_affiliate"]
 ~mgstage.com##a[href*="www.mgstage.com"]
 ~salondenature.jp##a[href*="salondenature.jp"]
 ~smanavi.net##a[href*="smanavi.net/app/func_pub/click.php"]
