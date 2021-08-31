@@ -6,8 +6,20 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-08-13
-##.blocker280-20210813
+! Last updated: 2021-08-30
+##.blocker280-20210830
+
+!2021/08/30
+play-life.jp##[class*="affiliate-hotel"]
+revolve-ysy.jp###bfb_content_sp
+yourmystar.jp###toast-first-banner
+okinawatimes.co.jp##.ad_h250
+yosemi-7.com###conel-ppc
+renso-ruigo.com##.prem_invitation_fixed
+libae.jp##.sp_display
+||new-soku.net/ad
+||v-cysakena.com^
+
 
 !2021/08/13
 altema.jp##.adsClick
