@@ -102,6 +102,8 @@
 
 ! 混淆垃圾農場網頁
 ||7box.vip^
+||renaultpassonxperience.co^
+||softwarebrother.com^
 ||yuutoday.com^
 
 ! 抽獎廣告
