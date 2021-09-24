@@ -6,20 +6,8 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-09-24
-##.blocker280-20210924
-
-!2021/09/24
-fategrandorder.info##.cyu_kiji
-fategrandorder.info###ifad
-fategrandorder.info###disp02
-hoiku-shigoto.com###wisepops-root
-gosunkugi.com##.dfad
-gosunkugi.com###mobile_text-2
-gosunkugi.com###mobile_text-3
-city.eniwa.hokkaido.jp##.fixed-ad-wrap
-city.eniwa.hokkaido.jp##.ad-section
-||ad-spire.net^
+! Last updated: 2021-08-30
+##.blocker280-20210830
 
 !2021/08/30
 play-life.jp##[class*="affiliate-hotel"]

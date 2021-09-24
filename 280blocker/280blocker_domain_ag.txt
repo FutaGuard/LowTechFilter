@@ -10,7 +10,7 @@
 # Please use it in a system that can block subdomains.
 #
 #
-# Lastupdate: 2021-09-24
+# Lastupdate: 2021-07-22
 #
 
 ||domain.dummy280280.net^
@@ -1278,7 +1278,6 @@
 ||anymind360.com^
 ||uselnk.com^
 ||v-cysakena.com^
-||ad-spire.net^
 
 
 @@||www.googleadservices.com^
