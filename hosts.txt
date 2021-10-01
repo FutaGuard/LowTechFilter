@@ -68,6 +68,7 @@
 ||fghjkd.com^
 ||track-post-tw.com^
 ||track-post-gov-tw.info^
+||brainstudy.info^
 
 ! 釣魚
 ||track-post-gov-tw.info^
