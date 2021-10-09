@@ -6,8 +6,23 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-09-24
-##.blocker280-20210924
+! Last updated: 2021-10-08
+##.blocker280-20211008
+
+!2021/10/08
+psneolog.com##.amazon-item-box
+fc2.com##[href^="https://textad.net/cgi-bin/redir.cgi"]
+fc2.com###inactive_text_ad_close
+finance.yahoo.com##.native-ad-item
+revolve-ysy.jp##div.\38 70acc800a03195043b43daec7c5e58d
+crossbike-navi.com##div[style*="background-image: url(../z_image/TitleImage/99_"]
+leawo.org###ad_box
+realtime-chart.info##[href^="https://a.r10.to"]
+realtime-chart.info##[href^="https://amzn.to"]
+fujossy.jp##.adstir-interstitial-overlay
+gogotsu.com###quads-ad3
+genshin.matomegamer.com##.mg_adModal
+news.mynavi.jp##.popup_in > div > .dfad
 
 !2021/09/24
 fategrandorder.info##.cyu_kiji
@@ -28,7 +43,6 @@ yourmystar.jp###toast-first-banner
 okinawatimes.co.jp##.ad_h250
 yosemi-7.com###conel-ppc
 renso-ruigo.com##.prem_invitation_fixed
-libae.jp##.sp_display
 ||new-soku.net/ad
 ||v-cysakena.com^
 
@@ -47,7 +61,6 @@ folk-media.com##.Ad_widget
 googirl.jp###area-front-four-frames
 google.com##.kxhcC
 google.com##[data-id^="CarouselPLA"]
-libae.jp##.sp_display
 m.mail.yahoo.co.jp###ad_container_top
 sportingnews.com##.topNativeAdPlacement
 sportingnews.com##[href^="https://bit.ly/"]
