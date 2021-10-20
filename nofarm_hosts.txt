@@ -1,7 +1,7 @@
 ! FutaHosts
 ! FutaFilter nofarm
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2021.0309.01
+! 2021.0916.01
 ! --------------------------------------------------
 ||366service.com^
 ||7box.vip^
@@ -17,6 +17,7 @@
 ||coco01.me^
 ||coco01.net^
 ||coco01.today^
+||cocoachina.com^
 ||cocomy.net^
 ||codebug.vip^
 ||codenong.com^
@@ -43,7 +44,9 @@
 ||ptt01.cc^
 ||ptt01.tv^
 ||read01.com^
+||renaultpassonxperience.co^
 ||setn.com^
+||softwarebrother.com^
 ||stackoom.com^
 ||teepr.com^
 ||thinbug.com^

@@ -6,8 +6,161 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-05-09
-##.blocker280-20210509
+! Last updated: 2021-10-08
+##.blocker280-20211008
+
+!2021/10/08
+psneolog.com##.amazon-item-box
+fc2.com##[href^="https://textad.net/cgi-bin/redir.cgi"]
+fc2.com###inactive_text_ad_close
+finance.yahoo.com##.native-ad-item
+revolve-ysy.jp##div.\38 70acc800a03195043b43daec7c5e58d
+crossbike-navi.com##div[style*="background-image: url(../z_image/TitleImage/99_"]
+leawo.org###ad_box
+realtime-chart.info##[href^="https://a.r10.to"]
+realtime-chart.info##[href^="https://amzn.to"]
+fujossy.jp##.adstir-interstitial-overlay
+gogotsu.com###quads-ad3
+genshin.matomegamer.com##.mg_adModal
+news.mynavi.jp##.popup_in > div > .dfad
+
+!2021/09/24
+fategrandorder.info##.cyu_kiji
+fategrandorder.info###ifad
+fategrandorder.info###disp02
+hoiku-shigoto.com###wisepops-root
+gosunkugi.com##.dfad
+gosunkugi.com###mobile_text-2
+gosunkugi.com###mobile_text-3
+city.eniwa.hokkaido.jp##.fixed-ad-wrap
+city.eniwa.hokkaido.jp##.ad-section
+||ad-spire.net^
+
+!2021/08/30
+play-life.jp##[class*="affiliate-hotel"]
+revolve-ysy.jp###bfb_content_sp
+yourmystar.jp###toast-first-banner
+okinawatimes.co.jp##.ad_h250
+yosemi-7.com###conel-ppc
+renso-ruigo.com##.prem_invitation_fixed
+||new-soku.net/ad
+||v-cysakena.com^
+
+
+!2021/08/13
+altema.jp##.adsClick
+altema.jp##.head_koukoku_wrapper
+altema.jp##.new_koukokuwaku_wrapper
+appmedia.jp###ad_left_box
+appmedia.jp###ad_pr_ranking
+appmedia.jp###ad_right_box
+bloomberg.co.jp##.leaderboard-wrapper
+enfant.living.jp##.tie_up_box
+folk-media.com###_fs_push_dialog_pp
+folk-media.com##.Ad_widget
+googirl.jp###area-front-four-frames
+google.com##.kxhcC
+google.com##[data-id^="CarouselPLA"]
+m.mail.yahoo.co.jp###ad_container_top
+sportingnews.com##.topNativeAdPlacement
+sportingnews.com##[href^="https://bit.ly/"]
+yoshidakenkou.net###my_artcl_break_msg
+yourmystar.jp##.pickup-item-block
+yugioh-antenna.sakura.ne.jp##.amazon_list
+yugioh-antenna.sakura.ne.jp##.amazon_ranking
+gorin.jp###entranceAD
+||4dex.io^
+||anymind360.com^
+||uselnk.com^
+||fc2.com/video/js/u/sp/hdr/
+||mediavoice.com/nativeads
+||regulationprivilegescan.top
+||superten.ga/wp-content/plugins/ad-inserter
+||yahoo.com/v2/ads
+||yimg.com/dy/ads/native
+||musenboya.com/wp-content/uploads/veszdl
+
+
+!2021/07/22
+||whazugho.com^
+||cs.nakanohito.jp^
+||ezoic.net^
+||flux-cdn.com^
+||dmmzkfd82wayn.cloudfront.net^
+||d1ev866ubw90c6.cloudfront.net^
+||livezombymil.com^
+animanch.com##.abox
+note.com##.p-article__share
+kyodo.co.jp##.textwidget
+jp.motorsport.com##.ms-ap
+chisou-media.jp##.c-ad--overlay
+shiru2.jp##a[href*="utm_source"]
+kosodate-march.jp##.btm_ad
+googirl.jp###area-front-four-frames
+iphone-mania.jp##.socal
+google.com###stUuGf
+google.co.jp###stUuGf
+
+
+!2021/06/29
+||373news.com/373ad
+||buy-ap.piano.io$domain=snrec.jp
+s.kakaku.com##.mobileBillboardWrapper
+syosetu.com##div[class^="koukoku"]
+##div[id^="msmaflink"]
+##.pochipp-box
+josei-bigaku.jp##.btm_ad
+wallpapershome.com##.adblock
+google.com##[class*="__mobile-promo"]
+google.co.jp##[class*="__mobile-promo"]
+
+
+
+!2021/06/08
+soubun.com##.spjournalbnr
+dic.pixiv.net###ad-d-sp-toparticle
+dic.pixiv.net###ad-d-sp-rectangle
+dic.pixiv.net###ad-d-sp-footer
+! cause trouble in some apps (not iOS)
+!||google.com/async/ampfp
+!||google.co.jp/async/ampfp
+google.co.jp##a[data-ad-tracking-url*="googleadservices"]
+google.com##a[data-ad-tracking-url*="googleadservices"]
+!google.co.jp##g-bottom-sheet
+!google.com##g-bottom-sheet
+
+
+!2021/05/26
+||duckdns.org^
+
+orangepage.net##.sponsored
+manabitimes.jp##.a--banner
+tenshoku.mynavi.jp###karte-c
+uraaka.com##.ad-gallery
+keyaki.tech##[id*="rss"]
+||s.yimg.jp/images/jpnews/v2/all/images/sns_
+||keyaki.tech/img
+
+
+!2021/05/18
+tenshoku.mynavi.jp###karte-c
+uraaka.com##.ad-gallery
+
+!2021/05/15
+olive-hitomawashi.com##.slideMovie_SP1
+fragrantica-japan.com##.spu-container
+aniani.smx.jp##.__isboostBottomOverlay
+youtube.com##.ytp-cued-thumbnail-overlay-image
+
+!2021/05/17
+=adhost$domain=youtube.com|googlevideo.com
+=adunit$domain=youtube.com|googlevideo.com
+
+!Problems may occur on non-iOS devices
+!ctier=$domain=youtube.com|googlevideo.com
+
+!||googlevideo.com/*adhost
+!||youtube.com/*adunit
 
 !2021/05/09
 ##[id^="zucksad"]
@@ -22,7 +175,6 @@ itest.5ch.net##.socialwrap
 itest.5ch.net###js-last_comment_ad
 itest.5ch.net###js-bottom-ad-320x250
 itest.5ch.net##.ad_320x50
-||googlevideo.com/*adhost
 ||af.fukuishimbun.co.jp^
 
 !2021/04/21
@@ -33,7 +185,6 @@ itest.5ch.net##.ad_320x50
 ||youtube.com/youtubei/v1/log_event
 ||youtube.com/youtubei/v1/player/ad_break
 ||csx.jp/banner
-||youtube.com/*adunit
 youtube.com##.ytp-ad-action-interstitial
 tsukimicoffee.com##.code-block
 tsukimicoffee.com##.kaisetsu-box5
@@ -96,7 +247,6 @@ amazon.co.jp##.sbv-video-single-product
 hokkaido-np.co.jp##.bnrBlock
 kurashi-no.jp##.Ad_Rectangle_Widget
 
-!##div#satori__creative_container
 
 !2021/02/27
 ||rednews.me^
@@ -171,15 +321,11 @@ simchange.jp##.hikaku
 ##a[href^="https://cv-check.app/dispersion"]
 ||sekindo.com^
 
-!||nakanohito.jp^$domain=~enjoytokyo.jp|~iphone-mania.jp|~itmedia.co.jp
-||nakanohito.jp^$domain=~enjoytokyo.jp|~iphone-mania.jp|~itmedia.co.jp|~bookoffonline.co.jp
 
 !2020/12/29
 comingout.tokyo##.alignnone
 comingout.tokyo##.review
 gamespark.jp##.pickup-list
-google.co.jp##g-bottom-sheet
-google.com##g-bottom-sheet
 hunade.com##.post-matome-area
 nan-net.jp##[id^="active_overlay"]
 vipsister23.com##blockquote
@@ -697,7 +843,7 @@ news.goo.ne.jp###overlay_app_dl
 
 ~knshow.com,~kakomonn.com,~jp-horse-breaking.blogspot.com,~mirm.jp,~gadgetdamage.blog.fc2.com,~alicex.jp,~server-setting.info,~server-domain.info,~monst.today,~publicdomainq.net,~8wayrun.com,~battlecats-db.com,~9ketsuki.info,~nazolog.com,~z0i.net,~ff14angler.com,~db-siken.com,~pm-siken.com,~sg-siken.com,~sc-siken.com,~nw-siken.com,~mushinavi.com,~k05.biz,~itpassportsiken.com,~fe-siken.com,~douga-getter.com,~ap-siken.com,~off-soft.net,~earthyworld.com,~coron.tech##.adsbygoogle:not(body)
 
-~knshow.com,~asahi.com,~newsweekjapan.jp,~iza.ne.jp,~allabout.co.jp,~book.hostlove.com,~find-method.com,~accounts.yahoo.co.jp,~gadgetdamage.blog.fc2.com,~thisav.com,~savevideo.me,~pixiv.net,~gmail.com,~mail.google.com,~inbox.google.com##.ads:not(body)
+~pedi.in,~knshow.com,~asahi.com,~newsweekjapan.jp,~iza.ne.jp,~allabout.co.jp,~book.hostlove.com,~find-method.com,~accounts.yahoo.co.jp,~gadgetdamage.blog.fc2.com,~thisav.com,~savevideo.me,~pixiv.net,~gmail.com,~mail.google.com,~inbox.google.com##.ads:not(body)
 ~gnt24365.net,~yakkun.com,~gadgetdamage.blog.fc2.com,~go.jp,~lg.jp,~db-siken.com,~pm-siken.com,~sg-siken.com,~sc-siken.com,~nw-siken.com,~itpassportsiken.com,~fe-siken.com,~ap-siken.com,~nazolog.com,~mobagate.net,~mushinavi.com,~impress.co.jp,~houdoukyoku.jp,~1000mg.jp,~mapion.co.jp,~gmail.com,~doujin-free.com,~mydocomo.com,~smt.docomo.ne.jp,~inbox.google.com,~mail.google.com,~www.afpbb.com##.ad:not(body):not(nav)
 
 
@@ -1929,7 +2075,6 @@ kashi-mo.com##.l-footer
 ||xn--zuzy24d.co
 ||multiquicks.net
 ||ad.unispire.jp
-!||delivery.satr.jp
 ||onesignal.com/webPushAnalytics
 
 ##a[href^="https://prf.hn/click/"]
@@ -3806,7 +3951,6 @@ yahoo.co.jp###yjsmhExtArea
 yahoo.co.jp##.yjsmhExtTxt
 !##[class*="share-button"]
 iphone-mania.jp##.gunosy-article-spot
-iphone-mania.jp##.socal
 
 !before 2016/10/20
 
@@ -4499,7 +4643,6 @@ BannerLoader$domain=wikipedia.org
 
 ##a[href*="comic-promotion.com"]
 ##a[href*="cyber-ad01.cc/"]
-##a[href*="dmm_affiliate"]
 ##a[href*="erodougaxvideo.com"]
 ##a[href*="facebook.com/dialog/feed"]
 ##a[href*="feedback.promotionalads.yahoo.co.jp"]
@@ -4613,6 +4756,7 @@ BannerLoader$domain=wikipedia.org
 ##iframe[src*="twitter.com/widgets/tweet_button"]
 ~dmm.com,~dmm.co.jp##a[href*="dmm.co"][href*="-0"]
 ~dmm.com,~dmm.co.jp##a[href*="dmm.co"][href*="-1"]
+~dmm.com,~dmm.co.jp##a[href*="dmm_affiliate"]
 ~mgstage.com##a[href*="www.mgstage.com"]
 ~salondenature.jp##a[href*="salondenature.jp"]
 ~smanavi.net##a[href*="smanavi.net/app/func_pub/click.php"]
@@ -5312,4 +5456,3 @@ nakasoku.blog18.fc2.com##.rss_box
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~news-edge.com##a[href*=".news-edge.com"] 
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~world-best-news.doorblog.jp##a[href*="//world-best-news.doorblog.jp/"]
 ~google.com,~google.co.jp,~yahoo.co.jp,~bing.com,~matometatta-news.net##a[href*="//matometatta-news.net/"]
-

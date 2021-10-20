@@ -1,5 +1,5 @@
 #!name=FutaFilter
-#!desc=Make Futa Great Again! v20210321.01
+#!desc=Make Futa Great Again! v20210619.01
 #!system=ios
 
 [Rule]
@@ -53,6 +53,10 @@ URL-REGEX,^https:\/\/pttbrain\.herokuapp\.com\/api\/ptt\/metric\/user\-geo\-dist
 
 #! pixnet
 URL-REGEX,^https:\/\/front\.pixfs\.net\/module\/idlePop\/js\/,REJECT
+
+#! Poke Genie 團體戰
+DOMAIN-SUFFIX,cloudfunctions.net,DIRECT
+DOMAIN-SUFFIX,admob-app-id-4587251595.firebaseio.com,DIRECT
 
 #! 通用阻擋
 DOMAIN,itad.linetv.tw,REJECT

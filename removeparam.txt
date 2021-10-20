@@ -81,6 +81,8 @@ $removeparam=/assetType/i
 $removeparam=/assetId/i
 $removeparam=/recipientId/i
 $removeparam=/campaignId/i
+! whitelist for ruten
+@@||ruten.com.tw$removeparam=/campaignId/i
 
 $removeparam=/siteId/i
 ! whitelist for CHT login issue
