@@ -6,8 +6,23 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-10-08
-##.blocker280-20211008
+! Last updated: 2021-10-26
+##.blocker280-20211026
+
+!2021/10/26
+tokyomotion.net##div>a[href="https://generic.winner-ch.com/"]
+video.fc2.com##center[style*="position: fixed;"]
+gogotsu.com##div[id*="_pushdown"]
+y2mate.com##iframe
+entameclip.com##div[class*="amazon-item-box"]
+newsweekjapan.jp###induction-box
+uraaka.com##iframe[id*="container"]
+xn--4gr16r4zc9g.jp##a[href^="https://www.amazon.co.jp/gp/product"]
+nemotohiroyuki.jp###widget-area-2 a[href^="https://pedrabranca.stores.jp/"]
+erogazo-ngo.com###text-36>.textwidget
+erogazo-ngo.com##.post_content_ad
+erogazo-ngo.com##div.right_sidebar #text-42
+erogazo-ngo.com##.footer_link
 
 !2021/10/08
 psneolog.com##.amazon-item-box
@@ -546,7 +561,6 @@ iqune.com##.widget_text
 ||terra-walker.net/ad
 ramendb.supleks.jp##a[href^="https://hb.afl.rakuten.co.jp/"]
 sangeetnatak.org##.hidden_box
-erogazo-ngo.com##.textwidget
 liginc.co.jp##.info-item
 senzaiishiki-training.com##.turtlink-wrap
 !google.com##.fAgajc
