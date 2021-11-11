@@ -6,8 +6,37 @@
 ! This file is only permitted for personal use under copyright law.
 ! Commercial use or  redistribution are prohibited except as permitted by copyright law.
 !
-! Last updated: 2021-10-26
-##.blocker280-20211026
+! Last updated: 2021-11-11
+##.blocker280-20211111
+
+!2021/11/11
+economical.co.jp###footer-ad
+rssing.com##.rs-ad
+resemara.xbiz.jp##.bfb_view_sp.bfb_rb.bfb_imgBanner
+resemara.xbiz.jp##div[data-index="1"]
+resemara.xbiz.jp##div[data-index="2"]
+resemara.xbiz.jp##div[data-index="3"]
+gorillawiki.jp##div.new_koukokuwaku_wrapper
+gorillawiki.jp###sp_article_footer_1st>a[href*="https://altema.jp/giftcardpage"]
+gorillawiki.jp##.head_koukoku_wrapper>a[href*="https://altema.jp/giftcardpage"]
+finance.yahoo.com###mrt-node-Col1-0-GeminiPencilAdSmartphone
+finance.yahoo.com##.ys-mobileFeaturedAd
+portalcripto.com.br##.coinzilla
+portalcripto.com.br###block-4>.premium
+portalcripto.com.br###custom_html-5
+portalcripto.com.br##.top-cassinos-sdbar
+||cdn.jsdelivr.net/gh/Arlina-Design/quasar@master/arlinablock.js
+arvo.showcase-tv.com##a[href*="https://www.rizeclinic.com/ipn/lp/"]
+||clldirectasianew.club^
+||itskiddoan.club^
+news.biglobe.ne.jp##.adBox
+applion.jp##a[href*="https://applion.jp/pg/rd.php"]
+bulbapedia.bulbagarden.net###primiscont
+smashop.jp###r1_advertisement
+kanajo.com##.ta_article_ad
+mediaite.com##.is-shown-for-subs.o-promo-unit
+mediaite.com##._1U8keQ4i
+mediaite.com##.aJVLc6uP
 
 !2021/10/26
 tokyomotion.net##div>a[href="https://generic.winner-ch.com/"]
@@ -533,7 +562,7 @@ detail.chiebukuro.yahoo.co.jp##a[href^="https://rd.listing.yahoo.co.jp/o/"]
 
 !2020/10/09
 ##a[onclick*="//getpocket.com/edit"]
-~hatena.ne.jp,~google.com,~google.co.jp,~search.yahoo.co.jp##a[href*="b.hatena.ne.jp/entry"]
+~hatena.ne.jp,~google.com,~google.co.jp,~search.yahoo.co.jp,~labs.ceek.jp##a[href*="b.hatena.ne.jp/entry"]
 
 ||terrout9.biz^
 ||vpn3protectplus.com^
@@ -858,7 +887,8 @@ news.goo.ne.jp###overlay_app_dl
 ~knshow.com,~kakomonn.com,~jp-horse-breaking.blogspot.com,~mirm.jp,~gadgetdamage.blog.fc2.com,~alicex.jp,~server-setting.info,~server-domain.info,~monst.today,~publicdomainq.net,~8wayrun.com,~battlecats-db.com,~9ketsuki.info,~nazolog.com,~z0i.net,~ff14angler.com,~db-siken.com,~pm-siken.com,~sg-siken.com,~sc-siken.com,~nw-siken.com,~mushinavi.com,~k05.biz,~itpassportsiken.com,~fe-siken.com,~douga-getter.com,~ap-siken.com,~off-soft.net,~earthyworld.com,~coron.tech##.adsbygoogle:not(body)
 
 ~pedi.in,~knshow.com,~asahi.com,~newsweekjapan.jp,~iza.ne.jp,~allabout.co.jp,~book.hostlove.com,~find-method.com,~accounts.yahoo.co.jp,~gadgetdamage.blog.fc2.com,~thisav.com,~savevideo.me,~pixiv.net,~gmail.com,~mail.google.com,~inbox.google.com##.ads:not(body)
-~gnt24365.net,~yakkun.com,~gadgetdamage.blog.fc2.com,~go.jp,~lg.jp,~db-siken.com,~pm-siken.com,~sg-siken.com,~sc-siken.com,~nw-siken.com,~itpassportsiken.com,~fe-siken.com,~ap-siken.com,~nazolog.com,~mobagate.net,~mushinavi.com,~impress.co.jp,~houdoukyoku.jp,~1000mg.jp,~mapion.co.jp,~gmail.com,~doujin-free.com,~mydocomo.com,~smt.docomo.ne.jp,~inbox.google.com,~mail.google.com,~www.afpbb.com##.ad:not(body):not(nav)
+~gnt24365.net,~yakkun.com,~gadgetdamage.blog.fc2.com,~go.jp,~lg.jp,~db-siken.com,~pm-siken.com,~sg-siken.com,~sc-siken.com,~nw-siken.com,~itpassportsiken.com,~fe-siken.com,~ap-siken.com,~nazolog.com,~mobagate.net,~mushinavi.com,~impress.co.jp,~houdoukyoku.jp,~1000mg.jp,~mapion.co.jp,~gmail.com,~doujin-free.com,~mydocomo.com,~smt.docomo.ne.jp,~inbox.google.com,~mail.google.com,~www.afpbb.com##.ad:not(body):not(nav):not(dl):not(dt):not(dd)
+
 
 
 ~gadgetdamage.blog.fc2.com##[class^="ads_"]:not(body)
