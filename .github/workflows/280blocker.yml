@@ -11,15 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: 280blocker_adblock
-        uses: wei/curl@master
         # continue-on-error: true
-        with:
-          args: ${{ secrets.BLOCKER_URL }}/280blocker_adblock.txt -o 280blocker/280blocker_adblock.txt
+        run: |
+          curl --silent --show-error --fail ${{ secrets.BLOCKER_URL }}/280blocker_adblock.txt -o 280blocker/280blocker_adblock.txt
       - name: 280blocker_domain_ag
-        uses: wei/curl@master
         # continue-on-error: true
-        with:
-          args: ${{ secrets.BLOCKER_URL }}/280blocker_domain_ag.txt -o 280blocker/280blocker_domain_ag.txt
+        run: |
+          curl --silent --show-error --fail ${{ secrets.BLOCKER_URL }}/280blocker_domain_ag.txt -o 280blocker/280blocker_domain_ag.txt
       - name: get today date
         id: date
         run: export TZ='Asia/Taipei' && echo "::set-output name=date::$(date +'%Y-%m-%d-%H')"
