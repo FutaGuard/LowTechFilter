@@ -5,6 +5,7 @@
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
+@@||fonts.gstatic.com^
 
 ! hackmd 登入必要
 @@||quantserve.com^

@@ -19,12 +19,12 @@ momoshop.com.tw#%#//scriptlet('set-cookie-reload', 'pwaLifeCircle', '1')
 ! udn 蓋板
 udn.com#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('bd2021-read-news', '1'); }
 ! ----------------------------------------------------------------------
-! ebb.io
+! 白名單
 @@||ebb.io^$important,document,~extension
-! 中華郵政
 @@||postserv.post.gov.tw/pstmail/main_mail.html$important,document,~extension
-! 全聯
 @@||pxmart.com.tw^$important,document,~extension
+@@||fonts.gstatic.com^
+
 ! 微雲
 share.weiyun.com#@#.page-ad
 ! ----------------------------------------------------------------------
