@@ -14,5 +14,5 @@ jobs:
         uses: lucasbento/auto-close-issues@v1.0.2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-close-message: "@${issue.user.login}: 嗨 :wave:\n\n這個 issue 似乎沒有使用 issue 樣板提出，因此被我自動關閉了。"
+          issue-close-message: "@${{ github.event.issue.user.login }}: 嗨 :wave:\n\n這個 issue 似乎沒有使用 issue 樣板提出，因此被我自動關閉了。"
           closed-issues-label: "🙁 未依照樣板提出"
