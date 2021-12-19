@@ -107,6 +107,9 @@ $removeparam=/mbid/i
 $removeparam=/cmpid/i
 $removeparam=/campaign_id/i
 $removeparam=/Campaign/i
+! whitelist for wiki
+@@||wikipedia.org$removeparam=/Campaign/i
+
 $removeparam=/gs_l/i
 $removeparam=/_hsenc/i
 $removeparam=/_hsmi/i
