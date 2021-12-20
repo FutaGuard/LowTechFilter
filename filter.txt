@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.1220.04
+! Version: 2021.1220.05
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -93,6 +93,7 @@ ettoday.net#%#//scriptlet('set-cookie-reload', 'webpush', '1')
 ettoday.net##div[class="idleAd"]
 ! 數位時代
 bnext.com.tw##div[class="IdleBox"]
+bnext.com.tw#%#//scriptlet('prevent-setTimeout')
 ! 商周
 www.businessweekly.com.tw##div.reveal-modal
 www.businessweekly.com.tw##div.reveal-modal-bg
@@ -119,6 +120,7 @@ storm.mg##.notify_wordings
 ! techbang
 ||techbang.com/pages/idle_popup
 techbang.com###idle-container
+techbang.com#%#//scriptlet('prevent-setInterval')
 ! PCHOME 新聞
 news.pchome.com.tw##.adfloat
 news.pchome.com.tw##div[class^="adnewlist"]
