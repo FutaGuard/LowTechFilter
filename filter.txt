@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.1220.08
+! Version: 2021.1220.0
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -236,3 +236,5 @@ zhihu.com#$#html { overflow: scroll !important; }
 
 ! 詐騙
 ||brainstudy.info^
+
+soundofhope.org##div[id="itb_ads_catfish"]
