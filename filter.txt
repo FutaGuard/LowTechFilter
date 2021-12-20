@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.1220.06
+! Version: 2021.1220.07
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -10,10 +10,6 @@ www.ptt.cc#%#document.onreadystatechange=()=>{if(location.pathname.includes('/as
 ! cookie 注入
 ! 卡卡洛普
 gamme.com.tw#%#//scriptlet('set-cookie-reload', 'r18', '1')
-! 風傳媒
-storm.mg#%#//scriptlet('abort-current-inline-script', 'show_idle_alert')
-storm.mg#%#//scriptlet('abort-current-inline-script', 'show_new7_popup')
-storm.mg#%#//scriptlet('abort-current-inline-script', 'show_popup_ad')
 ! momo 購物
 momoshop.com.tw#%#//scriptlet('set-cookie-reload', 'pwaLifeCircle', '1')
 ! udn 蓋板
@@ -113,8 +109,10 @@ news.tvbs.com.tw#%#//scriptlet('set-cookie-reload', 'no_web_push', 'true')
 ! CNA 新聞
 www.cna.com.tw##[class="overlayidle showidle"]
 ! 風傳媒
-storm.mg##div[class^="ad_wrapper"]
-storm.mg##div[data-addom="storm_ad_wrapper_not_hide"]
+storm.mg#%#//scriptlet('abort-current-inline-script', 'show_idle_alert')
+storm.mg#%#//scriptlet('abort-current-inline-script', 'show_new7_popup')
+storm.mg#%#//scriptlet('abort-current-inline-script', 'show_popup_ad')
+storm.mg##div[class="popup_wrapper"]
 storm.mg##div[data-addom="storm_ad_wrapper"]
 storm.mg##.notify_wordings
 ! techbang
