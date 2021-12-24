@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2021.1224.2
+! Version: 2021.1224.3
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -242,3 +242,4 @@ abmedia.io#%#//scriptlet('set-local-storage-item', 'isAdShowed', 'true')
 
 walkerland.com.tw##div[class="top-slide-ad"]
 ||walkerland.com.tw/js/idle.js^
+blockcast.it##span[id="aaspan"]
