@@ -119,3 +119,5 @@
 ! 低卡廣告
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
+
+||sun.advividnetwork.com^
