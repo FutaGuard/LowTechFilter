@@ -1,7 +1,7 @@
 ! FutaHosts
 ! FutaFilter Host
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2021.1103.01
+! 2022.02.07
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -121,3 +121,6 @@
 ||xlate.dcard.tw^
 
 ||sun.advividnetwork.com^
+
+||taiwan-free-store.com^
+||tw-track.com^
