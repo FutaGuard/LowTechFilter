@@ -1,7 +1,7 @@
 ! FutaHosts
 ! FutaFilter Host
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2022.04.18
+! 2022.04.19
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -128,3 +128,4 @@
 ||viewty.xyz^
 ||tw-beaxfun.fun^
 ||investing-reads.com^
+||bianceance.com^
