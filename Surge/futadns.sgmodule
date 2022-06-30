@@ -1,0 +1,5 @@
+#!name=FutaDNS (futa.gg)
+#!desc=啟用 FutaDNS
+ 
+[General]
+doh-server = https://doh.futa.gg/dns-query
