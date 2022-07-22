@@ -1,11 +1,11 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2022.0318.1
+! Version: 2022.0722.1
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
 ! PTT 驗證
-www.ptt.cc#%#document.onreadystatechange=()=>{if(location.pathname.includes('/ask/over18')){document.querySelectorAll('.over18-button-container>button[name="yes"]').forEach(x=>x.click())}};
+! www.ptt.cc#%#document.onreadystatechange=()=>{if(location.pathname.includes('/ask/over18')){document.querySelectorAll('.over18-button-container>button[name="yes"]').forEach(x=>x.click())}};
 ! ----------------------------------------------------------------------
 ! cookie 注入
 ! 卡卡洛普
@@ -13,7 +13,7 @@ gamme.com.tw#%#//scriptlet('set-cookie-reload', 'r18', '1')
 ! momo 購物
 momoshop.com.tw#%#//scriptlet('set-cookie-reload', 'pwaLifeCircle', '1')
 ! udn 蓋板
-udn.com#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('bd2021-read-news', '1'); }
+udn.com##%#//scriptlet('set-local-storage-item', 'bd2021-read-news', '1')
 ! ----------------------------------------------------------------------
 ! 白名單
 @@||ebb.io^$important,document,~extension
@@ -246,3 +246,13 @@ blockcast.it##span[id="aaspan"]
 mobile01.com##div[id="idle_content"]
 ||www.mobile01.com/ajax/*/idlebox.php^
 ||attach2.mobile01.com/js/jquery-fancybox/jquery-fancybox-min.js^
+times.hinet.net#%#//scriptlet('prevent-setTimeout', 'idleOpen')
+times.hinet.net##div[id="popSetting"]
+times.hinet.net##div[class^="ADbn"]
+times.hinet.net##div[id="kayakWidgetright"]
+times.hinet.net##div[id="kayakWidgetnews"]
+||times.hinet.net/resources/css/idle.css*
+||player.svc.litv.tv/v3/ppnio.js^$domain=hinet.net
+||adsv.svc.litv.tv^
+||player.svc.litv.tv/v3/ppnif.html^$domain=hinet.net
+||vatrack.hinet.net^
