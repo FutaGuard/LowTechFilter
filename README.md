@@ -32,7 +32,3 @@ https://t.me/adguard_tw
 
 Q: 我用了這個規則之後發現我的噗浪連結打不開了欸！！！！\
 A: 請服用這個 [userscript](https://greasyfork.org/en/scripts/40884-plurk-no-redirector)
-
-## 贊助
-覺ㄉ我們棒棒ㄇ？
-https://p.ecpay.com.tw/B32C0
