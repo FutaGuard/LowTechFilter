@@ -1,4 +1,4 @@
-# FutaFilter
+# LowTechFilter（原 FutaFilter）
 一款專為臺灣人設計的廣告阻擋規則
 
 ## 討論群組
@@ -9,7 +9,7 @@ https://t.me/adguard_tw
 
 ## 訂閱網址
 ### Adblock 語法（AdBlock, AdGuard）
-> FutaFilter 專門處理網頁上的 DOM 元素處理。例：側邊廣告欄
+> LowTechFilter 專門處理網頁上的 DOM 元素處理。例：側邊廣告欄
 - <https://filter.futa.gg/filter.txt>
 > 直接隱藏 Google 搜尋結果裡的[農場文](https://content-farm-terminator.blogspot.com/2018/12/about-content-farm-terminator.html)專用清單，標示 `ff` 為 [firefox](https://www.mozilla.org/firefox) 專用
 - <https://filter.futa.gg/hide_farm_from_search.txt>
