@@ -120,7 +120,6 @@
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
 
-||sun.advividnetwork.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
