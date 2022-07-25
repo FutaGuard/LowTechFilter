@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2022.0723.1
+! Version: 2022.0725.1
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -257,3 +257,12 @@ times.hinet.net##div[id="kayakWidgetnews"]
 ||player.svc.litv.tv/v3/ppnif.html^$domain=hinet.net
 ||vatrack.hinet.net^
 ||newtalk.tw/js/ifvisible.js^
+edh.tw$@$script[tag-content="showidletime"]
+edh.tw##iframe[id="_popIn_log"]
+edh.tw##span[id="fix-corner"]
+edh.tw##div[id="close-corner"]
+edh.tw##a[class="activity-wall"]
+edh.tw##div[class="adinarticle_div"]
+edh.tw$@$script[tag-content="timerIncrement"]
+edh.tw#%#//scriptlet('abort-current-inline-script', 'timerIncrement')
+||edh.tw/resources/ad/*^
