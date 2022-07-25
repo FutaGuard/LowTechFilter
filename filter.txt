@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2022.0725.1
+! Version: 2022.0725.2
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -128,6 +128,10 @@ newtalk.tw##div[class="ad_content_mask"]
 ||static.chinatimes.com/scripts/2020/page-idle-prompt2020.min.js
 ||static.chinatimes.com/scripts/2020/subscribe-news-letter-prompt2020.min.js
 ||static.chinatimes.com/scripts/likr.js
+www.chinatimes.com##div[class^="ad"]
+www.chinatimes.com##li[class$="yap-loaded"]
+||www.chinatimes.com^stealth
+
 ! shoppingdesign
 shoppingdesign.com.tw#$#.IdleBox { display: none !important; }
 niusnews.com##div[class="fixed-footer-ad"]
