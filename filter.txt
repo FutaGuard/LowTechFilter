@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2022.0725.2
+! Version: 2022.0726.1
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -81,6 +81,16 @@ ltn.com.tw##div[class="idle_lightbox_target"]
 ! 三立新聞
 setn.com##.rightFloatContent
 www.setn.com#%#//scriptlet('set-cookie-reload', 'linefriendModal', 'true')
+www.setn.com##div[class^="header-live-area"]
+www.setn.com##div[class^="ad-"]
+www.setn.com##div[id="siteIconNav"]
+www.setn.com##div[class="news-flash-area"]
+www.setn.com##a[pa="Menu-Channel Logo"]
+www.setn.com#%#//scriptlet('remove-attr', 'autoplay', 'iframe[id="liveFrame_1"]')
+||www.setddg.com/AdExternal/*
+||*.popin.cc/*^$domain=www.setn.com
+||www.setn.com/js/LogTracer.js*^
+
 ! ettoday
 ettoday.net##div[class="pcbt_kw active"]
 ettoday.net##div[class="top-sky"]
