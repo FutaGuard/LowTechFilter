@@ -133,3 +133,4 @@
 ||vatrack.hinet.net^
 ||sun.advividnetwork.com^
 ||ad.setn.com^
+||elads.kocpc.com.tw^
