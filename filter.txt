@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2022.0726.2
+! Version: 2022.0726.3
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -129,11 +129,21 @@ storm.mg##.notify_wordings
 ||techbang.com/pages/idle_popup
 techbang.com###idle-container
 techbang.com#%#//scriptlet('prevent-setInterval')
+www.techbang.com##div[class^="pcadv_"]
+www.techbang.com##div[class^="phone-ads"]
+
 ! PCHOME 新聞
 news.pchome.com.tw##.adfloat
 news.pchome.com.tw##div[class^="adnewlist"]
 ! NewTalk
 newtalk.tw##div[class="ad_content_mask"]
+newtalk.tw##a[class="trackGA"]
+newtalk.tw##div[class="gliaplayer-container"]
+newtalk.tw##div[class="pc-shareBar"]
+newtalk.tw##div[class="ats_insert_ads"]
+||newtalk.tw/js/news/shareBar.*^
+||newtalk.tw/js/ifvisible.js*^
+
 ! 中時
 ||static.chinatimes.com/scripts/2020/page-idle-prompt2020.min.js
 ||static.chinatimes.com/scripts/2020/subscribe-news-letter-prompt2020.min.js
@@ -274,7 +284,6 @@ times.hinet.net##div[id="kayakWidgetnews"]
 ||adsv.svc.litv.tv^
 ||player.svc.litv.tv/v3/ppnif.html^$domain=hinet.net
 ||vatrack.hinet.net^
-||newtalk.tw/js/ifvisible.js^
 edh.tw$@$script[tag-content="showidletime"]
 edh.tw##iframe[id="_popIn_log"]
 edh.tw##span[id="fix-corner"]
