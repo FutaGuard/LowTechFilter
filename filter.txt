@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2022.0727.3
+! Version: 2022.0727.4
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -309,3 +309,5 @@ edh.tw##div[class="adinarticle_div"]
 edh.tw$@$script[tag-content="timerIncrement"]
 edh.tw#%#//scriptlet('abort-current-inline-script', 'timerIncrement')
 ||edh.tw/resources/ad/*^
+kikinote.net#%#//scriptlet('set-cookie-reload', 'isShowSociety', '1')
+
