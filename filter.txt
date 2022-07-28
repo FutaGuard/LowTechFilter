@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: FutaFilter
-! Version: 2022.0728.2
+! Version: 2022.0728.3
 ! Expires: 1 hour
 ! Homepage: https://t.me/adguard_tw
 ! ----------------------------------------------------------------------
@@ -107,6 +107,9 @@ ettoday.net##a[href^="https://fugo.ehsn.com.tw/"]
 ettoday.net#%#//scriptlet('remove-attr', 'autoplay', 'video')
 ettoday.net#%#//scriptlet('remove-attr', 'preload', 'video')
 ettoday.net##p[class^="ad_txt"]
+ettoday.net##div[id="abp3"]
+ettoday.net##div[class^="ad_"]
+
 ! 數位時代
 bnext.com.tw##div[class="IdleBox"]
 bnext.com.tw#%#//scriptlet('prevent-setTimeout')
