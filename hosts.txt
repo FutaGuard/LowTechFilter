@@ -1,7 +1,7 @@
 ! FutaHosts
 ! FutaFilter Host
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2022.07.28.1
+! 2022.08.05.01
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -135,3 +135,4 @@
 ||ad.setn.com^
 ||elads.kocpc.com.tw^
 ||spotirfy-help-b49b36.ingress-bonde.ewp.live^
+||nigov.tw^
