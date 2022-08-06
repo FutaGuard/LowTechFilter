@@ -197,7 +197,8 @@ mirrormedia.mg##div[class$="story__member-info"]
 news.gamebase.com.tw##div[class="overlay"]
 news.gamebase.com.tw##.PCAD
 news.gamebase.com.tw##div[class="rightMiddleAD"]
-
+! 手機王
+sogi.com.tw##div[id="ad"]
 ! ----------------------------------------------------------------------
 
 ! Line
