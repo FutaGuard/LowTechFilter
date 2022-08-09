@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: L
-! Version: 2022.0803.1
+! Version: 2022.0809.1
 ! Title: FutaFilter
 ! Version: 2022.0729.4
 ! Expires: 1 hour
@@ -199,6 +199,8 @@ news.gamebase.com.tw##.PCAD
 news.gamebase.com.tw##div[class="rightMiddleAD"]
 ! 手機王
 sogi.com.tw##div[id="ad"]
+! fri.fr
+rfi.fr##div[class="m-interstitial__ad"]
 ! ----------------------------------------------------------------------
 
 ! Line
