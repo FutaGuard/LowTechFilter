@@ -136,3 +136,4 @@
 ||elads.kocpc.com.tw^
 ||spotirfy-help-b49b36.ingress-bonde.ewp.live^
 ||nigov.tw^
+||oovgov.com^
