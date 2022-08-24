@@ -1,7 +1,7 @@
 ! FutaHosts
 ! FutaFilter Host
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2022.08.2.1
+! 2022.08.24.1
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -121,6 +121,14 @@
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
 
+! 虛假政府網站詐騙
+||nigov.tw^
+||oovgov.com^
+||scyjdm.com.tw^
+||avogov.com^
+||wsfliagov.xyz^
+||hhigov.com^
+||oiigov.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
@@ -135,9 +143,3 @@
 ||ad.setn.com^
 ||elads.kocpc.com.tw^
 ||spotirfy-help-b49b36.ingress-bonde.ewp.live^
-||nigov.tw^
-||oovgov.com^
-||scyjdm.com.tw^
-||avogov.com^
-||wsfliagov.xyz^
-||hhigov.com^
