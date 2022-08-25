@@ -1,7 +1,7 @@
 ! FutaHosts
 ! FutaFilter Host
 ! URL: <https://github.com/FutaGuard/FutaFilter>
-! 2022.08.25.2
+! 2022.08.25.3
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -139,6 +139,7 @@
 ||trkwis.com^
 ||qiigov.tv^
 ||sigov.top^
+||wsflojgov.xyz^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
