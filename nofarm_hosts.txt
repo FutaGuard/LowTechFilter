@@ -1,6 +1,6 @@
-! FutaHosts
-! FutaFilter nofarm
-! URL: <https://github.com/FutaGuard/FutaFilter>
+! LowTechHost
+! LowTechFilter nofarm
+! URL: <https://github.com/FutaGuard/LowTechFilter>
 ! 2021.0916.01
 ! --------------------------------------------------
 ||366service.com^

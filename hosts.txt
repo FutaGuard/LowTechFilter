@@ -1,6 +1,6 @@
 ! FutaHosts
-! FutaFilter Host
-! URL: <https://github.com/FutaGuard/FutaFilter>
+! LowTechFilter Host
+! URL: <https://github.com/FutaGuard/LowTechFilter>
 ! 2022.08.26.10
 ! --------------------------------------------------
 ! 白清單
