@@ -313,7 +313,8 @@ walkerland.com.tw##div[class="top-slide-ad"]
 blockcast.it##span[id="aaspan"]
 mobile01.com##div[id="idle_content"]
 ||www.mobile01.com/ajax/*/idlebox.php^
-||attach2.mobile01.com/js/jquery-fancybox/jquery-fancybox-min.js^
+! 封鎖錯誤
+! ||attach2.mobile01.com/js/jquery-fancybox/jquery-fancybox-min.js^
 times.hinet.net#%#//scriptlet('prevent-setTimeout', 'idleOpen')
 times.hinet.net##div[id="popSetting"]
 times.hinet.net##div[class^="ADbn"]
