@@ -6,7 +6,7 @@ tz = timezone(timedelta(hours=+8))
 domain_list = ''
 with open('../nofarm_hosts.txt', 'r') as files:
     for domains in files.read().split('\n'):
-        if domains[1] != '!':
+        if not domains.startswith('!'):
             domain = domains[2:-1]
             domain_list += 'google.*##div.g:has(div[data-hveid] a[href*="{domain}"])\n'.format(
                 domain=domain
@@ -42,4 +42,3 @@ head = '[Adblock Plus]\n' \
 
 with open('../hide_farm_from_search.txt', 'w') as files:
     files.write(head + domain_list)
-
