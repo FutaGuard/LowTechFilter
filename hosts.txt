@@ -1,7 +1,7 @@
 ! FutaHosts
 ! LowTechFilter Host
 ! URL: <https://github.com/FutaGuard/LowTechFilter>
-! 2022.08.27.2
+! 2022.08.27.3
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -121,7 +121,7 @@
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
 
-! 虛假政府網站詐騙
+! 假冒政府網站詐騙
 ||nigov.tw^
 ||oovgov.com^
 ||scyjdm.com.tw^
@@ -139,6 +139,7 @@
 ||trkwis.com^
 ||qiigov.tv^
 ||viigov.tv^
+||lttgov.tv^
 ||sigov.top^
 ||wsflojgov.xyz^
 ||wsflbwgov.xyz^
