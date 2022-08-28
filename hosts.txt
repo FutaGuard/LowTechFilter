@@ -1,7 +1,7 @@
 ! FutaHosts
 ! LowTechFilter Host
 ! URL: <https://github.com/FutaGuard/LowTechFilter>
-! 2022.08.28.1
+! 2022.08.28.2
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -162,6 +162,7 @@
 ||twysgov.com^
 ||celgov.com^
 ||tiigov.tv^
+||twsgov.me^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
@@ -183,4 +184,4 @@
 /wsf.+gov\.xyz/
 /tw.{3}gov\.com/
 /tw\S{2}gov\.com/
-/\S{3}gov\.(com|tv)/
+/\S{3}gov\.(com|tv|me)/
