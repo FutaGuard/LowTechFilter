@@ -1,7 +1,7 @@
 ! FutaHosts
 ! LowTechFilter Host
 ! URL: <https://github.com/FutaGuard/LowTechFilter>
-! 2022.08.29.4
+! 2022.08.29.5
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -116,6 +116,9 @@
 ! 影音媒體廣告
 ||onead.onevision.com.tw^
 ||ad-specs.guoshipartners.com^
+
+! 色情廣告
+||xdfaus.cn^
 
 ! 低卡廣告
 ||dad-api.dcard.tw^
