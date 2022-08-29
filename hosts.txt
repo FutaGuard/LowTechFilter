@@ -1,7 +1,7 @@
 ! FutaHosts
 ! LowTechFilter Host
 ! URL: <https://github.com/FutaGuard/LowTechFilter>
-! 2022.08.28.2
+! 2022.08.29.1
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -163,6 +163,8 @@
 ||celgov.com^
 ||tiigov.tv^
 ||twsgov.me^
+||livekl.top^
+||jdcgov.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
@@ -178,6 +180,7 @@
 ||elads.kocpc.com.tw^
 ||spotirfy-help-b49b36.ingress-bonde.ewp.live^
 ||acefinance.asia^
+||waitwhy.buzz^
 
 ! regex 規則
 ! 簡訊詐騙
