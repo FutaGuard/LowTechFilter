@@ -1,7 +1,7 @@
 ! FutaHosts
 ! LowTechFilter Host
 ! URL: <https://github.com/FutaGuard/LowTechFilter>
-! 2022.08.30.1
+! 2022.08.30.2
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -120,6 +120,12 @@
 ! 色情廣告
 ||xdfaus.cn^
 
+! 假冒虛擬貨幣交易所網站詐騙
+||bianceance.com^
+
+! 假冒串流影音網站詐騙
+||netfltiw.com^
+
 ! 低卡廣告
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
@@ -129,7 +135,6 @@
 ||oovgov.com^
 ||scyjdm.com.tw^
 ||avogov.com^
-||wsfliagov.xyz^
 ||hhigov.com^
 ||oiigov.com^
 ||rvegov.com^
@@ -144,23 +149,27 @@
 ||viigov.tv^
 ||lttgov.tv^
 ||sigov.top^
-||wsflojgov.xyz^
-||wsflbwgov.xyz^
-||wsflikygov.xyz^
-||wsflojgov.xyz^
-||wsfliegov.xyz^
-||wsfltlwgov.xyz^
-||twxgov.com^
-||twnjkgov.com^
-||twtwdfjgov.xyz^
-||twfgfjgov.shop^
 ||vtigov.com^
 ||vstgov.com^
 ||trrgov.com^
 ||uvvgov.com^
 ||htsgov.com^
 ||oiigov.com^
+||ucxgov.com^
+||wsflojgov.xyz^
+||wsfliagov.xyz^
+||wsflbwgov.xyz^
+||wsflikygov.xyz^
+||wsflojgov.xyz^
+||wsfliegov.xyz^
+||wsfltlwgov.xyz^
+||wsflzogov.xyz^
 ||wsflbtgov.xyz^
+||twxgov.com^
+||twnjkgov.com^
+||twtwdfjgov.xyz^
+||twfgfjgov.shop^
+
 ||welfareml.com^
 ||twysgov.com^
 ||celgov.com^
@@ -168,7 +177,6 @@
 ||twsgov.me^
 ||livekl.top^
 ||jdcgov.com^
-||wsflzogov.xyz^
 ||shukunjin.com^
 
 ||taiwan-free-store.com^
@@ -177,7 +185,6 @@
 ||viewty.xyz^
 ||tw-beaxfun.fun^
 ||investing-reads.com^
-||bianceance.com^
 ||adsv.svc.litv.tv^
 ||vatrack.hinet.net^
 ||sun.advividnetwork.com^
@@ -186,9 +193,7 @@
 ||spotirfy-help-b49b36.ingress-bonde.ewp.live^
 ||acefinance.asia^
 ||waitwhy.buzz^
-||ucxgov.com^
 ||lesartisansdubio.fr^
-||netfltiw.com^
 
 ! regex 規則
 ! 簡訊詐騙
