@@ -1,7 +1,7 @@
 ! FutaHosts
 ! LowTechFilter Host
 ! URL: <https://github.com/FutaGuard/LowTechFilter>
-! 2022.08.30.2
+! 2022.08.30.3
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -194,6 +194,7 @@
 ||acefinance.asia^
 ||waitwhy.buzz^
 ||lesartisansdubio.fr^
+||mohwgovl.com^
 
 ! regex 規則
 ! 簡訊詐騙
