@@ -1,7 +1,7 @@
 ! FutaHosts
 ! LowTechFilter Host
 ! URL: <https://github.com/FutaGuard/LowTechFilter>
-! Version: 2022.0831.8
+! Version: 2022.0831.9
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
