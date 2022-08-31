@@ -209,5 +209,3 @@
 /tw\S{2}gov\.com/
 /\S{3}gov\.(com|tv|me|top)/
 /butie\S+\.(shop|xyz)/
-
-! 誘惑吉診視
