@@ -12,7 +12,7 @@ if len(args) != 2:
 
 files = args[-1]
 
-with open(files, 'r') as f:
+with open(f'../{files}', 'r') as f:
     pattern = r'(?<=Version: )(\d+\.\d+\.)(\d+)'
     read_file = f.read()
     first = '\n'.join(read_file.splitlines()[:5])
