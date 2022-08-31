@@ -28,16 +28,6 @@ jobs:
         with:
           format: "csv"
 
-      - name: Run AutoBuild
-        run: |
-          cd ${{ github.workspace }}/AutoBuild
-          python pure_domain.py
-
-      - name: Commit files modified by "AutoBuild" step
-        run: |
-          git add domains.txt
-          git commit -m "🤖 自動更新 domains.txt" || echo "[INFO] Fail to commit domains.txt, may not need to update the file?"
-
       - name: Run AutoUpdateVerNum
         run: |
           cd ${{ github.workspace }}/AutoBuild
@@ -50,6 +40,16 @@ jobs:
         run: |
           git add *.txt
           git commit -m "🤖 自動更新 版本號" || echo "[INFO] Fail to update version number, may not need to update at all?"
+
+      - name: Run AutoBuild
+        run: |
+          cd ${{ github.workspace }}/AutoBuild
+          python pure_domain.py
+
+      - name: Commit files modified by "AutoBuild" step
+        run: |
+          git add domains.txt
+          git commit -m "🤖 自動更新 domains.txt" || echo "[INFO] Fail to commit domains.txt, may not need to update the file?"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
