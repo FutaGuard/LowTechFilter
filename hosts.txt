@@ -159,6 +159,7 @@
 ||ymsgov.com^
 ||nsrgov.com^
 ||kragov.com^
+||cpggov.com^
 ||wsflojgov.xyz^
 ||wsfliagov.xyz^
 ||wsflbwgov.xyz^
