@@ -19,6 +19,7 @@ jobs:
           check-name: "Auto Update Version"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           wait-interval: 10
+          allowed-conclusions: success,skipped,cancelled
 
       - uses: actions/checkout@v2
 
