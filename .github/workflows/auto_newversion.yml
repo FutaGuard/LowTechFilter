@@ -29,3 +29,12 @@ jobs:
           for added_modified_file in "${added_modified_files[@]}"; do
             python auto_update_version.py
           done
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add *.txt
+          git commit -m "🤖 自動更新 版本號"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
