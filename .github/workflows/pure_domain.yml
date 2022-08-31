@@ -34,5 +34,3 @@ jobs:
           git commit -m "🤖 自動更新 domains.txt"
       - name: Push changes
         uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.FUTAFILTERAUTOBUILD }}
