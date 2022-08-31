@@ -1,7 +1,7 @@
 ! FutaHosts
 ! LowTechFilter Host
 ! URL: <https://github.com/FutaGuard/LowTechFilter>
-! Version: 2022.0831.1
+! Version: 2022.0831.3
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -157,6 +157,7 @@
 ||oiigov.com^
 ||ucxgov.com^
 ||ymsgov.com^
+||nsrgov.com^
 ||wsflojgov.xyz^
 ||wsfliagov.xyz^
 ||wsflbwgov.xyz^
