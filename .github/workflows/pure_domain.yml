@@ -30,6 +30,7 @@ jobs:
 
       - name: Run AutoBuild
         run: |
+          git pull
           cd AutoBuild
           python pure_domain.py
 
