@@ -1,19 +1,25 @@
 name: PureDomain
 
-on:
-  workflow_dispatch:
-  push:
-    paths:
-      - "hosts.txt"
-      - "AutoBuild/pure_domain.py"
+# on:
+#   workflow_dispatch:
+#   push:
+#     paths:
+#       - "hosts.txt"
+#       - "AutoBuild/pure_domain.py"
 
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     steps:
+      - name: Wait for auto new version finished
+        uses: lewagon/wait-on-check-action@v1.0.0
+        with:
+          ref: ${{ github.ref }}
+          check-name: "Auto Update Version"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 10
+
       - uses: actions/checkout@v2
 
       - name: Set up Python
