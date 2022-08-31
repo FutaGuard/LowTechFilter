@@ -25,5 +25,5 @@ with open(f'../{files}', 'r') as f:
     else:
         newversion += str(int(version[1])+1)
 
-    with open(files, 'w') as f_:
+    with open(f'../{files}', 'w') as f_:
         f_.write(read_file.replace(''.join(version), newversion))
