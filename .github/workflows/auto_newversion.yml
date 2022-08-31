@@ -4,11 +4,10 @@ on:
   push:
     paths:
       - "**.txt"
+      - "AutoBuild/pure_domain.py"
 
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     steps:
@@ -19,12 +18,19 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Run AutoBuild
+        run: |
+          cd ${{ github.workspace }}/AutoBuild
+          python pure_domain.py
+
       - id: files
         uses: jitterbit/get-changed-files@v1
         with:
           format: "csv"
-      - run: |
-          cd AutoBuild
+
+      - name: Run AutoUpdateVerNum
+        run: |
+          cd ${{ github.workspace }}/AutoBuild
           mapfile -d ',' -t added_modified_files < <(printf '%s,' '${{ steps.files.outputs.added_modified }}')
           for added_modified_file in "${added_modified_files[@]}"; do
             python auto_update_version.py ${added_modified_file}
@@ -34,7 +40,13 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add domains.txt
+          git commit -m "🤖 自動更新 domains.txt" || echo "[INFO] Fail to commit domains.txt, may not need to update the file?"
           git add *.txt
           git commit -m "🤖 自動更新 版本號"
+
       - name: Push changes
         uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
