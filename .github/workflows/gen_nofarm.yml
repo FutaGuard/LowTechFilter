@@ -1,6 +1,7 @@
 name: Hide_FarmContent_From_Search
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "nofarm_hosts.txt"
