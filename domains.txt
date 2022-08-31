@@ -1,198 +1,120 @@
-! FutaHosts
-! LowTechFilter Host
-! URL: <https://github.com/FutaGuard/LowTechFilter>
-! 2022.08.30.6
-! --------------------------------------------------
-! 白清單
-@@||ip2location.com^
-@@||fonts.gstatic.com^
-
-! hackmd 登入必要
-@@||quantserve.com^
-
-! 短網址
-@@||s.yam.com^
-@@||buff.ly^
-@@||0rz.tw^
-
-! 部落格
-@@||blog.udn.com^
-
-! Amazon 數位商品購買驗證
-@@||fls-na.amazon.com
-
-! Apple 網頁元件
-@@||securemetrics.apple.com^
-
-! Line Pay 公告
-@@||torimochi.line-apps.com^
-
-! 台灣樂透
-@@||www.taiwanlottery.com.tw^
-
-! Yahoo! 新聞影片
-@@||edgecast-vod.yahoo.net
-
-! --------------------------------------------------
-! 黑名單
-||5hz.org^
-
-! 針對台灣的簡訊詐騙
-||awetd.club^
-||sexsa.xyz^
-||waetd.xyz^
-||super-1.vip^
-
-! 針對香港的簡訊詐騙
-||hongkongpost.cf^
-
-! 追蹤
-||t.holmesmind.com^
-
-! 新聞
-||ad.ettoday.net^
-||ad*.nownews.com^
-
-! Yahoo! 新聞廣告
-||fc.yahoo.com^
-
-! SEO 濫用
-||pizzaseo.com^
-
-! 漫畫人廣告
-||videoapi.manhuaren.com^
-
-! 詐騙
-||wildernbus1.live^
-||ladiestofuck.com^
-||taiwan-bestdeals.com^
-||fghjkd.com^
-||track-post-tw.com^
-||track-post-gov-tw.info^
-||brainstudy.info^
-||m2j1.ukwwx.com^
-
-! 釣魚
-||track-post-gov-tw.info^
-||goodluckdog.space^
-
-! M$ Appcenter log
-||in.appcenter.ms^
-
-! $ony 耳機 App
-||ndmdhs.com^
-
-! 垃圾 Line 詐騙
-||baixingnew.com^
-||free-point-receive.weebly.com^
-||freedlinestore.com^
-||healthy001.top^
-||kfc-vip.vip^
-||linemestickershop.weebly.com^
-||owo-owo.vip^
-||sjpop1z.com^
-||xtwnjf.com^
-||xvlpazn.cn^
-||healthy007.top^
-||vip-l53.work^
-||cjfeicui.net^
-
-! Weebly 詐騙
-||netfllx.weebly.com^
-
-! 臉輸詐騙
-||dented-sun-colt.glitch.me^
-
-! 混淆垃圾農場網頁
-||7box.vip^
-||renaultpassonxperience.co^
-||softwarebrother.com^
-||yuutoday.com^
-
-! 抽獎廣告
-||weeklywinningluckydayextra.cyou^
-||winning-coupon-theday-congrats.cyou^
-
-! 影音媒體廣告
-||onead.onevision.com.tw^
-||ad-specs.guoshipartners.com^
-
-! 色情廣告
-||xdfaus.cn^
-
-! 假冒虛擬貨幣交易所網站詐騙
-||bianceance.com^
-
-! 假冒串流影音網站詐騙
-||netfltiw.com^
-
-! 低卡廣告
-||dad-api.dcard.tw^
-||xlate.dcard.tw^
-
-! 假冒政府網站詐騙
-||nigov.tw^
-||oovgov.com^
-||scyjdm.com.tw^
-||avogov.com^
-||hhigov.com^
-||oiigov.com^
-||rvegov.com^
-||jjhrt.net^
-||jscgov.com^
-||rie.vtrgov.com^
-||ynrgov.com^
-||eiegov.com^
-||tw1988.link^
-||trkwis.com^
-||qiigov.tv^
-||viigov.tv^
-||lttgov.tv^
-||sigov.top^
-||vtigov.com^
-||vstgov.com^
-||trrgov.com^
-||uvvgov.com^
-||htsgov.com^
-||oiigov.com^
-||ucxgov.com^
-||wsflojgov.xyz^
-||wsfliagov.xyz^
-||wsflbwgov.xyz^
-||wsflikygov.xyz^
-||wsflojgov.xyz^
-||wsfliegov.xyz^
-||wsfltlwgov.xyz^
-||wsflzogov.xyz^
-||wsflbtgov.xyz^
-||twxgov.com^
-||twnjkgov.com^
-||twtwdfjgov.xyz^
-||twfgfjgov.shop^
-
-||welfareml.com^
-||twysgov.com^
-||celgov.com^
-||tiigov.tv^
-||twsgov.me^
-||livekl.top^
-||jdcgov.com^
-||shukunjin.com^
-||vdegov.com^
-
-||taiwan-free-store.com^
-||tw-track.com^
-||discord-i.com^
-||viewty.xyz^
-||tw-beaxfun.fun^
-||investing-reads.com^
-||adsv.svc.litv.tv^
-||vatrack.hinet.net^
-||sun.advividnetwork.com^
-||ad.setn.com^
-||elads.kocpc.com.tw^
-||spotirfy-help-b49b36.ingress-bonde.ewp.live^
-||acefinance.asia^
-||waitwhy.buzz^
-||lesartisansdubio.fr^
-||mohwgovl.com^
+# FutaHosts
+# LowTechFilter Host
+# URL: <https://github.com/FutaGuard/LowTechFilter>
+# 2022.08.30.6
+# --------------------------------------------------
+5hz.org
+awetd.club
+sexsa.xyz
+waetd.xyz
+super-1.vip
+hongkongpost.cf
+t.holmesmind.com
+ad.ettoday.net
+ad*.nownews.com
+fc.yahoo.com
+pizzaseo.com
+videoapi.manhuaren.com
+wildernbus1.live
+ladiestofuck.com
+taiwan-bestdeals.com
+fghjkd.com
+track-post-tw.com
+track-post-gov-tw.info
+brainstudy.info
+m2j1.ukwwx.com
+track-post-gov-tw.info
+goodluckdog.space
+in.appcenter.ms
+ndmdhs.com
+baixingnew.com
+free-point-receive.weebly.com
+freedlinestore.com
+healthy001.top
+kfc-vip.vip
+linemestickershop.weebly.com
+owo-owo.vip
+sjpop1z.com
+xtwnjf.com
+xvlpazn.cn
+healthy007.top
+vip-l53.work
+cjfeicui.net
+netfllx.weebly.com
+dented-sun-colt.glitch.me
+7box.vip
+renaultpassonxperience.co
+softwarebrother.com
+yuutoday.com
+weeklywinningluckydayextra.cyou
+winning-coupon-theday-congrats.cyou
+onead.onevision.com.tw
+ad-specs.guoshipartners.com
+xdfaus.cn
+bianceance.com
+netfltiw.com
+dad-api.dcard.tw
+xlate.dcard.tw
+nigov.tw
+oovgov.com
+scyjdm.com.tw
+avogov.com
+hhigov.com
+oiigov.com
+rvegov.com
+jjhrt.net
+jscgov.com
+rie.vtrgov.com
+ynrgov.com
+eiegov.com
+tw1988.link
+trkwis.com
+qiigov.tv
+viigov.tv
+lttgov.tv
+sigov.top
+vtigov.com
+vstgov.com
+trrgov.com
+uvvgov.com
+htsgov.com
+oiigov.com
+ucxgov.com
+wsflojgov.xyz
+wsfliagov.xyz
+wsflbwgov.xyz
+wsflikygov.xyz
+wsflojgov.xyz
+wsfliegov.xyz
+wsfltlwgov.xyz
+wsflzogov.xyz
+wsflbtgov.xyz
+twxgov.com
+twnjkgov.com
+twtwdfjgov.xyz
+twfgfjgov.shop
+welfareml.com
+twysgov.com
+celgov.com
+tiigov.tv
+twsgov.me
+livekl.top
+jdcgov.com
+shukunjin.com
+vdegov.com
+taiwan-free-store.com
+tw-track.com
+discord-i.com
+viewty.xyz
+tw-beaxfun.fun
+investing-reads.com
+adsv.svc.litv.tv
+vatrack.hinet.net
+sun.advividnetwork.com
+ad.setn.com
+elads.kocpc.com.tw
+spotirfy-help-b49b36.ingress-bonde.ewp.live
+acefinance.asia
+waitwhy.buzz
+lesartisansdubio.fr
+mohwgovl.com
