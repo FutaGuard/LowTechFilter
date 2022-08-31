@@ -18,10 +18,10 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Run AutoBuild
+      - name: Set up Git config
         run: |
-          cd ${{ github.workspace }}/AutoBuild
-          python pure_domain.py
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
 
       - id: files
         uses: jitterbit/get-changed-files@v1
@@ -36,14 +36,20 @@ jobs:
             python auto_update_version.py ${added_modified_file}
           done
 
-      - name: Commit files
+      - name: Commit files modified by "AutoUpdateVerNum" step
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git add *.txt
+          git commit -m "🤖 自動更新 版本號" || echo "[INFO] Fail to update version number, may not need to update at all?"
+
+      - name: Run AutoBuild
+        run: |
+          cd ${{ github.workspace }}/AutoBuild
+          python pure_domain.py
+
+      - name: Commit files modified by "AutoBuild" step
+        run: |
           git add domains.txt
           git commit -m "🤖 自動更新 domains.txt" || echo "[INFO] Fail to commit domains.txt, may not need to update the file?"
-          git add *.txt
-          git commit -m "🤖 自動更新 版本號"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
