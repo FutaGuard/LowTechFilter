@@ -197,9 +197,4 @@
 ||lesartisansdubio.fr^
 ||mohwgovl.com^
 
-! regex 規則 簡訊詐騙
-/wsf.+gov\.xyz/
-/tw.{3}gov\.com/
-/tw\S{2}gov\.com/
-/\S{3}gov\.(com|tv|me|top)/
-/butie\S+\.(shop|xyz)/
+! 簡訊詐騙
