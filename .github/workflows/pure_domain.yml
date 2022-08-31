@@ -1,11 +1,11 @@
 name: PureDomain
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "hosts.txt"
       - "AutoBuild/pure_domain.py"
-      - "workflow_dispatch"
 
 jobs:
   # This workflow contains a single job called "build"
