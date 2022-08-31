@@ -1,7 +1,7 @@
 name: Auto Update Version
 
 on:
-  workflow_dispatch:
+  push:
 
 jobs:
   # This workflow contains a single job called "build"
