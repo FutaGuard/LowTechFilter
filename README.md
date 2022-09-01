@@ -34,6 +34,7 @@ https://t.me/adguard_tw
 
 - <https://filter.futa.gg/hosts.txt>
 - <https://filter.futa.gg/nofarm_hosts.txt>
+- <https://filter.futa.gg/domains.txt>（純粹 domain 而已）
 
 ### Surge 語法
 
