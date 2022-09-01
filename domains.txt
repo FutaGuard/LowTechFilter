@@ -1,7 +1,7 @@
 # FutaHosts
 # LowTechFilter Host
 # URL: <https://github.com/FutaGuard/LowTechFilter>
-# Version: 2022.0901.2
+# Version: 2022.0901.3
 # --------------------------------------------------
 5hz.org
 awetd.club
@@ -111,6 +111,7 @@ shukunjin.com
 vdegov.com
 yqbz2.xyz
 fucgov.tv
+twcdq.me
 taiwan-free-store.com
 tw-track.com
 discord-i.com
