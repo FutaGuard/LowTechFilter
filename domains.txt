@@ -1,7 +1,7 @@
 # FutaHosts
 # LowTechFilter Host
 # URL: <https://github.com/FutaGuard/LowTechFilter>
-# Version: 2022.0901.10
+# Version: 2022.0901.11
 # --------------------------------------------------
 5hz.org
 awetd.club
@@ -14,6 +14,7 @@ ad.ettoday.net
 ad*.nownews.com
 fc.yahoo.com
 pizzaseo.com
+wellview.com.tw
 videoapi.manhuaren.com
 wildernbus1.live
 ladiestofuck.com
