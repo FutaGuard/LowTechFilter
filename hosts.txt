@@ -59,6 +59,7 @@
 
 ! SEO 濫用
 ||pizzaseo.com^
+||wellview.com.tw^
 
 ! 漫畫人廣告
 ||videoapi.manhuaren.com^
