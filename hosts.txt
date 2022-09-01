@@ -179,6 +179,7 @@
 ||celgov.com^
 ||tiigov.tv^
 ||twsgov.me^
+||twtla.me^
 ||livekl.top^
 ||jdcgov.com^
 ||shukunjin.com^
