@@ -34,7 +34,7 @@ https://t.me/adguard_tw
 
 - <https://filter.futa.gg/hosts.txt>
 - <https://filter.futa.gg/nofarm_hosts.txt>
-- <https://filter.futa.gg/domains.txt>（純粹 domain 而已）
+- <https://filter.futa.gg/domains.txt>（純粹 domain 而已，若原先有訂閱 hosts.txt 則不需要另外訂閱，此為特定用途。）
 
 ### Surge 語法
 
