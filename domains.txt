@@ -1,7 +1,7 @@
 # FutaHosts
 # LowTechFilter Host
 # URL: <https://github.com/FutaGuard/LowTechFilter>
-# Version: 2022.0901.7
+# Version: 2022.0901.8
 # --------------------------------------------------
 5hz.org
 awetd.club
@@ -99,6 +99,7 @@ twxgov.com
 twnjkgov.com
 twtwdfjgov.xyz
 twfgfjgov.shop
+aagov.shop
 drsgov.com
 welfareml.com
 twysgov.com
@@ -108,6 +109,7 @@ twsgov.me
 twtla.me
 twmqn.me
 twvxp.me
+twspk.me
 ztcgov.me
 livekl.top
 jdcgov.com
