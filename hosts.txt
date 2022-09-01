@@ -160,6 +160,7 @@
 ||nsrgov.com^
 ||kragov.com^
 ||cpggov.com^
+||iigov.xyz^
 ||wsflojgov.xyz^
 ||wsfliagov.xyz^
 ||wsflbwgov.xyz^
