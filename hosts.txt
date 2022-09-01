@@ -149,6 +149,7 @@
 ||viigov.tv^
 ||lttgov.tv^
 ||sigov.top^
+||stugov.tv^
 ||vtigov.com^
 ||vstgov.com^
 ||trrgov.com^
