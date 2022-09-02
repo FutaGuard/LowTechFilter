@@ -11,7 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }} # Checkout the correct branch name
+          fetch-depth: 0 # Fetch the whole repo history
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -22,6 +25,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          OLD_MSG=$(git log --format=%B -n1)
 
       - id: files
         uses: jitterbit/get-changed-files@v1
@@ -38,8 +42,7 @@ jobs:
 
       - name: Commit files modified by "AutoUpdateVerNum" step
         run: |
-          git add *.txt
-          git commit -m "🤖 自動更新 版本號" || echo "[INFO] Fail to update version number, may not need to update at all?"
+          git commit --amend -a -m "🤖 自動更新 版本號" -m"$OLD_MSG" || echo "[INFO] Fail to update version number, may not need to update at all?"
 
       - name: Run AutoBuild
         run: |
@@ -48,11 +51,11 @@ jobs:
 
       - name: Commit files modified by "AutoBuild" step
         run: |
-          git add domains.txt
-          git commit -m "🤖 自動更新 domains.txt" || echo "[INFO] Fail to commit domains.txt, may not need to update the file?"
+          git commit --amend -a -m "🤖 自動更新 domains.txt" -m"$OLD_MSG" || echo "[INFO] Fail to commit domains.txt, may not need to update the file?"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
+          force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
