@@ -176,6 +176,7 @@ tw.appledaily.com#%#//scriptlet('remove-attr', 'preload', 'video')
 tw.appledaily.com#%#//scriptlet('remove-attr', 'autoplay', 'video')
 appledaily.com.tw##.TW-MOBILE-AD-WRAP
 appledaily.com.tw##.tw-mobile-social_container
+tw.nextapple.com#%#//scriptlet('set-cookie-reload', 'app_popup', '1')
 
 ! Yahoo 新聞
 tw.news.yahoo.com#%#//scriptlet('abort-current-inline-script', 'initCode')
