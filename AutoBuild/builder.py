@@ -46,7 +46,7 @@ for category in filterlist:
             newversion += str(int(version[1]) + 1)
 
         with open(f'../{filename}', 'r') as files:
-            with open(f'../{filename}', 'w') as output:
+            with open(f'{filename}', 'w') as output:
                 heads: str = HEAD().__getattribute__(category)
                 news = heads.format(
                     name=filename.split('.')[0].replace('_', ' ').title(),
