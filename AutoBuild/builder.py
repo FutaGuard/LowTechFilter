@@ -1,7 +1,7 @@
-import requests
 import re
 from datetime import datetime, timedelta, timezone
-import os
+
+import requests
 
 filterlist = {
     'abp': ['experimental.txt', 'filter.txt'],
@@ -20,17 +20,17 @@ class HEAD:
                '! Homepage: https://t.me/AdBlock_TW\n' \
                '! ----------------------------------------------------------------------\n'
     hosts: str = '! FutaHosts\n' \
-                '! LowTechFilter {name}\n' \
-                '! URL: <https://github.com/FutaGuard/LowTechFilter>\n' \
-                '! Version: {version}\n' \
-                '! --------------------------------------------------\n'
+                 '! LowTechFilter {name}\n' \
+                 '! URL: <https://github.com/FutaGuard/LowTechFilter>\n' \
+                 '! Version: {version}\n' \
+                 '! --------------------------------------------------\n'
 
 
 for category in filterlist:
     for filename in filterlist[category]:
         pattern = r'(?<=Version: )(\d+\.\d+\.)(\d+)'
 
-        r = requests.get(url+filename)
+        r = requests.get(url + filename)
         first = None
         version = None
         if r.status_code != 200:
@@ -59,7 +59,7 @@ for category in filterlist:
                     name=filename.split('.')[0].replace('_', ' ').title(),
                     version=newversion
                 )
-                output.write(newhead+data)
+                output.write(newhead + data)
 
             ### SP ###
             # hide farm site from google
