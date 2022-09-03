@@ -1,6 +1,7 @@
 import requests
 import re
 from datetime import datetime, timedelta, timezone
+import os
 
 filterlist = {
     'abp': ['experimental.txt', 'filter.txt'],
@@ -10,12 +11,13 @@ url = 'https://filter.futa.gg/'
 tz = timezone(timedelta(hours=+8))
 today = datetime.now(tz).date()
 
+
 class HEAD:
     abp: str = '[Adblock Plus]\n' \
                '! Title: LowTechFilter {name}\n' \
                '! Version: {version}\n' \
                '! Expires: 1 hour\n' \
-               '! Homepage: https://t.me/adguard_tw\n' \
+               '! Homepage: https://t.me/AdBlock_TW\n' \
                '! ----------------------------------------------------------------------\n'
     hosts: str = '! FutaHosts\n' \
                 '! LowTechFilter {name}\n' \
@@ -52,8 +54,37 @@ for category in filterlist:
         with open(f'../{filename}', 'r') as files:
             with open(f'{filename}', 'w') as output:
                 heads: str = HEAD().__getattribute__(category)
-                news = heads.format(
+                newhead = heads.format(
                     name=filename.split('.')[0].replace('_', ' ').title(),
                     version=newversion
                 )
-                output.write(news+files.read())
+                output.write(newhead+files.read())
+
+            ### SP ###
+            # hide farm site from google
+            if filename == 'nofarm_hosts.txt':
+                domain_list = ''
+                for domains in files.read().splitlines():
+                    if not domains.startswith('!'):
+                        domain = domains[2:-1]
+                        domain_list += 'google.*##div.g:has(div[data-hveid] a[href*="{domain}"])\n'.format(
+                            domain=domain
+                        )
+                heads: str = HEAD().__getattribute__('hosts')
+                newhead = heads.format(
+                    name='hide farm content from google',
+                    version=newversion
+                )
+                with open('hide_farm_from_search.txt', 'w') as f:
+                    f.write(newhead + domain_list)
+
+            # hosts to domains
+            if filename == 'hosts.txt':
+                data = files.read().splitlines()
+                newdata = '\n'.join(data[5:])
+                desc = '\n'.join(x.replace('!', '#') for x in data[:5]) + '\n'
+
+                with open('../domains.txt', 'w') as output:
+                    pattern = r'(?<=^\|\|)\S+\.\S{2,}(?=\^)'
+                    desc += '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
+                    output.write(desc)
