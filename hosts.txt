@@ -97,6 +97,9 @@
 ! Weebly 詐騙
 ||netfllx.weebly.com^
 
+! 博彩詐騙
+||365rcs.com^
+
 ! 臉輸詐騙
 ||dented-sun-colt.glitch.me^
 
