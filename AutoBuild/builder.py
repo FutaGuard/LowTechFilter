@@ -26,15 +26,19 @@ class HEAD:
 
 for category in filterlist:
     for filename in filterlist[category]:
-        r = requests.get(url+filename)
-        if r.status_code != 200:
-            break
         pattern = r'(?<=Version: )(\d+\.\d+\.)(\d+)'
-        first = '\n'.join(r.text.splitlines()[:5])
+
+        r = requests.get(url+filename)
+        first = None
         version = None
+        if r.status_code != 200:
+            pass
+        else:
+            first = '\n'.join(r.text.splitlines()[:5])
+
         try:
             version = re.findall(pattern, first, re.MULTILINE)[0]
-        except IndexError:
+        except:
             # https://www.ptt.cc/bbs/Battlegirlhs/M.1506615677.A.1A4.html
             version = ('2017.0929.', '1')
 
