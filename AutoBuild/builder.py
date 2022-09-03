@@ -52,19 +52,20 @@ for category in filterlist:
             newversion += str(int(version[1]) + 1)
 
         with open(f'../{filename}', 'r') as files:
+            data = files.read()
             with open(f'{filename}', 'w') as output:
                 heads: str = HEAD().__getattribute__(category)
                 newhead = heads.format(
                     name=filename.split('.')[0].replace('_', ' ').title(),
                     version=newversion
                 )
-                output.write(newhead+files.read())
+                output.write(newhead+data)
 
             ### SP ###
             # hide farm site from google
             if filename == 'nofarm_hosts.txt':
                 domain_list = ''
-                for domains in files.read().splitlines():
+                for domains in data.splitlines():
                     if not domains.startswith('!'):
                         domain = domains[2:-1]
                         domain_list += 'google.*##div.g:has(div[data-hveid] a[href*="{domain}"])\n'.format(
@@ -80,11 +81,11 @@ for category in filterlist:
 
             # hosts to domains
             if filename == 'hosts.txt':
-                data = files.read().splitlines()
+                data = data.splitlines()
                 newdata = '\n'.join(data[5:])
                 desc = '\n'.join(x.replace('!', '#') for x in data[:5]) + '\n'
 
-                with open('../domains.txt', 'w') as output:
+                with open('domains.txt', 'w') as output:
                     pattern = r'(?<=^\|\|)\S+\.\S{2,}(?=\^)'
                     desc += '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
                     output.write(desc)
