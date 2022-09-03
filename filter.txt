@@ -1,9 +1,3 @@
-[Adblock Plus]
-! Title: LowTechFilter
-! Version: 2022.0902.1
-! Expires: 1 hour
-! Homepage: https://t.me/adguard_tw
-! ----------------------------------------------------------------------
 ! PTT 驗證
 ! www.ptt.cc#%#document.onreadystatechange=()=>{if(location.pathname.includes('/ask/over18')){document.querySelectorAll('.over18-button-container>button[name="yes"]').forEach(x=>x.click())}};
 ! ----------------------------------------------------------------------

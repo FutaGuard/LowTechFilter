@@ -1,11 +1,4 @@
-[Adblock Plus]
-! Title: LowTechFilter Experimental
-! Version: 2022.0728.01
-! Expires: 1 hour
-! Homepage: https://t.me/adguard_tw
-! ----------------------------------------------------------------------
-! 
-! === 此為實驗性過濾清單 === 
+! === 此為實驗性過濾清單 ===
 ! === THIS IS AN EXPERIMENTAL FILTER ===
 ! 
 ! Shopee.tw

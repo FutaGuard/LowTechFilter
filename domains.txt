@@ -1,8 +1,3 @@
-# FutaHosts
-# LowTechFilter Host
-# URL: <https://github.com/FutaGuard/LowTechFilter>
-# Version: 2022.0902.1
-# --------------------------------------------------
 5hz.org
 awetd.club
 sexsa.xyz

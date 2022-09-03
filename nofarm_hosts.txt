@@ -1,7 +1,7 @@
 ! LowTechHost
 ! LowTechFilter nofarm
 ! URL: <https://github.com/FutaGuard/LowTechFilter>
-! 2021.0916.01
+! Version: 2021.0916.01
 ! --------------------------------------------------
 ||366service.com^
 ||7box.vip^
