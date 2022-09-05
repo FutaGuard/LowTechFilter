@@ -222,5 +222,5 @@
 /wsf.+gov\.xyz/
 /tw.{3}gov\.com/
 /tw\S{2}gov\.com/
-/\S{3}gov\.(com|tv|me|top)/
+/[a-z]{3}gov\.(com|tv|me|top)/
 /butie\S+\.(shop|xyz)/
