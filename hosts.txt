@@ -150,6 +150,7 @@
 ||lttgov.tv^
 ||sigov.top^
 ||stugov.tv^
+||ycxgov.tv^
 ||vtigov.com^
 ||vstgov.com^
 ||trrgov.com^
