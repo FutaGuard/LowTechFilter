@@ -51,7 +51,7 @@ for category in filterlist:
         else:
             newversion += str(int(version[1]) + 1)
 
-        with open(f'../{filename}', 'r') as files:
+        with open(f'{filename}', 'r') as files:
             data = files.read()
             with open(f'{filename}', 'w') as output:
                 heads: str = HEAD().__getattribute__(category)
