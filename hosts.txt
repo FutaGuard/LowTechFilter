@@ -202,6 +202,7 @@
 ||tyfegov.site^
 ||hfdewgov.site^
 ||aogov.xyz^
+||hjxgov.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
