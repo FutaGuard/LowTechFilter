@@ -69,6 +69,7 @@
 ||brainstudy.info^
 ||m2j1.ukwwx.com^
 ||tw-redpacket-51.com^
+||gzjysd.com^
 
 ! 釣魚
 ||track-post-gov-tw.info^
