@@ -68,6 +68,8 @@
 ||track-post-gov-tw.info^
 ||brainstudy.info^
 ||m2j1.ukwwx.com^
+||tw-redpacket-51.com^
+||gzjysd.com^
 
 ! 釣魚
 ||track-post-gov-tw.info^
@@ -150,6 +152,7 @@
 ||lttgov.tv^
 ||sigov.top^
 ||stugov.tv^
+||ycxgov.tv^
 ||vtigov.com^
 ||vstgov.com^
 ||trrgov.com^
@@ -188,6 +191,7 @@
 ||twmqn.me^
 ||twvxp.me^
 ||twspk.me^
+||twvrj.me^
 ||ztcgov.me^
 ||livekl.top^
 ||jdcgov.com^
@@ -197,6 +201,10 @@
 ||fucgov.tv^
 ||twcdq.me^
 ||fgov.shop^
+||tyfegov.site^
+||hfdewgov.site^
+||aogov.xyz^
+||hjxgov.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
@@ -215,9 +223,11 @@
 ||lesartisansdubio.fr^
 ||mohwgovl.com^
 
+||captchaless.top^
+
 ! regex 規則 簡訊詐騙
 /wsf.+gov\.xyz/
 /tw.{3}gov\.com/
 /tw\S{2}gov\.com/
-/\S{3}gov\.(com|tv|me|top)/
+/[a-z]{3}gov\.(com|tv|me|top)/
 /butie\S+\.(shop|xyz)/

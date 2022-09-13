@@ -296,6 +296,7 @@ yzzk.com##.content div.promo
 ! 知乎
 zhihu.com##div[class="Modal-wrapper undefined Modal-enter-done"]
 zhihu.com#$#html { overflow: scroll !important; }
+zhihu.com##div[class^=css-]:empty
 
 ! 詐騙
 ||brainstudy.info^
