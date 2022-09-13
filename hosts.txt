@@ -223,6 +223,8 @@
 ||lesartisansdubio.fr^
 ||mohwgovl.com^
 
+||captchaless.top^
+
 ! regex 規則 簡訊詐騙
 /wsf.+gov\.xyz/
 /tw.{3}gov\.com/
