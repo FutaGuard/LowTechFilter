@@ -59,7 +59,7 @@ fn main() {
 
             let mut name: Vec<&str> = text.split(".").collect();
             let name = name[0];
-            let output = match category.0.as_str() {
+            let mut output = match category.0.as_str() {
                 "hosts" => {
                     format!(
                         "! FutaHosts\n\
@@ -87,7 +87,6 @@ fn main() {
                     continue;
                 }
             };
-
             // open and ready to write
             let path = Path::new(text);
             let display = path.display(); // Option 用
@@ -100,19 +99,19 @@ fn main() {
             match file.read_to_string(&mut reader) {
                 Err(why) => panic!("couldn't read {}: {:?}", display, why),
                 Ok(..) => println!("{:?}", reader),
+            };
+
+            output.push_str(&reader);
+            let mut file = match File::create(&path) {
+                Err(why) => panic!("couldn't create {}: {:?}", display, why),
+                Ok(file) => file,
+            };
+            match file.write_all(output.as_bytes()) {
+                Err(why) => {
+                    panic!("couldn't write to {}: {:?}", display, why)
+                },
+                _ => {},
             }
-            println!("{}", reader);
-            // println!("{:?}", file);
-            // let mut file = match File::create(&path) {
-            //     Err(why) => panic!("couldn't create {}: {:?}", display, why),
-            //     Ok(file) => file,
-            // };
-            // match file.write_all(LOREM_IPSUM.as_bytes()) {
-            //     Err(why) => {
-            //         panic!("couldn't write to {}: {:?}", display, why)
-            //     },
-            //     _ => {},
-            // }
         }
     }
 }
