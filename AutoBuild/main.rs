@@ -59,10 +59,9 @@ fn main() {
 
             let mut name: Vec<&str> = text.split(".").collect();
             let name = name[0];
-            let mut output = String::from("");
-            match category.0.as_str() {
+            let output = match category.0.as_str() {
                 "hosts" => {
-                    output = format!(
+                    format!(
                         "! FutaHosts\n\
                     ! LowTechFilter {name}\n\
                     ! URL: <https://github.com/FutaGuard/LowTechFilter>\n\
@@ -73,7 +72,7 @@ fn main() {
                     )
                 }
                 "abp" => {
-                    output = format!(
+                    format!(
                         "[Adblock Plus]\n\
                     ! Title: LowTechFilter {name}\n\
                     ! Version: {version}\n\
@@ -84,7 +83,9 @@ fn main() {
                         version = newversion
                     )
                 }
-                _ => {}
+                _ => {
+                    continue;
+                }
             };
 
             // open and ready to write
