@@ -101,12 +101,12 @@ fn main() {
                 Err(why) => panic!("couldn't read {}: {:?}", display, why),
                 Ok(..) => println!("{:?}", reader),
             }
-
-            println!("{:?}", file);
-            let mut file = match File::create(&path) {
-                Err(why) => panic!("couldn't create {}: {:?}", display, why),
-                Ok(file) => file,
-            };
+            println!("{}", reader);
+            // println!("{:?}", file);
+            // let mut file = match File::create(&path) {
+            //     Err(why) => panic!("couldn't create {}: {:?}", display, why),
+            //     Ok(file) => file,
+            // };
             // match file.write_all(LOREM_IPSUM.as_bytes()) {
             //     Err(why) => {
             //         panic!("couldn't write to {}: {:?}", display, why)
