@@ -71,7 +71,7 @@ for category in filterlist:
                         domain_list += 'google.*##div.g:has(div[data-hveid] a[href*="{domain}"])\n'.format(
                             domain=domain
                         )
-                heads: str = HEAD().__getattribute__('hosts')
+                heads: str = HEAD().__getattribute__('abp')
                 newhead = heads.format(
                     name='hide farm content from google',
                     version=newversion
