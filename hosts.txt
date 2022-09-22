@@ -224,6 +224,7 @@
 ||mohwgovl.com^
 
 ||captchaless.top^
+||postchunghwa-tw.sytes.net^
 
 ! regex 規則 簡訊詐騙
 /wsf.+gov\.xyz/
