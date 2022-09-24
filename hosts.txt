@@ -74,6 +74,7 @@
 ! 釣魚
 ||track-post-gov-tw.info^
 ||goodluckdog.space^
+||beats.com.tw^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
