@@ -75,6 +75,7 @@
 ||track-post-gov-tw.info^
 ||goodluckdog.space^
 ||beats.com.tw^
+||buy.ssggddh.top^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
