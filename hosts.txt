@@ -80,6 +80,7 @@
 ||beats.com.tw^
 ||buy.ssggddh.top^
 ||m.tgh119.com^
+||bushearnpalm.live^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
