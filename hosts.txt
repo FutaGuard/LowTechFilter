@@ -81,6 +81,7 @@
 ||buy.ssggddh.top^
 ||m.tgh119.com^
 ||bushearnpalm.live^
+||maincaptcha.top^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
