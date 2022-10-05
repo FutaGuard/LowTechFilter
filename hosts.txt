@@ -123,6 +123,7 @@
 ! 抽獎廣告
 ||weeklywinningluckydayextra.cyou^
 ||winning-coupon-theday-congrats.cyou^
+||ytu567.monster^
 
 ! 影音媒體廣告
 ||onead.onevision.com.tw^
