@@ -138,6 +138,7 @@
 ! 假冒串流影音網站詐騙
 ||netfltiw.com^
 ||fine-art.ge^
+||4stextiles.com^
 
 ! 低卡廣告
 ||dad-api.dcard.tw^
