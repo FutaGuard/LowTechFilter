@@ -83,6 +83,7 @@
 ||bushearnpalm.live^
 ||maincaptcha.top^
 ||heavyhittervapes.com^
+||00000255123135324.ml^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
