@@ -143,7 +143,6 @@
 
 ! 低卡廣告
 ||dad-api.dcard.tw^
-||xlate.dcard.tw^
 
 ! 假冒政府網站詐騙
 ||nigov.tw^
