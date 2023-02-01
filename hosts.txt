@@ -237,6 +237,8 @@
 
 ||captchaless.top^
 ||postchunghwa-tw.sytes.net^
+||shopeeo.online^
+||xiapee.com^
 
 ! regex 規則 簡訊詐騙
 /wsf.+gov\.xyz/
