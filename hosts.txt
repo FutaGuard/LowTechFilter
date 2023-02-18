@@ -73,7 +73,6 @@
 ! https://web.archive.org/web/20220928033642/https://bnfallshop.com/gqm6ua516d8c4a5
 ||bnfallshop.com^
 
-
 ! 釣魚
 ||track-post-gov-tw.info^
 ||goodluckdog.space^
@@ -84,6 +83,7 @@
 ||maincaptcha.top^
 ||heavyhittervapes.com^
 ||00000255123135324.ml^
+||exia-angel.com^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
