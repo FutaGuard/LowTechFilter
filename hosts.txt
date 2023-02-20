@@ -239,10 +239,3 @@
 ||postchunghwa-tw.sytes.net^
 ||shopeeo.online^
 ||xiapee.com^
-
-! regex 規則 簡訊詐騙
-/wsf.+gov\.xyz/
-/tw.{3}gov\.com/
-/tw\S{2}gov\.com/
-/[a-z]{3}gov\.(com|tv|me|top)/
-/butie\S+\.(shop|xyz)/
