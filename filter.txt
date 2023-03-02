@@ -166,11 +166,13 @@ shoppingdesign.com.tw#$#.IdleBox { display: none !important; }
 niusnews.com##div[class="fixed-footer-ad"]
 
 ! 蘋果新聞
-tw.appledaily.com#%#//scriptlet('remove-attr', 'preload', 'video')
-tw.appledaily.com#%#//scriptlet('remove-attr', 'autoplay', 'video')
-appledaily.com.tw##.TW-MOBILE-AD-WRAP
-appledaily.com.tw##.tw-mobile-social_container
+# appledaily.com.tw##.TW-MOBILE-AD-WRAP
+# appledaily.com.tw##.tw-mobile-social_container
+tw.nextapple.com#%#//scriptlet('remove-attr', 'preload', 'video')
+tw.nextapple.com#%#//scriptlet('remove-attr', 'autoplay', 'video')
 tw.nextapple.com#%#//scriptlet('set-cookie-reload', 'app_popup', '1')
+tw.nextapple.com##div[id="appPromoteBtn"]
+tw.nextapple.com##div[class="scrollToAD"]
 
 ! Yahoo 新聞
 tw.news.yahoo.com#%#//scriptlet('abort-current-inline-script', 'initCode')
