@@ -75,6 +75,7 @@
 
 ! 釣魚
 ||track-post-gov-tw.info^
+||post-chunghwa-tw.app^
 ||goodluckdog.space^
 ||beats.com.tw^
 ||buy.ssggddh.top^
