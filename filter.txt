@@ -173,6 +173,7 @@ tw.nextapple.com#%#//scriptlet('remove-attr', 'autoplay', 'video')
 tw.nextapple.com#%#//scriptlet('set-cookie-reload', 'app_popup', '1')
 tw.nextapple.com##div[id="appPromoteBtn"]
 tw.nextapple.com##div[class="scrollToAD"]
+tw.nextapple.com##div[class="na-ad-m"]
 
 ! Yahoo 新聞
 tw.news.yahoo.com#%#//scriptlet('abort-current-inline-script', 'initCode')
