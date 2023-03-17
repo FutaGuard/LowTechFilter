@@ -2,6 +2,10 @@
 
 一款專為臺灣人設計的廣告阻擋規則
 
+## 為何叫做 LowTechFilter？
+
+這是致敬[美秀集團](https://streetvoice.com/bisiugroup/)。
+
 ## 討論群組
 
 嘿，有使用上的問題嗎？  
