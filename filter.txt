@@ -334,4 +334,5 @@ edh.tw$@$script[tag-content="timerIncrement"]
 edh.tw#%#//scriptlet('abort-current-inline-script', 'timerIncrement')
 ||edh.tw/resources/ad/*^
 kikinote.net#%#//scriptlet('set-cookie-reload', 'isShowSociety', '1')
+m.xsw.tw#$#div.content{ position: unset!important; }
 
