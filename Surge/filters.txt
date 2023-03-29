@@ -35,9 +35,9 @@ URL-REGEX,^https:\/\/bilanx\.dcard\.tw\/v\d\/events$,REJECT
 URL-REGEX,^https:\/\/bilanx\.dcard\.tw\/v\d\/configs$,REJECT
 
 #! 漫畫人
-URL-REGEX,^https?:\/\/mangaapi.manhuaren.com\/.+\/public\/(getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame|getAditem|getAds|getMultiAds|getUpgradeInfo|getVendor|getUserLocation),REJECT
-URL-REGEX,^https?:\/\/mangaapi.manhuaren.com\/.+\/manga\/getMangaPromotionActivity,REJECT
-URL-REGEX,^https?:\/\/mangaapi.manhuaren.com\/.+\/ad\/,REJECT
+URL-REGEX,^https?:\/\/mangaapi.manhuaren.(com|net)\/.+\/public\/(getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame|getAditem|getAds|getMultiAds|getUpgradeInfo|getVendor|getUserLocation),REJECT
+URL-REGEX,^https?:\/\/mangaapi.manhuaren.(com|net)\/.+\/manga\/getMangaPromotionActivity,REJECT
+URL-REGEX,^https?:\/\/mangaapi.manhuaren.(com|net)\/.+\/ad\/,REJECT
 DOMAIN-SUFFIX,hkadsapi.manhuaren.com,REJECT
 DOMAIN-SUFFIX,adsapi.manhuaren.com,REJECT
 DOMAIN-SUFFIX,videoapi.manhuaren.com,REJECT
