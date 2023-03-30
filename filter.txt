@@ -220,9 +220,9 @@ rfi.fr##div[class="m-interstitial__ad"]
 ||api.today.line.me/webapi/TW/recommendation/articles/articleend^$empty
 
 ! 漫畫人
-||mangaapi.manhuaren.com/*/manga/getMangaPromotionActivity^$empty
-||mangaapi.manhuaren.com/*/public/getShelfActivity^$empty
-||mangaapi.manhuaren.com/*/ad^$empty
+||mangaapi.manhuaren.net/*/manga/getMangaPromotionActivity^$empty
+||mangaapi.manhuaren.net/*/public/getShelfActivity^$empty
+||mangaapi.manhuaren.net/*/ad^$empty
 
 ! 咖啡廣告
 coffeehunter.tw##div[class^="fancybox-wrap"]
