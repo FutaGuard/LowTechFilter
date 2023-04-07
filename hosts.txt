@@ -73,6 +73,7 @@
 ! https://web.archive.org/web/20220928033642/https://bnfallshop.com/gqm6ua516d8c4a5
 ||bnfallshop.com^
 ||zxw-tw.cn^
+||cht.cmobamteu.pro^
 
 ! 釣魚
 ||track-post-gov-tw.info^
