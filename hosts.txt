@@ -74,6 +74,7 @@
 ||bnfallshop.com^
 ||zxw-tw.cn^
 ||cht.cmobamteu.pro^
+||wdaq-tw.cn^
 
 ! 釣魚
 ||track-post-gov-tw.info^
