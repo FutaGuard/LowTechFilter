@@ -89,7 +89,6 @@
 ||zxw-tw.cn^
 ||cht.cmobamteu.pro^
 ||wdaq-tw.cn^
-||www.cht.com.tw/home/consumer^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
