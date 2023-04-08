@@ -72,9 +72,7 @@
 ||gzjysd.com^
 ! https://web.archive.org/web/20220928033642/https://bnfallshop.com/gqm6ua516d8c4a5
 ||bnfallshop.com^
-||zxw-tw.cn^
-||cht.cmobamteu.pro^
-||wdaq-tw.cn^
+
 
 ! 釣魚
 ||track-post-gov-tw.info^
@@ -88,6 +86,10 @@
 ||heavyhittervapes.com^
 ||00000255123135324.ml^
 ||exia-angel.com^
+||zxw-tw.cn^
+||cht.cmobamteu.pro^
+||wdaq-tw.cn^
+||www.cht.com.tw/home/consumer^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
