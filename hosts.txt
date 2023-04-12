@@ -91,6 +91,9 @@
 ||wdaq-tw.cn^
 ||cht.bdferf.com^
 ||a1f3777dfa6416ee9714da3c7f3a55cd.rgft.sbs^
+||tw.fetnare.cn^
+||fenzxct.cn^
+||shopee89.shop^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
