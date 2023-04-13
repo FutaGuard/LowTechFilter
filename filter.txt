@@ -342,3 +342,7 @@ udn.com##div[class="article-content__ads--bd"]
 money.udn.com##ul[class="article-aside__ad-list"]
 money.udn.com#$#aside.article-aside{ margin-top: unset!important; }
 money.udn.com#%#//scriptlet('set-local-storage-item', '_ss_pp_id', '')
+||cimg.cnyes.cool/prod/adContent/*
+news.cnyes.com##img[alt$="ad"]
+news.cnyes.com##div[class="_1ePH"]
+news.cnyes.com##div[class="ppn-content_wrapper"]
