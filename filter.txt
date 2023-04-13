@@ -338,4 +338,4 @@ m.xsw.tw#$#div.content{ position: unset!important; }
 vocus.cc##div[class$="guestSignUpCta"]
 vocus.cc#%#//scriptlet('set-session-storage-item', 'haveReadArticleId', '')
 udn.com#$#aside.wrapper-aside{ top: unset!important; }
-
+udn.com##div[class="article-content__ads--bd"]
