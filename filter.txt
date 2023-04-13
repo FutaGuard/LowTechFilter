@@ -341,3 +341,4 @@ udn.com#$#aside.wrapper-aside{ top: unset!important; }
 udn.com##div[class="article-content__ads--bd"]
 money.udn.com##ul[class="article-aside__ad-list"]
 money.udn.com#$#aside.article-aside{ margin-top: unset!important; }
+money.udn.com#%#//scriptlet('set-local-storage-item', '_ss_pp_id', '')
