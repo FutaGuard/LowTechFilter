@@ -94,6 +94,7 @@
 ||tw.fetnare.cn^
 ||fenzxct.cn^
 ||shopee89.shop^
+||chtkon.top^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
