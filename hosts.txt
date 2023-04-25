@@ -99,6 +99,7 @@
 ||fetnet.c06nz.site^
 ||kexip-65213.builderallwppro.com^
 ||tw.tracks-packages.com^
+||insl22s.vip^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
