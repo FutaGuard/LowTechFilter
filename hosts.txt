@@ -100,6 +100,7 @@
 ||kexip-65213.builderallwppro.com^
 ||tw.tracks-packages.com^
 ||insl22s.vip^
+||telegram-ms.net^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
