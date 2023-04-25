@@ -95,6 +95,10 @@
 ||fenzxct.cn^
 ||shopee89.shop^
 ||chtkon.top^
+||lkd49d.vip^
+||fetnet.c06nz.site^
+||kexip-65213.builderallwppro.com^
+||tw.tracks-packages.com^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
