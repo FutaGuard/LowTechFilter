@@ -101,6 +101,7 @@
 ||tw.tracks-packages.com^
 ||insl22s.vip^
 ||telegram-ms.net^
+||chtadl.top^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
