@@ -102,6 +102,7 @@
 ||insl22s.vip^
 ||telegram-ms.net^
 ||chtadl.top^
+||w1e1yh.top^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
