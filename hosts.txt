@@ -103,6 +103,7 @@
 ||telegram-ms.net^
 ||chtadl.top^
 ||w1e1yh.top^
+||uh1sdf.top^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
