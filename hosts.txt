@@ -105,6 +105,7 @@
 ||w1e1yh.top^
 ||uh1sdf.top^
 ||twfacebook.xyz^
+||cha820.top^
 ||etc33.oss-ap-southeast-1.aliyuncs.com^
 
 ! M$ Appcenter log
