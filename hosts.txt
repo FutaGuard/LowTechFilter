@@ -108,6 +108,7 @@
 ||cha820.top^
 ||in1fpp.top^
 ||etc33.oss-ap-southeast-1.aliyuncs.com^
+||chtkontw.cc^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
