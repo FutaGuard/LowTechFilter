@@ -270,5 +270,6 @@
 ||xiapee.com^
 ||ip.ophe.im^
 ||1315.kaefsick.live^
+||proshares.cc^
 
 /6[0Oo]{3}(?:gov)?\.tw/$dnsrewrite=64.227.10.77
