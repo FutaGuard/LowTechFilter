@@ -110,6 +110,7 @@
 ||etc33.oss-ap-southeast-1.aliyuncs.com^
 ||chtkontw.cc^
 ||ri6pe.xyz^
+||hmai-poinetos.com^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
