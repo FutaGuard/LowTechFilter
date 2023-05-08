@@ -1,0 +1,8 @@
+! 中央社 CNA https://www.cna.com.tw
+
+! 首頁右側、文章列表右側、內文中：訂閱提醒
+www.cna.com.tw##.mySubscriptionInner
+
+! 聯合新聞網 UDN https://udn.com
+! 首頁頂端橫幅：廣告
+udn.com###ultraDesktopBanner

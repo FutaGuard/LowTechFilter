@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 filterlist = {
-    'abp': ['experimental.txt', 'filter.txt'],
+    'abp': ['experimental.txt', 'filter.txt', 'PureView/news.txt'],
     'hosts': ['hosts.txt', 'nofarm_hosts.txt']
 }
 url = 'https://filter.futa.gg/'
@@ -56,7 +56,7 @@ for category in filterlist:
             with open(f'{filename}', 'w') as output:
                 heads: str = HEAD().__getattribute__(category)
                 newhead = heads.format(
-                    name=filename.split('.')[0].replace('_', ' ').title(),
+                    name=filename.split('.')[0].replace('_', ' ').replace('/', ' ').title(),
                     version=newversion
                 )
                 output.write(newhead + data)
