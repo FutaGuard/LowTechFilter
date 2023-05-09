@@ -44,3 +44,14 @@ www.ettoday.net##div[class="video_frame"]
 www.ettoday.net##div[class$="hot-news"]
 www.ettoday.net##div[class^="block block_1"]
 www.ettoday.net##div[id="et_sticky_pc"]
+
+! 新頭殼
+newtalk.tw##div[id="right_column"]
+newtalk.tw##div[id="news_marquee"]
+newtalk.tw##button[title="留言"]
+newtalk.tw##div[class^="gray_box"]
+newtalk.tw##div[class="newsBanner"]
+newtalk.tw##div[title="選單"]
+newtalk.tw#$#div[id="left_column"] { width: unset !important; }
+newtalk.tw##div[class="group w3"]
+
