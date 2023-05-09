@@ -10,8 +10,16 @@ www.cna.com.tw##div[class="nav"]
 www.cna.com.tw##.mySubscriptionInner
 
 ! 聯合新聞網 UDN https://udn.com
-! 首頁頂端橫幅：廣告
 udn.com###ultraDesktopBanner
+udn.com##div[class="tools-box"]
+udn.com##section[class^="breaking-news__wrapper"]
+udn.com##aside
+udn.com##section[class="more-news article-section context-box"]
+udn.com##section[class="related-news more-news context-box article-section"]
+udn.com##section[class="facebook-comment article-section context-box"]
+udn.com##section[class="discuss-board article-section context-box"]
+udn.com#$#.wrapper-left { width: unset !important; }
+udn.com#$#.footer { margin-top: unset !important; }
 
 ! 自由時報 ltn.com.tw
 news.ltn.com.tw##div[id="marqueeContent"]
