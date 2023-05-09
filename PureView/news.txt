@@ -6,3 +6,9 @@ www.cna.com.tw##.mySubscriptionInner
 ! 聯合新聞網 UDN https://udn.com
 ! 首頁頂端橫幅：廣告
 udn.com###ultraDesktopBanner
+
+! 自由時報 ltn.com.tw
+news.ltn.com.tw##div[id="marqueeContent"]
+news.ltn.com.tw##aside
+news.ltn.com.tw#$#section.content940 { max-width: 100% !important; }
+news.ltn.com.tw##div[id="marqueeHeader"]
