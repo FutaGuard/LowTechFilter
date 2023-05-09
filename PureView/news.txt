@@ -12,3 +12,12 @@ news.ltn.com.tw##div[id="marqueeContent"]
 news.ltn.com.tw##aside
 news.ltn.com.tw#$#section.content940 { max-width: 100% !important; }
 news.ltn.com.tw##div[id="marqueeHeader"]
+
+! Yahoo 新聞
+tw.news.yahoo.com##aside[id="AsideStream"]
+tw.news.yahoo.com##div[id="community-bar-container"]
+tw.news.yahoo.com##div[id="module-moreStories"]
+tw.news.yahoo.com##div[class="_yb_vfqfy"]
+tw.news.yahoo.com##div[class="_yb_5m1ny _yb_wmcw7"]
+tw.news.yahoo.com#$#div[class^="W($mainColWidth)"] { width: unset !important;}
+tw.news.yahoo.com#$#div[class="caas-body"] { padding-right: unset !important; }
