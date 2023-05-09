@@ -1,6 +1,12 @@
 ! 中央社 CNA https://www.cna.com.tw
 
 ! 首頁右側、文章列表右側、內文中：訂閱提醒
+www.cna.com.tw#%#//scriptlet('set-cookie-reload', 'CnaCloseLanguage', '1')
+www.cna.com.tw#$#div[class="centralContent"] { max-width: unset !important; }
+www.cna.com.tw##div[class^="paragraph moreArticle"]
+www.cna.com.tw##div[class="paragraph bottomBox"]
+www.cna.com.tw##div[class="paragraph BtnShareGroup appDownload"]
+www.cna.com.tw##div[class="nav"]
 www.cna.com.tw##.mySubscriptionInner
 
 ! 聯合新聞網 UDN https://udn.com
