@@ -30,3 +30,16 @@ www.mirrormedia.mg#$#div[class="story-wrapper"] { padding-top: unset !important;
 www.mirrormedia.mg##div[class="share-sidebox story__share-sidebox"]
 www.mirrormedia.mg##div[class="sns-wrapper"]
 www.mirrormedia.mg##div[class="story__list"]
+
+! ETTODAY
+www.ettoday.net##div[class="c2"]
+www.ettoday.net##div[class="nav_2"]
+www.ettoday.net##div[class="part_menu_5 clearfix"]
+www.ettoday.net##div[class="text_ticker_1"]
+www.ettoday.net##div[class="et_ad_group_1"]
+www.ettoday.net##div[class="menu_2"]
+www.ettoday.net#$#div[class="c1"] { width: unset !important; }
+www.ettoday.net##div[id="hot_area"]
+www.ettoday.net##div[class="video_frame"]
+www.ettoday.net##div[class$="hot-news"]
+www.ettoday.net##div[class^="block block_1"]
