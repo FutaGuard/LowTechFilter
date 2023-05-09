@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 filterlist = {
-    'abp': ['experimental.txt', 'filter.txt', 'PureView/news.txt'],
+    'abp': ['experimental.txt', 'filter.txt', 'PureView/news.txt', 'PureView/news_mobile.txt'],
     'hosts': ['hosts.txt', 'nofarm_hosts.txt']
 }
 url = 'https://filter.futa.gg/'
