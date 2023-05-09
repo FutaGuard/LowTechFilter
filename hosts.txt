@@ -111,6 +111,7 @@
 ||chtkontw.cc^
 ||ri6pe.xyz^
 ||hmai-poinetos.com^
+||inl12s.top^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
