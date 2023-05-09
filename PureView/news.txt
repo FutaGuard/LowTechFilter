@@ -65,3 +65,17 @@ newtalk.tw##div[title="選單"]
 newtalk.tw#$#div[id="left_column"] { width: unset !important; }
 newtalk.tw##div[class="group w3"]
 
+! 三立新聞
+www.setn.com##div[class="header-area hidden-print"]
+www.setn.com##div[class="hotnav-bar"]
+www.setn.com##div[class="coniBtn coniLoginBtn"]
+www.setn.com##div[class="col-lg-3 col-md-4 hidden-sm hidden-xs hidden-print contRight"]
+www.setn.com##div[class="clearfix"]
+www.setn.com##div[class="tagNewsArea hidden-print"]
+www.setn.com##div[class="AIProjects"]
+www.setn.com##.alert-message.alert-message-warning.hidden-print
+www.setn.com##.page-social-area.hidden-print
+www.setn.com##.hidden-print.bottom-buffer
+www.setn.com##div[id="donateBtn"]
+www.setn.com##div[class="social-top-area"]
+www.setn.com#$#div[class="col-lg-9 col-md-8 col-sm-12 contLeft"] { width: 100% !important; }
