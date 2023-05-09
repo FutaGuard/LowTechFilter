@@ -79,3 +79,13 @@ www.setn.com##.hidden-print.bottom-buffer
 www.setn.com##div[id="donateBtn"]
 www.setn.com##div[class="social-top-area"]
 www.setn.com#$#div[class="col-lg-9 col-md-8 col-sm-12 contLeft"] { width: 100% !important; }
+
+! TVBS
+news.tvbs.com.tw##div[class="top_icon"]
+news.tvbs.com.tw##div[class="good_box"]
+news.tvbs.com.tw##aside
+news.tvbs.com.tw##div[class="guangxuan"]
+news.tvbs.com.tw##div[class="article_issue"]
+news.tvbs.com.tw##div[class="article_extended2"]
+news.tvbs.com.tw##div[class="newsdetail_content_fb"]
+news.tvbs.com.tw#$#article { width: unset !important; }
