@@ -93,6 +93,7 @@ www.setn.com##.page-social-area.hidden-print
 www.setn.com##.hidden-print.bottom-buffer
 www.setn.com##div[id="donateBtn"]
 www.setn.com##div[class="social-top-area"]
+www.setn.com##div[class="col-lg-3 col-md-4 hidden-sm hidden-xs contRight affix"]
 www.setn.com#$#div[class="col-lg-9 col-md-8 col-sm-12 contLeft"] { width: 100% !important; }
 
 ! TVBS
