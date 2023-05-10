@@ -106,3 +106,13 @@ news.tvbs.com.tw##div[class="article_issue"]
 news.tvbs.com.tw##div[class="article_extended2"]
 news.tvbs.com.tw##div[class="newsdetail_content_fb"]
 news.tvbs.com.tw#$#article { width: unset !important; }
+
+! 旺旺中時
+chinatimes.com##div[class="social-media-links"]
+chinatimes.com##div[class="logo-want-want-chinatimes-group"]
+chinatimes.com##div[class="promote-banner"]
+chinatimes.com##aside
+chinatimes.com##div[class="column-left"]:has(> .prev-next-content)
+chinatimes.com##div[class="promote-word"]
+chinatimes.com#$#div[class="column-left"] { width: unset !important; }
+||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes-alt2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02-PCview\.svg/
