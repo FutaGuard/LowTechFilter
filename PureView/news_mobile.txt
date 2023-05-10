@@ -25,6 +25,7 @@ www.setn.com##div[id="KeywordCloud"]
 www.setn.com##div[data-layid="ChannelArea"]
 www.setn.com##div[class="channelBox"]
 www.setn.com##div[class="social-media-icon"]
+www.setn.com##div[class="video-container livevodBox"]
 www.setn.com##.newsTextADBox
 www.setn.com##.news-area-ad
 www.setn.com##.page-project-area
