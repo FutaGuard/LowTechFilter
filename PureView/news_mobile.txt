@@ -41,5 +41,5 @@ news.ltn.com.tw##p[class="appE1121"]
 ! Yahoo 新聞
 tw.news.yahoo.com##div[id="module-view-comments"]
 tw.news.yahoo.com##p[class="read-more-vendor"]
-tw.news.yahoo.com##figure[class="caas-figure"]
+tw.news.yahoo.com##p[class="read-more-editor"]
 ||tw.news.yahoo.com^$cookie=*;maxAge=10;sameSite=lax
