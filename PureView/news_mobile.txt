@@ -47,3 +47,23 @@ tw.news.yahoo.com##p[class="read-more-editor"]
 ! 旺旺中時
 ||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02\.svg/
 chinatimes.com#$#div[class="main-header-logo"] { top: 16px !important; }
+
+! 風傳媒
+www.storm.mg##div[class="article_ads_p_wrapper"]
+www.storm.mg##div[id="premium_block"]
+www.storm.mg##div[id="author_inner"]
+www.storm.mg##div[id="related_wrapper"]
+www.storm.mg##div[id="news_list_wrapper"]
+www.storm.mg##div[id="category_content"]
+www.storm.mg##div[id^="dablewidget_"]
+www.storm.mg##div[id="more_news_wrapper"]
+www.storm.mg##div[id="footer_links_wrapper"]
+www.storm.mg##div[id="app_store_wrapper"]
+www.storm.mg#$#div[id="article_content"] { margin-right: unset !important; }
+www.storm.mg#$#div[id="footer_inner"] { padding-bottom: 10px !important; padding-top: 10px !important}
+www.storm.mg##a[href="/support-us"]
+www.storm.mg##div[id="donation_block"]
+www.storm.mg##a[class$="tag_vip"]
+www.storm.mg##a[class="nav_btn event"]
+www.storm.mg##a[id="prevPage_btn"]
+www.storm.mg##div[id="header_btn_wrapper"]
