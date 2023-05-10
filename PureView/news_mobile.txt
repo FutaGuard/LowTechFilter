@@ -1,3 +1,4 @@
+!  三立新聞
 www.setn.com##div[class="newsflashBox"]
 www.setn.com##div[class="ad"]
 www.setn.com##div[class="right-area"]
@@ -8,3 +9,21 @@ www.setn.com##div[class="readmoreCont"]
 www.setn.com##div[class="tagNewsArea"]
 www.setn.com##div[class="newsTextADBox"]
 www.setn.com##div[class="extendnews"]
+www.setn.com##div[class="ai_area_m"]
+www.setn.com##.page-float
+www.setn.com##div[id="scroll"]
+www.setn.com##div[class="page-pre-area"]
+www.setn.com##div[class="page-next-area"]
+www.setn.com##.livevodBox setn.com###LiveVOD
+||www.setn.com/VOD.aspx?IsLive=true
+www.setn.com##div[class="video-container"]
+www.setn.com##.news-all-area:has(> .hotnews-title-area)
+www.setn.com##.news-all-area:has(> .live-title-area)
+www.setn.com##.news-all-area:has(> .page-pre-area)
+www.setn.com##div[class="page-project-area"]
+www.setn.com##div[class="hotnews-title-area"]
+www.setn.com##div[id="KeywordCloud"]
+www.setn.com##div[data-layid="ChannelArea"]
+www.setn.com##div[class="channelBox"]
+www.setn.com##div[class="social-media-icon"]
+www.setn.com##.newsTextADBox
