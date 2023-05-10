@@ -27,6 +27,7 @@ www.setn.com##div[data-layid="ChannelArea"]
 www.setn.com##div[class="channelBox"]
 www.setn.com##div[class="social-media-icon"]
 www.setn.com##.newsTextADBox
+www.setn.com##.news-area-ad
 
 ! 自由時報
 news.ltn.com.tw#$#div[class="headerP_high"] { height: 100px !important;}
