@@ -43,3 +43,7 @@ tw.news.yahoo.com##div[id="module-view-comments"]
 tw.news.yahoo.com##p[class="read-more-vendor"]
 tw.news.yahoo.com##p[class="read-more-editor"]
 ||tw.news.yahoo.com^$cookie=*;maxAge=10;sameSite=lax
+
+! 旺旺中時
+||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02\.svg/
+chinatimes.com#$#div[class="main-header-logo"] { top: 16px !important; }
