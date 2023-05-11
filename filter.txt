@@ -362,3 +362,4 @@ news.cnyes.com##div[class="_1ePH"]
 news.cnyes.com##div[class="ppn-content_wrapper"]
 news.cnyes.com##div[class="_MXx3"]
 
+www.kocpc.com.tw#%#//scriptlet('set-local-storage-item', '_ss_pp_id', '')

@@ -158,3 +158,8 @@ cool3c.com##section[class="block comment-area"]
 cool3c.com##section[class="block readmore row"]
 cool3c.com##div[class="footers-group-custom"]
 ||www.cool3c.com/assets/footer.js
+
+! 電腦王阿達
+kocpc.com.tw##.jeg_sticky_sidebar
+||www.kocpc.com.tw/wp-content/plugins/jnews-auto-load-post/assets/js/jquery.autoload.js
+www.kocpc.com.tw#$#div[class="jeg_main_content col-md-8"] { width: unset !important; }
