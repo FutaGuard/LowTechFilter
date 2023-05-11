@@ -135,3 +135,17 @@ www.storm.mg##a[href="/support-us"]
 www.storm.mg##div[id="donation_block"]
 www.storm.mg##a[class$="tag_vip"]
 www.storm.mg##a[class="nav_btn event"]
+
+! Cool3C
+www.cool3c.com##div[class$="side-sync-inner"]
+www.cool3c.com##aside
+www.cool3c.com##a[data-gtm-label="Comment"]
+cool3c.com##.header-group-wrapper
+cool3c.com##div[class="navigation"]
+cool3c.com##div[class="input-group"]
+cool3c.com##div[class="row related"]
+cool3c.com##div[class="row source"]
+cool3c.com##section[class="block comment-area"]
+cool3c.com##section[class="block readmore row"]
+cool3c.com##div[class="footers-group-custom"]
+||www.cool3c.com/assets/footer.js
