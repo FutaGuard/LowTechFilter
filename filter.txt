@@ -102,6 +102,7 @@ ettoday.net#%#//scriptlet('remove-attr', 'preload', 'video')
 ettoday.net##p[class^="ad_txt"]
 ettoday.net##div[id="abp3"]
 ettoday.net##div[class^="ad_"]
+||www.ettoday.net/source/tools/videoLiveShoppingCart/index.php7
 
 ! 數位時代
 bnext.com.tw##div[class="IdleBox"]

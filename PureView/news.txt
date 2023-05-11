@@ -70,6 +70,10 @@ www.ettoday.net##div[class="video_frame"]
 www.ettoday.net##div[class$="hot-news"]
 www.ettoday.net##div[class^="block block_1"]
 www.ettoday.net##div[id="et_sticky_pc"]
+www.ettoday.net##div[id="manau\\al_links"]
+www.ettoday.net##div[class="et_social_3"]
+||www.ettoday.net/source/tools/videoLiveShoppingCart/index.php7
+
 
 ! 新頭殼
 newtalk.tw##div[id="right_column"]
