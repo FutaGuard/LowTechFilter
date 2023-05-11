@@ -46,6 +46,7 @@ tw.news.yahoo.com##p[class="read-more-editor"]
 
 ! 旺旺中時
 ||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02\.svg/
+||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes-alt2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02-PCview\.svg/
 chinatimes.com#$#div[class="main-header-logo"] { top: 16px !important; }
 
 ! 風傳媒

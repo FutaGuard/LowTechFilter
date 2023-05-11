@@ -124,6 +124,7 @@ chinatimes.com##aside
 chinatimes.com##div[class="column-left"]:has(> .prev-next-content)
 chinatimes.com##div[class="promote-word"]
 chinatimes.com#$#div[class="column-left"] { width: unset !important; }
+||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02\.svg/
 ||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes-alt2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02-PCview\.svg/
 
 ! 風傳媒
