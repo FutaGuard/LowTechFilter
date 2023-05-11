@@ -73,8 +73,18 @@ udn.com#%#//scriptlet('remove-class', 'idle-open')
 health.udn.com###overlay_show_box
 ! 自由時報
 ltn.com.tw##div[data-desc="內廣"]
-ltn.com.tw#%#//scriptlet('set-cookie-reload', 'softPush', '1')
 ltn.com.tw##div[class="idle_lightbox_target"]
+news.ltn.com.tw#%#//scriptlet('set-cookie', 't_gid', '1')
+ltn.com.tw#%#//scriptlet('set-cookie-reload', 'softPush', '1')
+news.ltn.com.tw#%#//scriptlet('set-local-storage-item', 'taboola global:local-storage-keys', 'emptyObj')
+news.ltn.com.tw#%#//scriptlet('set-local-storage-item', '_ss_pp_id', '')
+news.ltn.com.tw#%#//scriptlet('set-local-storage-item', 'cto_bundle', '')
+news.ltn.com.tw#%#//scriptlet('set-local-storage-item', 'ltn-ltnwebsite:session-data', '')
+news.ltn.com.tw#%#//scriptlet('set-local-storage-item', 'tbl_rtus_id', '')
+news.ltn.com.tw#%#//scriptlet('set-local-storage-item', '_popIn_box_position_style_key_', 'emptyObj')
+news.ltn.com.tw#%#//scriptlet('set-local-storage-item', 'taboola global:user-id', '')
+news.ltn.com.tw#%#//scriptlet('set-local-storage-item', 'L_PUID', 'emptyObj')
+
 ! 三立新聞
 setn.com##.rightFloatContent
 www.setn.com#%#//scriptlet('set-cookie-reload', 'linefriendModal', 'true')
