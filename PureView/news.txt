@@ -22,17 +22,23 @@ udn.com#$#.wrapper-left { width: unset !important; }
 udn.com#$#.footer { margin-top: unset !important; }
 
 ! 自由時報 ltn.com.tw
+ltn.com.tw##p[class="appE1121"]
+ltn.com.tw##div[class="whitecon related boxTitle"]
+ltn.com.tw##div[class="whitecon todaynews boxTitle boxText"]
+ltn.com.tw##div[class="caption"]
+
 news.ltn.com.tw##div[id="marqueeContent"]
 news.ltn.com.tw##aside
 news.ltn.com.tw#$#section.content940 { max-width: 100% !important; }
 news.ltn.com.tw##div[id="marqueeHeader"]
+news.ltn.com.tw##div[class="related boxTitle"]
+news.ltn.com.tw##div[class="see_more boxTitle"]
+news.ltn.com.tw##div[class="todaynews boxTitle"]
+news.ltn.com.tw##div[class=“footermenu”]
+
 3c.ltn.com.tw##aside
 3c.ltn.com.tw##div[class="top boxTitle boxText"]
 3c.ltn.com.tw##a[id="preview_links_1"]
-3c.ltn.com.tw##div[class="whitecon related boxTitle"]
-3c.ltn.com.tw##p[class="appE1121"]
-3c.ltn.com.tw##div[class="whitecon todaynews boxTitle boxText"]
-3c.ltn.com.tw##div[class="caption"]
 3c.ltn.com.tw#$#section.content940 { max-width: 100% !important; }
 3c.ltn.com.tw#$#.whitecon.borderline { border: unset !important;}
 3c.ltn.com.tw##.hero_gray
