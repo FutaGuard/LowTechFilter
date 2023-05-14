@@ -45,7 +45,7 @@ tw.news.yahoo.com##p[class="read-more-editor"]
 ||tw.news.yahoo.com^$cookie=*;maxAge=10;sameSite=lax
 
 ! 旺旺中時
-!#if (!adguard_app_ios && !adguard_ext_safari)
+!#if (adguard && adguard_app_android)
 ||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02\.svg/
 ||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes-alt2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02-PCview\.svg/
 !#endif
