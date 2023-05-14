@@ -158,7 +158,7 @@ cool3c.com##div[class="row source"]
 cool3c.com##section[class="block comment-area"]
 cool3c.com##section[class="block readmore row"]
 cool3c.com##div[class="footers-group-custom"]
-||www.cool3c.com/assets/footer.js
+||www.cool3c.com/article/*/infinite^$jsonprune=\$.result
 
 ! 電腦王阿達
 kocpc.com.tw##.jeg_sticky_sidebar
