@@ -113,6 +113,9 @@
 ||hmai-poinetos.com^
 ||inl12s.top^
 
+! 加密貨幣釣魚
+||app.exodus.com.alchemys.cl^
+
 ! M$ Appcenter log
 ||in.appcenter.ms^
 
