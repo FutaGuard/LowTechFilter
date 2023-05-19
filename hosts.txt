@@ -112,6 +112,7 @@
 ||ri6pe.xyz^
 ||hmai-poinetos.com^
 ||inl12s.top^
+||mvdis.idj3s.top^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
