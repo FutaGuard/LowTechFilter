@@ -378,6 +378,3 @@ xins9.com
 z01.diamondecg.net
 
 foaodnoa.com
-
-
-/6[0Oo]{3}(?:gov)?\.tw/$dnsrewrite=64.227.10.77
