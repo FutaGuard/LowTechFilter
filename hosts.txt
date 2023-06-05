@@ -117,6 +117,7 @@
 ||klo-tag.top^
 ||new-etc.icu^
 ||fetnet-tw.com^
+||twfetc-tw.top^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
