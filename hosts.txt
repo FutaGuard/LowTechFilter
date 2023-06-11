@@ -118,7 +118,6 @@
 ||new-etc.icu^
 ||fetnet-tw.com^
 ||twfetc-tw.top^
-||38.59.91.66^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
