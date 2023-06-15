@@ -1,6 +1,6 @@
 # LowTechFilter（原 FutaFilter）
 
-一款專為臺灣人設計的廣告阻擋規則
+一款專為臺灣人設計的廣告阻擋規則，而 LowTech 低科技則是致敬來自台灣樂團「美秀集團」的自稱。
 
 ## 為何叫做 LowTechFilter？
 
@@ -10,7 +10,7 @@
 
 嘿，有使用上的問題嗎？  
 歡迎到 Telegram 群組上討拍喔。  
-https://t.me/adguard_tw
+https://t.me/adblock_tw
 
 ## 訂閱網址
 
@@ -37,6 +37,7 @@ https://t.me/adguard_tw
 > PureView 實驗性清單，將網頁不必要的元素去除，只保留最純粹的瀏覽體驗。
 
 - <https://filter.futa.gg/PureView/news.txt>
+- （行動裝置版）<https://filter.futa.gg/PureView/news_mobile.txt.txt>
 
 ### hosts 語法（AdGuard Home, Pi-hole, AdAway）
 
