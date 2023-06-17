@@ -86,3 +86,15 @@ udn.com##[class^="related-news"]
 udn.com##[class^="more-news"]
 udn.com##[class^="facebook-comment"]
 udn.com##[class^="discuss-board"]
+
+! CNA
+cna.com.tw##[id="jsAppInfo"]
+cna.com.tw##[class="appInfo"]
+cna.com.tw##[class^="Subscription"]
+cna.com.tw##[class="articlekeywordGroup"]
+cna.com.tw##[class*="moreArticle"]
+cna.com.tw##[class="paragraph BtnShareGroup appDownload"]
+cna.com.tw##[class*="social-group"]
+cna.com.tw##[class*="advertiseBox"]
+cna.com.tw##[class^="privacy-bar"]
+cna.com.tw##footer
