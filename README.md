@@ -37,7 +37,7 @@ https://t.me/adblock_tw
 > PureView 實驗性清單，將網頁不必要的元素去除，只保留最純粹的瀏覽體驗。
 
 - <https://filter.futa.gg/PureView/news.txt>
-- （行動裝置版）<https://filter.futa.gg/PureView/news_mobile.txt.txt>
+- （行動裝置版）<https://filter.futa.gg/PureView/news_mobile.txt>
 
 ### hosts 語法（AdGuard Home, Pi-hole, AdAway）
 
