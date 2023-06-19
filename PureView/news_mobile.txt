@@ -98,3 +98,8 @@ cna.com.tw##[class*="social-group"]
 cna.com.tw##[class*="advertiseBox"]
 cna.com.tw##[class^="privacy-bar"]
 cna.com.tw##footer
+
+! Dcard
+dcard.tw##div[class^="atm"]:has(> div[id^="div-gpt-ad"])
+dcard.tw#?#button[-ext-contains="/app 內打開/i"]
+dcard.tw##div[class]:has(> button[class]:has-text(/用 App 查看完整內容/))

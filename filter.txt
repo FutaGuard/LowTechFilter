@@ -247,8 +247,9 @@ coffeehunter.tw##div[class^="fancybox-wrap"]
 ! Dcard
 ||bilanx.dcard.tw/*/configs
 ||bilanx.dcard.tw/*/events
-dcard.tw##div[class^="sc-1bx44oc-2"]
+dcard.tw##div[class^="atm"]:has(> div[id^="div-gpt-ad"])
 dcard.tw#?#button[-ext-contains="/app 內打開/i"]
+dcard.tw##div[class]:has(> button[class]:has-text(/用 App 查看完整內容/))
 
 ! PTT 相關
 ||pttbrain.herokuapp.com/api/ptt/metric/user-geo-distributions^$document
