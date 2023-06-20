@@ -70,22 +70,25 @@ www.mirrormedia.mg##div[class="sns-wrapper"]
 www.mirrormedia.mg##div[class="story__list"]
 
 ! ETTODAY
-www.ettoday.net##div[class="c2"]
-www.ettoday.net##div[class="nav_2"]
-www.ettoday.net##div[class="part_menu_5 clearfix"]
-www.ettoday.net##div[class="text_ticker_1"]
-www.ettoday.net##div[class="et_ad_group_1"]
-www.ettoday.net##div[class="menu_2"]
-www.ettoday.net#$#div[class="c1"] { width: unset !important; }
-www.ettoday.net##div[id="hot_area"]
-www.ettoday.net##div[class="video_frame"]
-www.ettoday.net##div[class$="hot-news"]
-www.ettoday.net##div[class^="block block_1"]
-www.ettoday.net##div[id="et_sticky_pc"]
-www.ettoday.net##div[id="manau\\al_links"]
-www.ettoday.net##div[class="et_social_3"]
+ettoday.net##div[class="c2"]
+ettoday.net##div[class="nav_2"]
+ettoday.net##div[class="part_menu_5 clearfix"]
+ettoday.net##div[class="text_ticker_1"]
+ettoday.net##div[class="et_ad_group_1"]
+ettoday.net##div[class="menu_2"]
+ettoday.net#$#div[class="c1"] { width: unset !important; }
+ettoday.net##div[id="hot_area"]
+ettoday.net##div[class="video_frame"]
+ettoday.net##div[class$="hot-news"]
+ettoday.net##div[class^="block block_1"]
+ettoday.net##div[id="et_sticky_pc"]
+ettoday.net##div[id="manau\\al_links"]
+ettoday.net##div[class="et_social_3"]
 ||www.ettoday.net/source/tools/videoLiveShoppingCart/index.php7
-
+ettoday.net##div[id="manual_links"]
+ettoday.net##div[class^="block_a"]
+ettoday.net##div[class="fb_fans"]
+ettoday.net##ui[class="clearfix"]
 
 ! 新頭殼
 newtalk.tw##div[id="right_column"]
