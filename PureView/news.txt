@@ -185,3 +185,14 @@ nownews.com##div[class="related-item"]
 nownews.com##div[id="divRcNews"]
 nownews.com##div[class="fbBlk"]
 nownews.com#$#div[class="leftCol"] { width: calc(90% - 2em) !important }
+
+! technews 科技新報
+technews.tw##div[class="tipbar"]
+technews.tw##div[id="secondary"]
+technews.tw##div[class="googlenews_Content"]
+technews.tw##div[class="newsLetter_articleContent newsLetter_articleColumn"]
+technews.tw##nav[class="nav-single"]
+technews.tw##div[id="fbSEOComments"]
+technews.tw##a[id="scrolldown"]
+technews.tw##div[class="footer_frame"]
+||technews.tw/wp-admin/admin-ajax.php*
