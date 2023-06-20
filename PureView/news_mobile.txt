@@ -103,3 +103,14 @@ cna.com.tw##footer
 dcard.tw##div[class^="atm"]:has(> div[id^="div-gpt-ad"])
 dcard.tw#?#button[-ext-contains="/app 內打開/i"]
 dcard.tw##div[class]:has(> button[class]:has-text(/用 App 查看完整內容/))
+
+! technews 科技新報
+technews.tw##div[class="tipbar"]
+technews.tw##div[id="secondary"]
+technews.tw##div[class="googlenews_Content"]
+technews.tw##div[class="newsLetter_articleContent newsLetter_articleColumn"]
+technews.tw##nav[class="nav-single"]
+technews.tw##div[id="fbSEOComments"]
+technews.tw##a[id="scrolldown"]
+technews.tw##div[class="footer_frame"]
+||technews.tw/wp-admin/admin-ajax.php*
