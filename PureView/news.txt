@@ -164,3 +164,14 @@ cool3c.com##div[class="footers-group-custom"]
 kocpc.com.tw##.jeg_sticky_sidebar
 ||www.kocpc.com.tw/wp-content/plugins/jnews-auto-load-post/assets/js/jquery.autoload.js
 www.kocpc.com.tw#$#div[class="jeg_main_content col-md-8"] { width: unset !important; }
+
+! nownews
+nownews.com##div[class="subSite"]
+nownews.com##button[id="getApp"]
+nownews.com##div[class="rightCol-container"]
+nownews.com##div[class="topic-container"]
+nownews.com##.hotnews-top
+nownews.com##div[class="related-item"]
+nownews.com##div[id="divRcNews"]
+nownews.com##div[class="fbBlk"]
+nownews.com#$#div[class="leftCol"] { width: calc(90% - 2em) !important }
