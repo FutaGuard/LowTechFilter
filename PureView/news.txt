@@ -21,6 +21,13 @@ udn.com##section[class="discuss-board article-section context-box"]
 udn.com#$#.wrapper-left { width: unset !important; }
 udn.com#$#.footer { margin-top: unset !important; }
 
+! UDN 寵物
+pets.udn.com##div[class="story variety extend"]
+pets.udn.com##div[class="story-list__header"]
+pets.udn.com##div[id="comments"]
+pets.udn.com#$#section[class="article-content__wrapper"] { width: unset !important; }
+pets.udn.com#$#.article-content__cover picture { height: unset !important; width: unset !important; }
+
 ! 自由時報 ltn.com.tw
 ltn.com.tw##p[class="appE1121"]
 ltn.com.tw##div[class="whitecon related boxTitle"]
