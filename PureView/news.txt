@@ -28,6 +28,14 @@ pets.udn.com##div[id="comments"]
 pets.udn.com#$#section[class="article-content__wrapper"] { width: unset !important; }
 pets.udn.com#$#.article-content__cover picture { height: unset !important; width: unset !important; }
 
+! UDN money
+money.udn.com##div[class="breaking-news-container "]
+money.udn.com##section[class="article-switch"]
+money.udn.com##div[class="story-flex-bt-wrapper"]
+money.udn.com##section[class="article-comments"]
+money.udn.com##section[class="sitemap toggle-list"]
+money.udn.com##a[id="goTop"]
+
 ! 自由時報 ltn.com.tw
 ltn.com.tw##p[class="appE1121"]
 ltn.com.tw##div[class="whitecon related boxTitle"]

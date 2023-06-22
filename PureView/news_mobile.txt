@@ -87,6 +87,15 @@ udn.com##[class^="more-news"]
 udn.com##[class^="facebook-comment"]
 udn.com##[class^="discuss-board"]
 
+! UDN Money
+money.udn.com##div[class="breaking-news-container "]
+money.udn.com##section[class="article-switch"]
+money.udn.com##div[class="story-flex-bt-wrapper"]
+money.udn.com##section[class="article-comments"]
+money.udn.com##section[class="sitemap toggle-list"]
+money.udn.com##a[id="goTop"]
+money.udn.com##div[class^="edn-ads"]
+
 ! CNA
 cna.com.tw##[id="jsAppInfo"]
 cna.com.tw##[class="appInfo"]
