@@ -211,3 +211,24 @@ technews.tw##div[id="fbSEOComments"]
 technews.tw##a[id="scrolldown"]
 technews.tw##div[class="footer_frame"]
 ||technews.tw/wp-admin/admin-ajax.php*
+
+! 商周
+businessweekly.com.tw##div[class^="Single-right-part"]
+businessweekly.com.tw##section[class^="Post-section"]
+businessweekly.com.tw##section[class^="Promotion"]
+businessweekly.com.tw##div[class="promote_subscribe"]
+businessweekly.com.tw##div[class="cover_summary_story"]
+businessweekly.com.tw##section[class^="Single-related"]
+businessweekly.com.tw##section[class="d-xs-none d-md-block"]
+businessweekly.com.tw##section[class^="Single-section"]
+businessweekly.com.tw##button[data-label="訂閱"]
+businessweekly.com.tw##div[class^="Links"]
+businessweekly.com.tw##div[class^="Border"]
+businessweekly.com.tw##div img[class="Logo-white lazy"]
+businessweekly.com.tw##div[class^="Logos"]
+businessweekly.com.tw##section[class^="Single-sidebar"]
+businessweekly.com.tw##body .Google-special:not(#style_important)
+businessweekly.com.tw#$#.col-lg-8 { flex: unset !important; max-width: unset !important}
+businessweekly.com.tw#$#.col-md-7 { flex: unset !important; max-width: unset !important}
+||ibw.bwnet.com.tw/file/js/vendor/infinite-scroll.pkgd.min.js
+
