@@ -143,3 +143,6 @@ businessweekly.com.tw##body .Google-special:not(#style_important)
 businessweekly.com.tw#$#.col-lg-8 { flex: unset !important; max-width: unset !important}
 businessweekly.com.tw#$#.col-md-7 { flex: unset !important; max-width: unset !important}
 ||ibw.bwnet.com.tw/file/js/vendor/infinite-scroll.pkgd.min.js
+
+! CTwant
+ctwant.com##div[class="m-adpopup"]
