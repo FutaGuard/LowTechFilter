@@ -118,6 +118,9 @@
 ||new-etc.icu^
 ||fetnet-tw.com^
 ||twfetc-tw.top^
+||pormx.ink^
+||catw-cat.top^
+||sdbcm.vip^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
