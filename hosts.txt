@@ -122,6 +122,7 @@
 ||catw-cat.top^
 ||sdbcm.vip^
 ||nwiiu.ink^
+||dy2ar.ink^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
