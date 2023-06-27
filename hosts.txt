@@ -130,9 +130,6 @@
 ! M$ Appcenter log
 ||in.appcenter.ms^
 
-! $ony 耳機 App
-||ndmdhs.com^
-
 ! 垃圾 Line 詐騙
 ||baixingnew.com^
 ||free-point-receive.weebly.com^
