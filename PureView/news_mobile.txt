@@ -96,6 +96,13 @@ money.udn.com##section[class="sitemap toggle-list"]
 money.udn.com##a[id="goTop"]
 money.udn.com##div[class^="edn-ads"]
 
+! UDN pets
+pets.udn.com##div[class="story variety extend"]
+pets.udn.com##div[class="story-list__header"]
+pets.udn.com##div[id="comments"]
+pets.udn.com#$#section[class="article-content__wrapper"] { width: unset !important; }
+pets.udn.com#$#.article-content__cover picture { height: unset !important; width: unset !important; }
+
 ! CNA
 cna.com.tw##[id="jsAppInfo"]
 cna.com.tw##[class="appInfo"]
