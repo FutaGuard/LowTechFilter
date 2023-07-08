@@ -16,7 +16,7 @@ jobs:
           cache: 'pip' # caching pip dependencies
       - env:
           TW165: ${{ env.TW165 }}
-        run: pip install -r AutoBuild/requirements.txt && python AutoBuild/tw_165.py
+        run: echo "$TW165" && pip install -r AutoBuild/requirements.txt && python AutoBuild/tw_165.py
       - name: push
         uses: github-actions-x/commit@v2.9
         with:
