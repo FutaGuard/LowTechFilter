@@ -34,10 +34,11 @@ def main():
 
     with open(filename, 'r') as f:
         read_ = f.read().splitlines()
-        for row in r_json[1:]:
-            domain = urlparse('http://'+row['WEBURL']).hostname
-            if domain not in read_:
-                added_list.append(domain)
+    current_domains = frozenset(read_)
+    for row in r_json[1:]:
+        domain = urlparse('http://'+row['WEBURL']).hostname
+        if domain not in current_domains:
+            added_list.append(domain)
     
     with open(filename, 'a+') as f:
         f.write('\n')
