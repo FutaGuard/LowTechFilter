@@ -2,12 +2,11 @@ name: TW165
 
 on:
   schedule:
-    # * is a special character in YAML so you have to quote this string
     - cron:  '0 0 * * *'
   workflow_dispatch:
 
 jobs:
-  auto_close_issues:
+  update_165_data:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
