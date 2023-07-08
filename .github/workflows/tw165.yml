@@ -1,0 +1,29 @@
+name: TW165
+
+on:
+  Schedule: 
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  
+
+
+jobs:
+  auto_close_issues:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          cache: 'pip' # caching pip dependencies
+      - run: pip install -r AutoBuild/requirements.txt && python AutoBuild/tw_165.py
+      - name: push
+        uses: github-actions-x/commit@v2.9
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: 'master'
+          commit-message: '🤖 自動更新 165 詐騙網址'
+          files: TW165.txt
+          name: tdc
+          email: tdc@sudo.host
+
