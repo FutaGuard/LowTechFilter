@@ -125,6 +125,7 @@
 ||dy2ar.ink^
 ||litw-cat.top^
 ||ubtw-cat.top^
+||mhtw-cat.top^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
