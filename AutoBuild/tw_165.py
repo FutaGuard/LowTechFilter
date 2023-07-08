@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    url = os.getenv('TW165', None)
+    url = os.getenv('env.TW165', None)
     if not url:
         logger.critical('URL NOT SET')
         return
