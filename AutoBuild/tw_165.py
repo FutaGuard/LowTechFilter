@@ -39,12 +39,13 @@ def main():
         domain = urlparse('http://'+row['WEBURL']).hostname
         if domain not in current_domains:
             added_list.append(domain)
-    
-    with open(filename, 'a+') as f:
-        f.write('\n')
-        f.write(
-            '\n'.join(e for e in added_list)
-            )
+
+    if added_list:
+        with open(filename, 'a+') as f:
+            f.write('\n')
+            f.write(
+                '\n'.join(e for e in added_list)
+                )
 
 if __name__ == '__main__':
     main()
