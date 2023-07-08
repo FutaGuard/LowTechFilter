@@ -23,6 +23,7 @@ def main():
         r_json = r.json()['result']['records']
     except (JSONDecodeError, KeyError):
         logger.critical('Parse JSON Err')
+        raise
     
     # check if file exists
     filename = 'TW165.txt'
