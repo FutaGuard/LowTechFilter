@@ -1,11 +1,10 @@
 name: TW165
 
 on:
-  Schedule: 
-    - cron: '0 0 * * *'
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 * * *'
   workflow_dispatch:
-  
-
 
 jobs:
   auto_close_issues:
