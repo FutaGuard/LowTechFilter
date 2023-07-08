@@ -5,11 +5,15 @@ import os
 from typing import List
 from urllib.parse import urlparse
 
+
 logger = logging.getLogger(__name__)
 
 
 def main():
-    url = 'https://tw165.futa.gg/api/v1/rest/datastore/A01010000C-002150-013'
+    url = os.getenv('TW165', None)
+    if not url:
+        logger.critical('URL NOT SET')
+        return
     r = requests.get(url)
     if r.status_code != 200:
         logger.critical('Fetch Data Err')
