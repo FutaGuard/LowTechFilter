@@ -17,6 +17,8 @@ jobs:
           limit-access-to-actor: true
           ## limits ssh access and adds the ssh public keys of the listed GitHub users
           limit-access-to-users: tasi788
+        env:
+          TW165: ${{ env.TW165 }}
       - uses: actions/setup-python@v4
         with:
           python-version: '3.9'
