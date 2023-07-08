@@ -14,7 +14,9 @@ jobs:
         with:
           python-version: '3.9'
           cache: 'pip' # caching pip dependencies
-      - run: export tw165=${{ env.TW165 }} && pip install -r AutoBuild/requirements.txt && python AutoBuild/tw_165.py
+      - run: pip install -r AutoBuild/requirements.txt && python AutoBuild/tw_165.py
+        env:
+          tw165: ${{ vars.TW165 }}
       - name: push
         uses: github-actions-x/commit@v2.9
         with:
