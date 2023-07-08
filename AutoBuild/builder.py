@@ -5,7 +5,7 @@ import requests
 
 filterlist = {
     'abp': ['experimental.txt', 'filter.txt', 'PureView/news.txt', 'PureView/news_mobile.txt'],
-    'hosts': ['hosts.txt', 'nofarm_hosts.txt']
+    'hosts': ['hosts.txt', 'nofarm_hosts.txt', 'TW165.txt']
 }
 url = 'https://filter.futa.gg/'
 tz = timezone(timedelta(hours=+8))
