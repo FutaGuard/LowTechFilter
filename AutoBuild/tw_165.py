@@ -18,35 +18,21 @@ def main():
     if r.status_code != 200:
         logger.critical('Fetch Data Err')
         return
-    
+
     try:
         r_json = r.json()['result']['records']
     except (JSONDecodeError, KeyError):
         logger.critical('Parse JSON Err')
         raise
-    
-    # check if file exists
+
+    domains = dict.fromkeys([
+        urlparse('http://'+row['WEBURL']).hostname
+        for row in r_json[1:]
+    ])
+
     filename = 'TW165.txt'
-    if not os.path.exists(filename):
-        with open(filename, 'w') as f:
-            pass
-    
-    added_list: List[str] = []
-
-    with open(filename, 'r') as f:
-        read_ = f.read().splitlines()
-    current_domains = frozenset(read_)
-    for row in r_json[1:]:
-        domain = urlparse('http://'+row['WEBURL']).hostname
-        if domain not in current_domains:
-            added_list.append(domain)
-
-    if added_list:
-        with open(filename, 'a+') as f:
-            f.write('\n')
-            f.write(
-                '\n'.join(e for e in added_list)
-                )
+    with open(filename, 'w') as f:
+        f.write('\n'.join(domains.keys()))
 
 if __name__ == '__main__':
     main()
