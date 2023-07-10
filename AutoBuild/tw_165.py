@@ -46,7 +46,7 @@ def main():
     r = fetchdata(csvurl)
     domains.update(dict.fromkeys(
         [
-            x.split(',')[1]
+            urlparse('http://'+x.split(',')[1]).hostname
             for x in r.text.splitlines()[2:]
         ]
     ))
