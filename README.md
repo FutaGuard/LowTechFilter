@@ -46,7 +46,7 @@ https://t.me/adblock_tw
 
 > 純粹 domain 而已，若原先有訂閱 hosts.txt 則不需要另外訂閱，此為特定用途。
 
-- <https://filter.futa.gg/hosts-domains.txt>
+- <https://filter.futa.gg/hosts.txt>
 
 > 由台灣 165 反詐騙提供
 
