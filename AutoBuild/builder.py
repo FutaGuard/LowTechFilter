@@ -89,7 +89,7 @@ for category in filterlist:
                     newoutput = '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
                     print(newoutput)
                     output.write(newoutput)
-            if filename in ['TW165.txt']:
+            if filename in ['TW165.txt', 'hosts.txt']:
                 to_pure_domain(filename, data)
                 
             # if filename == 'hosts.txt':
