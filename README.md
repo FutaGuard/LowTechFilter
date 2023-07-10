@@ -54,7 +54,7 @@ https://t.me/adblock_tw
 
 > 由台灣 165 反詐騙提供，純 domain 此為特定用途。
 
-- <https://filter.futa.gg/TW165-domain.txt>
+- <https://filter.futa.gg/TW165-domains.txt>
 
 ### Surge 語法
 
