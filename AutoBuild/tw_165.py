@@ -53,7 +53,7 @@ def main():
 
     filename = 'TW165.txt'
     with open(filename, 'w') as f:
-        f.write('\n'.join(domains.keys()))
+        f.write('^\n'.join('||' + e for e in domains.keys()))
 
 if __name__ == '__main__':
     main()
