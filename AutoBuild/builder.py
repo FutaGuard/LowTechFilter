@@ -83,14 +83,13 @@ for category in filterlist:
             def to_pure_domain(filename: str, data: str):
                 data = data.splitlines()
                 newdata = '\n'.join(data)
-                desc = '\n'.join(x.replace('!', '#') for x in data[:5]) + '\n'
-
                 name = filename.split('.txt')[0]
                 with open(name+'-domains.txt', 'w') as output:
                     pattern = r'(?<=^\|\|)\S+\.\S{2,}(?=\^)'
-                    desc += '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
-                    output.write(desc)
-            if filename in ['hosts.txt', 'TW165.txt']:
+                    newoutput = '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
+                    print(newoutput)
+                    output.write(newoutput)
+            if filename in ['TW165.txt']:
                 to_pure_domain(filename, data)
                 
             # if filename == 'hosts.txt':
