@@ -126,6 +126,7 @@
 ||litw-cat.top^
 ||ubtw-cat.top^
 ||mhtw-cat.top^
+||twfetc-5.icu^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
