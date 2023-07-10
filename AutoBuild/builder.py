@@ -82,7 +82,7 @@ for category in filterlist:
             # hosts to domains
             def to_pure_domain(filename: str, data: str):
                 data = data.splitlines()
-                newdata = '\n'.join(data[5:])
+                newdata = '\n'.join(data)
                 desc = '\n'.join(x.replace('!', '#') for x in data[:5]) + '\n'
 
                 name = filename.split('.txt')[0]
