@@ -1,4 +1,5 @@
 import requests
+from requests.auth import HTTPBasicAuth
 from json.decoder import JSONDecodeError
 import logging
 import os
@@ -10,11 +11,18 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    url = os.getenv('tw165', None)
+    auth = os.getenv('auth', None)
+    url = os.getenv('tw165json', None)
     if not url:
         logger.critical('URL NOT SET')
         return
-    r = requests.get(url)
+    if not auth:
+        logger.critical('AUTH NOT SET')
+        return
+    
+    user, passwd = auth.split(':')
+    basic = HTTPBasicAuth(user, passwd)
+    r = requests.get(url, auth=basic)
     if r.status_code != 200:
         logger.critical('Fetch Data Err')
         return
