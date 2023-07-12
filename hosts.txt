@@ -127,6 +127,7 @@
 ||ubtw-cat.top^
 ||mhtw-cat.top^
 ||twfetc-5.icu^
+||mgpericias.com.br^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
