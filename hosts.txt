@@ -131,6 +131,7 @@
 ||tw-catpack.top^
 ||gov-info.top^
 ||businessmentor.sa.com^
+||fetguict.icu^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
