@@ -39,14 +39,14 @@ def main():
         raise
 
     domains = dict.fromkeys([
-        urlparse(row['WEBURL']).hostname if row['WEBURL'].startwith('http') else urlparse('http://'+row['WEBURL']).hostname
+        urlparse(row['WEBURL']).hostname if row['WEBURL'].startswith('http') else urlparse('http://'+row['WEBURL']).hostname
         for row in r_json[1:]
     ])
 
     r = fetchdata(csvurl)
     domains.update(dict.fromkeys(
         [
-            urlparse(x.split(',')[1]).hostname if x.split(',')[1].startwith('http') else urlparse('http://'+x.split(',')[1]).hostname
+            urlparse(x.split(',')[1]).hostname if x.split(',')[1].startswith('http') else urlparse('http://'+x.split(',')[1]).hostname
             for x in r.text.splitlines()[2:]
         ]
     ))
