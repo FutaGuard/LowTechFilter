@@ -320,7 +320,7 @@ soundofhope.org##div[id="itb_ads_catfish"]
 abmedia.io#%#//scriptlet('set-local-storage-item', 'isAdShowed', 'true')
 
 walkerland.com.tw##div[class="top-slide-ad"]
-||walkerland.com.tw/js/idle.js^
+||walkerland.com.tw/js/idle_rwd.js^
 blockcast.it##span[id="aaspan"]
 mobile01.com##div[id="idle_content"]
 ||www.mobile01.com/ajax/*/idlebox.php^
