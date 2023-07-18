@@ -232,3 +232,7 @@ businessweekly.com.tw#$#.col-lg-8 { flex: unset !important; max-width: unset !im
 businessweekly.com.tw#$#.col-md-7 { flex: unset !important; max-width: unset !important}
 ||ibw.bwnet.com.tw/file/js/vendor/infinite-scroll.pkgd.min.js
 
+! walkerland
+walkerland.com.tw##div[class="right-block"]
+walkerland.com.tw#$#div[class="left-block"] { max-width: unset !important; }
+walkerland.com.tw##a[rel^="noreferrer"]
