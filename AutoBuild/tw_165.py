@@ -63,9 +63,11 @@ def main():
 
     filename = 'TW165.txt'
     with open(filename, 'w') as f:
-        f.write('^\n'.join('||' + e for e in domains.keys()))
+        f.write(''.join(f'||{e}^\n' for e in domains.keys()))
 
-
+    filename = 'TW165-redirect.txt'
+    with open(filename, 'w') as f:
+        f.write(''.join(f'||{e}^$dnsrewrite=NOERROR;A;34.102.218.71\n' for e in domains.keys()))
 
 
 if __name__ == '__main__':
