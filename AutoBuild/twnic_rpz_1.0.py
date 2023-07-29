@@ -1,8 +1,8 @@
 import requests, json
 from bs4 import BeautifulSoup
 
-soup = BeautifulSoup(requests.get("https://rpz.twnic.tw/e.html").text, "html.parser")
-exec(str(soup.find("script")).split(";")[0].split("const ")[1])
+rawData = BeautifulSoup(requests.get("https://rpz.twnic.tw/e.html").text, "html.parser")
+rpzdata = json.loads(a.split("<script>")[1].split(";")[0].split("= ")[1])
 twnic_rpz_1_0_raw = ""
 twnic_rpz_1_0_AdGuardHome = ""
 for i in rpzdata:
