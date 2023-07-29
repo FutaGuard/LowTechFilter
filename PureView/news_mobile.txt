@@ -153,3 +153,6 @@ businessweekly.com.tw#$#.col-md-7 { flex: unset !important; max-width: unset !im
 
 ! CTwant
 ctwant.com##div[class="m-adpopup"]
+ctwant.com##div[class^="l-ad__wrapper"]
+ctwant.com##div[class^="l-ad__article"]
+ctwant.com##div[class="l-series"]
