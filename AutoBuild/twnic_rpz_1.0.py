@@ -1,14 +1,32 @@
-import requests, json
+import requests
+import json
+import logging
+from json.decoder import JSONDecodeError
+import sys
+from typing import List
 
-rawData = requests.get("https://rpz.twnic.tw/e.html").text
-rpzdata = json.loads(rawData.split("<script>")[1].split(";")[0].split("= ")[1])
-twnic_rpz_1_0_raw = ""
-twnic_rpz_1_0_AdGuardHome = ""
-for i in rpzdata:
-    for datap in i["domains"]:
-        twnic_rpz_1_0_raw += datap + "\n"
-        twnic_rpz_1_0_AdGuardHome += "||" + datap + "^\n"
-with open("TWNIC-RPZ-1.0_RAW.txt","w") as f:
-    f.write(twnic_rpz_1_0_raw)
-with open("TWNIC-RPZ-1.0_AGH.txt","w") as f:
-    f.write(twnic_rpz_1_0_AdGuardHome)
+logger = logging.getLogger(__name__)
+
+
+def main():
+    r = requests.get('https://rpz.twnic.tw/e.html')
+    if r.status_code != 200:
+        logger.critical('Fetch Data Err')
+        sys.exit(1)
+
+    # split text from <script> tag
+    raw: str = r.text.split('<script>')[1].split(';')[0].split('= ')[1]
+    parse_data: List[dict] = [dict()]
+    try:
+        parse_data = json.loads(raw)
+    except JSONDecodeError:
+        logger.critical('Parse JSON Err')
+        sys.exit(1)
+
+    output = [domain for in_dic in parse_data for domain in in_dic['domains']]
+    with open('TWNIC-RPZ.txt', 'w') as f:
+        f.write(''.join(f'||{e}^\n' for e in output))
+
+
+if __name__ == '__main__':
+    main()
