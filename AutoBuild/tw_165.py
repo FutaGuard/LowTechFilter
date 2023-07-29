@@ -1,11 +1,11 @@
-import requests
-from requests.auth import HTTPBasicAuth
-from json.decoder import JSONDecodeError
 import logging
 import os
 import re
+from json.decoder import JSONDecodeError
 from urllib.parse import urlparse
 
+import requests
+from requests.auth import HTTPBasicAuth
 
 logger = logging.getLogger(__name__)
 
@@ -25,7 +25,7 @@ def main():
     if not auth:
         logger.critical('AUTH NOT SET')
         return
-    
+
     user, passwd = auth.split(':')
     basic = HTTPBasicAuth(user, passwd)
 
@@ -35,7 +35,7 @@ def main():
             logger.critical('Fetch Data Err')
             return
         return r
-    
+
     r = fetchdata(jsonurl)
     try:
         r_json = r.json()['result']['records']
@@ -44,23 +44,29 @@ def main():
         raise
 
     domains = dict.fromkeys([
-        urlparse(row['WEBURL']).hostname if row['WEBURL'].startswith('http') else urlparse('http://'+row['WEBURL']).hostname
+        urlparse(row['WEBURL']).hostname if row['WEBURL'].startswith('http') else urlparse(
+            'http://' + row['WEBURL']).hostname
         for row in r_json[1:]
     ])
 
     r = fetchdata(csvurl)
     domains.update(dict.fromkeys(
         [
-            urlparse(x.split(',')[1]).hostname if x.split(',')[1].startswith('http') else urlparse('http://'+x.split(',')[1]).hostname
+            urlparse(x.split(',')[1]).hostname if x.split(',')[1].startswith('http') else urlparse(
+                'http://' + x.split(',')[1]).hostname
             for x in r.text.splitlines()[2:]
         ]
     ))
 
     # 移除純 IP
     domains = {k: v for k, v in domains.items() if not is_pure_ip(k)}
+
     filename = 'TW165.txt'
     with open(filename, 'w') as f:
         f.write('^\n'.join('||' + e for e in domains.keys()))
+
+
+
 
 if __name__ == '__main__':
     main()
