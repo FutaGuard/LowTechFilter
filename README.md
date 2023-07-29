@@ -75,6 +75,8 @@ https://t.me/adblock_tw
 Q: 我用了這個規則之後發現我的噗浪連結打不開了欸！！！！\
 A: 請服用這個 [userscript](https://greasyfork.org/en/scripts/40884-plurk-no-redirector)
 
+## 貢獻
+本專案歡迎任何人貢獻，但請注意，提交貢獻前請先[閱讀](https://github.com/FutaGuard/LowTechFilter/wiki/%E5%A6%82%E4%BD%95%E8%B2%A2%E7%8D%BB%E6%88%96%E8%AB%8B%E6%B1%82%E6%96%B0%E5%A2%9E%E5%B0%81%E9%8E%96%E8%A6%8F%E5%89%87%EF%BC%9F)，若有任何疑慮，請先開 issue 討論。
 
 ## 贊助
 
