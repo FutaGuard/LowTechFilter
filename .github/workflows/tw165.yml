@@ -25,7 +25,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'master'
           commit-message: '🤖 自動更新 165 詐騙網址'
-          files: TW165.txt
+          files: TW165.txt TW165-redirect.txt
           name: tdc
           email: tdc@sudo.host
 
