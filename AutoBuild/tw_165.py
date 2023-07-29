@@ -3,11 +3,16 @@ from requests.auth import HTTPBasicAuth
 from json.decoder import JSONDecodeError
 import logging
 import os
-from typing import List
+import re
 from urllib.parse import urlparse
 
 
 logger = logging.getLogger(__name__)
+
+
+def is_pure_ip(domain: str) -> bool:
+    pattern = r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$'
+    return True if re.match(pattern, domain) else False
 
 
 def main():
@@ -51,6 +56,8 @@ def main():
         ]
     ))
 
+    # 移除純 IP
+    domains = {k: v for k, v in domains.items() if not is_pure_ip(k)}
     filename = 'TW165.txt'
     with open(filename, 'w') as f:
         f.write('^\n'.join('||' + e for e in domains.keys()))
