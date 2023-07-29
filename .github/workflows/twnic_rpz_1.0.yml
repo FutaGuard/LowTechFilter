@@ -1,0 +1,30 @@
+name: TWNIC RPZ 1.0
+
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update_165_data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          cache: 'pip' # caching pip dependencies
+      - run: pip install -r AutoBuild/requirements.txt && python AutoBuild/twnic_rpz_1.0.py
+        env:
+          tw165json: ${{ vars.TW165JSON }}
+          tw165csv: ${{ vars.TW165CSV }}
+          auth: ${{ secrets.AUTH }}
+      - name: push
+        uses: github-actions-x/commit@v2.9
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: 'master'
+          commit-message: '🤖 自動更新 TWNIC RPZ 1.0 封鎖域名'
+          files: TWNIC-RPZ-1.0_RAW.txt TWNIC-RPZ-1.0_AGH.txt
+          name: tdc
+          email: tdc@sudo.host
