@@ -8,11 +8,11 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 logger = logging.getLogger(__name__)
+IP_PATTERN = r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$'
 
 
 def is_pure_ip(domain: str) -> bool:
-    pattern = r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$'
-    return True if re.match(pattern, domain) else False
+    return True if re.match(IP_PATTERN, domain) else False
 
 
 def main():
