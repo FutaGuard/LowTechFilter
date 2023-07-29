@@ -9,9 +9,9 @@ for i in rpzdata:
     for datap in i["domains"]:
         twnic_rpz_1_0_raw += datap + "\n"
         twnic_rpz_1_0_AdGuardHome += "||" + datap + "^\n"
-with open("TWNIC-RPZ-1.0_RAW.txt","a") as f:
+with open("TWNIC-RPZ-1.0_RAW.txt","w") as f:
     f.write(twnic_rpz_1_0_raw)
     f.close()
-with open("TWNIC-RPZ-1.0_AGH.txt","a") as f:
+with open("TWNIC-RPZ-1.0_AGH.txt","w") as f:
     f.write(twnic_rpz_1_0_AdGuardHome)
     f.close()
