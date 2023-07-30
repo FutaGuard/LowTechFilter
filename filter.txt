@@ -369,3 +369,4 @@ ctwant.com##div[class="m-adpopup"]
 noewnews.com##idv[class="ad-blk1"]
 nownews.com##.adBlk
 worldjournal.com##div[class="article-content__ads--bd"]
+worldjournal.com##div[id="idle"]
