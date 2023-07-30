@@ -104,6 +104,7 @@ ettoday.net##div[id="manual_links"]
 ettoday.net##div[class^="block_a"]
 ettoday.net##div[class="fb_fans"]
 ettoday.net##ui[class="clearfix"]
+ettoday.net##div[id="etnews_live_player"]
 
 ! 新頭殼
 newtalk.tw##div[id="right_column"]

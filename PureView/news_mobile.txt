@@ -176,3 +176,13 @@ worldjournal.com##section[class="next-page"]
 worldjournal.com##div[class^="cate-list__container"]
 worldjournal.com##section[class$="facebook-comment"]
 worldjournal.com##section[class="footer-social"]
+
+! Ettoday
+ettoday.net##div[id="manual_links"]
+ettoday.net##div[id="recomm-news"]
+ettoday.net##div[class^="etvideo_collect_2"]
+ettoday.net##div[class="block block_1"]
+ettoday.net##div[class="block block_2"]
+ettoday.net##div[id="etnews_live_player"]
+ettoday.net##div[class="nav_3"]
+ettoday.net##a[class="download_app"]
