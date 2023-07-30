@@ -168,3 +168,11 @@ nownews.com##div.keywordBlk
 nownews.com##section.voteBlk
 nownews.com##div[class="nnBlk immediate mb-1"]
 nownews.com##ul[class="social-media"]
+
+! 世界新聞網
+worldjournal.com##section[class="breaking-news__wrapper"]
+worldjournal.com##div[class$="inline-ads"]
+worldjournal.com##section[class="next-page"]
+worldjournal.com##div[class^="cate-list__container"]
+worldjournal.com##section[class$="facebook-comment"]
+worldjournal.com##section[class="footer-social"]
