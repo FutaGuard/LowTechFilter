@@ -5,7 +5,7 @@ import requests
 
 filterlist = {
     'abp': ['experimental.txt', 'filter.txt', 'PureView/news.txt', 'PureView/news_mobile.txt'],
-    'hosts': ['hosts.txt', 'nofarm_hosts.txt', 'TW165.txt']
+    'hosts': ['hosts.txt', 'nofarm_hosts.txt', 'TW165.txt', 'TWNIC-RPZ.txt']
 }
 url = 'https://filter.futa.gg/'
 tz = timezone(timedelta(hours=+8))
@@ -89,7 +89,7 @@ for category in filterlist:
                     newoutput = '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
                     print(newoutput)
                     output.write(newoutput)
-            if filename in ['TW165.txt', 'hosts.txt']:
+            if filename in ['TW165.txt', 'hosts.txt', 'TWNIC-RPZ.txt']:
                 to_pure_domain(filename, data)
                 
             # if filename == 'hosts.txt':
