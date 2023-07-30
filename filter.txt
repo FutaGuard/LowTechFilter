@@ -366,3 +366,4 @@ news.cnyes.com##div[class="_MXx3"]
 www.kocpc.com.tw#%#//scriptlet('set-local-storage-item', '_ss_pp_id', '')
 ||technews.tw/wp-admin/admin-ajax.php*
 ctwant.com##div[class="m-adpopup"]
+noewnews.com##idv[class="ad-blk1"]
