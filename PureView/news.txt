@@ -236,3 +236,12 @@ businessweekly.com.tw#$#.col-md-7 { flex: unset !important; max-width: unset !im
 walkerland.com.tw##div[class="right-block"]
 walkerland.com.tw#$#div[class="left-block"] { max-width: unset !important; }
 walkerland.com.tw##a[rel^="noreferrer"]
+
+! 世界新聞網
+worldjournal.com##section[class="breaking-news__wrapper"]
+worldjournal.com##div[class="wrapper-side"]
+worldjournal.com##section[class="next-page"]
+worldjournal.com##div[class^="cate-list__container"]
+worldjournal.com##section[class$="facebook-comment"]
+worldjournal.com##section[class="footer-social"]
+worldjournal.com##div[class="tools-box"]
