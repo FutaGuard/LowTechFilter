@@ -156,3 +156,15 @@ ctwant.com##div[class="m-adpopup"]
 ctwant.com##div[class^="l-ad__wrapper"]
 ctwant.com##div[class^="l-ad__article"]
 ctwant.com##div[class="l-series"]
+
+! NowNews
+nownews.com##div[class="subsitetoolsBlk"]
+nownews.com##h3[class="hotnews-top"]
+nownews.com##section[class="breakingNews sticky"]
+nownews.com##section[class="breakingNews"]
+nownews.com##div[class="custom-blk"]
+nownews.com##div[class="related-item"]
+nownews.com##div.keywordBlk 
+nownews.com##section.voteBlk
+nownews.com##div[class="nnBlk immediate mb-1"]
+nownews.com##ul[class="social-media"]
