@@ -44,6 +44,9 @@ tw.news.yahoo.com##div[id="module-view-comments"]
 tw.news.yahoo.com##p[class="read-more-vendor"]
 tw.news.yahoo.com##p[class="read-more-editor"]
 ||tw.news.yahoo.com^$cookie=*;maxAge=10;sameSite=lax
+tw.news.yahoo.com##ul[class^="caas-list"]
+tw.news.yahoo.com##a:matches-attr("data-i13n")
+tw.news.yahoo.com##div[id="module-relatedStories"]
 
 ! 旺旺中時
 !#if (adguard && adguard_app_android)
