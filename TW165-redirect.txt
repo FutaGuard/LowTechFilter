@@ -4575,6 +4575,7 @@
 ||fxspeedwin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.imtokenl.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.imtokense.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||mer.zwnflom.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.csszsw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.jiyiiusi.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kjghll.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6040,7 +6041,6 @@
 ||www.jxhjvhhjhhqj.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.rthjfghh.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.twrddsd.com^$dnsrewrite=NOERROR;A;34.102.218.71
-||mer.zwnflom.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||hk.sinovac-p.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kxym8199.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sinovac.tm-group-inc.com^$dnsrewrite=NOERROR;A;34.102.218.71

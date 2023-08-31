@@ -4575,6 +4575,7 @@
 ||fxspeedwin.com^
 ||m.imtokenl.net^
 ||m.imtokense.com^
+||mer.zwnflom.com^
 ||www.csszsw.com^
 ||www.jiyiiusi.com^
 ||www.kjghll.com^
@@ -6040,7 +6041,6 @@
 ||www.jxhjvhhjhhqj.com^
 ||www.rthjfghh.com^
 ||www.twrddsd.com^
-||mer.zwnflom.com^
 ||hk.sinovac-p.top^
 ||kxym8199.com^
 ||sinovac.tm-group-inc.com^
