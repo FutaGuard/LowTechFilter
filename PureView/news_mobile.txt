@@ -191,3 +191,12 @@ ettoday.net##div[class="block block_2"]
 ettoday.net##div[id="etnews_live_player"]
 ettoday.net##div[class="nav_3"]
 ettoday.net##a[class="download_app"]
+
+! 美麗佳人
+marieclaire.com.tw##p[class^="extendArticle"]
+marieclaire.com.tw##ul[class^="extendArticle"]
+marieclaire.com.tw##div[class="adArticlebottom"]
+marieclaire.com.tw##div[class="extendRead"]
+marieclaire.com.tw##div[class="magazine"]
+marieclaire.com.tw##p[class="subscribeTitle"]
+marieclaire.com.tw##div[class="subscribeBox"]
