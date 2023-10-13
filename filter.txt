@@ -370,3 +370,5 @@ noewnews.com##idv[class="ad-blk1"]
 nownews.com##.adBlk
 worldjournal.com##div[class="article-content__ads--bd"]
 worldjournal.com##div[id="idle"]
+marieclaire.com.tw##div[class="adInnerMpu"]
+marieclaire.com.tw##div[class="adUnderlay"]
