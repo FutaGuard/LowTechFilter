@@ -2,8 +2,5 @@ certifi==2023.7.22
 charset-normalizer==2.1.1
 idna==3.3
 requests==2.28.1
-<<<<<<< HEAD
 urllib3==1.26.12
-=======
-urllib3==1.26.12
->>>>>>> cb56b0e (🔥 移除依賴)
+

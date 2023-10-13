@@ -73,6 +73,8 @@
 ! https://web.archive.org/web/20220928033642/https://bnfallshop.com/gqm6ua516d8c4a5
 ||bnfallshop.com^
 
+! 會言論審查的 PTT 備份站
+||moptt.tw^
 
 ! 釣魚
 ||track-post-gov-tw.info^
@@ -403,3 +405,4 @@
 ||mydvids.com^
 ||ak.alklinker.com^
 ||exnessaffiliates.com^
+||iflshop.online^
