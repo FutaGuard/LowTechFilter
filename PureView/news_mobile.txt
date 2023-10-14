@@ -200,3 +200,10 @@ marieclaire.com.tw##div[class="extendRead"]
 marieclaire.com.tw##div[class="magazine"]
 marieclaire.com.tw##p[class="subscribeTitle"]
 marieclaire.com.tw##div[class="subscribeBox"]
+
+! 電影神搜
+news.agentm.tw##div[id="agmn_a_beginArticle_M"]
+news.agentm.tw##div[class="relative"]
+news.agentm.tw##aside[class="pside"]
+news.agentm.tw##aside[class="aside"]
+news.agentm.tw##footer[id="footer"]
