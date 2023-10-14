@@ -69,6 +69,8 @@ udn.com##.udn-idle
 udn.com##div[class^="udn-ads"]
 udn.com##.udn-overlay
 udn.com#%#//scriptlet('remove-class', 'idle-open')
+udn.com#%#//scriptlet('set-cookie-reload', 'SeenActivityCloseNotice', 'true')
+
 ! udn 健康
 health.udn.com###overlay_show_box
 ! 自由時報
@@ -370,3 +372,5 @@ noewnews.com##idv[class="ad-blk1"]
 nownews.com##.adBlk
 worldjournal.com##div[class="article-content__ads--bd"]
 worldjournal.com##div[id="idle"]
+marieclaire.com.tw##div[class="adInnerMpu"]
+marieclaire.com.tw##div[class="adUnderlay"]

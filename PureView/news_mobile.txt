@@ -37,12 +37,17 @@ news.ltn.com.tw##div[class="related boxTitle"]
 news.ltn.com.tw##div[id="todayHotNews"]
 news.ltn.com.tw##div[class="see_more boxTitle"]
 news.ltn.com.tw##p[class="appE1121"]
+news.ltn.com.tw##div[id="marqueeHeader"]
 
 ! Yahoo 新聞
 tw.news.yahoo.com##div[id="module-view-comments"]
 tw.news.yahoo.com##p[class="read-more-vendor"]
 tw.news.yahoo.com##p[class="read-more-editor"]
 ||tw.news.yahoo.com^$cookie=*;maxAge=10;sameSite=lax
+tw.news.yahoo.com##ul[class^="caas-list"]
+tw.news.yahoo.com##a:matches-attr("data-i13n")
+tw.news.yahoo.com##div[id="module-relatedStories"]
+tw.news.yahoo.com##div[id="module-originalContents"]
 
 ! 旺旺中時
 !#if (adguard && adguard_app_android)
@@ -186,3 +191,12 @@ ettoday.net##div[class="block block_2"]
 ettoday.net##div[id="etnews_live_player"]
 ettoday.net##div[class="nav_3"]
 ettoday.net##a[class="download_app"]
+
+! 美麗佳人
+marieclaire.com.tw##p[class^="extendArticle"]
+marieclaire.com.tw##ul[class^="extendArticle"]
+marieclaire.com.tw##div[class="adArticlebottom"]
+marieclaire.com.tw##div[class="extendRead"]
+marieclaire.com.tw##div[class="magazine"]
+marieclaire.com.tw##p[class="subscribeTitle"]
+marieclaire.com.tw##div[class="subscribeBox"]

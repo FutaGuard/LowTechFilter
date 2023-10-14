@@ -246,3 +246,23 @@ worldjournal.com##div[class^="cate-list__container"]
 worldjournal.com##section[class$="facebook-comment"]
 worldjournal.com##section[class="footer-social"]
 worldjournal.com##div[class="tools-box"]
+
+
+! INSIDE https://www.inside.com.tw
+! 文末附加內容：業配文
+||inside.com.tw^*/article.js
+www.inside.com.tw##.infinite_article
+
+! 關鍵評論網 https://www.thenewslens.com
+! 文末附加內容：業配文
+www.thenewslens.com##.ad-section__content
+||thenewslens.com^*/gpt-generator.js
+
+! 美麗佳人
+marieclaire.com.tw##p[class^="extendArticle"]
+marieclaire.com.tw##ul[class^="extendArticle"]
+marieclaire.com.tw##div[class="adArticlebottom"]
+marieclaire.com.tw##div[class="extendRead"]
+marieclaire.com.tw##div[class="magazine"]
+marieclaire.com.tw##p[class="subscribeTitle"]
+marieclaire.com.tw##div[class="subscribeBox"]
