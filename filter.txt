@@ -293,6 +293,11 @@ wealth.com.tw###idle_modal
 ! 經理人
 managertoday.com.tw##.mtaa.effect
 managertoday.com.tw##.social_item
+||www.managertoday.com.tw/salmon.png^
+||avivid.likr.tw/sample/aws-sdk-AviviD*^
+||avividone.likr.tw/killswitch/killswitch_config.js^
+||sn.bnextmedia.com.tw/js/tc.js^
+||*.bnextmedia.com.tw/recommendation/events/*^
 
 ! liveabc
 @@||amazonaws.com/storage.liveabc.com/ads/*

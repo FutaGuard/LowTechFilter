@@ -273,3 +273,19 @@ news.agentm.tw##aside[class="aside"]
 news.agentm.tw#$#div.container{ display: unset!important; }
 news.agentm.tw##div[class="relative"]
 news.agentm.tw##footer[id="footer"]
+
+! 經理人
+managertoday.com.tw##div[class="w-full hidden lg:block"]
+managertoday.com.tw#$#div.main_box{ display: unset!important; }
+managertoday.com.tw##div[class="jupiter_event_box"]
+managertoday.com.tw##.extend_post_box
+managertoday.com.tw##a[title="加入經理人LINE好友"]
+managertoday.com.tw##div[id="datamagic"]
+managertoday.com.tw##div[class="sidebar1_A"]
+managertoday.com.tw##.pumpkinbanner
+managertoday.com.tw##div:matches-attr("wire:id")
+managertoday.com.tw##div[id="my-idle-wrapper"]
+managertoday.com.tw##div[class="edm-form-panel"]
+managertoday.com.tw##a[data-dl_item="magazine_list"]:nth-ancestor(3)
+managertoday.com.tw##div[x-data="social_share"]:nth-ancestor(1)
+! 
