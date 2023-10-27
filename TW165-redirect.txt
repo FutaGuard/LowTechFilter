@@ -10,6 +10,7 @@
 ||www.11stglobal.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.1672211.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||17-play01.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||17play275.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.17-play55.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.17-play88.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.17play00.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -65,6 +66,7 @@
 ||acentcoin.us^$dnsrewrite=NOERROR;A;34.102.218.71
 ||acenteex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||acentglobal.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||acentpro.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||acenttw.us^$dnsrewrite=NOERROR;A;34.102.218.71
 ||acentvip.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||samapxh15lemzb.acenttw.pro^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -166,6 +168,7 @@
 ||aness.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ane-aa.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.anevip.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||ankex-btc.club^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ankex-btc.online^$dnsrewrite=NOERROR;A;34.102.218.71
 ||anti178.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||anti261.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -214,12 +217,14 @@
 ||atfxwealthbtc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||intimemtfx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.infoatfx.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||tsgtw.atomx.live^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tsgtw.atomx.me^$dnsrewrite=NOERROR;A;34.102.218.71
 ||at168.info^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.88au8.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||aztvp.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ubspork.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||down.avabroker-tw.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||web.avabrokertrade.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.avabrokertrade.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.avax-financemax.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.avax-max.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -288,12 +293,14 @@
 ||www.aerwimes.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||appskqtat3fihbjy.jiabohao.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||nftesla.online^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.ainose.live^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ainose.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||aircash.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.aircarbon.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||wealth.aisagoldmxs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.aisagoldmxs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ada.alcoaiesr.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||duo.alcoaiesr.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fyl.alcoae.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kgw.alcoaesr.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kgw.alcoaiesr.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -324,6 +331,7 @@
 ||alpha-finace.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||alphafinace.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||alphafinacec.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||alphafinaceca.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||alphafinaced.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||alphafinaceq.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||alphafinacex.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -373,6 +381,7 @@
 ||ammmine.org^$dnsrewrite=NOERROR;A;34.102.218.71
 ||pn3.sechcn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cs.aafcry.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||cs.cmacbg.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cs.feffee.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cs.fusgth.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cs.hnsgjr.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -386,7 +395,6 @@
 ||www.ncrncy.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sfa.visoser.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||wsd.visfjie.com^$dnsrewrite=NOERROR;A;34.102.218.71
-||ankex-btc.club^$dnsrewrite=NOERROR;A;34.102.218.71
 ||anybuymall.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||anybuyshops.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||anybuyshops.vip^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -400,6 +408,7 @@
 ||www.aqdgroups.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||arbitrons.ai^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mkp.archnnesy.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||balance.aredefie.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.asfglobals.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||appdd.me^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sgd588.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -440,6 +449,7 @@
 ||zhantop.bzeuk.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.batecoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||baetf.live^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.baetf.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bbs157.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bbs157.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bbs2001.net^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -458,6 +468,7 @@
 ||bckvim.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bcl-trade.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cfds1.chnthebcr.center^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.caaoethebcr.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coaoethebcr.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.covaethebcr.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.cuaythebcr.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -495,12 +506,14 @@
 ||bit.svipcoins.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||d.p2bdwq.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bestbeo.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||bit.svip.name^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sss.bitsrose.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||twtw.bitsguss.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||twtw.bitsrose.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bitbfsdf.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitewtx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bitewtx.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||bitekrc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitvdsz.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bitekrc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bitimnv.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -551,7 +564,9 @@
 ||sedfw.abb-mgs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ymbi.hitbtcm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ymdj.hitbtct.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||homsamexc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bt-defi.club^$dnsrewrite=NOERROR;A;34.102.218.71
+||btc-fi.club^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.btcbase.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||d.appk56728.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||d.btchdwl.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -598,6 +613,7 @@
 ||www.bitkbm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bybithtmls.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.baicoins.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||bakin68.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||baktta.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bakkts.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bakktss.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -660,6 +676,7 @@
 ||www.bikn-tw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bikinge.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bikivins.vip^$dnsrewrite=NOERROR;A;34.102.218.71
+||bikotousdt.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bikotovip.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bikuex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bilaxy.fit^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -735,6 +752,7 @@
 ||bitforapp.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||expoex.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sdugnmmss1391.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.bithashsg.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitedax.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitkeep2018.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitkeyep88.cc^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -758,6 +776,7 @@
 ||www.winning92.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitmxc.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bitopmaket.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.bitopmakt.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bittmartr.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||56bit.bitmexx03.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bit6.cc^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -776,7 +795,9 @@
 ||bitjvx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bittopcs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bizatadty.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.bitvfb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bitvikr.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.bitagle.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitazadxss.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitazafji.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitazaram.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -851,6 +872,7 @@
 ||bithels.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitdju.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitewbn.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||bitewdv.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bitdju.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bitkan24.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitkan24.net^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -874,9 +896,11 @@
 ||bitrich555.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitrich666.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitrichbank.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||bitrichbm.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitrue.finance^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitrue.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.qianff14.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
+||bits-tw.buzz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.taobao-6.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tst.bitshengems.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tst.bitshengs.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -892,6 +916,7 @@
 ||m.bitsetc.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||vanm.bitstamp.agency^$dnsrewrite=NOERROR;A;34.102.218.71
 ||vanm.bitstamp.ageny^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.bisampnktj.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bisampyghj.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bistamftjh.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bitstampfks.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -931,6 +956,7 @@
 ||www.bodyshop166.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||boniry.cyou^$dnsrewrite=NOERROR;A;34.102.218.71
 ||boniry.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
+||boniry258n.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||boniry699d.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||down.boniry.art^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bobbcoin.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -957,15 +983,19 @@
 ||www.budagloge.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bukbene.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bullishd.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.bullishb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bullishib.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bulloptioncapital.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||busskincoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.buxzerox.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.buxzeroe.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bbdown01.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.bithoh.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bybitlines.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.seeingshop.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cpatexcr.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cpatexdc.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||cpatexrsd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cpatexsl.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.cpatexuv.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tcaa.coinnaaldge.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1096,6 +1126,7 @@
 ||csl369.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gifclubclub.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ctc-defi.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||bi.ctiib.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ctrlinvestmentwa.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ctrlinvestmentwss.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ctrl-fx.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1144,6 +1175,7 @@
 ||centralshoping.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.central886.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.cgwlcoin.world^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.metaetherpro.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ybiakrsxa.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||chainceinfoex.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.chaince-coin.cc^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1185,6 +1217,7 @@
 ||www.clipp001.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.cliup01.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinpools.info^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.paymall.live^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cloud-bitcoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.cloud-bitcoin.club^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.cloud-bitcoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1219,6 +1252,7 @@
 ||cointfx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||aafg8.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bit.coin-en.net^$dnsrewrite=NOERROR;A;34.102.218.71
+||inex-gemin.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sal-mining.tools^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coin-amd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinbasemi.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1313,14 +1347,18 @@
 ||www.gts999666.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.coinitems.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinitems.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||coinjar1.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinlead-fx.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinlead.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinlead.vip^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.coinleadex.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||coinlifee.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.coinlifee.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coin-mamas.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinmamamaasia.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinmamamabtc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinmamamatwn.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.coinmamamausd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinmamausda.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinmamausdt.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cmarketvip.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1330,6 +1368,7 @@
 ||coinebcx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||coinfhu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinebcx.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.coinfhu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mobile.coinme.finance^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coin-exmetro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.obus.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1344,6 +1383,7 @@
 ||coinsbit.life^$dnsrewrite=NOERROR;A;34.102.218.71
 ||coinsbit.pro^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinsbial.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.coinzbo.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinzby.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kucointw.cyou^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kucointw.net^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1354,6 +1394,7 @@
 ||client.collart.co^$dnsrewrite=NOERROR;A;34.102.218.71
 ||client.collart.group^$dnsrewrite=NOERROR;A;34.102.218.71
 ||shopping138.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||comex-pro.org^$dnsrewrite=NOERROR;A;34.102.218.71
 ||comexpro.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mycomexpro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ucomexpro.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1377,11 +1418,13 @@
 ||www.costcoyahh.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.csscostcooss.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.cssostcoos.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.manipcostco.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.sssccgfdgjcostcoo.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.sssgfdgjcostcoo.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||costerexchange.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||trsde.cotchmax.store^$dnsrewrite=NOERROR;A;34.102.218.71
 ||trsde.cotchmax.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
+||cvadeds.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coupangmanager.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coupangsell.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.cpfeedback.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1427,6 +1470,7 @@
 ||bstetherc20.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bstethustd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bstmaxeth.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||bstrec20usdt.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bstusdtmax.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cryptobtx.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.cubicwalletex.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1442,6 +1486,8 @@
 ||rays.currency.golf^$dnsrewrite=NOERROR;A;34.102.218.71
 ||rays.currency.town^$dnsrewrite=NOERROR;A;34.102.218.71
 ||rays.currency.university^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.curveqwy.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||cyouclout.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.btchmeg.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||disb.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.daiether-defipro.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1452,6 +1498,7 @@
 ||gocted.danarx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gocted.danaxras.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gocted.danaxraus.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www0.daoraus.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bvxgat.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.gatbu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.gatnx.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1476,6 +1523,7 @@
 ||dd-btxpromax.org^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ddbcar.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ddexlub.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||ddaxril.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ddexcui.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ddexefk.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||1defiwalletweb3.bio^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1518,6 +1566,7 @@
 ||www.dfi-moneyaj.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.dfi-moneybf.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.dfi-moneybg.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.dfimoneyaab.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.dfimoneyzcp.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.dfimoneyzdp.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cryptobch.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1532,6 +1581,7 @@
 ||dg168ce.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||dgnew168.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.dgdgdg58.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.diamondsrich.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||diem16.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.divine66.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sport969.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1654,6 +1704,7 @@
 ||www.doncoinvip.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||members.drcfx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.dremata.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.drtsche.club^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.drtsche.fyi^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.duxgoldingltd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.correlate198.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1665,6 +1716,7 @@
 ||qieb3583oab.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mkp.archneasys.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.east-shop.shop^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.east-shop.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||e.ebcfinancetw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ebcfinanaitw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ebcerbr.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1723,6 +1775,7 @@
 ||ascendextoken.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||dearn.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||dearnclimeddefi.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||dearndefi.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||dearnnode.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||defiflexpool-vip-a.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||defiflexpool-vip-c.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1768,10 +1821,12 @@
 ||www.easytok7.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.fjx6.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||client.eazyshop.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.eazyshop.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ebangl.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.e-buys.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.e-buys.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.go-ebuy.net^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.ecforex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||paxos.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||btbt.egaxm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.egamxs.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1779,6 +1834,7 @@
 ||www.eiightcapfx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ieightcapfx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.eightvcapfx.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||intelligentltd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.eliabanking.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ellandroadcapital.me^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ellandroadcapital.capital^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1809,6 +1865,7 @@
 ||www.ethtsi-max.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ethtsiplus.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ethtsipro.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||app.ethicq.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.ethicu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.ethicw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ethrefund.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1833,6 +1890,7 @@
 ||rich888.etoracluoyer.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||rich888.etoraiertes.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.etliforo.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.etorackcter.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.etorackect.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.etoraieryos.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.etorotes.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1852,7 +1910,9 @@
 ||www.eurtwoxt.site^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.eurtwoxt.store^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.eurtwoxt.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
+||everestcm.mp775er.social^$dnsrewrite=NOERROR;A;34.102.218.71
 ||everythingmallx.vip^$dnsrewrite=NOERROR;A;34.102.218.71
+||everythingmall.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||everythingmallm.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||everythingshop.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||malleverything.vip^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -1930,10 +1990,11 @@
 ||www.ffexe.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ffc3.volatils.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ffd3.volatils.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||fhldb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fhlpx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||belc.bellagioweb.vip^$dnsrewrite=NOERROR;A;34.102.218.71
-||fhldb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fmfwci.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||fmfwhv.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fmfwyn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.fmfwdsc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.fmfweif.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2007,6 +2068,7 @@
 ||d.zniang.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fhglobalzhs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fhglobalzhsbank.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||fhglobalzhsbank.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fhglobalzhses.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fhglobalzhsss.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||free.webygun.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2104,6 +2166,7 @@
 ||www.first-coins.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.firstcoinis.cn^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.nasjdbwaq.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||app.vncklie.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.heiheigan.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ivjuiujiuqw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.sjgiodf.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2116,11 +2179,13 @@
 ||www.fitbelaepro.us^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.fitbelaeproer.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.fitbelaerprofx.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||flamgvip.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||flashcoin.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ceo8.fideltkkers.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fhpfkipa.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||likantnet.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.filpkart.life^$dnsrewrite=NOERROR;A;34.102.218.71
+||flipster.finance^$dnsrewrite=NOERROR;A;34.102.218.71
 ||flipster.pro^$dnsrewrite=NOERROR;A;34.102.218.71
 ||flowbusiness.cloud^$dnsrewrite=NOERROR;A;34.102.218.71
 ||flowextrade.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2265,6 +2330,7 @@
 ||www.luck7.plus^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.rbeb55.cn^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.zldshop.online^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.huizhengbao.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.gmiusfx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||besp.gmofirst.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||besp.gmoglobal.com.tw^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2289,6 +2355,7 @@
 ||gmxbtc.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gmxecog.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gmxsxs.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||gmxsxv.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gmxyoun.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gmxytun.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.gmxtron.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2308,10 +2375,13 @@
 ||vp777.gra-fi.info^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mkp.graext.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gs1658.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.gscbx.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||gsguscoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||market4global.shop^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gtiglobalmarket.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gtimarkets.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.gwiqz.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||traoe.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gvdcq.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.gaitameonline.cn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||wap.gaitameonline.net^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2341,6 +2411,7 @@
 ||www.gatepro.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.gatesz.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.heduckpsn666.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.io400.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ioeeexx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ioeexxxx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ioex2.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2438,6 +2509,7 @@
 ||www.gmall-tw.today^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.gmarket-go.click^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.gmarket-go.info^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.gmarket-go.site^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.gmarket-go.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.gmarket.life^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gnexfe.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2571,6 +2643,7 @@
 ||hippotesco.life^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.hipnicedack.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||hispeedtrading0728.cyou^$dnsrewrite=NOERROR;A;34.102.218.71
+||hispeedtrading0728.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.hispeedtrading0728.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.hitbtch.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.hitbtcn.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2607,6 +2680,7 @@
 ||nnds.hingx.club^$dnsrewrite=NOERROR;A;34.102.218.71
 ||hppy-shop.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||hpy-shop.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||ch992.huatasor.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cpds2.huataioa.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||asn.hubcultures.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.hubcultures.net^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2665,6 +2739,7 @@
 ||s3.inv-finder.biz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||s6.inv-finder.biz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||vv.inv-finder.biz^$dnsrewrite=NOERROR;A;34.102.218.71
+||m.igglobalhq.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.igglobalhub.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||amtop-pro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.amtop.bio^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2672,6 +2747,7 @@
 ||ig-www.jingxcn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www-ig.cjzqls.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.igikl.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.igzid.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.fmdqc.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.fm8qc.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.jkevb.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2685,6 +2761,7 @@
 ||www.imcyp.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.my-imc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.immxvip.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||capitalgain.intuitsdc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||net.ipdwio.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ipeenbb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ipeendb.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2733,6 +2810,7 @@
 ||www.inceptial.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.exonmy.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||instabankbit.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||instabankbitmax.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||instabankcoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||instabankxbit.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mycoinpsf77on.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2876,6 +2954,7 @@
 ||mkp.kezeeros.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mvs.kereros.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kgtds.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||kgtpx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kg1688.org^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kingex.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||crypto.lion.expert^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2908,6 +2987,7 @@
 ||intfafa.kadenx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kadenx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kaidexbina.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||kaidexcbd.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kaidexcbdc.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kaidexifc.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kangbo-ex.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2935,12 +3015,13 @@
 ||www.kingexs.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kinginfo.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kinginfos.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.kingst.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.kingchoice2.me^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.kingchoice2023.me^$dnsrewrite=NOERROR;A;34.102.218.71
+||n.kinvestops.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||acs516.kinvestcap.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||celufa.kinvestcap.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||celufa.kinvestpes.com^$dnsrewrite=NOERROR;A;34.102.218.71
-||n.kinvestops.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||trade8.kinvestcap.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kinvestcap.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bbb03.komitdi.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2986,6 +3067,7 @@
 ||www.coinmaketcapc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kryptoriakuc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||cblcytb.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||kseibxe.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kseicso.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kseidcx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kseidcx.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -2993,6 +3075,7 @@
 ||ddexoc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kucoin.kucoinexchanges.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kucoinpros.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
+||m.btctoken.club^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.maxh.space^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ku-bitcoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ku-excoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3029,6 +3112,7 @@
 ||www.xclbank.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.wintersatlantic.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||net.lcef2023.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||merchant.lcnycoind.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||merchant.lcnycoinn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.lelong-shopping.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ts.an77.net^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3057,6 +3141,7 @@
 ||www.ltmanages.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||linqnew.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.linqcc.cc^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.linqnew.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.linqsvip.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||reg.zhe2222.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||llbkwzshop-tw.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3116,6 +3201,7 @@
 ||lazadashop-twmall.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||lazadasuuaxs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||lazadaumavip.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||lzdtw886.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.lazadada.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mall-lazada.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.lazada-tw.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3150,6 +3236,7 @@
 ||lifeshop.me^$dnsrewrite=NOERROR;A;34.102.218.71
 ||lifeshop.pro^$dnsrewrite=NOERROR;A;34.102.218.71
 ||lifeshop.world^$dnsrewrite=NOERROR;A;34.102.218.71
+||light4tradetw.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.light4tradetw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.light4tradetw.cyou^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.light4tradetw.net^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3160,6 +3247,7 @@
 ||www.lightwavtw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.lightwavtw.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.lw-tw.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||h5.likescoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.limit-tw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||linargogroup.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||lippotw.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3183,6 +3271,7 @@
 ||lonshiex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.jnulouis.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.louiszbu.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.taclouis.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.vnulouis.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.lovetobuyshop.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.klgame.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3225,6 +3314,7 @@
 ||mcquacps.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mcquagroup.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mcquamarket.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.mcsder.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tsvcrod.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mdbfbvs.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mdbfis.vip^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3282,6 +3372,7 @@
 ||merchant.mkrcoinlodsn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.merchant.mkrcoinnag.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mkrcoinnag.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||mkrex.club^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mkrex.ws^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mokfxm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||buyergomomo.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3318,6 +3409,7 @@
 ||mreew.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mrentsz.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mrewvc.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.opplhjunb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||spp1688.metxwin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||spp1699.metxwin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mtwxikai.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3356,6 +3448,8 @@
 ||www.seagensyer.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||zhong.seagensyer.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.manycoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||manycoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.martckjb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.martexiu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.martnec.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.martovj.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3390,6 +3484,7 @@
 ||celufa.meryalants.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||n.merrylants.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||trade8.merrylans.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||trade8.meryalaryts.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.metaethemax.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.starmetafarm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.962325.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3463,6 +3558,7 @@
 ||impusdt.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||inpusdt.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||miracledxsx.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||miracleefs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.miracledcx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.miracledxsx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.miracleefs.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3502,6 +3598,7 @@
 ||www.moondnyh.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.moondrds.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.moonhud.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||moontrader.pf4ick.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ww.chdwtw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.chdwtw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.datskyt.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3511,6 +3608,7 @@
 ||user.motongfx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mstion.site^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mstoken.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.mtrtue.store^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mtrtue.online^$dnsrewrite=NOERROR;A;34.102.218.71
 ||much888.muhgteszascoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||much888.muhgtszacoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3549,10 +3647,12 @@
 ||pmb.myrnnez.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||toad.myrnanez.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||myshop-mall.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||money88.foesrvnet.live^$dnsrewrite=NOERROR;A;34.102.218.71
 ||money88.foesrvnet.site^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sdf888.foesrvnet.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||n4g.npbo.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||download.tsxpor.net^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.b2b199.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.cbdnasdaq.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.nasdaqus.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.nasdaqusa.net^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3571,6 +3671,7 @@
 ||www.nexquotations.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||nexdaxcuij.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||nexdaxewd.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||nexdaxrng.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||nexdaxwze.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.nexdaxcuij.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.nexdaxewd.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3699,6 +3800,7 @@
 ||www.tttwvstock.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ttwvstock.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.twvstockk.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||oaxed.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bjlcn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.oecvnci.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ofx.cbbw6t.cn^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3759,6 +3861,8 @@
 ||onboecbdc.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||onboeifc.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||onboeltc.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||onboeusdt.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.opnxcoin.org^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.opaycoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||financial.otcintaiwan.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||otcintaiwan.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3867,6 +3971,7 @@
 ||pc24orders.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||pc24sacks.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||pc24storesp.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||pc24user.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||pc24vip.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||pchomegiveback.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||pchomegivemeback.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3935,13 +4040,16 @@
 ||www.passpu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.pufxmarkets.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.realoopufx.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.servicepull.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.topuma.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||ios.pzcoin.co^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ios.pzcoin.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.pzcoin.co^$dnsrewrite=NOERROR;A;34.102.218.71
 ||pandorafx.co^$dnsrewrite=NOERROR;A;34.102.218.71
 ||pdforex.co^$dnsrewrite=NOERROR;A;34.102.218.71
 ||pdoraafx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.pdforex.co^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.parcosi.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.parubus.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.parxtoo.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||patrlg.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3949,6 +4057,7 @@
 ||www.peeba2.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.peeba5.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||peichengasia.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||peichengcap.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||peichengex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||peichengllc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||peichengroup.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -3978,6 +4087,7 @@
 ||ww2.rsttw8989.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ptpro.app^$dnsrewrite=NOERROR;A;34.102.218.71
 ||wfry18i.cn^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.oerzvv.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bxytxw.cn^$dnsrewrite=NOERROR;A;34.102.218.71
 ||chaebol.pimcose.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.pimcose.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4023,9 +4133,12 @@
 ||h5.polyx.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.polyx.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||hesign.me^$dnsrewrite=NOERROR;A;34.102.218.71
+||socaki.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.polyx.bet^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.polyxex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.polyxit.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||w.e-sell.cc^$dnsrewrite=NOERROR;A;34.102.218.71
+||poshmxehapr.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.coinpotex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.potex9.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinpotex.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4078,6 +4191,7 @@
 ||www.prettymission-my.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.prettysell-my.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.prettyshop-my.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.prettytwshop-my.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.pjeaktaorty.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.pjeakwey.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.pxycoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4153,6 +4267,7 @@
 ||www.vuhb686.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||rtxwild.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||rtxworld.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||worldwildrtx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.asia-net.pro^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ruixin520.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.lthcrosstw.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4199,6 +4314,7 @@
 ||www.regafun.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.reqtrade.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.hotel-reserve.net^$dnsrewrite=NOERROR;A;34.102.218.71
+||r-revainro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||r022tw.ww888012.online^$dnsrewrite=NOERROR;A;34.102.218.71
 ||r02tw.zfc888040.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||rr001tw.yyt666015.store^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4256,6 +4372,7 @@
 ||www.officialsbi.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.sbiirjmnfkxkke.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.sbilamkiedjroc.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.sbiofficial.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||hhh.sbitrade.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||lv.sbi.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sbi.tw^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4302,6 +4419,7 @@
 ||sgx.exaschange.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||zy1928.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bestwork.store^$dnsrewrite=NOERROR;A;34.102.218.71
+||hellowork.tech^$dnsrewrite=NOERROR;A;34.102.218.71
 ||luckywork.shop^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.osufbp.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||go.sia-invest.vip^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4363,6 +4481,7 @@
 ||ss2.sasa.sale^$dnsrewrite=NOERROR;A;34.102.218.71
 ||safecoinup.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||875755.click^$dnsrewrite=NOERROR;A;34.102.218.71
+||z93563.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.safepalas.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||jys.aixsshop.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||myth.safetytois.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4433,6 +4552,7 @@
 ||tw.bailm.co^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tw.escep.co^$dnsrewrite=NOERROR;A;34.102.218.71
 ||wallvn.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.nhshopee.cn^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.shopee-avail.life^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.shopee-shop.club^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.shopee-shop.shop^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4487,6 +4607,7 @@
 ||tw11.shopsyx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tw13.shopyyf.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tw13.shopzkk.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||tw18.joom.mx^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tw2.yxshop99.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tw22.shopyyf.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tw25.shopjjj.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4535,9 +4656,11 @@
 ||www.pueroftea.shop^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.puerstea.live^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.puerstea.shop^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.sparklefxd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.sparkntc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.sparkvexc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sparkntc.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.speedveh.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.speedstar.site^$dnsrewrite=NOERROR;A;34.102.218.71
 ||speedwindltd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.aboutsp.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4565,6 +4688,7 @@
 ||starexch.games^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.starexchangei.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.starexchangeit.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||starexchangeex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.starexchangef.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.starexchangein.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.starexchangep.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4575,6 +4699,7 @@
 ||www.starexco.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.starexpro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.starexus.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.ssstarbuckscashback.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.starfishs.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||a001.starlux.beauty^$dnsrewrite=NOERROR;A;34.102.218.71
 ||a001.starlux.live^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4591,6 +4716,7 @@
 ||www.taiwanstartrso.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||wwwi.taiwanstartrpros.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||startraderfex.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||stellarcvc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||stellarcxv.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||stellarrnt.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||stepup70.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4635,6 +4761,7 @@
 ||a.supernft.cloud^$dnsrewrite=NOERROR;A;34.102.218.71
 ||a.supernft.rent^$dnsrewrite=NOERROR;A;34.102.218.71
 ||a.supernft.space^$dnsrewrite=NOERROR;A;34.102.218.71
+||a.supernft.work^$dnsrewrite=NOERROR;A;34.102.218.71
 ||hga888.superstarworker.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||vcs168.superstarworker.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||superbtm.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4642,6 +4769,7 @@
 ||www.superbtm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||swapnex.io^$dnsrewrite=NOERROR;A;34.102.218.71
 ||swissborgex.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||swissborgxx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.swissborgxx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||force.firstrande88.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||squa.cbnrcih.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4657,6 +4785,7 @@
 ||www.icrmsynquotes.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.synquotescrm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.synquotescrma.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||systemeu99.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||lbjils.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||lbjudaf.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||lbvuid.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4675,6 +4804,7 @@
 ||opgg3327.t96666.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tackstt.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tamia.shopping^$dnsrewrite=NOERROR;A;34.102.218.71
+||hre.goldawg.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||hre.goldchb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||hre.goldgbc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||hre.tanakaesd.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4712,6 +4842,7 @@
 ||lotiden.tdcxy.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||taiwan1.tdcxy.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tcsomen.tdcxyers.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||suhs888.crownhappier.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||suhs888.icrownoil.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||suhs888.icrowntas.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.temupaid88.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4733,6 +4864,7 @@
 ||www.tgkktm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tgr46822.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tgr26397.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.tgr43771.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tgr54581.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tgr91344.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tha58.net^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4806,6 +4938,7 @@
 ||www.tronseng.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tronsev.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tronskb.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.truefizzi.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ydxrunmax.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ydxtsia.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||trxbintuc.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4845,6 +4978,7 @@
 ||www.taoshopeei.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tbikuxu.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.zxcx.cc^$dnsrewrite=NOERROR;A;34.102.218.71
+||tea-pin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tea-buytea.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.hnbcjk.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tearawtea.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4852,6 +4986,7 @@
 ||tbdsasds.vipshopbuy.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tea-bazaar.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tea-funny.cn^$dnsrewrite=NOERROR;A;34.102.218.71
+||m.tg-makets.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||pc.tg-makets.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||deamed.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||deameg.cc^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -4984,6 +5119,7 @@
 ||www.tradenationr.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tradenationt.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tradenationtr.tw^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.tradenationu.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tradewheel.info^$dnsrewrite=NOERROR;A;34.102.218.71
 ||newideas.world^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tradingview258.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5007,6 +5143,7 @@
 ||ojvcd.treasuremax.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||treasury6.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||trendcsx.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||trendrgy.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.trendcsx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.trendgcv.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.trendjio.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5015,8 +5152,10 @@
 ||truistex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.trust-otc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.trustcoin-exchange.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.trustcoin-exchange.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||trusthk.co^$dnsrewrite=NOERROR;A;34.102.218.71
 ||trustweb.cc^$dnsrewrite=NOERROR;A;34.102.218.71
+||trutrade.ink^$dnsrewrite=NOERROR;A;34.102.218.71
 ||trutrade.wiki^$dnsrewrite=NOERROR;A;34.102.218.71
 ||trutrade.zone^$dnsrewrite=NOERROR;A;34.102.218.71
 ||vsw.tslessd.store^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5078,6 +5217,7 @@
 ||www.ucexcoin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ucexex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.uexcex.vip^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.ueexglobal.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mh6688.uevuseors.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mh6688.uevuseoryes.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mh6688.uevuser.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5088,6 +5228,7 @@
 ||www.uezmarktss.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ht.ukexba02.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ht.ukexba06.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||ht.ukexba1.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ht.ukexqi06.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ht.ukexqi07.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ulei-max.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5110,6 +5251,7 @@
 ||sss.difiroxe.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||wcr.oilvtcs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||uss9989.usscor.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||uss9989.usseaor.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.uuexjap.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.uuexxs.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.uuxekap.vip^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5121,6 +5263,7 @@
 ||blockchain.uvbastsao.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mh6688.uvbsta.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||qq888.uvbassa.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.uvbassa.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.uvbsta.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.uepluoareos.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.uepluooss.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5155,6 +5298,7 @@
 ||www.unsysx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.unsysxer.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.unsysyxer.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.unsyuxer.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.uswglobals.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.uswlimited.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mkp.upbouna.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5214,6 +5358,7 @@
 ||www.vbikp.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.vbixnn.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.venus-financek.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.venusprotocolnfk.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||vibbits.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||power-vic.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sfa.vicpur.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5315,6 +5460,8 @@
 ||m.wezcu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.wfdcoin.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ikoeg.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.wfpcoin.live^$dnsrewrite=NOERROR;A;34.102.218.71
+||ev4.wheatoncc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||allgame99.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fungamebest77.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||prowin99.org^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5335,6 +5482,7 @@
 ||www.walletfuturepro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.walletpab.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.walletsaa.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.walletsab.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.walletsac.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.wecoinsbase.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||walletexchange.buzz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5345,6 +5493,7 @@
 ||www.tikk-shop.org^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.wainant.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.walmant.club^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.walmant.info^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.walmant.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.walmarteshop.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.walmert.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5352,6 +5501,7 @@
 ||www.walnart.store^$dnsrewrite=NOERROR;A;34.102.218.71
 ||walrus-token.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||gh.gaogaoingb.cn^$dnsrewrite=NOERROR;A;34.102.218.71
+||ymt.gaogaoingb.cn^$dnsrewrite=NOERROR;A;34.102.218.71
 ||d.wayteccs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||e02.waytecies.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||e02.wayteciyes.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5373,6 +5523,7 @@
 ||lucky168.yasenfinancial.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sdf888.fodesrvnet.online^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sdf888.fodesrvnet.website^$dnsrewrite=NOERROR;A;34.102.218.71
+||wealth-era.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.wealthfrontintl.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fubb.goldiuo.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||wt.airpugroup.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5420,6 +5571,7 @@
 ||xedlp.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||xedml.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||xedpq.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.xfvbg.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.xilecai.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||haidilaohuodon26.cn^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.xmfxs-markets.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5448,6 +5600,7 @@
 ||www.xtexchangepro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||xtbcva.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||xtbium.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||xtbver.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||xtnapp.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||xtnappk.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.xtzant.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5475,6 +5628,7 @@
 ||ser.xitca.co^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ser.xitca.site^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ser.xitca.website^$dnsrewrite=NOERROR;A;34.102.218.71
+||pienoxifc.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.xtrade.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.xtrade.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tradxtrad.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5505,6 +5659,7 @@
 ||yshxword.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||amknl.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||qghjk.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.ytexpro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ytexproex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ytexpro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||yueme.com.tw^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5515,6 +5670,7 @@
 ||moro.yasenfinancial.live^$dnsrewrite=NOERROR;A;34.102.218.71
 ||roaces.yasenfinancial.site^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.yategoo.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.pxmartapp.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.yearn-financed.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.scctg.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.yieldfarming-marketplus.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5541,7 +5697,9 @@
 ||www.zbwhc.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.zbzbijs.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.zbzbss.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.zbzuitt.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.zdex.store^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.zenexin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.zenexr.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.zenexw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||zenexc.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5571,6 +5729,8 @@
 ||www.zoussxz.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.zuigg.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.appstoredown.net^$dnsrewrite=NOERROR;A;34.102.218.71
+||6366698.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||w.bitflerapp.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.coinwblob.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.daiethermaxpro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||etoro-et.online^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5611,6 +5771,7 @@
 ||www.ghhebay.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.global-shops.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mall-ebay.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.shopppebayss.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.vkudwu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||xdre.brgsd.world^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.etoracluyer.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5653,6 +5814,7 @@
 ||m.imtokenl.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.imtokense.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mer.zwnflom.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.xreyugb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.jfijkouj.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.csszsw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.jiyiiusi.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5677,6 +5839,7 @@
 ||shjys86.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||shsfe086.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||vip.shjys86.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.chnfe86.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.shfecn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.98021061.vip^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.abcciqv.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5690,6 +5853,7 @@
 ||www.wqddl.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.zvcbd.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||szehopes.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.szehopes.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||a.dsawcdaa.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ndfbxsa.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.qwdlu.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5699,7 +5863,9 @@
 ||www.ezizhongtgj.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.zizhongtgj.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ztgjgloint.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||app.fqbuio.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.fqbuio.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.cqcueq.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kfvwcy.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||zhe.zhongyzz.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.shopvipgiveback.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5841,6 +6007,7 @@
 ||a004.8legend.online^$dnsrewrite=NOERROR;A;34.102.218.71
 ||z003.8legend.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.ccmqhd.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||app.cpkujq.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.chjasfebsa.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.sxzvcs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.happybuyer.live^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5850,6 +6017,7 @@
 ||www.ypscshowtw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ypshowtw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||81768478.youtaosc.vip^$dnsrewrite=NOERROR;A;34.102.218.71
+||h5.yxshope.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.dozbm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.gptaigu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.ydzjjys.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -5922,6 +6090,7 @@
 ||kgcapitals.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kgfinancials.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kgsasia.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.kgcaps.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.larcmap.online^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.mtkrjr.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kr.mekrio.tw^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6025,7 +6194,9 @@
 ||qdd.ke-mas.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||southnan.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bsassets.com.tw^$dnsrewrite=NOERROR;A;34.102.218.71
+||m.jrqrml.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.smnhus.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.bossxw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bx88st.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||yxnet002.bx66cs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||yxnet005.bx66cs.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6033,7 +6204,6 @@
 ||www.bl678.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.glpwgj.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.aifejq.top^$dnsrewrite=NOERROR;A;34.102.218.71
-||m.jrqrml.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.wgsqwy.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||acs168.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.acs168.net^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6072,6 +6242,7 @@
 ||pg.penvyr.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.dgnfihgf.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.zvxyuet.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.xjbcbvjvv.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||delenzing.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||diaodl.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ezldfa.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6106,11 +6277,13 @@
 ||tw.vipph03.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tw.vipshop08.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tw.vipsije.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||vipmalldownload.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||vipvipmall.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||viviptw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||sg.hohner.cn^$dnsrewrite=NOERROR;A;34.102.218.71
 ||shangyue128.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.qiyuantw.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||qifanasset.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.zmhuiso.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kisiujm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||d.jgbwdn.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6165,6 +6338,7 @@
 ||not.sihaipoe.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.sihaipoe.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||guostw.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.guostw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.xingjhcxgvbb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.guoyouziben.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h5.guoyouzibeng.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6253,6 +6427,7 @@
 ||www.dsheres.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.levevrc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.levewui.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||mcnopros.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mscbn.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||asf.dycoins.com.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.dycoins.com.tw^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6276,10 +6451,12 @@
 ||app.dqfrmd.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.dtcggm.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.3989988.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.3989988.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||taiyiptrade.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||oni618.gm1788.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.vvtaa3.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.hkcp75.cc^$dnsrewrite=NOERROR;A;34.102.218.71
+||app.kdhgudi.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||jzs833.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||xwde16.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ammb7.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6450,6 +6627,7 @@
 ||www.carrefour-mart.shop^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.carrefourmart.shop^$dnsrewrite=NOERROR;A;34.102.218.71
 ||carrefoumarrt.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.carrefomhxhbs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.carrefomiarrts.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.carrefomijuihs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.carrefomiorrts.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6465,6 +6643,7 @@
 ||www.f668.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.jyuxww.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.xzcnxj.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||m.jyuxww.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.ktbswe.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||flilyxmtime.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||fth5h5.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6521,6 +6700,7 @@
 ||c.afkty.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.hvcssnmjv.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.tdqvril.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||app.flaqlt.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.flayce.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.flkliu.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.fluixj.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6695,6 +6875,7 @@
 ||dl.dpdld.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.dplbm.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.sdeuj.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||app.dhnuus.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.hsbjhdd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.lwenudn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.qbujyxdfg.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6720,7 +6901,9 @@
 ||kwaigood.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kwaigoog.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kwaihop.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||kwait2t.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||kwaivips.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||app.pjshdhjpp.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.twspvivocity.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.vivocityyfc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||h.hfugp.tw^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6775,6 +6958,7 @@
 ||jwab9sasocrx.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||livjunnnn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||oumvcoqzqkvtumh.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||tranndnn.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||uwt11ldf6cy6.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.adhjhlid.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.cartewd.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6807,6 +6991,7 @@
 ||www.anzan.fyi^$dnsrewrite=NOERROR;A;34.102.218.71
 ||dy.kj8w7et35r.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||dy.zunsi.cn^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.douyin68.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.16y.app^$dnsrewrite=NOERROR;A;34.102.218.71
 ||b.fk520.cn^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.mycf68.cn^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6930,6 +7115,7 @@
 ||m.qucmal.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.vldwmn.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.yfnvkr.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||m.yqjaij.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.zsvndx.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.udhxyq.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.zohcso.top^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -6998,6 +7184,7 @@
 ||m.waxnp.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.fvrvp.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mysmartcoin.net^$dnsrewrite=NOERROR;A;34.102.218.71
+||mysmartcoinss.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||awp.zwndvd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.swetfly.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.smartliferetail.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7012,6 +7199,7 @@
 ||hunter.sfsoaoter.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.sfsoaryes.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.financespro.info^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.allegrorm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.dongboziben.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||mapp.wllrm.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||a01.dovbs.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7146,6 +7334,7 @@
 ||m.uklmp.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.xohoa.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.gsygdm.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.cdsyid.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tedhk.online^$dnsrewrite=NOERROR;A;34.102.218.71
 ||c.ahdty.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||vnn18.goodluck988.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7166,6 +7355,7 @@
 ||asu.haiyuex.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.haiyuex.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||energyaly.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||energyzpe.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.unc.ink^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.hg863k.cn^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.aksmcnqjwn.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7314,6 +7504,7 @@
 ||www.ydhcnxbd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.zjaisejqujeeq.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||imperial-co.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||m.gbjtl.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.y89652.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||bitcoin886.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bitcoin886.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7399,6 +7590,7 @@
 ||www.msbayfdu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.xmndugf.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.cdgdpk.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||m.cdgdpk.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.dnfsss.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.waosgfg.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.xbvhjgfg.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7447,6 +7639,7 @@
 ||app.odhgufdg.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bhvjgyd.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ebhdjbdfg.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.ghuuui.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||296t.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||beipaizangyao.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||caiseqiu.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7510,6 +7703,7 @@
 ||app.jorieuue.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.uwuyfe.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.zananxiap.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.awyghcndb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.iertytf.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||honghongyangguang.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||amazondlj.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7520,6 +7714,7 @@
 ||www.ycjr-tw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ycjrtw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.wtyetg.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.dijdcdvdk.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.eouiohgfh.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.huihuioop.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ihjbgbjnn.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7565,6 +7760,7 @@
 ||app.lkhaxs.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.goldbgne.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||did.lianfgold.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||cox.lianfavc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.stockao.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.xxhxlq.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.kwsnxwl.tw^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7601,6 +7797,7 @@
 ||a.b.tw692.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||a.b.tw718.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||a.qh619.net^$dnsrewrite=NOERROR;A;34.102.218.71
+||a.qh7126.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||qh927.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||taifuex5.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tmsr.tw^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7611,6 +7808,7 @@
 ||www.qh625.tw^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tw1234.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||tw6688.cc^$dnsrewrite=NOERROR;A;34.102.218.71
+||tw8888.cc^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ysgj.dfghjklco.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.xygjtw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||axslanxiang.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7639,6 +7837,7 @@
 ||hqpot228.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.citir.cyou^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ftlmine.org^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.aipoajc.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ireyrbhg.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.wgaytugf.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||yh88888.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7663,6 +7862,7 @@
 ||www.tb8.shop^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.hxkdu.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||wk.vnreicva.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||app.hndhudff.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.jiasudlop.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.poidfgo.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bxchjvgd.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7723,6 +7923,7 @@
 ||vanwardmkt.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||vanwardtrade.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.wzgolds.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||wzigold.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.wzgolds.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||banhinasia.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||banhinmarket.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7833,6 +8034,7 @@
 ||fenglong909.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||m.sfgj668.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||369shoptw.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||greatbayasia.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bairdzb.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.bairdzb.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ek.qinfjkt.tw^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7894,6 +8096,7 @@
 ||oj.urnvkeo.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ub.cpvmerj.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.akjkgjgj.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||app.dhfujit.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.ldfiuhdg.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.nfgjfhig.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.owaoigfh.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -7983,6 +8186,7 @@
 ||parvenu.parvenunow.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||parvenu.rupvup.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||parvenu.tech.tennis^$dnsrewrite=NOERROR;A;34.102.218.71
+||jingzuan16881.ink^$dnsrewrite=NOERROR;A;34.102.218.71
 ||jd9899.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||j1800.jinltw.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||goodminoney.click^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -8036,6 +8240,7 @@
 ||twapp.kaiyangguoji.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.jctaiwan.net^$dnsrewrite=NOERROR;A;34.102.218.71
 ||albaba.yhj16688.com^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.tmao219.xyz^$dnsrewrite=NOERROR;A;34.102.218.71
 ||music.oc-coin.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.amazo-shop.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.stock8.info^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -8129,6 +8334,7 @@
 ||dn.gsjt668.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||zfb16880.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.dgpy3m.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||hb.gaogaoingb.cn^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.mdbgughf.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.snjsjhdhs.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.namebude.com^$dnsrewrite=NOERROR;A;34.102.218.71
