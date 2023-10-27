@@ -288,4 +288,10 @@ managertoday.com.tw##div[id="my-idle-wrapper"]
 managertoday.com.tw##div[class="edm-form-panel"]
 managertoday.com.tw##a[data-dl_item="magazine_list"]:nth-ancestor(3)
 managertoday.com.tw##div[x-data="social_share"]:nth-ancestor(1)
-! 
+
+! CTWant
+ctwant.com##div[class="l-header__downloadapp"]
+ctwant.com##div[id="article-tag-bottom"]
+ctwant.com##div[class="l-section"]
+ctwant.com##aside[class="l-sidebar-mobile"]
+ctwant.com##div[class="l-footer__social"]
