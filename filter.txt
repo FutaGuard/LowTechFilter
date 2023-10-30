@@ -388,3 +388,4 @@ new-reporter.com##div[class="modalJS_object"]
 ||attach2.mobile01.com/js/public/fancybox.js^
 mobile01.com#%#//scriptlet('remove-class', 'ad_popUp')
 mobile01.com##div[class=^="fancybox-container"]
+news.ltn.com.tw##div[id="ad-K1"]

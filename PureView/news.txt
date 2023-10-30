@@ -48,7 +48,8 @@ news.ltn.com.tw##div[id="marqueeHeader"]
 news.ltn.com.tw##div[class="related boxTitle"]
 news.ltn.com.tw##div[class="see_more boxTitle"]
 news.ltn.com.tw##div[class="todaynews boxTitle"]
-news.ltn.com.tw##div[class=“footermenu”]
+news.ltn.com.tw##div[class="footermenu"]
+news.ltn.com.tw##div[data-desc="重要專題"]:nth-ancestor(1)
 
 3c.ltn.com.tw##aside
 3c.ltn.com.tw##div[class="top boxTitle boxText"]
@@ -152,6 +153,7 @@ chinatimes.com##div[class="promote-word"]
 chinatimes.com#$#div[class="column-left"] { width: unset !important; }
 ||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02\.svg/
 ||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes-alt2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02-PCview\.svg/
+||chinatimes.com^$cookie
 
 ! 風傳媒
 www.storm.mg##aside
@@ -289,9 +291,7 @@ managertoday.com.tw##div[class="edm-form-panel"]
 managertoday.com.tw##a[data-dl_item="magazine_list"]:nth-ancestor(3)
 managertoday.com.tw##div[x-data="social_share"]:nth-ancestor(1)
 
-! CTWant
-ctwant.com##div[class="l-header__downloadapp"]
-ctwant.com##div[id="article-tag-bottom"]
-ctwant.com##div[class="l-section"]
-ctwant.com##aside[class="l-sidebar-mobile"]
-ctwant.com##div[class="l-footer__social"]
+! 鉅亨網
+news.cnyes.com##img[alt="cookies"]:nth-ancestor(2)
+news.cnyes.com##aside
+news.cnyes.com##h2[class$="theme-slick"]:nth-ancestor(1)
