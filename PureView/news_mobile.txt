@@ -207,3 +207,10 @@ news.agentm.tw##div[class="relative"]
 news.agentm.tw##aside[class="pside"]
 news.agentm.tw##aside[class="aside"]
 news.agentm.tw##footer[id="footer"]
+
+! CTWant
+ctwant.com##div[class="l-header__downloadapp"]
+ctwant.com##div[id="article-tag-bottom"]
+ctwant.com##div[class="l-section"]
+ctwant.com##aside[class="l-sidebar-mobile"]
+ctwant.com##div[class="l-footer__social"]
