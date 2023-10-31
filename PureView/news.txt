@@ -20,6 +20,8 @@ udn.com##section[class="facebook-comment article-section context-box"]
 udn.com##section[class="discuss-board article-section context-box"]
 udn.com#$#.wrapper-left { width: unset !important; }
 udn.com#$#.footer { margin-top: unset !important; }
+udn.com##div[id="taboola-below-discuss-thumbnails"]
+[$path=/news]udn.com##a[href^="https://udn.com/vote2024/story/"]:nth-ancestor(2)
 
 ! UDN 寵物
 pets.udn.com##div[class="story variety extend"]
