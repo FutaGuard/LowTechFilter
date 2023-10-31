@@ -214,3 +214,12 @@ ctwant.com##div[id="article-tag-bottom"]
 ctwant.com##div[class="l-section"]
 ctwant.com##aside[class="l-sidebar-mobile"]
 ctwant.com##div[class="l-footer__social"]
+
+! 鏡傳媒 Mirrormedia
+www.mirrormedia.mg##div[class^="gpt-placeholder__Container"]
+www.mirrormedia.mg##section[class^="related-article-list"]
+www.mirrormedia.mg##div[class^="support-mirrormedia-banner__Container"]
+www.mirrormedia.mg##div[class^="social-network-service__Wrapper"]
+www.mirrormedia.mg##section[class^="normal__StoryEnd"]
+www.mirrormedia.mg#$#article { margin: unset !important; max-width: unset !important; }
+||www.mirrormedia.mg^$cookie=/AviviD.+/
