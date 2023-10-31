@@ -391,3 +391,4 @@ mobile01.com##div[class=^="fancybox-container"]
 news.ltn.com.tw##div[id="ad-K1"]
 ||udn.com^$cookie=/_ga.+/
 ||udn.com^$cookie=trc_cookie_storage
+www.mirrormedia.mg##div[class^="gpt-placeholder__Container"]
