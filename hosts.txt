@@ -133,6 +133,7 @@
 ||businessmentor.sa.com^
 ||fetguict.icu^
 ||lyxrmbszx.com^
+||thelikooei.xyz^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
