@@ -136,6 +136,7 @@
 ||thelikooei.xyz^
 ||service-myups.com^
 ||spil-yz.top^
+||telepgrm.work^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
