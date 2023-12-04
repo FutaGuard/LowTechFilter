@@ -11,14 +11,24 @@ logger = logging.getLogger(__name__)
 IP_PATTERN = r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$'
 
 
+def exclude_list(domain: str) -> bool:
+    exclude = ['google.com']
+    for e in exclude:
+        if domain.endswith(e):
+            return True
+    return False
+
 def is_pure_ip(domain: str) -> bool:
     return True if re.match(IP_PATTERN, domain) else False
 
 
 def main():
     auth = os.getenv('auth', None)
-    jsonurl = os.getenv('tw165json', None)
-    csvurl = os.getenv('tw165csv', None)
+    auth= "githubaction:tBrdU283eJEJt4YJgPyd"
+    # jsonurl = os.getenv('tw165json', None)
+    jsonurl = "https://tw165.futa.gg/json/api/v1/rest/datastore/A01010000C-002150-013"
+    csvurl= "https://tw165.futa.gg/csv/MoiOD/System/DownloadFile.aspx\?DATA\=3BB8E3CE-8223-43AF-B1AB-5824FA889883"
+    # csvurl = os.getenv('tw165csv', None)
     if not jsonurl or not csvurl:
         logger.critical('URL NOT SET')
         return
@@ -58,8 +68,10 @@ def main():
         ]
     ))
 
-    # 移除純 IP
-    domains = {k: v for k, v in domains.items() if not is_pure_ip(k)}
+    # 移除純 IP & 移除允許清單
+    domains = {k: v for k, v in domains.items() if not is_pure_ip(k) \
+               and not exclude_list(k)}
+    
 
     filename = 'TW165.txt'
     with open(filename, 'w') as f:
