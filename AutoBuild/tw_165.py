@@ -24,11 +24,8 @@ def is_pure_ip(domain: str) -> bool:
 
 def main():
     auth = os.getenv('auth', None)
-    auth= "githubaction:tBrdU283eJEJt4YJgPyd"
-    # jsonurl = os.getenv('tw165json', None)
-    jsonurl = "https://tw165.futa.gg/json/api/v1/rest/datastore/A01010000C-002150-013"
-    csvurl= "https://tw165.futa.gg/csv/MoiOD/System/DownloadFile.aspx\?DATA\=3BB8E3CE-8223-43AF-B1AB-5824FA889883"
-    # csvurl = os.getenv('tw165csv', None)
+    jsonurl = os.getenv('tw165json', None)
+    csvurl = os.getenv('tw165csv', None)
     if not jsonurl or not csvurl:
         logger.critical('URL NOT SET')
         return
