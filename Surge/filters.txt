@@ -1,12 +1,11 @@
 #!name=FutaFilter
-#!desc=Make Futa Great Again! v20210619.01
+#!desc=Make Futa Great Again! v20231207.01
 #!system=ios
 
 [Rule]
 #! Line 廣告
 #! 白名單
 URL-REGEX,^https:\/\/obs\.line-scdn\.net\/r,DIRECT
-URL-REGEX,^https:\/\/obs-tw\.line-apps\.com\/talk,DIRECT
 DOMAIN,stickershop.line-scdn.net,DIRECT
 #! 黑名單
 #! UA 偽裝
@@ -34,15 +33,17 @@ URL-REGEX,^https:\/\/a\.line\.me\/oa\/v\d\/e$,REJECT-DROP
 URL-REGEX,^https:\/\/bilanx\.dcard\.tw\/v\d\/events$,REJECT
 URL-REGEX,^https:\/\/bilanx\.dcard\.tw\/v\d\/configs$,REJECT
 
-#! 漫畫人
-URL-REGEX,^https?:\/\/mangaapi.manhuaren.(com|net)\/.+\/public\/(getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame|getAditem|getAds|getMultiAds|getUpgradeInfo|getVendor|getUserLocation),REJECT
-URL-REGEX,^https?:\/\/mangaapi.manhuaren.(com|net)\/.+\/manga\/getMangaPromotionActivity,REJECT
-URL-REGEX,^https?:\/\/mangaapi.manhuaren.(com|net)\/.+\/ad\/,REJECT
-DOMAIN-SUFFIX,hkadsapi.manhuaren.com,REJECT
-DOMAIN-SUFFIX,adsapi.manhuaren.com,REJECT
-DOMAIN-SUFFIX,videoapi.manhuaren.com,REJECT
-DOMAIN-SUFFIX,bi.manhuaren.com,REJECT
-DOMAIN-SUFFIX,euadsapi.manhuaren.com,REJECT
+#! 漫畫人/漫畫社
+#! 安裝本模組後，建議移除漫畫人/漫畫社再重新安裝以到最佳阻擋效果（重新安裝後會有一小段時間無法觀看限制內容，等待1-2小時左右即可解除）
+URL-REGEX,^https?:\/\/(mangaapi|comicapi).(manhuaren|manhuashe).(com|net)\/.+\/public\/(getShelfActivity|getStartPageAds|getStartPageAds2|getRecommendedGame|getAditem|getAds|getMultiAds|getUpgradeInfo|getVendor|getUserLocation),REJECT
+URL-REGEX,^https?:\/\/(mangaapi|comicapi).(manhuaren|manhuashe).(com|net)\/.+\/(manga|comic)\/(getMangaPromotionActivity|getComicPromotionActivity),REJECT
+URL-REGEX,^https?:\/\/(mangaapi|comicapi).(manhuaren|manhuashe).(com|net)\/.+\/(ad|ads)\/,REJECT
+DOMAIN-SUFFIX,hkadsapi.(manhuaren|manhuashe).(com|net),REJECT
+DOMAIN-SUFFIX,adsapi.(manhuaren|manhuashe).(com|net),REJECT
+DOMAIN-SUFFIX,videoapi.(manhuaren|manhuashe).(com|net),REJECT
+DOMAIN-SUFFIX,bi.(manhuaren|manhuashe).(com|net),REJECT
+DOMAIN-SUFFIX,euadsapi.(manhuaren|manhuashe).(com|net),REJECT
+DOMAIN-SUFFIX,adlog.(manhuaren|manhuashe).(com|net),REJECT
 DOMAIN-SUFFIX,applog.uc.cn,REJECT-TINYGIF
 
 #! 4Gamer
@@ -113,4 +114,4 @@ DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
 
 [MITM]
-hostname = %APPEND% a.line.me, w.line.me, buy.line.me, crs-event.line.me, obs.line-scdn.net, d.line-scdn.net, obs-tw.line-apps.com, api.today.line.me, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, mangaapi.manhuaren.net, www.4gamers.com.tw, bilanx.dcard.tw, pttbrain.herokuapp.com, front.pixfs.net
+hostname = %APPEND% a.line.me, w.line.me, buy.line.me, crs-event.line.me, obs.line-scdn.net, d.line-scdn.net, api.today.line.me, sch.line.me, scdn.line-apps.com, mangaapi.manhuaren.com, mangaapi.manhuaren.net, comicapi.manhuashe.com, www.4gamers.com.tw, bilanx.dcard.tw, pttbrain.herokuapp.com, front.pixfs.net
