@@ -72,6 +72,7 @@ tw.news.yahoo.com##div[id="module-moreStories"]
 tw.news.yahoo.com##div[class="_yb_vfqfy"]
 tw.news.yahoo.com##div[class="_yb_5m1ny _yb_wmcw7"]
 tw.news.yahoo.com##div[id="postArticle"]
+tw.news.yahoo.com##iframe[id="mktIframe"]
 tw.news.yahoo.com#$#div[class^="W($mainColWidth)"] { width: unset !important;}
 tw.news.yahoo.com#$#div[class="caas-body"] { padding-right: unset !important; }
 
