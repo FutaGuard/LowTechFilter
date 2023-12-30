@@ -223,3 +223,15 @@ www.mirrormedia.mg##div[class^="social-network-service__Wrapper"]
 www.mirrormedia.mg##section[class^="normal__StoryEnd"]
 www.mirrormedia.mg#$#article { margin: unset !important; max-width: unset !important; }
 ||www.mirrormedia.mg^$cookie=/AviviD.+/
+
+! 壹蘋新聞
+tw.nextapple.com##a[class="app-m"]
+tw.nextapple.com##aside[id="side-bar"]
+tw.nextapple.com##div[class="post-related partner"]
+tw.nextapple.com##div[class="post-comments"]
+tw.nextapple.com##div[class="tags"]
+tw.nextapple.com#$#div[id="main-content"] { width: unset !important;}
+tw.nextapple.com##a:has-text(/推薦新聞/)
+tw.nextapple.com##a[href^="https://reporting.nextapple.com"]
+tw.nextapple.com##hr
+tw.nextapple.com##div[class="scrollTool"]

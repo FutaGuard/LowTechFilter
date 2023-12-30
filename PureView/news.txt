@@ -304,3 +304,15 @@ managertoday.com.tw##div[x-data="social_share"]:nth-ancestor(1)
 news.cnyes.com##img[alt="cookies"]:nth-ancestor(2)
 news.cnyes.com##aside
 news.cnyes.com##h2[class$="theme-slick"]:nth-ancestor(1)
+
+! 壹蘋新聞
+tw.nextapple.com##a[class="app"]
+tw.nextapple.com##aside[id="side-bar"]
+tw.nextapple.com##div[class="post-related partner"]
+tw.nextapple.com##div[class="post-comments"]
+tw.nextapple.com##div[class="tags"]
+tw.nextapple.com#$#div[id="main-content"] { width: unset !important;}
+tw.nextapple.com##a:has-text(/推薦新聞/)
+tw.nextapple.com##a[href^="https://reporting.nextapple.com"]
+tw.nextapple.com##hr
+tw.nextapple.com##div[class="scrollTool"]
