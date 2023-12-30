@@ -133,6 +133,10 @@
 ||businessmentor.sa.com^
 ||fetguict.icu^
 ||lyxrmbszx.com^
+||thelikooei.xyz^
+||service-myups.com^
+||spil-yz.top^
+||telepgrm.work^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
@@ -190,6 +194,7 @@
 ||netfltiw.com^
 ||fine-art.ge^
 ||4stextiles.com^
+||vymdio0.sa.com^
 
 ! 低卡廣告
 ||dad-api.dcard.tw^

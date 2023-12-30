@@ -11,6 +11,13 @@ logger = logging.getLogger(__name__)
 IP_PATTERN = r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$'
 
 
+def exclude_list(domain: str) -> bool:
+    exclude = ['google.com']
+    for e in exclude:
+        if domain.endswith(e):
+            return True
+    return False
+
 def is_pure_ip(domain: str) -> bool:
     return True if re.match(IP_PATTERN, domain) else False
 
@@ -58,8 +65,10 @@ def main():
         ]
     ))
 
-    # 移除純 IP
-    domains = {k: v for k, v in domains.items() if not is_pure_ip(k)}
+    # 移除純 IP & 移除允許清單
+    domains = {k: v for k, v in domains.items() if not is_pure_ip(k) \
+               and not exclude_list(k)}
+    
 
     filename = 'TW165.txt'
     with open(filename, 'w') as f:

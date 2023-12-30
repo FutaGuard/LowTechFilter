@@ -20,6 +20,8 @@ udn.com##section[class="facebook-comment article-section context-box"]
 udn.com##section[class="discuss-board article-section context-box"]
 udn.com#$#.wrapper-left { width: unset !important; }
 udn.com#$#.footer { margin-top: unset !important; }
+udn.com##div[id="taboola-below-discuss-thumbnails"]
+[$path=/news]udn.com##a[href^="https://udn.com/vote2024/story/"]:nth-ancestor(2)
 
 ! UDN 寵物
 pets.udn.com##div[class="story variety extend"]
@@ -48,7 +50,8 @@ news.ltn.com.tw##div[id="marqueeHeader"]
 news.ltn.com.tw##div[class="related boxTitle"]
 news.ltn.com.tw##div[class="see_more boxTitle"]
 news.ltn.com.tw##div[class="todaynews boxTitle"]
-news.ltn.com.tw##div[class=“footermenu”]
+news.ltn.com.tw##div[class="footermenu"]
+news.ltn.com.tw##div[data-desc="重要專題"]:nth-ancestor(1)
 
 3c.ltn.com.tw##aside
 3c.ltn.com.tw##div[class="top boxTitle boxText"]
@@ -84,15 +87,20 @@ www.mirrormedia.mg#$#div[class="story-wrapper"] { padding-top: unset !important;
 www.mirrormedia.mg##div[class="share-sidebox story__share-sidebox"]
 www.mirrormedia.mg##div[class="sns-wrapper"]
 www.mirrormedia.mg##div[class="story__list"]
+www.mirrormedia.mg##section[class^="related-article-list"]
+www.mirrormedia.mg##div[class^="support-mirrormedia-banner__Container"]
+www.mirrormedia.mg##div[class^="social-network-service__Wrapper"]
+www.mirrormedia.mg##section[class^="normal__StoryEnd"]
+www.mirrormedia.mg#$#article { margin: unset !important; max-width: unset !important; }
 
 ! ETTODAY
-ettoday.net##div[class="c2"]
+[$path=/news]ettoday.net##div[class="c2"]
 ettoday.net##div[class="nav_2"]
 ettoday.net##div[class="part_menu_5 clearfix"]
 ettoday.net##div[class="text_ticker_1"]
 ettoday.net##div[class="et_ad_group_1"]
 ettoday.net##div[class="menu_2"]
-ettoday.net#$#div[class="c1"] { width: unset !important; }
+[$path=/news]ettoday.net#$#div[class="c1"] { width: unset !important; }
 ettoday.net##div[id="hot_area"]
 ettoday.net##div[class="video_frame"]
 ettoday.net##div[class$="hot-news"]
@@ -153,6 +161,7 @@ chinatimes.com##div[class="promote-word"]
 chinatimes.com#$#div[class="column-left"] { width: unset !important; }
 ||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02\.svg/
 ||static.chinatimes.com^$replace=/\.\.\/\.\.\/images\/2020\/logo-chinatimes-alt2020\.svg/https\:\/\/filter\-assets\.futa\.gg\/ct02-PCview\.svg/
+||chinatimes.com^$cookie
 
 ! 風傳媒
 www.storm.mg##aside
@@ -289,4 +298,8 @@ managertoday.com.tw##div[id="my-idle-wrapper"]
 managertoday.com.tw##div[class="edm-form-panel"]
 managertoday.com.tw##a[data-dl_item="magazine_list"]:nth-ancestor(3)
 managertoday.com.tw##div[x-data="social_share"]:nth-ancestor(1)
-! 
+
+! 鉅亨網
+news.cnyes.com##img[alt="cookies"]:nth-ancestor(2)
+news.cnyes.com##aside
+news.cnyes.com##h2[class$="theme-slick"]:nth-ancestor(1)

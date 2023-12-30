@@ -383,3 +383,14 @@ marieclaire.com.tw##div[class="adUnderlay"]
 news.agentm.tw##div[id="agmn_a_header_PC"]
 news.agentm.tw##div[class="gpt-ad-slot"]
 new-reporter.com##div[class="modalJS_object"]
+
+||www.mobile01.com/ajax/public/ad_imp.php^
+||attach2.mobile01.com/js/public/fancybox.js^
+mobile01.com#%#//scriptlet('remove-class', 'ad_popUp')
+mobile01.com##div[class=^="fancybox-container"]
+news.ltn.com.tw##div[id="ad-K1"]
+||udn.com^$cookie=/_ga.+/
+||udn.com^$cookie=trc_cookie_storage
+www.mirrormedia.mg##div[class^="gpt-placeholder__Container"]
+||www.mirrormedia.mg^$cookie=/AviviD.+/
+daybuy.tw##div[class]:has([class="adblock_subtitle"])
