@@ -56,7 +56,6 @@
 ||www.ts775.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.91shopes.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.gzxshg.top^$dnsrewrite=NOERROR;A;34.102.218.71
-||www.zrmlad.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.akaaeok.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.akact5.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.akkaw.com^$dnsrewrite=NOERROR;A;34.102.218.71
@@ -8062,6 +8061,7 @@
 ||hui.abccornerhk.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||ne.yumingxuanjewelry.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||www.rvxrtv.top^$dnsrewrite=NOERROR;A;34.102.218.71
+||www.zrmlad.top^$dnsrewrite=NOERROR;A;34.102.218.71
 ||y.feimaglobal.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||app.huifengpro.com^$dnsrewrite=NOERROR;A;34.102.218.71
 ||huifengpro.com^$dnsrewrite=NOERROR;A;34.102.218.71
