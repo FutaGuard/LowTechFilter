@@ -1,6 +1,5 @@
 !  三立新聞
 www.setn.com##div[class="newsflashBox"]
-www.setn.com##div[class="ad"]
 www.setn.com##div[class="right-area"]
 www.setn.com##div[id="coniBox"]
 www.setn.com##div[id="donateBtn"]
@@ -29,6 +28,8 @@ www.setn.com##div[class="video-container livevodBox"]
 www.setn.com##.newsTextADBox
 www.setn.com##.news-area-ad
 www.setn.com##.page-project-area
+www.setn.com##.ad
+www.setn.com##div[id="KeywordCloud"]
 
 ! 自由時報
 news.ltn.com.tw#$#div[class="headerP_high"] { height: 100px !important;}
