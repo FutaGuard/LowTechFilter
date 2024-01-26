@@ -396,3 +396,5 @@ news.ltn.com.tw##div[id="ad-K1"]
 www.mirrormedia.mg##div[class^="gpt-placeholder__Container"]
 ||www.mirrormedia.mg^$cookie=/AviviD.+/
 daybuy.tw##div[class]:has([class="adblock_subtitle"])
+dq.yam.com##div[class$="-popup"]
+dq.yam.com##div[class$="-topBar"]
