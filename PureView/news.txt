@@ -316,3 +316,7 @@ tw.nextapple.com##a:has-text(/推薦新聞/)
 tw.nextapple.com##a[href^="https://reporting.nextapple.com"]
 tw.nextapple.com##hr
 tw.nextapple.com##div[class="scrollTool"]
+
+# 花蓮最速報
+hsnews.com.tw##div[id="sp-left"]
+hsnews.com.tw#$#div[id="sp-component"] { width: unset !important;}

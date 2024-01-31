@@ -398,3 +398,5 @@ www.mirrormedia.mg##div[class^="gpt-placeholder__Container"]
 daybuy.tw##div[class]:has([class="adblock_subtitle"])
 dq.yam.com##div[class$="-popup"]
 dq.yam.com##div[class$="-topBar"]
+||stats.yam.com/y/collect^
+hsnews.com.tw##section[id="sp-page-title"]
