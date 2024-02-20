@@ -5,7 +5,7 @@ import requests
 
 filterlist = {
     'abp': ['experimental.txt', 'filter.txt', 'PureView/news.txt', 'PureView/news_mobile.txt'],
-    'hosts': ['hosts.txt', 'nofarm_hosts.txt', 'TW165.txt', 'TWNIC-RPZ.txt']
+    'hosts': ['hosts_adb.txt', 'nofarm_adb.txt', 'TW165_adb.txt', 'TWNIC-RPZ_adb.txt']
 }
 url = 'https://filter.futa.gg/'
 tz = timezone(timedelta(hours=+8))
@@ -20,7 +20,7 @@ class HEAD:
                '! Homepage: https://t.me/AdBlock_TW\n' \
                '! ----------------------------------------------------------------------\n'
     hosts: str = '! FutaHosts\n' \
-                 '! LowTechFilter {name}\n' \
+                 '! Title: LowTechFilter {name}\n' \
                  '! URL: <https://github.com/FutaGuard/LowTechFilter>\n' \
                  '! Version: {version}\n' \
                  '! --------------------------------------------------\n'
@@ -63,7 +63,7 @@ for category in filterlist:
 
             ### SP ###
             # hide farm site from google
-            if filename == 'nofarm_hosts.txt':
+            if filename == 'nofarm_adb.txt':
                 domain_list = ''
                 for domains in data.splitlines():
                     if not domains.startswith('!'):
@@ -84,20 +84,10 @@ for category in filterlist:
                 data = data.splitlines()
                 newdata = '\n'.join(data)
                 name = filename.split('.txt')[0]
-                with open(name+'-domains.txt', 'w') as output:
+                with open(name+'_domains.txt', 'w') as output:
                     pattern = r'(?<=^\|\|)\S+\.\S{2,}(?=\^)'
                     newoutput = '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
                     print(newoutput)
                     output.write(newoutput)
-            if filename in ['TW165.txt', 'hosts.txt', 'TWNIC-RPZ.txt']:
+            if filename in ['TW165_adb.txt', 'hosts_adb.txt', 'TWNIC-RPZ_adb.txt']:
                 to_pure_domain(filename, data)
-                
-            # if filename == 'hosts.txt':
-            #     data = data.splitlines()
-            #     newdata = '\n'.join(data[5:])
-            #     desc = '\n'.join(x.replace('!', '#') for x in data[:5]) + '\n'
-
-            #     with open('domains.txt', 'w') as output:
-            #         pattern = r'(?<=^\|\|)\S+\.\S{2,}(?=\^)'
-            #         desc += '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
-            #         output.write(desc)

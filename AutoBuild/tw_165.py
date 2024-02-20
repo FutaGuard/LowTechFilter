@@ -70,7 +70,7 @@ def main():
                and not exclude_list(k)}
     
 
-    filename = 'TW165.txt'
+    filename = 'TW165_adb.txt'
     with open(filename, 'w') as f:
         f.write(''.join(f'||{e}^\n' for e in domains.keys()))
 

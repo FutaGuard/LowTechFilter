@@ -1,3 +1,8 @@
+! FutaHosts
+! Title: LowTechFilter Twnic-Rpz Adb
+! URL: <https://github.com/FutaGuard/LowTechFilter>
+! Version: 2024.0220.1
+! --------------------------------------------------
 ||gimy.tv^
 ||gimy.co^
 ||gimy.to^
