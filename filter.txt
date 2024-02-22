@@ -145,6 +145,12 @@ www.cna.com.tw##.fixedBottom
 www.cna.com.tw##.logoRightAD
 www.cna.com.tw##.adslot
 www.cna.com.tw##.jsADslot
+www.cna.com.tw##.js_top_ad
+www.cna.com.tw##.adslot_infinite
+www.cna.com.tw##.top_ad
+! CNA 訂閱
+www.cna.com.tw##.SubscriptionInner
+www.cna.com.tw##.mySubscriptionInner
 ! 風傳媒
 storm.mg#%#//scriptlet('abort-current-inline-script', 'show_idle_alert')
 storm.mg#%#//scriptlet('abort-current-inline-script', 'show_new7_popup')
