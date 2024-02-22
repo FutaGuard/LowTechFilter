@@ -148,6 +148,10 @@ www.cna.com.tw##.jsADslot
 www.cna.com.tw##.js_top_ad
 www.cna.com.tw##.adslot_infinite
 www.cna.com.tw##.top_ad
+! CNA 全球視野
+www.cna.com.tw##.MarketPC
+www.cna.com.tw##.MarketMB
+www.cna.com.tw##.MarketSquare
 ! CNA 訂閱
 www.cna.com.tw##.SubscriptionInner
 www.cna.com.tw##.mySubscriptionInner
