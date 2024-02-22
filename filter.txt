@@ -103,8 +103,20 @@ www.setn.com##a[pa="Menu-Channel Logo"]
 
 ! ettoday
 ettoday.net##div[class="pcbt_kw active"]
-ettoday.net##div[class="top-sky"]
-ettoday.net##div[class="ad120x50-1"]
+ettoday.net$$div[class="top-sky"]
+ettoday.net$$div[class="top-sky-index"]
+ettoday.net$$div[class="ad250x50"]
+ettoday.net$$div[class="ad120x50-1"]
+ettoday.net$$div[class="ad120x50-2"]
+
+ettoday.net##.adJS01
+ettoday.net##.adJS03
+
+! ettoday 文字廣告
+ettoday.net$$div[class="text_ad_top"]
+ettoday.net$$div[class="ad_txt_1"]
+ettoday.net$$div[class="ad_txt_2"]
+
 ettoday.net#%#//scriptlet('set-cookie-reload', 'webpush', '1')
 ettoday.net##div[class="idleAd"]
 ettoday.net##a[href^="https://fugo.ehsn.com.tw/"]
