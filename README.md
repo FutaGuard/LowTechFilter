@@ -14,7 +14,7 @@ https://t.me/adblock_tw
 
 ## 訂閱網址
 
-### Adblock 語法（AdBlock, AdGuard）
+### DOM 清單（支援：AdBlock, AdGuard）
 
 > LowTechFilter 專門處理網頁上的 DOM 元素處理。例：側邊廣告欄
 
@@ -39,7 +39,7 @@ https://t.me/adblock_tw
 - <https://filter.futa.gg/PureView/news.txt>
 - （行動裝置版）<https://filter.futa.gg/PureView/news_mobile.txt>
 
-### hosts 語法（AdGuard Home, AdGuard 的 DNS 過濾, Pi-hole, AdAway）
+### DNS 清單（支援：AdGuard Home, AdGuard 的 DNS 過濾, Pi-hole, AdAway）
 
 - <https://filter.futa.gg/hosts_abp.txt>
 - <https://filter.futa.gg/nofarm_abp.txt>
@@ -58,9 +58,9 @@ https://t.me/adblock_tw
 
 | hosts 清單一覽 | LowTechHost                                          | TW165 台灣反詐騙                                     | TW RPZ 阻止解析清單                                      | NoFarm 農場文清單                                     |
 | -------------- | ---------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------- |
-| abp            | [訂閱連結](https://filter.futa.gg/hosts_abp.txt)     | [訂閱連結](https://filter.futa.gg/TW165_abp.txt)     | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_abp.txt)     | [訂閱連結](https://filter.futa.gg/nofarm_abp.txt)     |
+| Adblock 語法            | [訂閱連結](https://filter.futa.gg/hosts_abp.txt)     | [訂閱連結](https://filter.futa.gg/TW165_abp.txt)     | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_abp.txt)     | [訂閱連結](https://filter.futa.gg/nofarm_abp.txt)     |
 | hosts          | [訂閱連結](https://filter.futa.gg/hosts_hosts.txt)   | [訂閱連結](https://filter.futa.gg/TW165_hosts.txt)   | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_hosts.txt)   | [訂閱連結](https://filter.futa.gg/nofarm_hosts.txt)   |
-| domains        | [訂閱連結](https://filter.futa.gg/hosts_domains.txt) | [訂閱連結](https://filter.futa.gg/TW165_domains.txt) | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_domains.txt) | [訂閱連結](https://filter.futa.gg/nofarm_domains.txt) |
+| 純網域        | [訂閱連結](https://filter.futa.gg/hosts_domains.txt) | [訂閱連結](https://filter.futa.gg/TW165_domains.txt) | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_domains.txt) | [訂閱連結](https://filter.futa.gg/nofarm_domains.txt) |
 
 
 
