@@ -83,7 +83,7 @@ for category in filterlist:
             def to_pure_domain(filename: str, data: str):
                 data = data.splitlines()
                 newdata = '\n'.join(data)
-                name = filename.split('.txt')[0]
+                name = filename.split('.txt')[0].split('_')[0]
                 with open(name+'_domains.txt', 'w') as output:
                     pattern = r'(?<=^\|\|)\S+\.\S{2,}(?=\^)'
                     newoutput = '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
