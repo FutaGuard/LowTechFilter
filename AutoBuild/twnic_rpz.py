@@ -24,8 +24,8 @@ def main():
         sys.exit(1)
 
     output = [domain for in_dic in parse_data for domain in in_dic['domains']]
-    with open('TWNIC-RPZ_adb.txt', 'w') as f:
-        f.write(''.join(f'||{e}^\n' for e in output))
+    with open('TWNIC-RPZ.txt', 'w') as f:
+        f.write('\n'.join(output))
 
 
 if __name__ == '__main__':
