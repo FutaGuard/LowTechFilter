@@ -69,14 +69,9 @@ def main():
     domains = {k: v for k, v in domains.items() if not is_pure_ip(k) \
                and not exclude_list(k)}
     
-
-    filename = 'TW165_adb.txt'
+    filename = 'TW165.txt'
     with open(filename, 'w') as f:
-        f.write(''.join(f'||{e}^\n' for e in domains.keys()))
-
-    filename = 'TW165-redirect.txt'
-    with open(filename, 'w') as f:
-        f.write(''.join(f'||{e}^$dnsrewrite=NOERROR;A;34.102.218.71\n' for e in domains.keys()))
+        f.write('\n'.join(domains.keys()))
 
 
 if __name__ == '__main__':
