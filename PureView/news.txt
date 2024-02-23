@@ -23,6 +23,7 @@ udn.com#$#.footer { margin-top: unset !important; }
 udn.com##div[id="taboola-below-discuss-thumbnails"]
 [$path=/news]udn.com##a[href^="https://udn.com/vote2024/story/"]:nth-ancestor(2)
 udn.com##a[class="udn--event__holder"]
+udn.com##section[class="ec-section"]
 
 ! UDN 寵物
 pets.udn.com##div[class="story variety extend"]
