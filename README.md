@@ -41,16 +41,12 @@ https://t.me/adblock_tw
 
 ### hosts 語法（AdGuard Home, AdGuard 的 DNS 過濾, Pi-hole, AdAway）
 
-- <https://filter.futa.gg/hosts.txt>
-- <https://filter.futa.gg/nofarm_hosts.txt>
-
-> 純粹 domain 而已，若原先有訂閱 hosts.txt 則不需要另外訂閱，此為特定用途。
-
-- <https://filter.futa.gg/hosts-domains.txt>
+- <https://filter.futa.gg/hosts_abp.txt>
+- <https://filter.futa.gg/nofarm_abp.txt>
 
 > 由台灣 165 反詐騙提供
 
-- <https://filter.futa.gg/TW165.txt>
+- <https://filter.futa.gg/TW165_abp.txt>
 
 > 由台灣 165 反詐騙提供，並帶有覆寫功能（打開符合規則的網址後會提示已被 165 封鎖）。
 
@@ -58,7 +54,11 @@ https://t.me/adblock_tw
 
 > 由台灣 165 反詐騙提供，純 domain 此為特定用途。
 
-- <https://filter.futa.gg/TW165-domains.txt>
+- <https://filter.futa.gg/TW165_domains.txt>
+
+### 僅 domain 清單
+上述 hosts 語法訂閱網址將 `_abp` 替換為 `_domains.txt` 即可；例：`https://filter.futa.gg/hosts_domains.txt`
+
 
 ### Surge 語法
 
