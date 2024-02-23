@@ -1,11 +1,11 @@
 import re
 from datetime import datetime, timedelta, timezone
-
+from shutil import copyfile
 import requests
 
 filterlist = {
     'abp': ['experimental.txt', 'filter.txt', 'PureView/news.txt', 'PureView/news_mobile.txt'],
-    'hosts': ['hosts_adb.txt', 'nofarm_adb.txt', 'TW165_adb.txt', 'TWNIC-RPZ_adb.txt']
+    'hosts': ['hosts.txt', 'nofarm.txt', 'TW165.txt', 'TWNIC-RPZ.txt']
 }
 url = 'https://filter.futa.gg/'
 tz = timezone(timedelta(hours=+8))
@@ -26,30 +26,36 @@ class HEAD:
                  '! --------------------------------------------------\n'
 
 
+def update_version(filename: str) -> str:
+    pattern = r'(?<=Version: )(\d+\.\d+\.)(\d+)'
+    newversion = ''
+
+    r = requests.get(url + filename)
+    first = None
+    version = None
+    if r.status_code != 200:
+        pass
+    else:
+        first = '\n'.join(r.text.splitlines()[:5])
+
+    try:
+        version = re.findall(pattern, first, re.MULTILINE)[0]
+    except:
+        # https://www.ptt.cc/bbs/Battlegirlhs/M.1506615677.A.1A4.html
+        version = ('2017.0929.', '1')
+
+    dt = datetime.strptime(version[0], '%Y.%m%d.').date()
+    newversion = today.strftime('%Y.%m%d.')
+    if dt != today:
+        newversion += '1'
+    else:
+        newversion += str(int(version[1]) + 1)
+    return newversion
+
+
 for category in filterlist:
     for filename in filterlist[category]:
-        pattern = r'(?<=Version: )(\d+\.\d+\.)(\d+)'
-
-        r = requests.get(url + filename)
-        first = None
-        version = None
-        if r.status_code != 200:
-            pass
-        else:
-            first = '\n'.join(r.text.splitlines()[:5])
-
-        try:
-            version = re.findall(pattern, first, re.MULTILINE)[0]
-        except:
-            # https://www.ptt.cc/bbs/Battlegirlhs/M.1506615677.A.1A4.html
-            version = ('2017.0929.', '1')
-
-        dt = datetime.strptime(version[0], '%Y.%m%d.').date()
-        newversion = today.strftime('%Y.%m%d.')
-        if dt != today:
-            newversion += '1'
-        else:
-            newversion += str(int(version[1]) + 1)
+        newversion = update_version(filename)
 
         with open(f'{filename}', 'r') as files:
             data = files.read()
@@ -61,9 +67,8 @@ for category in filterlist:
                 )
                 output.write(newhead + data)
 
-            ### SP ###
-            # hide farm site from google
-            if filename == 'nofarm_adb.txt':
+            # hide farm site from google 轉換 abp
+            if filename == 'nofarm.txt':
                 domain_list = ''
                 for domains in data.splitlines():
                     if not domains.startswith('!'):
@@ -78,16 +83,81 @@ for category in filterlist:
                 )
                 with open('hide_farm_from_search.txt', 'w') as f:
                     f.write(newhead + domain_list)
+            
+            if filename == 'TW165.txt':
+                newfilename = 'TW165-redirect.txt'
+                heads: str = HEAD().__getattribute__('abp')
+                newhead = heads.format(
+                    name='TW165 redirect',
+                    version=newversion
+                )
+                with open(newfilename, 'w') as f:
+                    f.write(newhead)
+                    f.write(''.join(f'||{e}^$dnsrewrite=NOERROR;A;34.102.218.71\n' for e in data.splitlines()))
 
             # hosts to domains
             def to_pure_domain(filename: str, data: str):
                 data = data.splitlines()
                 newdata = '\n'.join(data)
                 name = filename.split('.txt')[0].split('_')[0]
+                heads: str = HEAD().__getattribute__('abp')
+                newhead = heads.format(
+                    name=name + ' domains',
+                    version=newversion
+                )
                 with open(name+'_domains.txt', 'w') as output:
-                    pattern = r'(?<=^\|\|)\S+\.\S{2,}(?=\^)'
-                    newoutput = '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
-                    print(newoutput)
+                    if name == 'hosts':
+                        pattern = r'(?<=^\|\|)\S+\.\S{2,}(?=\^)'
+                        newoutput = '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
+                    else:
+                        newoutput = '\n'.join(data)
+                    
+                    output.write(newhead)
                     output.write(newoutput)
-            if filename in ['TW165_adb.txt', 'hosts_adb.txt', 'TWNIC-RPZ_adb.txt']:
+            if filename in filterlist['hosts']:
                 to_pure_domain(filename, data)
+            
+            # make hosts formats
+            def to_hosts(filename: str, data: str):
+                data = data.splitlines()
+                newdata = '\n'.join(data)
+                name = filename.split('.txt')[0].split('_')[0]
+                heads: str = HEAD().__getattribute__('hosts')
+                newhead = heads.format(
+                    name=name + ' hosts',
+                    version=newversion
+                )
+                newfilename = name + '_hosts.txt' if name != 'hosts' else 'hosts.txt'
+                with open(newfilename, 'w') as output:
+                    if name == 'hosts':
+                        pattern = r'(?<=^\|\|)\S+\.\S{2,}(?=\^)'
+                        newoutput = '\n'.join('0.0.0.0 ' + e for e in re.findall(pattern, newdata, re.MULTILINE))
+                    else:
+                        newoutput = '\n'.join('0.0.0.0 ' + e for e in data)
+                    output.write(newhead)
+                    output.write(newoutput)
+            # if filename in filterlist['hosts']:
+            #     to_hosts(filename, data)
+            
+            # 轉換為 abp 格式
+            def to_abp(filename: str, data: str):
+                data = data.splitlines()
+                newdata = '\n'.join(data)
+                name = filename.split('.txt')[0].split('_')[0]
+                heads: str = HEAD().__getattribute__('abp')
+                newhead = heads.format(
+                    name=name + ' abp',
+                    version=newversion
+                )
+
+                with open(name+'_abp.txt', 'w') as output:
+                    if name == 'hosts':
+                        output.write(newhead + newdata)
+                        
+                    else:
+                        newoutput = '\n'.join(f'||{e}^' for e in data)
+                        output.write(newhead)
+                        output.write(newoutput)
+            if filename in filterlist['hosts']:
+                to_abp(filename, data)
+                to_hosts(filename, data)

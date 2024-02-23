@@ -21,6 +21,6 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'master'
           commit-message: '🤖 自動更新 TWNIC RPZ 封鎖域名'
-          files: TWNIC-RPZ_adb.txt
+          files: TWNIC-RPZ.txt
           name: tdc
           email: tdc@sudo.host
