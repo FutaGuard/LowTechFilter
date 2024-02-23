@@ -100,19 +100,12 @@ for category in filterlist:
                 data = data.splitlines()
                 newdata = '\n'.join(data)
                 name = filename.split('.txt')[0].split('_')[0]
-                heads: str = HEAD().__getattribute__('abp')
-                newhead = heads.format(
-                    name=name + ' domains',
-                    version=newversion
-                )
                 with open(name+'_domains.txt', 'w') as output:
                     if name == 'hosts':
                         pattern = r'(?<=^\|\|)\S+\.\S{2,}(?=\^)'
                         newoutput = '\n'.join(re.findall(pattern, newdata, re.MULTILINE))
                     else:
                         newoutput = '\n'.join(data)
-                    
-                    output.write(newhead)
                     output.write(newoutput)
             if filename in filterlist['hosts']:
                 to_pure_domain(filename, data)
