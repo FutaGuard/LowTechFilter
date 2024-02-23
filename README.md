@@ -56,8 +56,13 @@ https://t.me/adblock_tw
 
 - <https://filter.futa.gg/TW165_domains.txt>
 
-### 僅 domain 清單
-上述 hosts 語法訂閱網址將 `_abp` 替換為 `_domains.txt` 即可；例：`https://filter.futa.gg/hosts_domains.txt`
+| hosts 清單一覽 | LowTechHost                                          | TW165 台灣反詐騙                                     | TW RPZ 阻止解析清單                                      | NoFarm 農場文清單                                     |
+| -------------- | ---------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------- |
+| abp            | [訂閱連結](https://filter.futa.gg/hosts_abp.txt)     | [訂閱連結](https://filter.futa.gg/TW165_abp.txt)     | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_abp.txt)     | [訂閱連結](https://filter.futa.gg/nofarm_abp.txt)     |
+| hosts          | [訂閱連結](https://filter.futa.gg/hosts_hosts.txt)   | [訂閱連結](https://filter.futa.gg/TW165_hosts.txt)   | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_hosts.txt)   | [訂閱連結](https://filter.futa.gg/nofarm_hosts.txt)   |
+| domains        | [訂閱連結](https://filter.futa.gg/hosts_domains.txt) | [訂閱連結](https://filter.futa.gg/TW165_domains.txt) | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_domains.txt) | [訂閱連結](https://filter.futa.gg/nofarm_domains.txt) |
+
+
 
 
 ### Surge 語法
