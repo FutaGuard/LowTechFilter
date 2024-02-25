@@ -132,9 +132,20 @@ ettoday.net##div[class^="ad_"]
 ! 數位時代
 bnext.com.tw##div[class="IdleBox"]
 bnext.com.tw#%#//scriptlet('prevent-setTimeout')
+
 ! 商周
-www.businessweekly.com.tw##div.reveal-modal
-www.businessweekly.com.tw##div.reveal-modal-bg
+www.businessweekly.com.tw##.ins-top-cover
+www.businessweekly.com.tw##div.Google-special:has(ins)
+www.businessweekly.com.tw##div.subscriptionEmailEDMv1
+! 商周贊助廣告
+www.businessweekly.com.tw##article:has(.Tag-sponsor)
+www.businessweekly.com.tw##article:has(ins)
+www.businessweekly.com.tw##div.Single-hot-news-content:has(ins)
+! 商周隱私權
+www.businessweekly.com.tw###gdrp-el
+! 商周右側廣告
+www.businessweekly.com.tw###floatAD
+
 businessweekly.com.tw#?#div[class^="wlmo-AD"]
 businessweekly.com.tw#?#.event-side-top-ad
 ! solidot
