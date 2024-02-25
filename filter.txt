@@ -413,8 +413,13 @@ news.cnyes.com##div[class="_MXx3"]
 www.kocpc.com.tw#%#//scriptlet('set-local-storage-item', '_ss_pp_id', '')
 ||technews.tw/wp-admin/admin-ajax.php*
 ctwant.com##div[class="m-adpopup"]
-noewnews.com##idv[class="ad-blk1"]
+
+! nownews
 nownews.com##.adBlk
+nownews.com##.ad-blk1
+! nownews popin ad
+||popin.cc^$script,domain=nownews.com
+
 worldjournal.com##div[class="article-content__ads--bd"]
 worldjournal.com##div[id="idle"]
 marieclaire.com.tw##div[class="adInnerMpu"]
@@ -437,3 +442,7 @@ dq.yam.com##div[class$="-popup"]
 dq.yam.com##div[class$="-topBar"]
 ||stats.yam.com/y/collect^
 hsnews.com.tw##section[id="sp-page-title"]
+! 追蹤 (來自 nownews)
+||dable.io
+||tagtoo.co
+||track.beanfun.com
