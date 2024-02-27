@@ -302,6 +302,10 @@ feebee.com.tw#%#//scriptlet('set-cookie-reload', 'flybee_float', 'false')
 
 ! Thenewslens 關鍵評論網
 thenewslens.com##div[class^="ad-"]
+! 手機蓋板
+thenewslens.com##div[class^="AD2M"]
+! 內廣
+thenewslens.com##div[data-sponsor="1"]
 
 ! 愛料理
 icook.tw##div[class="recipe-ad-placeholder"]
