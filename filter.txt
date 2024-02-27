@@ -98,7 +98,6 @@ www.setn.com##div[class="news-flash-area"]
 www.setn.com##a[pa="Menu-Channel Logo"]
 
 ||www.setddg.com/AdExternal/*
-||*.popin.cc/*^$domain=www.setn.com
 ||www.setn.com/js/LogTracer.js*^
 
 ! ettoday
@@ -440,8 +439,6 @@ ctwant.com##div[class="m-adpopup"]
 ! nownews
 nownews.com##.adBlk
 nownews.com##.ad-blk1
-! nownews popin ad
-||popin.cc^$script,domain=nownews.com
 
 worldjournal.com##div[class="article-content__ads--bd"]
 worldjournal.com##div[id="idle"]
@@ -469,3 +466,10 @@ hsnews.com.tw##section[id="sp-page-title"]
 ||dable.io
 ||tagtoo.co
 ||track.beanfun.com
+
+! 廣告投放平台
+||popin.cc
+||onead.com.tw
+||onevision.com.tw
+||instag.ai
+||guoshipartners.com
