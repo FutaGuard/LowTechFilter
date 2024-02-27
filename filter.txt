@@ -307,6 +307,22 @@ thenewslens.com##div[class^="AD2M"]
 ! 內廣
 thenewslens.com##div[data-sponsor="1"]
 
+! EBC 東森新聞
+! ebc.net.tw##div:has(div[class="dfp_ad"])
+ebc.net.tw##div[id^="div-gpt-ad"]
+ebc.net.tw##div[id^="div-onead"]
+ebc.net.tw##p:has(strong, a, br, a)
+
+! EBC 東森新聞 (手機)
+ebc.net.tw##div[id="mobile-cover"]
+ebc.net.tw##div[id="mobileonly-300ad"]
+ebc.net.tw##div[id="mobile-footer-ad"]
+ebc.net.tw##div[id="mobile-footer-ad-margin"]
+
+! No lives
+ebc.net.tw$$div[id="live-24hrs"]
+ebc.net.tw$$div[id="live-else"]
+
 ! 愛料理
 icook.tw##div[class="recipe-ad-placeholder"]
 
