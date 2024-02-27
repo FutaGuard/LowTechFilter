@@ -310,13 +310,16 @@ thenewslens.com##div[data-sponsor="1"]
 ! ebc.net.tw##div:has(div[class="dfp_ad"])
 ebc.net.tw##div[id^="div-gpt-ad"]
 ebc.net.tw##div[id^="div-onead"]
-ebc.net.tw##p:has(strong, a, br, a)
+ebc.net.tw##div[class^="ad_"]
+
+ebc.net.tw##div>iframe:remove()
+ebc.net.tw##p>strong:upward(1):remove()
 
 ! EBC 東森新聞 (手機)
 ebc.net.tw##div[id="mobile-cover"]
-ebc.net.tw##div[id="mobileonly-300ad"]
-ebc.net.tw##div[id="mobile-footer-ad"]
-ebc.net.tw##div[id="mobile-footer-ad-margin"]
+ebc.net.tw##div[class="mobileonly-300ad"]
+ebc.net.tw##div[class="mobile-footer-ad"]
+ebc.net.tw##div[class="mobile-footer-ad-margin"]
 
 ! No lives
 ebc.net.tw$$div[id="live-24hrs"]
