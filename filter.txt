@@ -300,6 +300,9 @@ dcard.tw##div[class]:has(> button[class]:has-text(/用 App 查看完整內容/))
 feebee.com.tw###event_flybee_idle
 feebee.com.tw#%#//scriptlet('set-cookie-reload', 'flybee_float', 'false')
 
+! Thenewslens 關鍵評論網
+thenewslens.com##div[class^="ad-"]
+
 ! 愛料理
 icook.tw##div[class="recipe-ad-placeholder"]
 
