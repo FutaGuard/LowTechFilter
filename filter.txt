@@ -450,6 +450,10 @@ ctwant.com##div[class="m-adpopup"]
 nownews.com##.adBlk
 nownews.com##.ad-blk1
 
+! DayBuy
+daybuy.tw##div[id="top_ad"]
+daybuy.tw##div[class]:has([class="adblock_subtitle"])
+
 worldjournal.com##div[class="article-content__ads--bd"]
 worldjournal.com##div[id="idle"]
 marieclaire.com.tw##div[class="adInnerMpu"]
@@ -465,7 +469,6 @@ mobile01.com##div[class=^="fancybox-container"]
 news.ltn.com.tw##div[id="ad-K1"]
 ||udn.com^$cookie=/_ga.+/
 ||udn.com^$cookie=trc_cookie_storage
-daybuy.tw##div[class]:has([class="adblock_subtitle"])
 dq.yam.com##div[class$="-popup"]
 dq.yam.com##div[class$="-topBar"]
 ||stats.yam.com/y/collect^
