@@ -250,6 +250,13 @@ www.mirrormedia.mg##div[class="avivid_arrow_wrapper"]:upward(1):remove()
 www.mirrormedia.mg##div[class="gdpr-notification"]:upward(1):remove()
 ||www.mirrormedia.mg^$cookie=/AviviD.+/
 
+! 蘋果仁
+applealmond.com##.after-header-widget-area
+applealmond.com##div[id^="div-gpt-ad-"]
+applealmond.com##ins[class="adsbygoogle"]
+applealmond.com###_cm-css-reset:remove()
+applealmond.com##.Zi_ad_a_SB:upward(1)
+
 ! ithome
 ithome.com.tw##div[class="ad-banner-text"]:upward(3)
 ithome.com.tw##div[class="ad-text-in-middle"]:upward()
@@ -481,6 +488,7 @@ dq.yam.com##div[class$="-popup"]
 dq.yam.com##div[class$="-topBar"]
 ||stats.yam.com/y/collect^
 hsnews.com.tw##section[id="sp-page-title"]
+
 ! 追蹤 (來自 nownews)
 ||dable.io
 ||tagtoo.co
@@ -492,3 +500,6 @@ hsnews.com.tw##section[id="sp-page-title"]
 ||onevision.com.tw
 ||instag.ai
 ||guoshipartners.com
+||taboola.com
+||adbert.com.tw
+||adbottw.net^$third-party
