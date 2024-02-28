@@ -98,7 +98,6 @@ www.setn.com##div[class="news-flash-area"]
 www.setn.com##a[pa="Menu-Channel Logo"]
 
 ||www.setddg.com/AdExternal/*
-||*.popin.cc/*^$domain=www.setn.com
 ||www.setn.com/js/LogTracer.js*^
 
 ! ettoday
@@ -307,6 +306,25 @@ thenewslens.com##div[class^="AD2M"]
 ! 內廣
 thenewslens.com##div[data-sponsor="1"]
 
+! EBC 東森新聞
+! ebc.net.tw##div:has(div[class="dfp_ad"])
+ebc.net.tw##div[id^="div-gpt-ad"]
+ebc.net.tw##div[id^="div-onead"]
+ebc.net.tw##div[class^="ad_"]
+
+ebc.net.tw##div>a>span:contains(廣告):upward(2):remove()
+ebc.net.tw##p>strong:upward(1):remove()
+
+! EBC 東森新聞 (手機)
+ebc.net.tw##div[id="mobile-cover"]
+ebc.net.tw##div[class="mobileonly-300ad"]
+ebc.net.tw##div[class="mobile-footer-ad"]
+ebc.net.tw##div[class="mobile-footer-ad-margin"]
+
+! No lives
+ebc.net.tw$$div[id="live-24hrs"]
+ebc.net.tw$$div[id="live-else"]
+
 ! 愛料理
 icook.tw##div[class="recipe-ad-placeholder"]
 
@@ -424,8 +442,6 @@ ctwant.com##div[class="m-adpopup"]
 ! nownews
 nownews.com##.adBlk
 nownews.com##.ad-blk1
-! nownews popin ad
-||popin.cc^$script,domain=nownews.com
 
 worldjournal.com##div[class="article-content__ads--bd"]
 worldjournal.com##div[id="idle"]
@@ -453,3 +469,10 @@ hsnews.com.tw##section[id="sp-page-title"]
 ||dable.io
 ||tagtoo.co
 ||track.beanfun.com
+
+! 廣告投放平台
+||popin.cc
+||onead.com.tw
+||onevision.com.tw
+||instag.ai
+||guoshipartners.com
