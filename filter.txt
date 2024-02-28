@@ -129,7 +129,15 @@ ettoday.net##div[class^="ad_"]
 ||www.ettoday.net/source/tools/videoLiveShoppingCart/index.php7
 
 ! 數位時代
-bnext.com.tw##div[class="IdleBox"]
+! bnext.com.tw##div[class="IdleBox"]
+bnext.com.tw###ad_top
+bnext.com.tw###ad_middle
+bnext.com.tw##.adbox
+bnext.com.tw##.support-pumpkin
+! 包含自動影片廣告
+bnext.com.tw###my-idle-wrapper:remove()
+bnext.com.tw##.support-frame:upward(1):remove()
+bnext.com.tw##div[class^="relative side-pos"]:remove()
 bnext.com.tw#%#//scriptlet('prevent-setTimeout')
 
 ! 商周
