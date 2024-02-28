@@ -243,6 +243,8 @@ www.mirrormedia.mg##div[class="gdpr-notification"]:upward(1):remove()
 ||www.mirrormedia.mg^$cookie=/AviviD.+/
 
 ! ithome
+ithome.com.tw##div[class="ad-banner-text"]:upward(3)
+ithome.com.tw##div[class="ad-text-in-middle"]:upward()
 ||itadapi.ithome.com.tw/ads/serve*^
 ||ithome.com.tw/modules/statistics/*^
 
