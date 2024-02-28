@@ -258,6 +258,11 @@ applealmond.com##ins[class="adsbygoogle"]
 applealmond.com###_cm-css-reset:remove()
 applealmond.com##.Zi_ad_a_SB:upward(1)
 
+! 自由時報
+ltn.com.tw##div[id="ad-K1"]
+ltn.com.tw##.suggest
+news.ltn.com.tw##ul>li>a>span:contains(PR):upward(2):remove()
+
 ! ithome
 ithome.com.tw##div[class="ad-banner-text"]:upward(3)
 ithome.com.tw##div[class="ad-text-in-middle"]:upward()
@@ -482,7 +487,7 @@ new-reporter.com##div[class="modalJS_object"]
 ||attach2.mobile01.com/js/public/fancybox.js^
 mobile01.com#%#//scriptlet('remove-class', 'ad_popUp')
 mobile01.com##div[class=^="fancybox-container"]
-news.ltn.com.tw##div[id="ad-K1"]
+
 ||udn.com^$cookie=/_ga.+/
 ||udn.com^$cookie=trc_cookie_storage
 dq.yam.com##div[class$="-popup"]
