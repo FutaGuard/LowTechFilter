@@ -236,8 +236,9 @@ tw.nextapple.com##div[class="na-ad-pc"]
 tw.nextapple.com##div[id="lrec01"]
 
 ! Yahoo 新聞
+tw.news.yahoo.com##div[data-content="廣告"]:remove()
+tw.news.yahoo.com##li[id^="gemini-item"]
 tw.news.yahoo.com#%#//scriptlet('abort-current-inline-script', 'initCode')
-tw.news.yahoo.com##div[id="module-articleChallenge"]
 tw.news.yahoo.com#%#//scriptlet('set-local-storage-item', 'download-wall', 'undefined')
 tw.news.yahoo.com#%#//scriptlet('set-local-storage-item', 'appPromoBanner', 'undefined')
 
