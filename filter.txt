@@ -129,7 +129,15 @@ ettoday.net##div[class^="ad_"]
 ||www.ettoday.net/source/tools/videoLiveShoppingCart/index.php7
 
 ! 數位時代
-bnext.com.tw##div[class="IdleBox"]
+! bnext.com.tw##div[class="IdleBox"]
+bnext.com.tw###ad_top
+bnext.com.tw###ad_middle
+bnext.com.tw##.adbox
+bnext.com.tw##.support-pumpkin
+! 包含自動影片廣告
+bnext.com.tw###my-idle-wrapper:remove()
+bnext.com.tw##.support-frame:upward(1):remove()
+bnext.com.tw##div[class^="relative side-pos"]:remove()
 bnext.com.tw#%#//scriptlet('prevent-setTimeout')
 
 ! 商周
@@ -228,16 +236,36 @@ tw.nextapple.com##div[class="na-ad-pc"]
 tw.nextapple.com##div[id="lrec01"]
 
 ! Yahoo 新聞
+tw.news.yahoo.com##div[data-content="廣告"]:remove()
+tw.news.yahoo.com##li[id^="gemini-item"]
 tw.news.yahoo.com#%#//scriptlet('abort-current-inline-script', 'initCode')
-tw.news.yahoo.com##div[id="module-articleChallenge"]
 tw.news.yahoo.com#%#//scriptlet('set-local-storage-item', 'download-wall', 'undefined')
 tw.news.yahoo.com#%#//scriptlet('set-local-storage-item', 'appPromoBanner', 'undefined')
 
 ! 鏡週刊
-mirrormedia.mg##div[class^="story__ad"]
-mirrormedia.mg##div[class$="story__member-info"]
+www.mirrormedia.mg##a[id="aw0"]
+www.mirrormedia.mg##div[class^="gpt-placeholder__Container"]
+www.mirrormedia.mg##div[class^="gpt-ad__Wrapper"]:remove()
+www.mirrormedia.mg##div[class="avivid_arrow_wrapper"]:upward(1):remove()
+! 底部隱私權同意
+www.mirrormedia.mg##div[class="gdpr-notification"]:upward(1):remove()
+||www.mirrormedia.mg^$cookie=/AviviD.+/
+
+! 蘋果仁
+applealmond.com##.after-header-widget-area
+applealmond.com##div[id^="div-gpt-ad-"]
+applealmond.com##ins[class="adsbygoogle"]
+applealmond.com###_cm-css-reset:remove()
+applealmond.com##.Zi_ad_a_SB:upward(1)
+
+! 自由時報
+ltn.com.tw##div[id="ad-K1"]
+ltn.com.tw##.suggest
+news.ltn.com.tw##ul>li>a>span:contains(PR):upward(2):remove()
 
 ! ithome
+ithome.com.tw##div[class="ad-banner-text"]:upward(3)
+ithome.com.tw##div[class="ad-text-in-middle"]:upward()
 ||itadapi.ithome.com.tw/ads/serve*^
 ||ithome.com.tw/modules/statistics/*^
 
@@ -443,6 +471,10 @@ ctwant.com##div[class="m-adpopup"]
 nownews.com##.adBlk
 nownews.com##.ad-blk1
 
+! DayBuy
+daybuy.tw##div[id="top_ad"]
+daybuy.tw##div[class]:has([class="adblock_subtitle"])
+
 worldjournal.com##div[class="article-content__ads--bd"]
 worldjournal.com##div[id="idle"]
 marieclaire.com.tw##div[class="adInnerMpu"]
@@ -455,16 +487,14 @@ new-reporter.com##div[class="modalJS_object"]
 ||attach2.mobile01.com/js/public/fancybox.js^
 mobile01.com#%#//scriptlet('remove-class', 'ad_popUp')
 mobile01.com##div[class=^="fancybox-container"]
-news.ltn.com.tw##div[id="ad-K1"]
+
 ||udn.com^$cookie=/_ga.+/
 ||udn.com^$cookie=trc_cookie_storage
-www.mirrormedia.mg##div[class^="gpt-placeholder__Container"]
-||www.mirrormedia.mg^$cookie=/AviviD.+/
-daybuy.tw##div[class]:has([class="adblock_subtitle"])
 dq.yam.com##div[class$="-popup"]
 dq.yam.com##div[class$="-topBar"]
 ||stats.yam.com/y/collect^
 hsnews.com.tw##section[id="sp-page-title"]
+
 ! 追蹤 (來自 nownews)
 ||dable.io
 ||tagtoo.co
@@ -476,3 +506,6 @@ hsnews.com.tw##section[id="sp-page-title"]
 ||onevision.com.tw
 ||instag.ai
 ||guoshipartners.com
+||taboola.com
+||adbert.com.tw
+||adbottw.net^$third-party
