@@ -410,3 +410,17 @@
 ||ak.alklinker.com^
 ||exnessaffiliates.com^
 ||iflshop.online^
+
+! 第三方追蹤、廣告平台
+||adbert.com.tw^
+||adbottw.net^
+||branch.io^
+||dable.io^
+||guoshipartners.com^
+||instag.ai^
+||onead.com.tw^
+||onevision.com.tw^
+||popin.cc^
+||taboola.com^
+||tagtoo.co^
+||track.beanfun.com^

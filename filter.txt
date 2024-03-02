@@ -499,17 +499,3 @@ dq.yam.com##div[class$="-popup"]
 dq.yam.com##div[class$="-topBar"]
 ||stats.yam.com/y/collect^
 hsnews.com.tw##section[id="sp-page-title"]
-
-! 第三方追蹤、廣告平台
-||adbert.com.tw^$third-party
-||adbottw.net^$third-party
-||branch.io^$third-party
-||dable.io^$third-party
-||guoshipartners.com^$third-party
-||instag.ai^$third-party
-||onead.com.tw^$third-party
-||onevision.com.tw^$third-party
-||popin.cc^$third-party
-||taboola.com^$third-party
-||tagtoo.co^$third-party
-||track.beanfun.com^$third-party
