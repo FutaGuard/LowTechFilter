@@ -510,6 +510,8 @@ hsnews.com.tw##section[id="sp-page-title"]
 ||onead.com.tw^$third-party
 ||onevision.com.tw^$third-party
 ||popin.cc^$third-party
+||static.cloudflareinsights.com^
+||static.cloudflareinsights.com/beacon.min.js
 ||taboola.com^$third-party
 ||tagtoo.co^$third-party
 ||track.beanfun.com^$third-party
