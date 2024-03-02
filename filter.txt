@@ -394,6 +394,11 @@ managertoday.com.tw##.social_item
 ! liveabc
 @@||amazonaws.com/storage.liveabc.com/ads/*
 
+! medium
+codeburst.io,medium.com##[class][style="bottom: 0px;"]
+@@||medium.com^$stealth
+||medium.com/_/stat?event=pixel.load
+
 ! Money 錢
 moneynet.com.tw#?#button[-ext-contains="開啟APP閱讀全文"]
 moneynet.com.tw###mobile-ad-bottom
@@ -494,18 +499,3 @@ dq.yam.com##div[class$="-popup"]
 dq.yam.com##div[class$="-topBar"]
 ||stats.yam.com/y/collect^
 hsnews.com.tw##section[id="sp-page-title"]
-
-! 追蹤 (來自 nownews)
-||dable.io
-||tagtoo.co
-||track.beanfun.com
-
-! 廣告投放平台
-||popin.cc
-||onead.com.tw
-||onevision.com.tw
-||instag.ai
-||guoshipartners.com
-||taboola.com
-||adbert.com.tw
-||adbottw.net^$third-party
