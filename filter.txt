@@ -499,3 +499,6 @@ dq.yam.com##div[class$="-popup"]
 dq.yam.com##div[class$="-topBar"]
 ||stats.yam.com/y/collect^
 hsnews.com.tw##section[id="sp-page-title"]
+
+! roo.cash
+roo.cash##div#google-one-tap-box-mobile
