@@ -258,7 +258,8 @@ applealmond.com###_cm-css-reset:remove()
 applealmond.com##.Zi_ad_a_SB:upward(1)
 
 ! 自由時報
-ltn.com.tw##div[id="ad-K1"]
+ltn.com.tw##div[id^="ad"]
+ltn.com.tw##.before_ir
 ltn.com.tw##.suggest
 news.ltn.com.tw##ul>li>a>span:contains(PR):upward(2):remove()
 
