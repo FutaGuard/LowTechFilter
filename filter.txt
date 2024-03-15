@@ -500,6 +500,9 @@ dq.yam.com##div[class$="-topBar"]
 ||stats.yam.com/y/collect^
 hsnews.com.tw##section[id="sp-page-title"]
 
+! roo.cash
+roo.cash##div#google-one-tap-box-mobile
+
 ! 第三方追蹤、廣告平台
 ||adbert.com.tw^$third-party
 ||adbottw.net^$third-party
