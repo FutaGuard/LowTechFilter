@@ -89,14 +89,25 @@ news.ltn.com.tw#%#//scriptlet('set-local-storage-item', 'taboola global:user-id'
 news.ltn.com.tw#%#//scriptlet('set-local-storage-item', 'L_PUID', 'emptyObj')
 
 ! 三立新聞
-setn.com##.rightFloatContent
-www.setn.com#%#//scriptlet('set-cookie-reload', 'linefriendModal', 'true')
-www.setn.com##div[class^="header-live-area"]
-www.setn.com##div[class^="ad-"]
-www.setn.com##div[id="siteIconNav"]
-www.setn.com##div[class="news-flash-area"]
-www.setn.com##a[pa="Menu-Channel Logo"]
+www.setn.com##div[id^="gad_setn_article"]:upward(1):remove()
+www.setn.com##div[id^="gad_setn_innity"]:upward(1):remove()
+www.setn.com##div[id^="gad_HeadNews_setn_article"]:upward(1):remove()
+www.setn.com##div[id^="div-gpt-ad"]:remove()
+www.setn.com###bar_ad
+www.setn.com##.ad
+www.setn.com##.readmoreCont:upward(1)
 
+! 直播
+www.setn.com##div[class^="InstreamDom"]:remove()
+www.setn.com###liveFrame_1:upward(1):remove()
+
+www.setn.com##.livevodBox:remove()
+www.setn.com##iframe[id="LiveVod"]:upward(1):remove()
+! 隱私權政策
+www.setn.com##div[class^="privacy-area"]
+www.setn.com##div[class^="rightFloat"]
+
+www.setn.com#%#//scriptlet('set-cookie-reload', 'linefriendModal', 'true')
 ||www.setddg.com/AdExternal/*
 ||www.setn.com/js/LogTracer.js*^
 
