@@ -167,7 +167,7 @@ chinatimes.com#$#div[class="column-left"] { width: unset !important; }
 
 ! 風傳媒
 www.storm.mg##aside
-www.storm.mg##div[class="article_ads_p_wrapper"]
+www.storm.mg##div[data-addom="storm_ad_wrapper_not_hide"]
 www.storm.mg##div[id="premium_block"]
 www.storm.mg##div[id="author_inner"]
 www.storm.mg##div[id="related_wrapper"]
@@ -183,6 +183,7 @@ www.storm.mg##a[href="/support-us"]
 www.storm.mg##div[id="donation_block"]
 www.storm.mg##a[class$="tag_vip"]
 www.storm.mg##a[class="nav_btn event"]
+www.storm.mg##a[href="https://www.storm.mg/line/notify/login"]
 
 ! Cool3C
 www.cool3c.com##div[class$="side-sync-inner"]
