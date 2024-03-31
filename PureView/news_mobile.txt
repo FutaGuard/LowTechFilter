@@ -244,3 +244,9 @@ gvm.com.tw##div[class="rights-sec"]
 gvm.com.tw##div[id^="article_end_"]
 gvm.com.tw##div[data-recommend_placement="article_float_1"]
 gvm.com.tw##div[id="content_area"]
+gvm.com.tw##a[class="list-cards"]
+gvm.com.tw##div[data-recommend_placement="article_1_bottom"]
+gvm.com.tw##div[class="show-small"]
+||rec.gvm.com.tw/gvm_recommend.php^
+||gvm.com.tw/article/next_article^
+||gvm.com.tw/recommend/article^

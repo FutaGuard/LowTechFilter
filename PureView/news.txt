@@ -322,3 +322,15 @@ tw.nextapple.com##div[class="scrollTool"]
 # 花蓮最速報
 hsnews.com.tw##div[id="sp-left"]
 hsnews.com.tw#$#div[id="sp-component"] { width: unset !important;}
+
+# 遠見雜誌 
+gvm.com.tw##div[class="article-right js-article-aside"]:remove()
+gvm.com.tw##div[id^="article_end_"]
+gvm.com.tw##div[class="media-sec"]
+gvm.com.tw##div[class="rights-sec"]
+gvm.com.tw##a[class="list-cards"]
+gvm.com.tw##div[id="article_recommand"]
+gvm.com.tw##div[id="content_area"]
+gvm.com.tw##section[class^="newsletter"]
+gvm.com.tw##div[class^="article-head_marketing"]
+gvm.com.tw#$#div[class="article-left"] { width: 100% !important;}
