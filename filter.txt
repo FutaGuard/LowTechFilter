@@ -397,8 +397,6 @@ wealth.com.tw###idle_modal
 managertoday.com.tw##.mtaa.effect
 managertoday.com.tw##.social_item
 ||www.managertoday.com.tw/salmon.png^
-||avivid.likr.tw/sample/aws-sdk-AviviD*^
-||avividone.likr.tw/killswitch/killswitch_config.js^
 ||sn.bnextmedia.com.tw/js/tc.js^
 ||*.bnextmedia.com.tw/recommendation/events/*^
 
@@ -529,3 +527,5 @@ roo.cash##div#google-one-tap-box-mobile
 ||taboola.com^$third-party
 ||tagtoo.co^$third-party
 ||track.beanfun.com^$third-party
+||avivid.likr.tw^$third-party
+||avividone.likr.tw^$third-party
