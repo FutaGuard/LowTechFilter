@@ -512,6 +512,16 @@ hsnews.com.tw##section[id="sp-page-title"]
 ! roo.cash
 roo.cash##div#google-one-tap-box-mobile
 
+! techritual.com
+techritual.com##div[id="onesignal-slidedown-container"]
+techritual.com##.wpb_wrapper.td_block_wrap:remove()
+! techritual.com##div[class^="td-g-rec td-g-rec-id-custom_ad_1"]
+techritual.com##div[class^="td-loader-gif tdb-loader-autoload"]:remove()
+||techritual.com/*?tdb_action=tdb_ajax^
+||techritual.com/wp-json/td-cloud-library/ajax_autoload^
+techritual.com##iframe
+techritual.com##div[class="td_block_inner td-mc1-wrap"]
+! ###tdi_119 > .td-cpt-post
 ! 第三方追蹤、廣告平台
 ||adbert.com.tw^$third-party
 ||adbottw.net^$third-party
