@@ -214,6 +214,7 @@ nownews.com##div[class="related-item"]
 nownews.com##div[id="divRcNews"]
 nownews.com##div[class="fbBlk"]
 nownews.com#$#div[class="leftCol"] { width: calc(90% - 2em) !important }
+nownews.com##div[class="event-holder"]
 
 ! technews 科技新報
 technews.tw##div[class="tipbar"]
