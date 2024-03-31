@@ -236,3 +236,11 @@ tw.nextapple.com##a:has-text(/推薦新聞/)
 tw.nextapple.com##a[href^="https://reporting.nextapple.com"]
 tw.nextapple.com##hr
 tw.nextapple.com##div[class="scrollTool"]
+# 遠見雜誌
+gvm.com.tw##section[class^="newsletter"]
+gvm.com.tw##div[class^="article-head_marketing"]
+gvm.com.tw##div[class="media-sec"]
+gvm.com.tw##div[class="rights-sec"]
+gvm.com.tw##div[id^="article_end_"]
+gvm.com.tw##div[data-recommend_placement="article_float_1"]
+gvm.com.tw##div[id="content_area"]
