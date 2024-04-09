@@ -38,16 +38,20 @@ class Downloader:
             if r.status_code != 200:
                 logger.error("Download failed: %s", url)
                 return False
-            self.data[date.format("YYYY-MM-DD")] = BytesIO(r.content)
+            zip_file = BytesIO(r.content)
+            with ZipFile(zip_file, 'r') as zip_obj:
+                # print(zip_obj.read('domain-names.txt'))
+                self.data[date.format("YYYY-MM-DD")] = zip_obj.read('domain-names.txt')
             return True
 
     async def write(self):
         # todo: extract zip file and write to disk
-        pass
-        # date = sorted(self.data.keys(), reverse=True)
-        # for d in date:
-        #     f = self.data[d]
-        #     ZipFile(f).extractall(self.base_path / d)
+        
+        sort_date = sorted(self.data.keys(), reverse=True)
+        accumulate = ''
+        for date in range(len(sort_date)):
+            accumulate += self.data[sort_date[date]].decode()
+            self.base_path.joinpath(f"ndr_past_{date}.txt").write_bytes(accumulate.encode())
 
     def run(self):
         loop = asyncio.get_event_loop()
