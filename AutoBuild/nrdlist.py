@@ -27,10 +27,6 @@ class Downloader:
         url = self.base_url.format(
             args=b64encode(date.strftime("%Y-%m-%d.zip").encode()).decode()
         )
-        print(url)
-        # me https://www.whoisds.com//whois-database/newly-registered-domains/MjAyNC0wNC0wOS56aXA=/nrd
-        # th https://www.whoisds.com//whois-database/newly-registered-domains/MjAyNC0wNC0wOC56aXA=/nrd
-        # assert url == "https://www.whoisds.com//whois-database/newly-registered-domains/MjAyNC0wNC0wOC56aXA=/nrd"
         async with httpx.AsyncClient() as client:
             r = await client.get(url)
             if r.status_code != 200:
