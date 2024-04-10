@@ -49,6 +49,7 @@ class Downloader:
         accumulate = ""
         for date in range(len(sort_date)):
             accumulate += self.data[sort_date[date]].decode()
+            accumulate = "\n".join(sorted(set(accumulate.split("\n"))))
             self.base_path.joinpath(f"past-{date+1}day.txt").write_bytes(
                 accumulate.encode()
             )
