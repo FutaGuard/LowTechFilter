@@ -9,24 +9,24 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    r = requests.get('https://rpz.twnic.tw/e.html')
+    r = requests.get("https://rpz.twnic.tw/e.html")
     if r.status_code != 200:
-        logger.critical('Fetch Data Err')
+        logger.critical("Fetch Data Err")
         sys.exit(1)
 
     # split text from <script> tag
-    raw: str = r.text.split('<script>')[1].split(';')[0].split('= ')[1]
+    raw: str = r.text.split("<script>")[1].split(";")[0].split("= ")[1]
     parse_data: List[dict] = [dict()]
     try:
         parse_data = json.loads(raw)
     except JSONDecodeError:
-        logger.critical('Parse JSON Err')
+        logger.critical("Parse JSON Err")
         sys.exit(1)
 
-    output = [domain for in_dic in parse_data for domain in in_dic['domains']]
-    with open('TWNIC-RPZ.txt', 'w') as f:
-        f.write('\n'.join(output))
+    output = [domain for in_dic in parse_data for domain in in_dic["domains"]]
+    with open("TWNIC-RPZ.txt", "w") as f:
+        f.write("\n".join(output))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
