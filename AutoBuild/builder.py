@@ -1,7 +1,7 @@
 import re
 from datetime import datetime, timedelta, timezone
-from shutil import copyfile
 import requests
+from glob import glob
 
 filterlist = {
     "abp": [
@@ -10,22 +10,16 @@ filterlist = {
         "PureView/news.txt",
         "PureView/news_mobile.txt",
     ],
-    "hosts": [
-        "hosts.txt",
-        "nofarm.txt",
-        "TW165.txt",
-        "TWNIC-RPZ.txt",
-        "nrd/past-1day.txt",
-        "nrd/past-2day.txt",
-        "nrd/past-3day.txt",
-        "nrd/past-4day.txt",
-        "nrd/past-5day.txt",
-        "nrd/past-6day.txt",
-    ],
+    "hosts": ["hosts.txt", "nofarm.txt", "TW165.txt", "TWNIC-RPZ.txt"],
 }
 url = "https://filter.futa.gg/"
 tz = timezone(timedelta(hours=+8))
 today = datetime.now(tz).date()
+
+
+#  新增 nrd 清單
+for files in glob("nrd/past-*.txt"):
+    filterlist["hosts"].append(files)
 
 
 class HEAD:
