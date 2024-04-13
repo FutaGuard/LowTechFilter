@@ -130,7 +130,7 @@ class Phase4:
                 logger.error("Download failed: %s", self.base_url)
                 return False
             date = now.shift(days=-7).date().strftime("%Y-%m-%d")
-            self.data[date] = r.content.splitlines()[2:-2]
+            self.data[date] = r.content.splitlines()[2:-1]
 
     async def run(self):
         for _ in range(5):
