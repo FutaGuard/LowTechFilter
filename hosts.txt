@@ -142,6 +142,8 @@
 ||godkendsuoabn.com^
 ||steamcommunllty.com^
 ||abloeic.online^
+||mxwnaqo.cn^
+||donggpt.cn^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
