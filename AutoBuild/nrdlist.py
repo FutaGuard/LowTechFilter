@@ -140,4 +140,4 @@ if __name__ == "__main__":
     for date in range(len(sort_date)):
         accumulate += "\n".join(combined_data[sort_date[date]])
         accumulate = "\n".join(sorted(set(accumulate.split("\n"))))
-        base_path.joinpath(f"past-{date + 1}day.txt").write_bytes(accumulate.encode())
+        base_path.joinpath(f"past-{(date + 1):02d}day.txt").write_bytes(accumulate.encode())
