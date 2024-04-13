@@ -6,6 +6,7 @@ import os
 import pathlib
 from base64 import b64encode
 from io import BytesIO, TextIOWrapper
+from itertools import chain, islice
 from typing import Dict, List, Set
 from zipfile import ZipFile, BadZipfile
 
@@ -148,21 +149,24 @@ async def write_files(datalist: List[Dict[str, List[bytes]]]):
     if not base_path.exists():
         base_path.mkdir()
 
-    combined_data: Dict[str, Set[bytes]] = {}
+    sorted_date = sorted(chain.from_iterable(datalist), reverse=True)
+    # combine only the first 30 days
+    combined_data: Dict[str, Set[bytes]] = {
+        date: set() for date in islice(sorted_date, 30)
+    }
     for data in datalist:
         for key, value in data.items():
             if key not in combined_data:
-                combined_data[key] = set(value)
-            else:
-                combined_data[key].update(value)
+                continue
+            combined_data[key].update(value)
 
-    sort_date = sorted(combined_data.keys(), reverse=True)[:30]
     accumulate = b""
-    for i, date in enumerate(sort_date):
+    # combined_data is ordered by insertion (sorted date)
+    for i, data in enumerate(combined_data.values()):
         if not accumulate:
-            accumulate = b"\n".join(combined_data[date])
+            accumulate = b"\n".join(data)
         else:
-            accumulate += b"\n" + b"\n".join(combined_data[date])
+            accumulate += b"\n" + b"\n".join(data)
         # accumulate = "\n".join(sorted(set(accumulate.split("\n"))))
         base_path.joinpath(f"past-{(i + 1):02d}day.txt").write_bytes(accumulate)
 
