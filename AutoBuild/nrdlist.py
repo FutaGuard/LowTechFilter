@@ -48,10 +48,10 @@ class Phase1:
     async def run(self):
         today = arrow.utcnow()
         for i in range(1, 31, 5):
-            task = []
-            for j in range(i, i + 5):
-                date = today.shift(days=-j)
-                task.append(asyncio.create_task(self.fetch(date)))
+            task = [
+                asyncio.create_task(self.fetch(today.shift(days=-j)))
+                for j in range(i, i + 5)
+            ]
             await asyncio.gather(*task)
 
 
