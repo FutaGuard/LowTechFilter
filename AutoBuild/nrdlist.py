@@ -132,16 +132,23 @@ class Phase4:
             self.data[date] = r.text.splitlines()[2:-2]
 
     async def run(self):
-        await self.fetch()
+        for i in range(5):
+            try:
+                await self.fetch()
+            except httpx.ReadTimeout:
+                logger.error("Phase4: Timeout, retrying")
+                continue
+            finally:
+                break
 
 
-async def write_files(data: List[dict]):
+async def write_files(datalist: List[Dict[str, List[str]]]):
     base_path = pathlib.Path("nrd")
     if not base_path.exists():
         base_path.mkdir()
 
     combined_data: Dict[str, set] = {}
-    for data in [ph4.data]:
+    for data in datalist:
         for key, value in data.items():
             if key not in combined_data:
                 combined_data[key] = set(value)
@@ -168,7 +175,6 @@ if __name__ == "__main__":
     ph4 = Phase4()
 
     task = [ph1.run(loop), ph2.run(), ph3.run(), ph4.run()]
-
     loop.run_until_complete(asyncio.gather(*task))
     logger.info("Download Complete, Now writing")
     loop.run_until_complete(write_files([ph1.data, ph2.data, ph3.data, ph4.data]))
