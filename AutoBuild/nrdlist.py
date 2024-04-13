@@ -158,13 +158,13 @@ async def write_files(datalist: List[Dict[str, List[bytes]]]):
 
     sort_date = sorted(combined_data.keys(), reverse=True)[:30]
     accumulate = b""
-    for date in range(len(sort_date)):
+    for i, date in enumerate(sort_date):
         if not accumulate:
-            accumulate = b"\n".join(combined_data[sort_date[date]])
+            accumulate = b"\n".join(combined_data[date])
         else:
-            accumulate += b"\n" + b"\n".join(combined_data[sort_date[date]])
+            accumulate += b"\n" + b"\n".join(combined_data[date])
         # accumulate = "\n".join(sorted(set(accumulate.split("\n"))))
-        base_path.joinpath(f"past-{(date + 1):02d}day.txt").write_bytes(accumulate)
+        base_path.joinpath(f"past-{(i + 1):02d}day.txt").write_bytes(accumulate)
 
 
 async def main():
