@@ -61,12 +61,12 @@ class Downloader:
         today = arrow.utcnow()
         task = []
 
-        for i in range(1, 30):
-            date = today.shift(days=-i)
-            task.append(loop.create_task(self.fetch(date)))
-        loop.run_until_complete(asyncio.gather(*task))
+        for i in range(1, 30, 5):
+            for j in range(i, i + 5):
+                date = today.shift(days=-j)
+                task.append(loop.create_task(self.fetch(date)))
+            loop.run_until_complete(asyncio.gather(*task))
         asyncio.run(self.write())
-
 
 if __name__ == "__main__":
     Downloader().run()
