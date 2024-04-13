@@ -165,8 +165,9 @@ async def write_files(datalist: List[Dict[str, List[str]]]):
         )
 
 
-if __name__ == "__main__":
+async def main():
     import time
+
     start = time.time()
     loop = asyncio.get_event_loop()
     ph1 = Phase1()
@@ -180,3 +181,7 @@ if __name__ == "__main__":
     loop.run_until_complete(write_files([ph1.data, ph2.data, ph3.data, ph4.data]))
     end = time.time() - start
     logger.info(f"Time taken: {end:.2f} seconds")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
