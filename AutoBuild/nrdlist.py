@@ -113,31 +113,64 @@ class Phase3:
         await self.fetch()
 
 
-if __name__ == "__main__":
-    loop = asyncio.get_event_loop()
-    ph1 = Phase1()
-    ph2 = Phase2()
-    ph3 = Phase3()
+class Phase4:
+    def __init__(self):
+        self.base_url = os.getenv("PHASE4_URL")
+        if not self.base_url:
+            raise ValueError("PHASE4_URL not set")
+        self.data: Dict[str, List[str]] = {}
 
-    task = [ph1.run(loop), ph2.run(), ph3.run()]
+    async def fetch(self):
+        now = arrow.utcnow()
+        async with httpx.AsyncClient() as client:
+            logger.info("Downloading: %s", self.base_url)
+            r = await client.get(self.base_url)
+            if r.status_code != 200:
+                logger.error("Download failed: %s", self.base_url)
+                return False
+            date = now.shift(days=-7).date().strftime("%Y-%m-%d")
+            self.data[date] = r.text.splitlines()[2:-2]
 
-    loop.run_until_complete(asyncio.gather(*task))
-    logger.info("Download Complete, Now writing")
+    async def run(self):
+        await self.fetch()
+
+
+async def write_files(data: List[dict]):
     base_path = pathlib.Path("nrd")
     if not base_path.exists():
         base_path.mkdir()
 
     combined_data: Dict[str, set] = {}
-    for data in [ph1.data, ph2.data, ph3.data]:
+    for data in [ph4.data]:
         for key, value in data.items():
             if key not in combined_data:
                 combined_data[key] = set(value)
             else:
                 combined_data[key].update(value)
 
-    sort_date = sorted(combined_data.keys(), reverse=True)
+    sort_date = sorted(combined_data.keys(), reverse=True)[:30]
     accumulate = ""
     for date in range(len(sort_date)):
         accumulate += "\n".join(combined_data[sort_date[date]])
-        accumulate = "\n".join(sorted(set(accumulate.split("\n"))))
-        base_path.joinpath(f"past-{(date + 1):02d}day.txt").write_bytes(accumulate.encode())
+        # accumulate = "\n".join(sorted(set(accumulate.split("\n"))))
+        base_path.joinpath(f"past-{(date + 1):02d}day.txt").write_bytes(
+            accumulate.encode()
+        )
+
+
+if __name__ == "__main__":
+    import time
+    start = time.time()
+    loop = asyncio.get_event_loop()
+    ph1 = Phase1()
+    ph2 = Phase2()
+    ph3 = Phase3()
+    ph4 = Phase4()
+
+    task = [ph1.run(loop), ph2.run(), ph3.run(), ph4.run()]
+
+    loop.run_until_complete(asyncio.gather(*task))
+    logger.info("Download Complete, Now writing")
+    loop.run_until_complete(write_files([ph1.data, ph2.data, ph3.data, ph4.data]))
+    end = time.time() - start
+    logger.info(f"Time taken: {end:.2f} seconds")
