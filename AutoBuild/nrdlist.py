@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 class Phase1:
     def __init__(self):
-        self.base_url = os.getenv("PHASE1_URL")
+        self.base_url = os.getenv("PHASE1_URL", "")
         if not self.base_url:
             raise ValueError("PHASE1_URL not set")
         self.data: Dict[str, List[str]] = {}
@@ -57,7 +57,7 @@ class Phase1:
 
 class Phase2:
     def __init__(self):
-        self.base_url = os.getenv("PHASE2_URL")
+        self.base_url = os.getenv("PHASE2_URL", "")
         if not self.base_url:
             raise ValueError("PHASE2_URL not set")
         self.data: Dict[str, List[str]] = {}
@@ -87,7 +87,7 @@ class Phase2:
 
 class Phase3:
     def __init__(self):
-        self.base_url = os.getenv("PHASE3_URL")
+        self.base_url = os.getenv("PHASE3_URL", "")
         if not self.base_url:
             raise ValueError("PHASE3_URL not set")
         self.data: Dict[str, List[str]] = {}
@@ -115,7 +115,7 @@ class Phase3:
 
 class Phase4:
     def __init__(self):
-        self.base_url = os.getenv("PHASE4_URL")
+        self.base_url = os.getenv("PHASE4_URL", "")
         if not self.base_url:
             raise ValueError("PHASE4_URL not set")
         self.data: Dict[str, List[str]] = {}
@@ -132,7 +132,7 @@ class Phase4:
             self.data[date] = r.text.splitlines()[2:-2]
 
     async def run(self):
-        for i in range(5):
+        for _ in range(5):
             try:
                 await self.fetch()
             except httpx.ReadTimeout:
