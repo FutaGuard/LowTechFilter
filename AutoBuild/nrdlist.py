@@ -45,13 +45,13 @@ class Phase1:
                 return False
             return True
 
-    async def run(self, loop: asyncio.AbstractEventLoop):
+    async def run(self):
         today = arrow.utcnow()
         for i in range(1, 31, 5):
             task = []
             for j in range(i, i + 5):
                 date = today.shift(days=-j)
-                task.append(loop.create_task(self.fetch(date)))
+                task.append(asyncio.create_task(self.fetch(date)))
             await asyncio.gather(*task)
 
 
@@ -169,16 +169,20 @@ async def main():
     import time
 
     start = time.time()
-    loop = asyncio.get_event_loop()
     ph1 = Phase1()
     ph2 = Phase2()
     ph3 = Phase3()
     ph4 = Phase4()
 
-    task = [ph1.run(loop), ph2.run(), ph3.run(), ph4.run()]
-    loop.run_until_complete(asyncio.gather(*task))
+    task = [
+        asyncio.create_task(ph1.run()),
+        asyncio.create_task(ph2.run()),
+        asyncio.create_task(ph3.run()),
+        asyncio.create_task(ph4.run()),
+    ]
+    await asyncio.gather(*task)
     logger.info("Download Complete, Now writing")
-    loop.run_until_complete(write_files([ph1.data, ph2.data, ph3.data, ph4.data]))
+    await write_files([ph1.data, ph2.data, ph3.data, ph4.data])
     end = time.time() - start
     logger.info(f"Time taken: {end:.2f} seconds")
 
