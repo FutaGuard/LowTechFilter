@@ -5,7 +5,7 @@ import logging
 import os
 import pathlib
 from base64 import b64encode
-from io import BytesIO, StringIO
+from io import BytesIO, TextIOWrapper
 from typing import Dict, List, Set
 from zipfile import ZipFile, BadZipfile
 
@@ -101,9 +101,8 @@ class Phase3:
                 return False
 
             with gzip.GzipFile(fileobj=BytesIO(r.content), mode="rb") as f:
-                raw_data = BytesIO(f.read()).getvalue().decode()
+                data_file = TextIOWrapper(BytesIO(f.read()))
 
-        data_file = StringIO(raw_data)
         reader = csv.DictReader(data_file)
         for row in reader:
             if row["create_date"]:
