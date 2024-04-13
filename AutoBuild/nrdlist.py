@@ -6,7 +6,7 @@ import os
 import pathlib
 from base64 import b64encode
 from io import BytesIO, StringIO
-from typing import Dict, List
+from typing import Dict, List, Set
 from zipfile import ZipFile, BadZipfile
 
 import arrow
@@ -21,7 +21,7 @@ class Phase1:
         self.base_url = os.getenv("PHASE1_URL", "")
         if not self.base_url:
             raise ValueError("PHASE1_URL not set")
-        self.data: Dict[str, List[str]] = {}
+        self.data: Dict[str, List[bytes]] = {}
 
     async def fetch(self, date: arrow.Arrow) -> bool:
         logger.info("Downloading: %s", date.format("YYYY-MM-DD"))
@@ -37,9 +37,9 @@ class Phase1:
             try:
                 with ZipFile(zip_file, "r") as zip_obj:
                     # print(zip_obj.read('domain-names.txt'))
-                    self.data[date.format("YYYY-MM-DD")] = (
-                        zip_obj.read("domain-names.txt").decode().splitlines()
-                    )
+                    self.data[date.format("YYYY-MM-DD")] = zip_obj.read(
+                        "domain-names.txt"
+                    ).splitlines()
             except BadZipfile:
                 logger.error("Bad Zipfile: %s", url)
                 return False
@@ -60,7 +60,7 @@ class Phase2:
         self.base_url = os.getenv("PHASE2_URL", "")
         if not self.base_url:
             raise ValueError("PHASE2_URL not set")
-        self.data: Dict[str, List[str]] = {}
+        self.data: Dict[str, List[bytes]] = {}
 
     async def fetch(self):
         now = arrow.utcnow()
@@ -74,11 +74,11 @@ class Phase2:
                     return False
                 if files == "nrd-1m.csv":
                     self.data[now.shift(months=-1).date().strftime("%Y-%m-%d")] = (
-                        BytesIO(r.content).getvalue().decode().splitlines()
+                        BytesIO(r.content).getvalue().splitlines()
                     )
                 else:
                     self.data[now.shift(weeks=-1).date().strftime("%Y-%m-%d")] = (
-                        BytesIO(r.content).getvalue().decode().splitlines()
+                        BytesIO(r.content).getvalue().splitlines()
                     )
 
     async def run(self):
@@ -90,7 +90,7 @@ class Phase3:
         self.base_url = os.getenv("PHASE3_URL", "")
         if not self.base_url:
             raise ValueError("PHASE3_URL not set")
-        self.data: Dict[str, List[str]] = {}
+        self.data: Dict[str, List[bytes]] = {}
 
     async def fetch(self):
         async with httpx.AsyncClient() as client:
@@ -107,7 +107,9 @@ class Phase3:
         reader = csv.DictReader(data_file)
         for row in reader:
             if row["create_date"]:
-                self.data.setdefault(row["create_date"], []).append(row["domain_name"])
+                self.data.setdefault(row["create_date"], []).append(
+                    row["domain_name"].encode()
+                )
 
     async def run(self):
         await self.fetch()
@@ -118,7 +120,7 @@ class Phase4:
         self.base_url = os.getenv("PHASE4_URL", "")
         if not self.base_url:
             raise ValueError("PHASE4_URL not set")
-        self.data: Dict[str, List[str]] = {}
+        self.data: Dict[str, List[bytes]] = {}
 
     async def fetch(self):
         now = arrow.utcnow()
@@ -129,7 +131,7 @@ class Phase4:
                 logger.error("Download failed: %s", self.base_url)
                 return False
             date = now.shift(days=-7).date().strftime("%Y-%m-%d")
-            self.data[date] = r.text.splitlines()[2:-2]
+            self.data[date] = r.content.splitlines()[2:-2]
 
     async def run(self):
         for _ in range(5):
@@ -142,12 +144,12 @@ class Phase4:
                 break
 
 
-async def write_files(datalist: List[Dict[str, List[str]]]):
+async def write_files(datalist: List[Dict[str, List[bytes]]]):
     base_path = pathlib.Path("nrd")
     if not base_path.exists():
         base_path.mkdir()
 
-    combined_data: Dict[str, set] = {}
+    combined_data: Dict[str, Set[bytes]] = {}
     for data in datalist:
         for key, value in data.items():
             if key not in combined_data:
@@ -156,13 +158,11 @@ async def write_files(datalist: List[Dict[str, List[str]]]):
                 combined_data[key].update(value)
 
     sort_date = sorted(combined_data.keys(), reverse=True)[:30]
-    accumulate = ""
+    accumulate = b""
     for date in range(len(sort_date)):
-        accumulate += "\n".join(combined_data[sort_date[date]])
+        accumulate += b"\n".join(combined_data[sort_date[date]])
         # accumulate = "\n".join(sorted(set(accumulate.split("\n"))))
-        base_path.joinpath(f"past-{(date + 1):02d}day.txt").write_bytes(
-            accumulate.encode()
-        )
+        base_path.joinpath(f"past-{(date + 1):02d}day.txt").write_bytes(accumulate)
 
 
 async def main():
