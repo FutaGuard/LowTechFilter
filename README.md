@@ -52,11 +52,17 @@ https://t.me/adblock_tw
 
 - <https://filter.futa.gg/TW165_domains.txt>
 
-| hosts 清單一覽 | LowTechHost                                          | TW165 台灣反詐騙                                     | TW RPZ 阻止解析清單                                      | NoFarm 農場文清單                                     |
-| -------------- | ---------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------- |
-| Adblock 語法            | [訂閱連結](https://filter.futa.gg/hosts_abp.txt)     | [訂閱連結](https://filter.futa.gg/TW165_abp.txt)     | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_abp.txt)     | [訂閱連結](https://filter.futa.gg/nofarm_abp.txt)     |
-| hosts          | [訂閱連結](https://filter.futa.gg/hosts.txt)   | [訂閱連結](https://filter.futa.gg/TW165_hosts.txt)   | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_hosts.txt)   | [訂閱連結](https://filter.futa.gg/nofarm_hosts.txt)   |
-| 純網域        | [訂閱連結](https://filter.futa.gg/hosts_domains.txt) | [訂閱連結](https://filter.futa.gg/TW165_domains.txt) | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_domains.txt) | [訂閱連結](https://filter.futa.gg/nofarm_domains.txt) |
+> 從網路上羅列的 NRD 清單，經過整理的版本，NRD (Newly Registered Domain
+) 意思是近期註冊的網域，通常新註冊的網域有較高的風險，經常為詐騙集團所用，此清單提供過去 1 天致 30 天的清單
+- <https://filter.futa.gg/ndr/past-01day_hosts.txt> （過去 1 天，hosts 格式）
+- <https://filter.futa.gg/ndr/past-07day_abp.txt> （過去 7 天，adblock 格式）
+
+
+| hosts 清單一覽 | LowTechHost                                          | TW165 台灣反詐騙                                     | TW RPZ 阻止解析清單                                      | NoFarm 農場文清單                                     | NRD 清單(過去1天)                                             |
+| -------------- | ---------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------- |
+| Adblock 語法            | [訂閱連結](https://filter.futa.gg/hosts_abp.txt)     | [訂閱連結](https://filter.futa.gg/TW165_abp.txt)     | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_abp.txt)     | [訂閱連結](https://filter.futa.gg/nofarm_abp.txt)     | [訂閱連結](https://filter.futa.gg/nrd/past-01day_abp.txt) |
+| hosts          | [訂閱連結](https://filter.futa.gg/hosts.txt)   | [訂閱連結](https://filter.futa.gg/TW165_hosts.txt)   | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_hosts.txt)   | [訂閱連結](https://filter.futa.gg/nofarm_hosts.txt)   | [訂閱連結](https://filter.futa.gg/nrd/past-01day_hosts.txt) |
+| 純網域        | [訂閱連結](https://filter.futa.gg/hosts_domains.txt) | [訂閱連結](https://filter.futa.gg/TW165_domains.txt) | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_domains.txt) | [訂閱連結](https://filter.futa.gg/nofarm_domains.txt) | [訂閱連結](https://filter.futa.gg/nrd/past-01day_domains.txt) |
 
 
 
