@@ -149,7 +149,7 @@ async def write_files(datalist: List[Dict[str, List[bytes]]]):
     if not base_path.exists():
         base_path.mkdir()
 
-    sorted_date = sorted(chain.from_iterable(datalist), reverse=True)
+    sorted_date = sorted(set(chain.from_iterable(datalist)), reverse=True)
     # combine only the first 30 days
     combined_data: Dict[str, Set[bytes]] = {
         date: set() for date in islice(sorted_date, 30)
