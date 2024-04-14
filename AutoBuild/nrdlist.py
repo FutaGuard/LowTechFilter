@@ -162,10 +162,10 @@ async def write_files(datalist: List[Dict[str, List[bytes]]]):
 
     dataset = set()
     # combined_data is ordered by insertion (sorted date)
-    for i, data in enumerate(combined_data.values()):
+    for i, data in enumerate(combined_data.values(), start=1):
         dataset.update(data)
         # accumulate = "\n".join(sorted(set(accumulate.split("\n"))))
-        base_path.joinpath(f"past-{(i + 1):02d}day.txt").write_bytes(
+        base_path.joinpath(f"past-{i:02d}day.txt").write_bytes(
             b"\n".join(dataset)
         )
 
