@@ -19,7 +19,7 @@ tz = timezone(timedelta(hours=+8))
 today = datetime.now(tz).date()
 
 #  新增 nrd 清單
-for files in glob("AutoBuild/nrd/past-*.txt"):
+for files in glob("nrd/past-*.txt"):
     filterlist["hosts"].append(files)
 
 
