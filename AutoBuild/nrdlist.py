@@ -112,7 +112,14 @@ class Phase3:
                 )
 
     async def run(self):
-        await self.fetch()
+        for _ in range(5):
+            try:
+                await self.fetch()
+            except httpx.ReadTimeout:
+                logger.error("Phase3: Timeout, retrying")
+                continue
+            finally:
+                break
 
 
 class Phase4:
