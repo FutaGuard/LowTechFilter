@@ -196,6 +196,8 @@
 
 ! 假冒虛擬貨幣交易所網站詐騙
 ||bianceance.com^
+||aivarsity.org^
+||bibliotecageneral.me^
 
 ! 假冒串流影音網站詐騙
 ||netfltiw.com^
