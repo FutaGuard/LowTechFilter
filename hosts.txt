@@ -418,3 +418,5 @@
 ||ak.alklinker.com^
 ||exnessaffiliates.com^
 ||iflshop.online^
+||fragment.club^
+||fragment.link^
