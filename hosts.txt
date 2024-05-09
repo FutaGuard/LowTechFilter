@@ -421,3 +421,4 @@
 ||iflshop.online^
 ||fragment.club^
 ||fragment.link^
+||fragmentnft.xyz^
