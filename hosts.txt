@@ -145,6 +145,7 @@
 ||mxwnaqo.cn^
 ||donggpt.cn^
 ||esansk.top^
+||esunebk.top^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
