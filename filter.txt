@@ -253,12 +253,10 @@ tw.news.yahoo.com#%#//scriptlet('set-local-storage-item', 'download-wall', 'unde
 tw.news.yahoo.com#%#//scriptlet('set-local-storage-item', 'appPromoBanner', 'undefined')
 
 ! 鏡週刊
-www.mirrormedia.mg##a[id="aw0"]
+! www.mirrormedia.mg##a[id="aw0"]
 www.mirrormedia.mg##div[class^="gpt-placeholder__Container"]
 www.mirrormedia.mg##div[class^="gpt-ad__Wrapper"]:remove()
 www.mirrormedia.mg##div[class="avivid_arrow_wrapper"]:upward(1):remove()
-! 底部隱私權同意
-www.mirrormedia.mg##div[class="gdpr-notification"]:upward(1):remove()
 ||www.mirrormedia.mg^$cookie=/AviviD.+/
 
 ! 蘋果仁
