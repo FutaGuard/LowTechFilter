@@ -146,6 +146,7 @@
 ||donggpt.cn^
 ||esansk.top^
 ||esunebk.top^
+||usaniik.top^
 ||shoplinestickers.com^
 
 ! 加密貨幣釣魚
