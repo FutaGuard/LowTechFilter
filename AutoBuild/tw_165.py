@@ -20,7 +20,9 @@ def exclude_list(domain: str) -> bool:
 
 
 def is_pure_ip(domain: str) -> bool:
-    return True if re.match(IP_PATTERN, domain) else False
+    if isinstance(domain, str):
+        return True if re.match(IP_PATTERN, domain) else False
+    return True
 
 
 def main():
