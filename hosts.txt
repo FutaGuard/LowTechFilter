@@ -425,3 +425,4 @@
 ||fragment.club^
 ||fragment.link^
 ||fragmentnft.xyz^
+||xunjie.store^
