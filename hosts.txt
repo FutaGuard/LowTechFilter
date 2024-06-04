@@ -290,6 +290,7 @@
 ||mvdis-gov.vip^
 ||ipost-post-gov-tw.com^
 ||tawan.podob.sbs^
+||tawan.pfksf.sbs^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
