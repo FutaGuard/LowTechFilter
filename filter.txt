@@ -350,6 +350,7 @@ thenewslens.com##div[data-sponsor="1"]
 ebc.net.tw##div[id^="div-gpt-ad"]
 ebc.net.tw##div[id^="div-onead"]
 ebc.net.tw##div[class^="ad_"]
+ebc.net.tw##div[class$="ad show"]:remove()
 
 ebc.net.tw##div>a>span:contains(廣告):upward(2):remove()
 ebc.net.tw##p>strong:upward(1):remove()

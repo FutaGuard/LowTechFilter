@@ -251,3 +251,9 @@ gvm.com.tw##div[class="show-small"]
 ||rec.gvm.com.tw/gvm_recommend.php^
 ||gvm.com.tw/article/next_article^
 ||gvm.com.tw/recommend/article^
+
+# ebc.net.tw
+ebc.net.tw##div[class="bottom_fixbox"]:remove()
+ebc.net.tw##div[class="inline_text has_marker"]:remove()
+ebc.net.tw##div[class="article_relevant"]
+ebc.net.tw##div[class="article_bottom"]:remove()
