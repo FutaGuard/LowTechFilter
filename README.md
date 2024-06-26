@@ -87,5 +87,10 @@ A: 請服用這個 [userscript](https://greasyfork.org/en/scripts/40884-plurk-no
 
 ## 贊助
 
+![netlify](https://filter-assets.futa.gg/logo-netlify-small-fullcolor-darkmode.png)
+> 由 Netlify 提供每日建構
+
+![Tuta]()
+
 歡迎贊助我們，所有贊助金額將完全用做 FutaGuard DNS 運作以及維護清單費用支出。
 <https://core.newebpay.com/EPG/futaguard/FMaZ4E>
