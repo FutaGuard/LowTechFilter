@@ -87,10 +87,14 @@ A: 請服用這個 [userscript](https://greasyfork.org/en/scripts/40884-plurk-no
 
 ## 贊助
 
-![netlify](https://filter-assets.futa.gg/logo-netlify-small-fullcolor-darkmode.png)
+[![cloudflare](https://cf-assets.www.cloudflare.com/slt3lc6tev37/7bIgGp4hk4SFO0o3SBbOKJ/b48185dcf20c579960afad879b25ea11/CF_logo_stacked_blktype.jpg)](https://cloudflare.com)
+> 由 CloudFlare 提供免費高速 CDN 服務
+
+[![netlify](https://filter-assets.futa.gg/logo-netlify-small-fullcolor-darkmode.png)](https://netlify.com)
 > 由 Netlify 提供每日建構
 
-![Tuta]()
+[![Tuta](https://filter-assets.futa.gg/tuta_logotype_rgb.png)](https://tuta.io)
+> 由 Tuta.io 提供安全郵件服務，確保成員之間交換資訊安全
 
 歡迎贊助我們，所有贊助金額將完全用做 FutaGuard DNS 運作以及維護清單費用支出。
 <https://core.newebpay.com/EPG/futaguard/FMaZ4E>
