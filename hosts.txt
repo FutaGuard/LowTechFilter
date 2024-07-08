@@ -148,6 +148,7 @@
 ||esunebk.top^
 ||usaniik.top^
 ||shoplinestickers.com^
+||signin.authen-connexion.info^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
