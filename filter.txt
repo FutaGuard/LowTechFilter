@@ -351,6 +351,8 @@ ebc.net.tw##div[class^="ad_"]
 
 ebc.net.tw##div>a>span:contains(廣告):upward(2):remove()
 ebc.net.tw##p>strong:upward(1):remove()
+ebc.net.tw##div[class="inline_text has_marker"]:remove()
+ebc.net.tw##div[class="bottom_fixbox"]:remove()
 
 ! EBC 東森新聞 (手機)
 ebc.net.tw##div[id="mobile-cover"]
