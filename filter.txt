@@ -228,6 +228,7 @@ newtalk.tw##div[class="ats_insert_ads"]
 www.chinatimes.com##div[class^="ad"]
 www.chinatimes.com##li[class$="yap-loaded"]
 ||www.chinatimes.com^stealth
+cpt.geniee.jp
 
 ! shoppingdesign
 shoppingdesign.com.tw#$#.IdleBox { display: none !important; }
