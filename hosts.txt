@@ -213,6 +213,9 @@
 ! 低卡廣告
 ||dad-api.dcard.tw^
 
+! 中時廣告
+||cpt.geniee.jp^
+
 ! 假冒政府網站詐騙
 ||nigov.tw^
 ||oovgov.com^
