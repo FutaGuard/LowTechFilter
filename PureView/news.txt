@@ -317,7 +317,7 @@ tw.nextapple.com##aside[id="side-bar"]
 tw.nextapple.com##div[class="post-related partner"]
 tw.nextapple.com##div[class="post-comments"]
 tw.nextapple.com##div[class="tags"]
-tw.nextapple.com#$#div[id="main-content"] { width: unset !important;}
+tw.nextapple.com#$#div[id="main-content"] { width: 100% !important;}
 tw.nextapple.com##a:has-text(/推薦新聞/)
 tw.nextapple.com##a[href^="https://reporting.nextapple.com"]
 tw.nextapple.com##hr
