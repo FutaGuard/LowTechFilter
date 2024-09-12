@@ -193,6 +193,12 @@ ettoday.net##div[class="block block_2"]
 ettoday.net##div[id="etnews_live_player"]
 ettoday.net##div[class="nav_3"]
 ettoday.net##a[class="download_app"]
+ettoday.net#%#//scriptlet('set-cookie-reload', 'liveShowClose', '1', '/', 'ettoday.net')
+ettoday.net##div[id="hot-news"]
+ettoday.net##div[class="part_area_1 margin"]
+ettoday.net##div[class="part_area_1"]
+ettoday.net##div[class="text_ticker_1"]:remove()
+ettoday.net##div[class="gototop"]
 
 ! 美麗佳人
 marieclaire.com.tw##p[class^="extendArticle"]

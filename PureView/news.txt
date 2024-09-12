@@ -105,7 +105,6 @@ ettoday.net##div[class="et_ad_group_1"]
 ettoday.net##div[class="menu_2"]
 [$path=/news]ettoday.net#$#div[class="c1"] { width: unset !important; }
 ettoday.net##div[id="hot_area"]
-ettoday.net##div[class="video_frame"]
 ettoday.net##div[class$="hot-news"]
 ettoday.net##div[class^="block block_1"]
 ettoday.net##div[id="et_sticky_pc"]
