@@ -8,6 +8,10 @@ www.cna.com.tw##div[class="paragraph bottomBox"]
 www.cna.com.tw##div[class="paragraph BtnShareGroup appDownload"]
 www.cna.com.tw##div[class="nav"]
 www.cna.com.tw##.mySubscriptionInner
+www.cna.com.tw##div[class^="jsNextLine"]
+||imgcdn.cna.com.tw/www/website/bundle_js/site_footer.min.js*^$domain=www.cna.com.tw
+||imgcdn.cna.com.tw/www/website/js/infinite-scroll.pkgd.min.js*^$domain=www.cna.com.tw
+
 
 ! 聯合新聞網 UDN https://udn.com
 udn.com###ultraDesktopBanner
