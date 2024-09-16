@@ -343,3 +343,10 @@ gvm.com.tw##div[id="content_area"]
 gvm.com.tw##section[class^="newsletter"]
 gvm.com.tw##div[class^="article-head_marketing"]
 gvm.com.tw#$#div[class="article-left"] { width: 100% !important;}
+
+# 工商時報 www.ctee.com.tw 
+ctee.com.tw##div[class="ad-box__idle"]:remove()
+ctee.com.tw##aside[class="aside__right"]:remove()
+ctee.com.tw##div[class="list-box relatednews"]:remove()
+ctee.com.tw##div[class="group-box ad-recommend"]:remove()
+ctee.com.tw##div[id="discussion"]:remove()
