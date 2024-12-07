@@ -297,6 +297,7 @@
 ||ipost-post-gov-tw.com^
 ||tawan.podob.sbs^
 ||tawan.pfksf.sbs^
+||pkwjlrz.org^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
