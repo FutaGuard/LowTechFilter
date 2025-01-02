@@ -151,6 +151,7 @@
 ||signin.authen-connexion.info^
 ||pqrxclhv.cc^
 ||wwvvv-telegram.com^
+||mvkqpl.cc^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
