@@ -151,6 +151,7 @@
 ||signin.authen-connexion.info^
 ||pqrxclhv.cc^
 ||wwvvv-telegram.com^
+||mvkqpl.cc^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
@@ -297,6 +298,7 @@
 ||ipost-post-gov-tw.com^
 ||tawan.podob.sbs^
 ||tawan.pfksf.sbs^
+||pkwjlrz.org^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
@@ -443,4 +445,6 @@
 ||egm.ehws.top^
 ||webtelagrm.com^
 ||www.cdwew.com^
+||zhaosvips.com^
+||zhaosnidf.com^
 ||matomo.businesstoday.com.tw^
