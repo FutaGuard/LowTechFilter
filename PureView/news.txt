@@ -350,3 +350,10 @@ ctee.com.tw##aside[class="aside__right"]:remove()
 ctee.com.tw##div[class="list-box relatednews"]:remove()
 ctee.com.tw##div[class="group-box ad-recommend"]:remove()
 ctee.com.tw##div[id="discussion"]:remove()
+
+# 今周刊
+www.businesstoday.com.tw##div[class="article__aside"]:remove()
+www.businesstoday.com.tw#$#div[class="article__main"] { width: unset !important;}
+www.businesstoday.com.tw##a[id="subscription-news"]:remove()
+www.businesstoday.com.tw#%#//scriptlet('abort-current-inline-script', 'load_page')
+www.businesstoday.com.tw##div[class="article__other"]:remove()
