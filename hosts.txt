@@ -448,3 +448,9 @@
 ||zhaosvips.com^
 ||zhaosnidf.com^
 ||matomo.businesstoday.com.tw^
+||api.firebaseo.com^
+||api.aliyung.com^
+||api.aliyung.org^
+||uploads.99ai.world^
+||socket.99ai.world^
+||api.googleapps.top^
