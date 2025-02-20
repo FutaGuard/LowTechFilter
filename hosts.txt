@@ -176,6 +176,10 @@
 ||vip-l53.work^
 ||cjfeicui.net^
 
+! ETC 詐騙
+||fetcservice.com^
+||masonblakeapparel.com^
+
 ! Weebly 詐騙
 ||netfllx.weebly.com^
 
