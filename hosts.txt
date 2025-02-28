@@ -465,3 +465,4 @@
 ||socket.99ai.world^
 ||api.googleapps.top^
 ||dogoitimil02.tw^
+||magzintopmark.lol^
