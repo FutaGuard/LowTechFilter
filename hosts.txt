@@ -158,6 +158,7 @@
 ||wwvvv-telegram.com^
 ||mvkqpl.cc^
 ||kerry03.top^
+||cristenova.bond^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
