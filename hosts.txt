@@ -79,6 +79,8 @@
 ||llqfwyfzj.com^
 ||axhz6688.com^
 
+! 木馬
+||gerikinage.com^
 
 ! 釣魚
 ||track-post-gov-tw.info^
