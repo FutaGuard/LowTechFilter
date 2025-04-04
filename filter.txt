@@ -539,3 +539,5 @@ techritual.com##div[class="td_block_inner td-mc1-wrap"]
 ||track.beanfun.com^$third-party
 ||avivid.likr.tw^$third-party
 ||avividone.likr.tw^$third-party
+
+missav123.com#%#//scriptlet('prevent-window-open', 'twinrdsyte.com')
