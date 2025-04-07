@@ -6,8 +6,8 @@
 gamme.com.tw#%#//scriptlet('set-cookie-reload', 'r18', '1')
 ! momo 購物
 momoshop.com.tw#%#//scriptlet('set-cookie-reload', 'pwaLifeCircle', '1')
-# ! udn 蓋板
-# udn.com##%#//scriptlet('set-local-storage-item', 'bd2021-read-news', '1')
+! udn 蓋板
+! udn.com##%#//scriptlet('set-local-storage-item', 'bd2021-read-news', '1')
 ! ----------------------------------------------------------------------
 ! 白名單
 @@||ebb.io^$important,document,~extension
