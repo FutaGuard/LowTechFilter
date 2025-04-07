@@ -429,6 +429,7 @@ zhihu.com##div[class^=css-]:empty
 
 ! 詐騙
 ||brainstudy.info^
+# test
 
 soundofhope.org##div[id="itb_ads_catfish"]
 abmedia.io#%#//scriptlet('set-local-storage-item', 'isAdShowed', 'true')
