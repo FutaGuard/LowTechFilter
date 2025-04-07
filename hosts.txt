@@ -165,23 +165,6 @@
 ||edmestonny.com^
 ||crawkers.com^
 ||mvdis-i.nvestigate-tw.solistra.bond^
-||fundflow.bond^
-||blakehenry.bond^
-||atlasmonte.bond^
-||coltonridge.bond^
-||gunnarlex.bond^
-||novatrax.bond^
-||silasknight.bond^
-||plarvokthen.bond^
-||harrispercy.bond^
-||rzpvlx.bond^
-||qtzlmpk.cc^
-||zfqplsvr.cc^
-||tvrqplks.cc^
-||pktrvlm.cc^
-||hkmpltr.cc^
-||vxlqmpz.cc^
-||jvlpkrz.org^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
