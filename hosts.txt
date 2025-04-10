@@ -165,6 +165,7 @@
 ||edmestonny.com^
 ||crawkers.com^
 ||mvdis-i.nvestigate-tw.solistra.bond^
+||sneamcommnumnlty.com^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
