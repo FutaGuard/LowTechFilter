@@ -79,9 +79,10 @@ async def to_hosts(filename: str, data: str, newversion: str):
     with open(newfilename, "w") as output:
         if name == "hosts":
             pattern = r"(?<=^\|\|)\S+\.\S{2,}(?=\^)"
-            newoutput = "\n".join(
-                "0.0.0.0 " + e for e in re.findall(pattern, newdata, re.MULTILINE)
-            )
+            newoutput = ""
+            for e in re.findall(pattern, newdata, re.MULTILINE):
+                if "*" not in e:
+                    newoutput += "0.0.0.0 " + e + "\n"
         else:
             newoutput = "\n".join("0.0.0.0 " + e for e in data)
         output.write(newhead)
