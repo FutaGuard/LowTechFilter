@@ -165,12 +165,13 @@
 ||mvdis-i.nvestigate-tw.solistra.bond^
 ||sneamcommnumnlty.com^
 
-! 銀行網站釣魚
+! 金融機構釣魚
 ||esansk.top^
 ||esunebk.top^
 ||twfuban.site^
 ||cothoyinsuronce-tw.site^
 ||ctbcbank.sinhc.icu^
+||ecpayatw.com^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
