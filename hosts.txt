@@ -170,6 +170,7 @@
 ||esunebk.top^
 ||twfuban.site^
 ||cothoyinsuronce-tw.site^
+||ctbcbank.sinhc.icu^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
