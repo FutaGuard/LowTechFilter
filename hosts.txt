@@ -151,8 +151,6 @@
 ||abloeic.online^
 ||mxwnaqo.cn^
 ||donggpt.cn^
-||esansk.top^
-||esunebk.top^
 ||usaniik.top^
 ||shoplinestickers.com^
 ||signin.authen-connexion.info^
@@ -166,6 +164,12 @@
 ||crawkers.com^
 ||mvdis-i.nvestigate-tw.solistra.bond^
 ||sneamcommnumnlty.com^
+
+! 銀行網站釣魚
+||esansk.top^
+||esunebk.top^
+||twfuban.site^
+||cothoyinsuronce-tw.site^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
