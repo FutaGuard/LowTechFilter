@@ -490,3 +490,4 @@
 ||api.googleapps.top^
 ||dogoitimil02.tw^
 ||magzintopmark.lol^
+||web.telaycaer.com^
