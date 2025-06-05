@@ -542,3 +542,4 @@ techritual.com##div[class="td_block_inner td-mc1-wrap"]
 ||avividone.likr.tw^$third-party
 
 missav123.com#%#//scriptlet('prevent-window-open', 'twinrdsyte.com')
+lai-media.net#%#//scriptlet('set-session-storage-item', 'seenPopup', 'true')
