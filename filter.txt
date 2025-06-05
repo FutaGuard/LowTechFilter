@@ -543,3 +543,4 @@ techritual.com##div[class="td_block_inner td-mc1-wrap"]
 
 missav123.com#%#//scriptlet('prevent-window-open', 'twinrdsyte.com')
 lai-media.net#%#//scriptlet('set-session-storage-item', 'seenPopup', 'true')
+||lai-media.net^$cookie;maxAge=3600;sameSite=lax
