@@ -260,3 +260,9 @@ gvm.com.tw##div[class="show-small"]
 ||rec.gvm.com.tw/gvm_recommend.php^
 ||gvm.com.tw/article/next_article^
 ||gvm.com.tw/recommend/article^
+
+# 賴傳媒
+lai-media.net##div[class="page-right"]:remove()
+lai-media.net##div[class="marqueebar"]
+lai-media.net##.header_btm:remove()
+lai-media.net##section[class="sec_more_article"]
