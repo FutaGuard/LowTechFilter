@@ -183,6 +183,7 @@
 ||cothoyinsuronce-tw.site^
 ||ctbcbank.sinhc.icu^
 ||ecpayatw.com^
+||sommehouse.store^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
