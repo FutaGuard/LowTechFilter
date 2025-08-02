@@ -186,6 +186,7 @@
 ||ctbcbank.sinhc.icu^
 ||ecpayatw.com^
 ||sommehouse.store^
+||whois cdic-gov.com^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
