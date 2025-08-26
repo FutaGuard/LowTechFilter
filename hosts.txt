@@ -188,6 +188,7 @@
 ||sommehouse.store^
 ||cdic-gov.com^
 ||www-yuanta.12378so.com^
+||ecoserdiana.com^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
