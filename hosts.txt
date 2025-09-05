@@ -509,3 +509,6 @@
 ||tw1.tumhb.top^
 ||7-eleven-shop-tw.sbs^
 ||tw.vlhip1-7-11-ovm.cyou^
+||shop-7-11-tw.cloud^
+||7-eleven-ig.qpon^
+||myship-7-11.icu^
