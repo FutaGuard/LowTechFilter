@@ -511,6 +511,7 @@
 ||tw1.tumhb.top^
 ||7-eleven-shop-tw.sbs^
 ||7-eleven-shop-tw.shop^
+||7-eleven-shop-tw.bond^
 ||7-eleven-ig.qpon^
 ||tw.vlhip1-7-11-ovm.cyou^
 ||tw.7-11-eleven00.xyz^
