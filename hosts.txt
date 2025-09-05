@@ -505,5 +505,6 @@
 ||shop-711.today^
 ||7-11-eleven352.art^
 ||7-11-eleven085.xyz^
+||7-11-eleven778.xyz^
 ||tw1.tumhb.top^
 ||7-eleven-shop-tw.sbs^
