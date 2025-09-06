@@ -516,6 +516,7 @@
 ||7-eleven-shop-tw.shop^
 ||7-eleven-shop-tw.bond^
 ||7-eleven-ig.qpon^
+||7-eleven-ig.cfd^
 ||tw.vlhip1-7-11-ovm.cyou^
 ||tw.7-11-eleven00.xyz^
 ||ts1.7-eleevn711.xyz^
