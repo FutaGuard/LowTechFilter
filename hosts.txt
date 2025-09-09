@@ -146,6 +146,7 @@
 ||service-myups.com^
 ||spil-yz.top^
 ||telepgrm.work^
+||web.integm.shop^
 ||canadavisas.net^
 ||godkendsuoabn.com^
 ||steamcommunllty.com^
