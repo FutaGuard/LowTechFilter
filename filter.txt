@@ -69,6 +69,7 @@ udn.com##dt.only_mobile
 udn.com##.udn-idle
 udn.com##div[class^="udn-ads"]
 udn.com##.udn-overlay
+udn.com##section[class="udn-box"]:remove()
 udn.com#%#//scriptlet('remove-class', 'idle-open')
 udn.com#%#//scriptlet('set-cookie-reload', 'SeenActivityCloseNotice', 'true')
 
