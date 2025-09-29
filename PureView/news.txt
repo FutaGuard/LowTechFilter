@@ -50,6 +50,7 @@ ltn.com.tw##div[class="whitecon related boxTitle"]
 ltn.com.tw##div[class="whitecon todaynews boxTitle boxText"]
 ltn.com.tw##div[class="caption"]
 ltn.com.tw##div[class="softPush_notification"]
+ltn.com.tw##a[class="subs_eDM"]
 
 news.ltn.com.tw##div[id="marqueeContent"]
 news.ltn.com.tw##aside
