@@ -196,6 +196,7 @@
 ||ecoserdiana.com^
 ||upplayer.jkoytw.com^
 ||jkomtw.net^
+||twctbtctbank.com^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
