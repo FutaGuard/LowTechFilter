@@ -197,6 +197,8 @@
 ||upplayer.jkoytw.com^
 ||jkomtw.net^
 ||twctbtctbank.com^
+||vips.ipass-stw.cloud^
+||ipass-spay.net^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
