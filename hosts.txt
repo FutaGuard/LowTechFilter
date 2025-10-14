@@ -199,6 +199,7 @@
 ||twctbtctbank.com^
 ||vips.ipass-stw.cloud^
 ||ipass-spay.net^
+||i-passwwwe.com^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
