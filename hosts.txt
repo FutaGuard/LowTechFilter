@@ -198,6 +198,8 @@
 ||jkomtw.net^
 ||twctbtctbank.com^
 ||vips.ipass-stw.cloud^
+||vip.ipass-lpay.live^
+||ipass-ipay.net^
 ||ipass-spay.net^
 ||i-passwwwe.com^
 
