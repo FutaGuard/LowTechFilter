@@ -186,6 +186,7 @@
 ||oprvhzkt.mom^
 ||wmrqpl.mom^
 ||fetc-centres.com^
+||fetc-centren.com^
 
 ! 金融機構釣魚
 ||esansk.top^
