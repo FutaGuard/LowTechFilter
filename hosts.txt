@@ -178,6 +178,7 @@
 ||mvd.mvdas-tw.shop^
 ||bitwardendesktop.app^
 ||bitwardenteam.blog^
+||1password-desktop.com^
 
 ! 遠通電收釣魚
 ||xvqplz.qpon^
