@@ -82,6 +82,7 @@
 ||fkhyjlwmdshyw1.top^
 ||telenet.be^
 ||rnicrosoft.com^
+||temofex.com^
 
 ! 木馬
 ||gerikinage.com^
