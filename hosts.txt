@@ -190,6 +190,7 @@
 ||wmrqpl.mom^
 ||fetc-centres.com^
 ||fetc-centren.com^
+||fetc-netj.com^
 
 ! 金融機構釣魚
 ||esansk.top^
