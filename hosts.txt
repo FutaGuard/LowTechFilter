@@ -83,6 +83,7 @@
 ||telenet.be^
 ||rnicrosoft.com^
 ||temofex.com^
+||autoreserve.com^
 
 ! 木馬
 ||gerikinage.com^
