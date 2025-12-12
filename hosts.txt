@@ -557,6 +557,7 @@
 ||myship-7-11-com.tw^
 ||myship-711-tw-nsdu.top^
 ||myship-711-tw-vzl.top^
+||myship-711-com-tw-yya.site^
 ||myship.7-11.sdatw.top^
 ||myship.7-11.vajtw.top^
 ||myship.7-11.vzatw.top^
