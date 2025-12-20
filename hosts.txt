@@ -570,6 +570,7 @@
 ||7-11-myship-tw.top^
 ||7-11-twig-ship.top^
 ||7-11-twmyship.top^
+||7-11-eleven-com-tw1o.top
 ||7-11.eleven-dzb.top^
 ||711-myship-ig.cyou^
 ||711-myship-ig.qpon^
