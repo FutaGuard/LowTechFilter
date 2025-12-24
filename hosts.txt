@@ -193,6 +193,7 @@
 ||fetc-centres.com^
 ||fetc-centren.com^
 ||fetc-netj.com^
+||fetc-netwh.com^
 
 ! 金融機構釣魚
 ||esansk.top^
