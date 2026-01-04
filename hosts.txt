@@ -183,6 +183,7 @@
 ||bitwardendesktop.app^
 ||bitwardenteam.blog^
 ||1password-desktop.com^
+||famiport-com-tw.fit^
 
 ! 遠通電收釣魚
 ||xvqplz.qpon^
