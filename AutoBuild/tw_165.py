@@ -13,7 +13,7 @@ import requests
 logger = logging.getLogger(__name__)
 
 IP_PATTERN = re.compile(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$")
-EXCLUDED_SUFFIXES = ("google.com",)
+EXCLUDED_SUFFIXES = ("google.com", "facebook.com")
 OUTPUT_FILE = "TW165.txt"
 URL_PATTERN = re.compile(
     r'(https?://[^\s<>"\']+ |(?:[A-Za-z0-9-]+\.)+[A-Za-z]{2,}(?:/[^\s<>"\']*)?)',
