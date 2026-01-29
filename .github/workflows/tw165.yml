@@ -16,9 +16,7 @@ jobs:
           cache: 'pip' # caching pip dependencies
       - run: pip install -r AutoBuild/requirements.txt && python AutoBuild/tw_165.py
         env:
-          tw165json: ${{ vars.TW165JSON }}
-          tw165csv: ${{ vars.TW165CSV }}
-          auth: ${{ secrets.AUTH }}
+          tw165json: ${{ vars.TW165NPA }}
       - name: push
         uses: github-actions-x/commit@v2.9
         with:
