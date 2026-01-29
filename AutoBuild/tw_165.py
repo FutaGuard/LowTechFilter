@@ -178,8 +178,7 @@ class TW165Collector:
 
 
 SOURCES = {
-    # os.getenv("tw165npa", None): NPA165Parser,
-    "https://165.npa.gov.tw/api/article/subclass/3": NPA165Parser,
+    os.getenv("tw165npa", None): NPA165Parser,
 }
 
 
