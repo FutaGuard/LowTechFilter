@@ -13,6 +13,7 @@ import requests
 logger = logging.getLogger(__name__)
 
 IP_PATTERN = re.compile(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$")
+DOMAIN_PATTERN = re.compile(r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,}$", re.IGNORECASE)
 EXCLUDED_SUFFIXES = ("google.com", "facebook.com")
 OUTPUT_FILE = "TW165.txt"
 URL_PATTERN = re.compile(
@@ -115,6 +116,25 @@ class TW165Collector:
         self.sources = sources
 
     @staticmethod
+    def _is_valid_domain(hostname: str) -> bool:
+        """Check if hostname is a valid complete domain."""
+        if not hostname or len(hostname) > 253:
+            return False
+        if hostname.startswith(".") or hostname.endswith("."):
+            return False
+        if ".." in hostname:
+            return False
+        if not DOMAIN_PATTERN.match(hostname):
+            return False
+        parts = hostname.split(".")
+        if len(parts) < 2:
+            return False
+        tld = parts[-1]
+        if len(tld) < 2 or not tld.isalpha():
+            return False
+        return True
+
+    @staticmethod
     def _should_skip(hostname: str) -> bool:
         if IP_PATTERN.match(hostname):
             return True
@@ -148,7 +168,7 @@ class TW165Collector:
 
             parser = parser_cls()
             for hostname in parser.extract(payload):
-                if not hostname or self._should_skip(hostname):
+                if not hostname or not self._is_valid_domain(hostname) or self._should_skip(hostname):
                     continue
                 if hostname not in seen:
                     seen.add(hostname)
@@ -158,7 +178,8 @@ class TW165Collector:
 
 
 SOURCES = {
-    os.getenv("tw165npa", None): NPA165Parser,
+    # os.getenv("tw165npa", None): NPA165Parser,
+    "https://165.npa.gov.tw/api/article/subclass/3": NPA165Parser,
 }
 
 
@@ -168,7 +189,10 @@ def main() -> None:
     if os.path.exists(OUTPUT_FILE):
         try:
             with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
-                existing_hostnames = {line.strip() for line in f if line.strip()}
+                for line in f:
+                    hostname = line.strip()
+                    if hostname and TW165Collector._is_valid_domain(hostname):
+                        existing_hostnames.add(hostname)
             logger.info("Loaded %d existing hostnames from %s", len(existing_hostnames), OUTPUT_FILE)
         except Exception as exc:
             logger.warning("Failed to read existing file: %s", exc)
