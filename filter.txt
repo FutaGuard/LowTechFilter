@@ -3,9 +3,9 @@ ani.gamer.com.tw##a.vast-blocker
 share.dmhy.org##div[id='1280_ad']>a
 
 ! 噗浪
-||plurk.com/go^$empty
-||go.plurk.com^$empty
-||l.plurk.com^$empty
+||plurk.com/go^$redirect=nooptext
+||go.plurk.com^$redirect=nooptext
+||l.plurk.com^$redirect=nooptext
 plurk.com##div#resp_banner_ads
 plurk.com##section#rightPanel
 plurk.com##div[data-respcount="廣告"]
@@ -103,8 +103,6 @@ ettoday.net$$div[class="ad_txt_2"]
 ettoday.net#%#//scriptlet('set-cookie-reload', 'webpush', '1')
 ettoday.net##div[class="idleAd"]
 ettoday.net##a[href^="https://fugo.ehsn.com.tw/"]
-||ettoday.net^$cookie=/et_.*/
-||ettoday.net^$cookie=/dcs_.*/
 ettoday.net#%#//scriptlet('remove-attr', 'autoplay', 'video')
 ettoday.net#%#//scriptlet('remove-attr', 'preload', 'video')
 ettoday.net##p[class^="ad_txt"]
@@ -207,8 +205,6 @@ shoppingdesign.com.tw#$#.IdleBox { display: none !important; }
 niusnews.com##div[class="fixed-footer-ad"]
 
 ! 蘋果新聞
-# appledaily.com.tw##.TW-MOBILE-AD-WRAP
-# appledaily.com.tw##.tw-mobile-social_container
 tw.nextapple.com#%#//scriptlet('remove-attr', 'preload', 'video')
 tw.nextapple.com#%#//scriptlet('remove-attr', 'autoplay', 'video')
 tw.nextapple.com#%#//scriptlet('set-cookie-reload', 'app_popup', '1')
@@ -247,7 +243,6 @@ news.ltn.com.tw##ul>li>a>span:contains(PR):upward(2):remove()
 
 ! ithome
 ithome.com.tw##div[class="ad-banner-text"]:upward(3)
-ithome.com.tw##div[class="ad-text-in-middle"]:upward()
 ||itadapi.ithome.com.tw/ads/serve*^
 ||ithome.com.tw/modules/statistics/*^
 
@@ -267,24 +262,24 @@ rfi.fr##div[class="m-interstitial__ad"]
 @@||obs-tw.line-apps.com/talk
 @@||stickershop.line-scdn.net
 ! UA 偽裝
-||a.line.me/er/la*/v1/$image,empty
-||w.line.me/la*/api/v*/ads^$empty
+||a.line.me/er/la*/v1/$image,redirect=nooptext
+||w.line.me/la*/api/v*/ads^$redirect=nooptext
 ! 廣告媒體
-||d.line-scdn.net/lcp-prod-photo/$image,empty
-||obs.line-scdn.net/0h*/w750$empty
-||obs.line-scdn.net/0h*/o1280x720$empty
-||obs.line-scdn.net/0h*/*p.mp4$empty
+||d.line-scdn.net/lcp-prod-photo/$image,redirect=nooptext
+||obs.line-scdn.net/0h*/w750$redirect=nooptext
+||obs.line-scdn.net/0h*/o1280x720$redirect=nooptext
+||obs.line-scdn.net/0h*/*p.mp4$redirect=nooptext
 ! 廣告資料
-||sch.line.me/api/v*/ads^$empty
-||buy.line.me/api/graphql?variables$empty
+||sch.line.me/api/v*/ads^$redirect=nooptext
+||buy.line.me/api/graphql?variables$redirect=nooptext
 ! Line 新聞
-||crs-event.line.me^$empty
-||api.today.line.me/webapi/TW/recommendation/articles/articleend^$empty
+||crs-event.line.me^$redirect=nooptext
+||api.today.line.me/webapi/TW/recommendation/articles/articleend^$redirect=nooptext
 
 ! 漫畫人
-||mangaapi.manhuaren.net/*/manga/getMangaPromotionActivity^$empty
-||mangaapi.manhuaren.net/*/public/getShelfActivity^$empty
-||mangaapi.manhuaren.net/*/ad^$empty
+||mangaapi.manhuaren.net/*/manga/getMangaPromotionActivity^$redirect=nooptext
+||mangaapi.manhuaren.net/*/public/getShelfActivity^$redirect=nooptext
+||mangaapi.manhuaren.net/*/ad^$redirect=nooptext
 
 ! 咖啡廣告
 coffeehunter.tw##div[class^="fancybox-wrap"]
@@ -376,11 +371,6 @@ managertoday.com.tw##.social_item
 ! liveabc
 @@||amazonaws.com/storage.liveabc.com/ads/*
 
-! medium
-codeburst.io,medium.com##[class][style="bottom: 0px;"]
-@@||medium.com^$stealth
-||medium.com/_/stat?event=pixel.load
-
 ! Money 錢
 moneynet.com.tw#?#button[-ext-contains="開啟APP閱讀全文"]
 moneynet.com.tw###mobile-ad-bottom
@@ -399,10 +389,6 @@ yzzk.com##.content div.promo
 zhihu.com##div[class="Modal-wrapper undefined Modal-enter-done"]
 zhihu.com#$#html { overflow: scroll !important; }
 zhihu.com##div[class^=css-]:empty
-
-! 詐騙
-||brainstudy.info^
-||esun.to^
 
 soundofhope.org##div[id="itb_ads_catfish"]
 abmedia.io#%#//scriptlet('set-local-storage-item', 'isAdShowed', 'true')
@@ -474,7 +460,6 @@ new-reporter.com##div[class="modalJS_object"]
 ||www.mobile01.com/ajax/public/ad_imp.php^
 ||attach2.mobile01.com/js/public/fancybox.js^
 mobile01.com#%#//scriptlet('remove-class', 'ad_popUp')
-mobile01.com##div[class=^="fancybox-container"]
 
 ||udn.com^$cookie=/_ga.+/
 ||udn.com^$cookie=trc_cookie_storage
@@ -516,4 +501,4 @@ techritual.com##div[class="td_block_inner td-mc1-wrap"]
 
 missav123.com#%#//scriptlet('prevent-window-open', 'twinrdsyte.com')
 lai-media.net#%#//scriptlet('set-session-storage-item', 'seenPopup', 'true')
-||lai-media.net^$cookie;maxAge=3600;sameSite=lax
+
