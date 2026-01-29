@@ -41,6 +41,11 @@ class HEAD:
     )
 
 
+def strip_bang_comments(text: str) -> str:
+    lines = text.splitlines(keepends=True)
+    return "".join(line for line in lines if not line.lstrip().startswith("!"))
+
+
 def update_version(filename: str) -> str:
     pattern = r"(?<=Version: )(\d+\.\d+\.)(\d+)"
     newversion = ""
@@ -128,7 +133,7 @@ async def run():
             newversion = update_version(filename)
 
             with open(f"{filename}", "r") as files:
-                data = files.read()
+                data = strip_bang_comments(files.read())
                 with open(f"{filename}", "w") as output:
                     heads: str = HEAD().__getattribute__(category)
                     newhead = heads.format(
@@ -138,7 +143,8 @@ async def run():
                         .title(),
                         version=newversion,
                     )
-                    output.write(newhead + data)
+                    output.write(newhead)
+                    output.write(data)
 
                 # hide farm site from google 轉換 abp
                 if filename == "nofarm.txt":
