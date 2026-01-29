@@ -1,22 +1,3 @@
-! PTT 驗證
-! www.ptt.cc#%#document.onreadystatechange=()=>{if(location.pathname.includes('/ask/over18')){document.querySelectorAll('.over18-button-container>button[name="yes"]').forEach(x=>x.click())}};
-! ----------------------------------------------------------------------
-! cookie 注入
-! 卡卡洛普
-gamme.com.tw#%#//scriptlet('set-cookie-reload', 'r18', '1')
-! momo 購物
-momoshop.com.tw#%#//scriptlet('set-cookie-reload', 'pwaLifeCircle', '1')
-! udn 蓋板
-! udn.com##%#//scriptlet('set-local-storage-item', 'bd2021-read-news', '1')
-! ----------------------------------------------------------------------
-! 白名單
-@@||ebb.io^$important,document,~extension
-@@||postserv.post.gov.tw/pstmail/main_mail.html$important,document,~extension
-@@||pxmart.com.tw^$important,document,~extension
-@@||fonts.gstatic.com^
-
-! 微雲
-share.weiyun.com#@#.page-ad
 ! ----------------------------------------------------------------------
 ani.gamer.com.tw##a.vast-blocker
 share.dmhy.org##div[id='1280_ad']>a
@@ -28,15 +9,6 @@ share.dmhy.org##div[id='1280_ad']>a
 plurk.com##div#resp_banner_ads
 plurk.com##section#rightPanel
 plurk.com##div[data-respcount="廣告"]
-
-r3sub.com##section.container>div:first-child>div:first-child>a:first-child
-r3sub.com##div.ad_movie--preview
-||scupio.com^$third-party
-||sitemaji.com^$third-party
-
-! cnyes
-m.cnyes.com##div._12E
-m.cnyes.com##div._3Yy
 
 ! eprice
 m.eprice.com.tw##div.ad-320x480-popup-g
