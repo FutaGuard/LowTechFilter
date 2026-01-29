@@ -163,10 +163,27 @@ SOURCES = {
 
 
 def main() -> None:
+    existing_hostnames: set[str] = set()
+    
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+                existing_hostnames = {line.strip() for line in f if line.strip()}
+            logger.info("Loaded %d existing hostnames from %s", len(existing_hostnames), OUTPUT_FILE)
+        except Exception as exc:
+            logger.warning("Failed to read existing file: %s", exc)
+    
     collector = TW165Collector(SOURCES)
-    hostnames = collector.collect()
+    new_hostnames = collector.collect()
+    
+    all_hostnames = existing_hostnames | set(new_hostnames)
+    sorted_hostnames = sorted(all_hostnames)
+    
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(hostnames))
+        f.write("\n".join(sorted_hostnames))
+    
+    logger.info("共有 %d 個網域 (現有: %d, 新增: %d)", 
+                len(sorted_hostnames), len(existing_hostnames), len(new_hostnames))
 
 
 if __name__ == "__main__":
