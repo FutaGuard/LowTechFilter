@@ -1,7 +1,6 @@
-"""Fetch and parse TW165 scam site lists into a flat hostname file."""
-
 from __future__ import annotations
 
+import os
 import logging
 import re
 from abc import ABC, abstractmethod
