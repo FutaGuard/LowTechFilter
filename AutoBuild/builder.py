@@ -7,14 +7,13 @@ import time
 from urllib.parse import urlparse
 
 filterlist = {
-    "hosts": ["TW165.txt"],
-    # "abp": [
-    #     "experimental.txt",
-    #     "filter.txt",
-    #     "PureView/news.txt",
-    #     "PureView/news_mobile.txt",
-    # ],
-    # "hosts": ["hosts.txt", "nofarm.txt", "TWNIC-RPZ.txt", "TW165.txt"],
+    "abp": [
+        "experimental.txt",
+        "filter.txt",
+        "PureView/news.txt",
+        "PureView/news_mobile.txt",
+    ],
+"hosts": ["hosts.txt", "nofarm.txt", "TWNIC-RPZ.txt", "TW165.txt"],
 }
 url = "https://filter.futa.gg/"
 tz = timezone(timedelta(hours=+8))
