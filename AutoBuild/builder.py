@@ -6,6 +6,9 @@ import asyncio
 import time
 from urllib.parse import urlparse
 
+# Domain 驗證相關
+DOMAIN_PATTERN = re.compile(r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,}$", re.IGNORECASE)
+
 filterlist = {
     "abp": [
         "experimental.txt",
@@ -40,6 +43,25 @@ class HEAD:
         "! Version: {version}\n"
         "! --------------------------------------------------\n"
     )
+
+
+def is_valid_domain(hostname: str) -> bool:
+    """檢查是否為合法的完整 domain"""
+    if not hostname or len(hostname) > 253:
+        return False
+    if hostname.startswith(".") or hostname.endswith("."):
+        return False
+    if ".." in hostname:
+        return False
+    if not DOMAIN_PATTERN.match(hostname):
+        return False
+    parts = hostname.split(".")
+    if len(parts) < 2:
+        return False
+    tld = parts[-1]
+    if len(tld) < 2 or not tld.isalpha():
+        return False
+    return True
 
 
 def strip_bang_comments(text: str) -> str:
@@ -150,11 +172,15 @@ def parse_url(url: str) -> dict:
     # 檢查是否為 IP
     is_ip = bool(re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', domain))
     
+    # 檢查是否為合法 domain
+    is_valid = is_valid_domain(domain) if not is_ip else True
+    
     return {
         'domain': domain,
         'path': path,
         'has_path': bool(path),
         'is_ip': is_ip,
+        'is_valid': is_valid,
         'full': domain + path
     }
 
@@ -171,8 +197,11 @@ async def to_pure_domain(filename: str, data: str):
             # 只保留沒有 path 的 domain，與 hosts 格式一致
             domains = []
             for line in data:
+                line = line.strip()
+                if not line:
+                    continue
                 parsed = parse_url(line)
-                if not parsed['has_path'] and not parsed['is_ip']:
+                if not parsed['has_path'] and not parsed['is_ip'] and parsed['is_valid']:
                     domains.append(parsed['domain'])
             newoutput = "\n".join(sorted(set(domains)))
         else:
