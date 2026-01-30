@@ -46,7 +46,7 @@ https://t.me/adblock_tw
 
 > 由台灣 165 反詐騙提供，並帶有覆寫功能（打開符合規則的網址後會提示已被 165 封鎖）。
 
-- <https://filter.futa.gg/TW165-redirect.txt>
+- <https://filter.futa.gg/TW165_redirect.txt>
 
 > 由台灣 165 反詐騙提供，純 domain 此為特定用途。
 
