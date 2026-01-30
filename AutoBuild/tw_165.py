@@ -12,9 +12,6 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-IP_PATTERN = re.compile(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$")
-DOMAIN_PATTERN = re.compile(r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,}$", re.IGNORECASE)
-EXCLUDED_SUFFIXES = ("google.com", "facebook.com")
 OUTPUT_FILE = "TW165.txt"
 URL_PATTERN = re.compile(
     r'(https?://[^\s<>"\']+ |(?:[A-Za-z0-9-]+\.)+[A-Za-z]{2,}(?:/[^\s<>"\']*)?)',
@@ -24,11 +21,11 @@ TRAILING_PUNCT = "。、，,;；:：)）]}]>〉＞"
 
 
 class BaseContentParser(ABC):
-    """Abstract base parser for extracting hostnames from various content sources."""
+    """Abstract base parser for extracting URLs from various content sources."""
 
     @staticmethod
     def normalize_url(raw: str) -> str | None:
-        """Normalize a raw URL string and extract the hostname."""
+        """Normalize a raw URL string and return full URL with protocol."""
         candidate = raw.strip()
         if not candidate:
             return None
@@ -39,11 +36,13 @@ class BaseContentParser(ABC):
         if not candidate.startswith(("http://", "https://")):
             candidate = "http://" + candidate
         parsed = urlparse(candidate)
-        return parsed.hostname.lower() if parsed.hostname else None
+        if not parsed.hostname:
+            return None
+        return candidate
 
     @abstractmethod
     def extract(self, payload: object) -> list[str]:
-        """Extract hostnames from the given payload."""
+        """Extract URLs from the given payload."""
 
 
 class NPA165Parser(BaseContentParser):
@@ -91,7 +90,7 @@ class NPA165Parser(BaseContentParser):
             logger.warning("Unexpected payload type: %s", type(payload).__name__)
             return []
 
-        hostnames: list[str] = []
+        results: list[str] = []
         for record in payload:
             content = (record or {}).get("content") or ""
             parser = self._TableParser()
@@ -100,45 +99,21 @@ class NPA165Parser(BaseContentParser):
 
             for row in parser.rows:
                 for cell in row:
-                    for match in URL_PATTERN.findall(cell):
+                    cell_text = cell.replace('、', '\n')
+                    for match in URL_PATTERN.findall(cell_text):
                         cleaned = match.strip().strip(TRAILING_PUNCT)
                         if cleaned:
-                            hostname = self.normalize_url(cleaned)
-                            if hostname:
-                                hostnames.append(hostname)
-        return hostnames
+                            url = self.normalize_url(cleaned)
+                            if url:
+                                results.append(url)
+        return results
 
 
 class TW165Collector:
-    """Collect and deduplicate scam hostnames from TW165 sources."""
+    """Collect and deduplicate URLs from TW165 sources."""
 
     def __init__(self, sources: dict[str, type[BaseContentParser]]):
         self.sources = sources
-
-    @staticmethod
-    def _is_valid_domain(hostname: str) -> bool:
-        """Check if hostname is a valid complete domain."""
-        if not hostname or len(hostname) > 253:
-            return False
-        if hostname.startswith(".") or hostname.endswith("."):
-            return False
-        if ".." in hostname:
-            return False
-        if not DOMAIN_PATTERN.match(hostname):
-            return False
-        parts = hostname.split(".")
-        if len(parts) < 2:
-            return False
-        tld = parts[-1]
-        if len(tld) < 2 or not tld.isalpha():
-            return False
-        return True
-
-    @staticmethod
-    def _should_skip(hostname: str) -> bool:
-        if IP_PATTERN.match(hostname):
-            return True
-        return any(hostname.endswith(suffix) for suffix in EXCLUDED_SUFFIXES)
 
     def _fetch(self, url: str) -> object | None:
         try:
@@ -158,21 +133,23 @@ class TW165Collector:
             return None
 
     def collect(self) -> list[str]:
+        """Collect all URLs."""
         seen: set[str] = set()
         result: list[str] = []
 
         for url, parser_cls in self.sources.items():
+            if not url:
+                continue
             payload = self._fetch(url)
             if payload is None:
                 continue
 
             parser = parser_cls()
-            for hostname in parser.extract(payload):
-                if not hostname or not self._is_valid_domain(hostname) or self._should_skip(hostname):
-                    continue
-                if hostname not in seen:
-                    seen.add(hostname)
-                    result.append(hostname)
+            for entry in parser.extract(payload):
+                if entry and entry not in seen:
+                    seen.add(entry)
+                    result.append(entry)
+
         return result
 
 
@@ -183,30 +160,28 @@ SOURCES = {
 
 
 def main() -> None:
-    existing_hostnames: set[str] = set()
-    
+    existing: set[str] = set()
+
     if os.path.exists(OUTPUT_FILE):
         try:
             with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
                 for line in f:
-                    hostname = line.strip()
-                    if hostname and TW165Collector._is_valid_domain(hostname):
-                        existing_hostnames.add(hostname)
-            logger.info("Loaded %d existing hostnames from %s", len(existing_hostnames), OUTPUT_FILE)
+                    entry = line.strip()
+                    if entry:
+                        existing.add(entry)
         except Exception as exc:
-            logger.warning("Failed to read existing file: %s", exc)
-    
+            logger.warning("Failed to read %s: %s", OUTPUT_FILE, exc)
+
     collector = TW165Collector(SOURCES)
-    new_hostnames = collector.collect()
-    
-    all_hostnames = existing_hostnames | set(new_hostnames)
-    sorted_hostnames = sorted(all_hostnames)
-    
+    new_entries = collector.collect()
+
+    all_entries = sorted(existing | set(new_entries))
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(sorted_hostnames))
-    
-    logger.info("共有 %d 個網域 (現有: %d, 新增: %d)", 
-                len(sorted_hostnames), len(existing_hostnames), len(new_hostnames))
+        f.write("\n".join(all_entries))
+
+    logger.info("Total: %d (existing: %d, new: %d)",
+                len(all_entries), len(existing), len(new_entries))
 
 
 if __name__ == "__main__":

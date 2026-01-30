@@ -4,15 +4,17 @@ import requests
 from glob import glob
 import asyncio
 import time
+from urllib.parse import urlparse
 
 filterlist = {
-    "abp": [
-        "experimental.txt",
-        "filter.txt",
-        "PureView/news.txt",
-        "PureView/news_mobile.txt",
-    ],
-    "hosts": ["hosts.txt", "nofarm.txt", "TW165.txt", "TWNIC-RPZ.txt"],
+    "hosts": ["TW165.txt"],
+    # "abp": [
+    #     "experimental.txt",
+    #     "filter.txt",
+    #     "PureView/news.txt",
+    #     "PureView/news_mobile.txt",
+    # ],
+    # "hosts": ["hosts.txt", "nofarm.txt", "TWNIC-RPZ.txt", "TW165.txt"],
 }
 url = "https://filter.futa.gg/"
 tz = timezone(timedelta(hours=+8))
@@ -88,6 +90,14 @@ async def to_hosts(filename: str, data: str, newversion: str):
             for e in re.findall(pattern, newdata, re.MULTILINE):
                 if "*" not in e:
                     newoutput += "0.0.0.0 " + e + "\n"
+        elif name == "TW165":
+            # 只處理沒有 path 的 domain
+            domains = []
+            for line in data:
+                parsed = parse_url(line)
+                if not parsed['has_path'] and not parsed['is_ip']:
+                    domains.append(parsed['domain'])
+            newoutput = "\n".join("0.0.0.0 " + d for d in sorted(set(domains)))
         else:
             newoutput = "\n".join("0.0.0.0 " + e for e in data)
         output.write(newhead)
@@ -104,11 +114,50 @@ async def to_abp(filename: str, data: str, newversion: str):
     with open(name + "_abp.txt", "w") as output:
         if name == "hosts":
             output.write(newhead + newdata)
-
+        elif name == "TW165":
+            # 排除 IP，保留完整 URL (domain + path)
+            rules = []
+            for line in data:
+                parsed = parse_url(line)
+                if not parsed['is_ip']:
+                    rules.append(f"||{parsed['full']}^")
+            newoutput = "\n".join(sorted(set(rules)))
+            output.write(newhead)
+            output.write(newoutput)
         else:
             newoutput = "\n".join(f"||{e}^" for e in data)
             output.write(newhead)
             output.write(newoutput)
+
+
+def parse_url(url: str) -> dict:
+    """解析 URL，返回 domain 和 path 信息"""
+    # 移除 http:// 或 https://
+    url = url.strip()
+    if url.startswith('http://'):
+        url = url[7:]
+    elif url.startswith('https://'):
+        url = url[8:]
+    
+    # 分離 domain 和 path
+    if '/' in url:
+        parts = url.split('/', 1)
+        domain = parts[0]
+        path = '/' + parts[1]
+    else:
+        domain = url
+        path = ''
+    
+    # 檢查是否為 IP
+    is_ip = bool(re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', domain))
+    
+    return {
+        'domain': domain,
+        'path': path,
+        'has_path': bool(path),
+        'is_ip': is_ip,
+        'full': domain + path
+    }
 
 
 async def to_pure_domain(filename: str, data: str):
@@ -119,6 +168,14 @@ async def to_pure_domain(filename: str, data: str):
         if name == "hosts":
             pattern = r"(?<=^\|\|)\S+\.\S{2,}(?=\^)"
             newoutput = "\n".join(re.findall(pattern, newdata, re.MULTILINE))
+        elif name == "TW165":
+            # 只保留沒有 path 的 domain，與 hosts 格式一致
+            domains = []
+            for line in data:
+                parsed = parse_url(line)
+                if not parsed['has_path'] and not parsed['is_ip']:
+                    domains.append(parsed['domain'])
+            newoutput = "\n".join(sorted(set(domains)))
         else:
             newoutput = "\n".join(data)
         output.write(newoutput)
@@ -163,15 +220,21 @@ async def run():
                         f.write(newhead + domain_list)
 
                 if filename == "TW165.txt":
-                    newfilename = "TW165-redirect.txt"
+                    # 生成 redirect 格式：只處理沒有 path 的 domain
+                    newfilename = "TW165_redirect.txt"
                     heads: str = HEAD().__getattribute__("abp")
                     newhead = heads.format(name="TW165 redirect", version=newversion)
                     with open(newfilename, "w") as f:
                         f.write(newhead)
+                        domains = []
+                        for line in data.splitlines():
+                            parsed = parse_url(line)
+                            if not parsed['has_path'] and not parsed['is_ip']:
+                                domains.append(parsed['domain'])
                         f.write(
-                            "".join(
-                                f"||{e}^$dnsrewrite=NOERROR;A;34.102.218.71\n"
-                                for e in data.splitlines()
+                            "\n".join(
+                                f"||{d}^$dnsrewrite=NOERROR;A;34.102.218.71"
+                                for d in sorted(set(domains))
                             )
                         )
 
