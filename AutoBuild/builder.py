@@ -22,6 +22,12 @@ url = "https://filter.futa.gg/"
 tz = timezone(timedelta(hours=+8))
 today = datetime.now(tz).date()
 
+WHITELIST = [
+    "google.com",
+    "line.me",
+    "apple.com",
+]
+
 #  新增 nrd 清單
 for files in glob("nrd/past-*.txt"):
     filterlist["hosts"].append(files)
@@ -116,7 +122,12 @@ async def to_hosts(filename: str, data: str, newversion: str):
             domains = []
             for line in data:
                 parsed = parse_url(line)
-                if not parsed['has_path'] and not parsed['is_ip']:
+                domain = parsed['domain']
+                if (
+                    not parsed['has_path']
+                    and not parsed['is_ip']
+                    and not is_whitelisted_domain(domain)
+                ):
                     domains.append(parsed['domain'])
             newoutput = "\n".join("0.0.0.0 " + d for d in sorted(set(domains)))
         else:
@@ -140,8 +151,12 @@ async def to_abp(filename: str, data: str, newversion: str):
             rules = []
             for line in data:
                 parsed = parse_url(line)
-                if not parsed['is_ip']:
-                    rules.append(f"||{parsed['full']}^")
+                if parsed['is_ip']:
+                    continue
+                domain = parsed['domain']
+                if is_whitelisted_domain(domain):
+                    continue
+                rules.append(f"||{parsed['full']}^")
             newoutput = "\n".join(sorted(set(rules)))
             output.write(newhead)
             output.write(newoutput)
@@ -185,6 +200,17 @@ def parse_url(url: str) -> dict:
     }
 
 
+def is_whitelisted_domain(domain: str) -> bool:
+    if not domain:
+        return False
+    domain = domain.lower()
+    for item in WHITELIST:
+        entry = item.lower()
+        if domain == entry or domain.endswith('.' + entry):
+            return True
+    return False
+
+
 async def to_pure_domain(filename: str, data: str):
     data = data.splitlines()
     newdata = "\n".join(data)
@@ -201,7 +227,13 @@ async def to_pure_domain(filename: str, data: str):
                 if not line:
                     continue
                 parsed = parse_url(line)
-                if not parsed['has_path'] and not parsed['is_ip'] and parsed['is_valid']:
+                domain = parsed['domain']
+                if (
+                    not parsed['has_path']
+                    and not parsed['is_ip']
+                    and parsed['is_valid']
+                    and not is_whitelisted_domain(domain)
+                ):
                     domains.append(parsed['domain'])
             newoutput = "\n".join(sorted(set(domains)))
         else:
@@ -257,8 +289,13 @@ async def run():
                         domains = []
                         for line in data.splitlines():
                             parsed = parse_url(line)
-                            if not parsed['has_path'] and not parsed['is_ip']:
-                                domains.append(parsed['domain'])
+                            domain = parsed['domain']
+                            if (
+                                not parsed['has_path']
+                                and not parsed['is_ip']
+                                and not is_whitelisted_domain(domain)
+                            ):
+                                domains.append(domain)
                         f.write(
                             "\n".join(
                                 f"||{d}^$dnsrewrite=NOERROR;A;34.102.218.71"
