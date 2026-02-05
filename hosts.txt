@@ -183,6 +183,7 @@
 ||bitwardendesktop.app^
 ||bitwardenteam.blog^
 ||1password-desktop.com^
+||u54294316.ct.sendgrid.net^
 
 ! 全家 Famiport 釣魚
 ||famiport-com-tw.fit^
@@ -381,6 +382,7 @@
 ||pkwjlrz.org^
 ||sportnews654.com^
 ||einvoice-tus-natgov-tw.com^
+||einvoiceplatformd-tw.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
