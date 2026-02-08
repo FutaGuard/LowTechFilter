@@ -26,6 +26,7 @@ WHITELIST = [
     "google.com",
     "line.me",
     "apple.com",
+    "bit.ly",
 ]
 
 #  新增 nrd 清單
