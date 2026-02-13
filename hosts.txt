@@ -383,6 +383,7 @@
 ||sportnews654.com^
 ||einvoice-tus-natgov-tw.com^
 ||einvoiceplatformd-tw.com^
+||einvolaev.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
