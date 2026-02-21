@@ -387,6 +387,7 @@
 ||einvoice-tus-natgov-tw.com^
 ||einvoiceplatformd-tw.com^
 ||einvolaev.com^
+||e-invoicechecka-tw.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
