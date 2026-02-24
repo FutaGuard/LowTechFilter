@@ -388,6 +388,7 @@
 ||einvoiceplatformd-tw.com^
 ||einvolaev.com^
 ||e-invoicechecka-tw.com^
+||elsza.dencokie.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
