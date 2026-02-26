@@ -387,6 +387,7 @@
 ||einvoice-tus-natgov-tw.com^
 ||einvoiceplatformd-tw.com^
 ||einvolaev.com^
+||einvolaea.com^
 ||e-invoicechecka-tw.com^
 ||elsza.dencokie.com^
 
