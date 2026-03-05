@@ -233,6 +233,7 @@
 ||cbuptctw.it.com^
 ||aceft.com^
 ||sabrorganico.com^
+||taiwandelivey.com^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
