@@ -236,6 +236,9 @@
 ||sabrorganico.com^
 ||taiwandelivey.com^
 
+! 原網站已被駭
+||aceft.com^
+
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
 
