@@ -27,6 +27,7 @@ WHITELIST = [
     "line.me",
     "apple.com",
     "bit.ly",
+    "tinyurl.com",
 ]
 
 #  新增 nrd 清單
