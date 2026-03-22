@@ -627,6 +627,7 @@
 ||myship-tw-711.us.cc^
 ||myship.7-11.cemtw.top^
 ||myship.7-11.cwmtw.top^
+||myship.7-11.com.tw.x5f.top^
 ||myship9i-711-com-tw.top^
 ||myshipo7-11.top^
 ||myshlp-7-11.vip^
