@@ -196,6 +196,7 @@
 ! 蝦皮拍賣釣魚
 ||connectliv.sbs^
 ||hndbuoa.ink^
+||xl8mk.scloud-cdn.com^
 
 ! 遠通電收釣魚
 ||xvqplz.qpon^
