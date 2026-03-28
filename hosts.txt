@@ -183,6 +183,7 @@
 ||bitwardendesktop.app^
 ||bitwardenteam.blog^
 ||1password-desktop.com^
+||keepass-xc.com^
 ||u54294316.ct.sendgrid.net^
 ||eliteoceansports.com^
 ||ww77773.xyz^
