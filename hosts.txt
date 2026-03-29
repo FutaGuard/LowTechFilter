@@ -193,6 +193,9 @@
 ||famiport-com-tw.fit^
 ||tw.family-ramu-tw.shop^
 
+! 美廉社釣魚
+||r51u8.yonghai-express.com^
+
 ! 蝦皮拍賣釣魚
 ||connectliv.sbs^
 ||hndbuoa.ink^
@@ -587,6 +590,7 @@
 ||7-11.myship1-tw.space^
 ||711.buy-buy.cc^
 ||myship-7-11-com.tw^
+||myship-711-com-tw.ink^
 ||myship-711-tw-nsdu.top^
 ||myship-711-tw-vzl.top^
 ||myship-711-com-tw-yya.site^
