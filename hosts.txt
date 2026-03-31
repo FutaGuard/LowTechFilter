@@ -34,6 +34,9 @@
 ||5hz.org^
 ||melonss.xyz^
 
+! axios npm 供應鏈攻擊
+||sfrclak.com^
+
 ! 針對台灣的簡訊詐騙
 ||awetd.club^
 ||sexsa.xyz^
