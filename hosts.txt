@@ -403,6 +403,7 @@
 ||einvoiceplatformd-tw.com^
 ||einvolaev.com^
 ||einvolaea.com^
+||eivasicu.com^
 ||e-invoicechecka-tw.com^
 ||elsza.dencokie.com^
 ||zhuzhou360.com^
