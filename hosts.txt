@@ -86,6 +86,7 @@
 ||telenet.be^
 ||rnicrosoft.com^
 ||temofex.com^
+||servicewui.sbs^
 ! 這個網站未詳細揭露資訊，且偽裝自己是一般訂位網站，還收錢
 ||autoreserve.com^
 
