@@ -254,6 +254,9 @@
 ! 原網站已被駭
 ||aceft.com^
 
+! 嘉里大榮貨運
+||tw-tjc.top^
+
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
 
