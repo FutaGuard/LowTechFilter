@@ -189,6 +189,7 @@
 ||1password-desktop.com^
 ||keepass-xc.com^
 ||u54294316.ct.sendgrid.net^
+||u57040603.ct.sendgrid.net^
 ||eliteoceansports.com^
 ||ww77773.xyz^
 ||eelzq.grtmold.com^
