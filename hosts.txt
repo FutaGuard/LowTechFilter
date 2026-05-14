@@ -421,6 +421,7 @@
 ||p2xiekan.1688tuike.com^
 ||1s1k.kuxin-sign.com^
 ||e-invoicemanagement-twp.com^
+||e-invoicemanagement-twv.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
