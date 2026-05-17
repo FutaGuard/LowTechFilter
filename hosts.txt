@@ -415,6 +415,7 @@
 ||ipost-post-gov-tw.com^
 ||tawan.podob.sbs^
 ||tawan.pfksf.sbs^
+||awardsto.sbs^
 ||pkwjlrz.org^
 ||sportnews654.com^
 ||einvoice-tus-natgov-tw.com^
