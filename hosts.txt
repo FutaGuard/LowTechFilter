@@ -202,6 +202,7 @@
 ||cm.wijayapedia.com^
 ||bitter-gourd.com^
 ||dhl-north-eu.com^
+||gassenrealestate.com^
 
 ! 全家 Famiport 釣魚
 ||famiport-com-tw.fit^
