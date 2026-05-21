@@ -197,6 +197,8 @@
 ||my711postoffice.com^
 ||inetsourcing.com^
 ||content.brivity.com^
+||sunsoonfook.com^
+||hailifeng.eu.cc^
 
 ! 全家 Famiport 釣魚
 ||famiport-com-tw.fit^
@@ -212,6 +214,9 @@
 
 ! 美廉社釣魚
 ||r51u8.yonghai-express.com^
+
+! 麥當勞釣魚
+||tysjz.diaoche222.com^
 
 ! 蝦皮拍賣釣魚
 ||connectliv.sbs^
@@ -425,6 +430,7 @@
 ||einvoiceplatformd-tw.com^
 ||e-uhyseinvoisce.com^
 ||e-invoice-twca.com^
+||e-invoice-twcb.net^
 ||einvolaev.com^
 ||einvolaea.com^
 ||eivasicu.com^
