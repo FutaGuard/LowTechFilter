@@ -199,6 +199,7 @@
 ||content.brivity.com^
 ||sunsoonfook.com^
 ||hailifeng.eu.cc^
+||cm.wijayapedia.com^
 
 ! 全家 Famiport 釣魚
 ||famiport-com-tw.fit^
@@ -435,6 +436,7 @@
 ||einvolaea.com^
 ||eivasicu.com^
 ||einvoicen.com^
+||einvoiceod.com^
 ||elsza.dencokie.com^
 ||zhuzhou360.com^
 ||p2xiekan.1688tuike.com^
