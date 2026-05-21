@@ -439,6 +439,7 @@
 ||eivasicu.com^
 ||einvoicen.com^
 ||einvoiceod.com^
+||einvoicenata.sbs^
 ||elsza.dencokie.com^
 ||zhuzhou360.com^
 ||p2xiekan.1688tuike.com^
