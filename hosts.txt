@@ -203,6 +203,8 @@
 ||bitter-gourd.com^
 ||dhl-north-eu.com^
 ||gassenrealestate.com^
+||duorvices11.bendan2026.com^
+||ecpayconnect.com^
 
 ! Apple 帳號釣魚
 ||wrightonyourmoney.com^
@@ -448,6 +450,7 @@
 ||e-uhyseinvoisce.com^
 ||e-invoice-twca.com^
 ||e-invoice-twcb.net^
+||e-smheinvoicebc.com^
 ||einvolaev.com^
 ||einvolaea.com^
 ||eivasicu.com^
