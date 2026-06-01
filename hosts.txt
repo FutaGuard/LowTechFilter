@@ -205,6 +205,7 @@
 ||gassenrealestate.com^
 ||duorvices11.bendan2026.com^
 ||ecpayconnect.com^
+||61momoinvoice06.zycr911.com︿
 
 ! Apple 帳號釣魚
 ||wrightonyourmoney.com^
@@ -470,6 +471,7 @@
 ||e-invoicechecka-tw.com^
 ||e-invoicemanagement-twp.com^
 ||e-invoicemanagement-twv.com^
+||p.e-invoiceplatfm-twb.com︿
 
 ||taiwan-free-store.com^
 ||tw-track.com^
