@@ -326,6 +326,9 @@
 ! 博彩詐騙
 ||365rcs.com^
 
+! 藍新金流釣魚
+||newebpayexpress.com^
+
 ! 臉輸詐騙
 ||dented-sun-colt.glitch.me^
 
