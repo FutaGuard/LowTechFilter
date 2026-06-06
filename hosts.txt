@@ -730,3 +730,4 @@
 ||shovel-heroes.com^
 ||brainstudy.info^
 ||uts-front.line-apps.com^
+||pagead2.googlesyndication.com^
