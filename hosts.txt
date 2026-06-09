@@ -279,7 +279,6 @@
 ||ipass-ipay.net^
 ||ipass-spay.net^
 ||i-passwwwe.com^
-||yzimw9hbb.cc.rs6.net^
 ||url900.everbee.com^
 ||cbuptctw.it.com^
 ||aceft.com^
@@ -296,8 +295,7 @@
 ||tw-tjc.top^
 
 ! 新竹貨運釣魚
-||mzipz8hbb.cc.rs6.net^
-||rlvs78hbb.cc.rs6.net^
+||rs6.net^
 
 ! 加密貨幣釣魚
 ||app.exodus.com.alchemys.cl^
