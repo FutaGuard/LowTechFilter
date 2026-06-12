@@ -318,6 +318,7 @@
 ||healthy007.top^
 ||vip-l53.work^
 ||cjfeicui.net^
+||linecbc.com^
 
 ! ETC 詐騙
 ||fetcservice.com^
