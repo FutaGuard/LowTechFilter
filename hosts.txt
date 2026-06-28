@@ -258,7 +258,9 @@
 ||fetc-netj.com^
 ||fetc-twi.com^
 ||fetc-netwh.com^
+||fetc-govneth-tw.com^
 ||twfetco.net^
+
 
 ! 金融機構釣魚
 ||esansk.top^
