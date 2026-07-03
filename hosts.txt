@@ -260,8 +260,9 @@
 ||fetc-twi.com^
 ||fetc-netwh.com^
 ||fetc-govneth-tw.com^
+||fetc-govnb-tw.net^
 ||twfetco.net^
-
+||elp0q.7blazg.online
 
 ! 金融機構釣魚
 ||esansk.top^
