@@ -292,6 +292,8 @@
 ||444.robertcimasi.com^
 ||ww-ctbcofficee.putamadre.cz^
 ||t-cat.com.psejr.top^
+||neparudraksha.com^
+||kirimid.com^
 
 ! 原網站已被駭
 ||aceft.com^
