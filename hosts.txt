@@ -490,7 +490,8 @@
 ||e-invoicechecka-tw.com^
 ||e-invoicemanagement-twp.com^
 ||e-invoicemanagement-twv.com^
-||p.e-invoiceplatfm-twb.com︿
+||p.e-invoiceplatfm-twb.com^
+||einvoice-tw.blog^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
