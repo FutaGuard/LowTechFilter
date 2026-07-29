@@ -87,14 +87,15 @@ A: 請服用這個 [userscript](https://greasyfork.org/en/scripts/40884-plurk-no
 
 ## 贊助
 
-[![cloudflare](https://cf-assets.www.cloudflare.com/slt3lc6tev37/7bIgGp4hk4SFO0o3SBbOKJ/b48185dcf20c579960afad879b25ea11/CF_logo_stacked_blktype.jpg)](https://cloudflare.com)
-> 由 CloudFlare 提供免費高速 CDN 服務
+感謝以下夥伴提供服務資源，協助 LowTechFilter 穩定運作：
 
-[![netlify](https://filter-assets.futa.gg/logo-netlify-small-fullcolor-darkmode.png)](https://netlify.com)
-> 由 Netlify 提供每日建構
+| 贊助商 | 他們提供的服務 | 對 LowTechFilter 的支持 |
+| :---: | --- | --- |
+| [<img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/7bIgGp4hk4SFO0o3SBbOKJ/b48185dcf20c579960afad879b25ea11/CF_logo_stacked_blktype.jpg" alt="Cloudflare" height="40">](https://www.cloudflare.com/) | **Cloudflare** 提供全球網路、CDN、DNS 與網站安全服務，協助網站提升速度、可靠性與防護能力。 | 免費高速 CDN 服務 |
+| [<img src="https://filter-assets.futa.gg/logo-netlify-small-fullcolor-darkmode.png" alt="Netlify" height="40">](https://www.netlify.com/) | **Netlify** 是網站與 Web 應用程式的建構、部署及全球傳遞平台，可串接 Git 自動發布更新。 | 每日自動建構服務 |
+| [<img src="https://filter-assets.futa.gg/tuta_logotype_rgb.png" alt="Tuta" height="40">](https://tuta.com/) | **Tuta** 提供重視隱私的端對端加密電子郵件、行事曆與聯絡人服務。 | 安全郵件服務，保護團隊交換的專案資訊 |
+| [<img src="https://filter-assets.futa.gg/imcloud.svg" alt="天空數位 IMCLOUD" height="40">](https://imcloud.tw/) | **天空數位（IMCLOUD）** 提供雲端與實體主機、企業網路、機房託管及資訊安全服務。 | 雲端主機與技術支援 |
 
-[![Tuta](https://filter-assets.futa.gg/tuta_logotype_rgb.png)](https://tuta.io)
-> 由 Tuta.io 提供安全郵件服務，確保成員之間交換資訊安全
+### 支持專案
 
-歡迎贊助我們，所有贊助金額將完全用做 FutaGuard DNS 運作以及維護清單費用支出。
-<https://core.newebpay.com/EPG/futaguard/FMaZ4E>
+所有贊助款與資源均用於 FutaGuard DNS 運作及過濾清單維護。
