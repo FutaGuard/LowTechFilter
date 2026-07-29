@@ -262,10 +262,12 @@
 ||fetc-govneth-tw.com^
 ||fetc-govnb-tw.net^
 ||fetc-govne-tw.com^
+||fetc-net-twgova.net^
 ||twfetco.net^
 ||elp0q.7blazg.online
 ||wtta.6kkm76.online^
 ||bletc1.yyqqbkefag.online^
+||electricitybl1.8fhuomvks6.online^
 
 ! 金融機構釣魚
 ||esansk.top^
