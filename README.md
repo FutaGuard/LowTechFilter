@@ -93,7 +93,7 @@ A: 請服用這個 [userscript](https://greasyfork.org/en/scripts/40884-plurk-no
 | :---: | --- | --- |
 | [<img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/7bIgGp4hk4SFO0o3SBbOKJ/b48185dcf20c579960afad879b25ea11/CF_logo_stacked_blktype.jpg" alt="Cloudflare" height="40">](https://www.cloudflare.com/) | **Cloudflare** 提供全球網路、CDN、DNS 與網站安全服務，協助網站提升速度、可靠性與防護能力。 | 免費高速 CDN 服務 |
 | [<img src="https://filter-assets.futa.gg/logo-netlify-small-fullcolor-darkmode.png" alt="Netlify" height="40">](https://www.netlify.com/) | **Netlify** 是網站與 Web 應用程式的建構、部署及全球傳遞平台，可串接 Git 自動發布更新。 | 每日自動建構服務 |
-| [<img src="https://filter-assets.futa.gg/tuta_logotype_rgb.png" alt="Tuta" height="40">](https://tuta.com/) | **Tuta** 提供重視隱私的端對端加密電子郵件、行事曆與聯絡人服務。 | 安全郵件服務，保護團隊交換的專案資訊 |
+| [BrowserStack](https://www.browserstack.com/) | **BrowserStack** 提供跨瀏覽器與真實裝置測試平台。 | This project is tested with BrowserStack |
 | [<img src="https://filter-assets.futa.gg/imcloud.svg" alt="天空數位 IMCLOUD" height="40">](https://imcloud.tw/) | **天空數位（IMCLOUD）** 提供雲端與實體主機、企業網路、機房託管及資訊安全服務。 | 雲端主機與技術支援 |
 | [<img src="https://assets.fast-line.tw/2026/06/1781341649-e8c874d6de472148176b2ff8cec6024c.png" alt="Fast Line 台灣速連" height="40">](https://www.fast-line.tw/) | **Fast Line 台灣速連** 提供低延遲、高性能的主機與網路服務，並具備全球 DDoS 防護能力。 | 主機與網路服務 |
 
