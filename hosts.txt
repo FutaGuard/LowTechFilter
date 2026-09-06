@@ -208,6 +208,7 @@
 ||61momoinvoice06.zycr911.com^
 ||sfexpresi-tw.sfxpuerse.top^
 ||ovovjn.jingshunchangcheng.com^
+||cht-com.tw^
 
 ! Apple 帳號釣魚
 ||wrightonyourmoney.com^
