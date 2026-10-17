@@ -209,6 +209,8 @@
 ||sfexpresi-tw.sfxpuerse.top^
 ||ovovjn.jingshunchangcheng.com^
 ||cht-com.tw^
+||cenf.eu.cc^
+||cioo.eu.cc^
 
 ! Apple 帳號釣魚
 ||wrightonyourmoney.com^
