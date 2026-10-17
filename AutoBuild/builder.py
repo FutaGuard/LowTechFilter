@@ -1,3 +1,4 @@
+import json
 import re
 from datetime import datetime, timedelta, timezone
 import requests
@@ -29,6 +30,11 @@ WHITELIST = [
     "bit.ly",
     "tinyurl.com",
 ]
+
+# ControlD rule action: https://docs.controld.com/reference/post_profiles-profile-id-rules
+CONTROLD_BLOCK = 0
+CONTROLD_SPOOF = 2
+TW165_REDIRECT_IP = "34.102.218.71"
 
 #  新增 nrd 清單
 for files in glob("nrd/past-*.txt"):
@@ -213,34 +219,79 @@ def is_whitelisted_domain(domain: str) -> bool:
     return False
 
 
+def extract_domains(name: str, data: list) -> list:
+    """從清單內容取出純網域"""
+    if name == "hosts":
+        pattern = r"(?<=^\|\|)\S+\.\S{2,}(?=\^)"
+        return re.findall(pattern, "\n".join(data), re.MULTILINE)
+    if name == "TW165":
+        # 只保留沒有 path 的 domain，與 hosts 格式一致
+        domains = []
+        for line in data:
+            line = line.strip()
+            if not line:
+                continue
+            parsed = parse_url(line)
+            domain = parsed['domain']
+            if (
+                not parsed['has_path']
+                and not parsed['is_ip']
+                and parsed['is_valid']
+                and not is_whitelisted_domain(domain)
+            ):
+                domains.append(parsed['domain'])
+        return sorted(set(domains))
+    return data
+
+
 async def to_pure_domain(filename: str, data: str):
     data = data.splitlines()
-    newdata = "\n".join(data)
     name = filename.split(".txt")[0].split("_")[0]
     with open(name + "_domains.txt", "w") as output:
-        if name == "hosts":
-            pattern = r"(?<=^\|\|)\S+\.\S{2,}(?=\^)"
-            newoutput = "\n".join(re.findall(pattern, newdata, re.MULTILINE))
-        elif name == "TW165":
-            # 只保留沒有 path 的 domain，與 hosts 格式一致
-            domains = []
-            for line in data:
-                line = line.strip()
-                if not line:
-                    continue
-                parsed = parse_url(line)
-                domain = parsed['domain']
-                if (
-                    not parsed['has_path']
-                    and not parsed['is_ip']
-                    and parsed['is_valid']
-                    and not is_whitelisted_domain(domain)
-                ):
-                    domains.append(parsed['domain'])
-            newoutput = "\n".join(sorted(set(domains)))
-        else:
-            newoutput = "\n".join(data)
-        output.write(newoutput)
+        output.write("\n".join(extract_domains(name, data)))
+
+
+def controld_folder(group_name: str, domains: list, do: int, via: str = None) -> dict:
+    """產生 ControlD folder 格式"""
+    action = {"do": do, "status": 1}
+    if via:
+        action["via"] = via
+    hostnames = sorted(
+        {d for d in domains if "*" not in d and is_valid_domain(d)}
+    )
+    return {
+        "group": {"group": group_name, "action": action},
+        "rules": [{"PK": d, "action": action} for d in hostnames],
+    }
+
+
+async def to_controld(filename: str, data: str, newversion: str):
+    data = data.splitlines()
+    name = filename.split(".txt")[0].split("_")[0]
+    domains = extract_domains(name, data)
+    group_name = f"LowTechFilter {name.replace('/', ' ')} {newversion}"
+
+    with open(name + "_ctld.json", "w") as output:
+        json.dump(
+            controld_folder(group_name, domains, CONTROLD_BLOCK),
+            output,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    if name == "TW165":
+        with open("TW165_redirect_ctld.json", "w") as output:
+            json.dump(
+                controld_folder(
+                    f"LowTechFilter TW165 redirect {newversion}",
+                    domains,
+                    CONTROLD_SPOOF,
+                    via=TW165_REDIRECT_IP,
+                ),
+                output,
+                ensure_ascii=False,
+                indent=2,
+            )
 
 
 async def run():
@@ -300,7 +351,7 @@ async def run():
                                 domains.append(domain)
                         f.write(
                             "\n".join(
-                                f"||{d}^$dnsrewrite=NOERROR;A;34.102.218.71"
+                                f"||{d}^$dnsrewrite=NOERROR;A;{TW165_REDIRECT_IP}"
                                 for d in sorted(set(domains))
                             )
                         )
@@ -310,6 +361,7 @@ async def run():
                         asyncio.create_task(to_pure_domain(filename, data)),
                         asyncio.create_task(to_abp(filename, data, newversion)),
                         asyncio.create_task(to_hosts(filename, data, newversion)),
+                        asyncio.create_task(to_controld(filename, data, newversion)),
                     ]
 
     await asyncio.gather(*task)

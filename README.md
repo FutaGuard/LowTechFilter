@@ -47,6 +47,7 @@ https://t.me/adblock_tw
 > 由台灣 165 反詐騙提供，並帶有覆寫功能（打開符合規則的網址後會提示已被 165 封鎖）。
 
 - <https://filter.futa.gg/TW165_redirect.txt>
+- （ControlD 格式）<https://filter.futa.gg/TW165_redirect_ctld.json>
 
 > 由台灣 165 反詐騙提供，純 domain 此為特定用途。
 
@@ -63,6 +64,7 @@ https://t.me/adblock_tw
 | Adblock 語法            | [訂閱連結](https://filter.futa.gg/hosts_abp.txt)     | [訂閱連結](https://filter.futa.gg/TW165_abp.txt)     | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_abp.txt)     | [訂閱連結](https://filter.futa.gg/nofarm_abp.txt)     | [訂閱連結](https://filter.futa.gg/nrd/past-01day_abp.txt) |
 | hosts          | [訂閱連結](https://filter.futa.gg/hosts.txt)   | [訂閱連結](https://filter.futa.gg/TW165_hosts.txt)   | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_hosts.txt)   | [訂閱連結](https://filter.futa.gg/nofarm_hosts.txt)   | [訂閱連結](https://filter.futa.gg/nrd/past-01day_hosts.txt) |
 | 純網域        | [訂閱連結](https://filter.futa.gg/hosts_domains.txt) | [訂閱連結](https://filter.futa.gg/TW165_domains.txt) | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_domains.txt) | [訂閱連結](https://filter.futa.gg/nofarm_domains.txt) | [訂閱連結](https://filter.futa.gg/nrd/past-01day_domains.txt) |
+| ControlD       | [訂閱連結](https://filter.futa.gg/hosts_ctld.json) | [訂閱連結](https://filter.futa.gg/TW165_ctld.json) | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_ctld.json) | [訂閱連結](https://filter.futa.gg/nofarm_ctld.json) | [訂閱連結](https://filter.futa.gg/nrd/past-01day_ctld.json) |
 
 
 
