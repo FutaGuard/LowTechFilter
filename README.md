@@ -66,6 +66,8 @@ https://t.me/adblock_tw
 | 純網域        | [訂閱連結](https://filter.futa.gg/hosts_domains.txt) | [訂閱連結](https://filter.futa.gg/TW165_domains.txt) | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_domains.txt) | [訂閱連結](https://filter.futa.gg/nofarm_domains.txt) | [訂閱連結](https://filter.futa.gg/nrd/past-01day_domains.txt) |
 | ControlD       | [訂閱連結](https://filter.futa.gg/hosts_ctld.json) | [訂閱連結](https://filter.futa.gg/TW165_ctld.json) | [訂閱連結](https://filter.futa.gg/TWNIC-RPZ_ctld.json) | [訂閱連結](https://filter.futa.gg/nofarm_ctld.json) | [訂閱連結](https://filter.futa.gg/nrd/past-01day_ctld.json) |
 
+> ControlD 自訂規則上限為 10,000 條，因此 TW165 的 ControlD 格式會移除已不存在（NXDOMAIN）的網域，且所有 ControlD 格式最多 10,000 條。
+
 
 
 
