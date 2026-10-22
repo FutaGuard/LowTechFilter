@@ -17,13 +17,32 @@ jobs:
       - run: pip install -r AutoBuild/requirements.txt && python AutoBuild/tw_165.py
         env:
           tw165npa: ${{ vars.TW165NPA }}
+      - name: Install dnsx
+        run: |
+          curl -sSfL -o /tmp/dnsx.zip https://github.com/projectdiscovery/dnsx/releases/download/v1.3.1/dnsx_1.3.1_linux_amd64.zip
+          echo "438b964653056dd51dcfe614b1a16f8bced3cc48a1d27bc07cc6fdf2ef2a9533  /tmp/dnsx.zip" | sha256sum -c
+          unzip -o -q /tmp/dnsx.zip dnsx -d /tmp
+      # ControlD 規則上限 10,000 條，只移除 NXDOMAIN 的網域，產生 TW165_alive.txt 給 builder 使用
+      - name: Drop NXDOMAIN domains
+        env:
+          LC_ALL: C
+          # Azure 內建 DNS，每台 VM 約 1,000 QPS 上限
+          DNSX_RESOLVER: 168.63.129.16
+          DNSX_RATE_LIMIT: 500
+          DNSX_THREADS: 100
+          DNSX_RETRY: 3
+        run: |
+          python -c 'import sys; sys.path.insert(0, "AutoBuild"); from builder import extract_domains, strip_bang_comments; print("\n".join(extract_domains("TW165", strip_bang_comments(open("TW165.txt").read()).splitlines())))' > domains.txt
+          /tmp/dnsx -l domains.txt -r "$DNSX_RESOLVER" -rl "$DNSX_RATE_LIMIT" -t "$DNSX_THREADS" -retry "$DNSX_RETRY" -rcode nxdomain -silent > dead.txt
+          awk '{print $1}' dead.txt | sort -u | comm -23 <(sort -u domains.txt) - > TW165_alive.txt
+          echo "Total: $(wc -l < domains.txt), NXDOMAIN: $(wc -l < dead.txt), alive: $(wc -l < TW165_alive.txt)"
       - name: push
         uses: github-actions-x/commit@v2.9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'master'
           commit-message: '🤖 自動更新 165 詐騙網址'
-          files: TW165.txt
+          files: TW165.txt TW165_alive.txt
           name: tdc
           email: tdc@sudo.host
 
