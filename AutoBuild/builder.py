@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from datetime import datetime, timedelta, timezone
 import requests
@@ -34,7 +35,11 @@ WHITELIST = [
 # ControlD rule action: https://docs.controld.com/reference/post_profiles-profile-id-rules
 CONTROLD_BLOCK = 0
 CONTROLD_SPOOF = 2
+# https://docs.controld.com/docs/custom-rules
+CONTROLD_MAX_RULES = 10000
 TW165_REDIRECT_IP = "34.102.218.71"
+# 由 TW165 workflow 以 dnsx 產生，已移除 NXDOMAIN 的網域
+TW165_ALIVE_FILE = "TW165_alive.txt"
 
 #  新增 nrd 清單
 for files in glob("nrd/past-*.txt"):
@@ -251,14 +256,32 @@ async def to_pure_domain(filename: str, data: str):
         output.write("\n".join(extract_domains(name, data)))
 
 
+def drop_covered_subdomains(domains: set) -> set:
+    """移除上層網域已在清單中的子網域（ControlD 規則會一併套用到子網域）"""
+    result = set()
+    for d in domains:
+        parts = d.split(".")
+        if not any(".".join(parts[i:]) in domains for i in range(1, len(parts) - 1)):
+            result.add(d)
+    return result
+
+
 def controld_folder(group_name: str, domains: list, do: int, via: str = None) -> dict:
     """產生 ControlD folder 格式"""
     action = {"do": do, "status": 1}
     if via:
         action["via"] = via
     hostnames = sorted(
-        {d for d in domains if "*" not in d and is_valid_domain(d)}
+        drop_covered_subdomains(
+            {d for d in domains if "*" not in d and is_valid_domain(d)}
+        )
     )
+    if len(hostnames) > CONTROLD_MAX_RULES:
+        print(
+            f"Warning: {group_name} has {len(hostnames)} rules, "
+            f"truncated to {CONTROLD_MAX_RULES}"
+        )
+        hostnames = hostnames[:CONTROLD_MAX_RULES]
     return {
         "group": {"group": group_name, "action": action},
         "rules": [{"PK": d, "action": action} for d in hostnames],
@@ -269,6 +292,11 @@ async def to_controld(filename: str, data: str, newversion: str):
     data = data.splitlines()
     name = filename.split(".txt")[0].split("_")[0]
     domains = extract_domains(name, data)
+    if name == "TW165" and os.path.exists(TW165_ALIVE_FILE):
+        # 只保留仍可解析的網域，避免超過 ControlD 規則上限
+        with open(TW165_ALIVE_FILE, "r") as f:
+            alive = set(f.read().split())
+        domains = [d for d in domains if d in alive]
     group_name = f"LowTechFilter {name.replace('/', ' ')} {newversion}"
 
     with open(name + "_ctld.json", "w") as output:
