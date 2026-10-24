@@ -74,7 +74,6 @@ Bakkt.co
 CEX.IO
 CV.NET
 Crypto.com
-Crypto.web
 DFI.Money
 DFX.Finance
 G.ML
@@ -146,7 +145,6 @@ aircash.store
 aishang.app
 aismex.com
 aitech.optixaiplusorganization.com
-aiwfalywdabay1.cfd
 aizhiluo.com
 akashsystems-agv.com
 akashsystems-arm.com
@@ -248,6 +246,7 @@ app.nhkeysu.com
 app.nkhurst.vip
 app.phktuse.com
 app.pkhurse.vip
+app.pkhutdr.com
 app.pkhutes.com
 app.ptkhusd.com
 app.sa-platform.com
@@ -568,10 +567,7 @@ cfbpcrypto.com
 cff-ex.com
 cgsex.shop
 chabmt.com
-chainpulseke.com
-chainpulsenb.com
-chainpulsenl.com
-chainpulsenz.com
+chad.kimoni.xyz
 chenghong.warrior-designer.com
 chic.blacksip.vip
 chinazds.com
@@ -821,7 +817,6 @@ digit.confluxdefii.com
 digitaleapan.com
 digitaleapen.com
 digitaleaprem.com
-dinghua-tws.com
 dinghuas-tw.com
 dinglitw.cc
 dinhjlsw.one
@@ -1745,6 +1740,7 @@ macau.sopl2.vip
 macauloot.com
 macaulotterylimited.com
 mackenzie.mystrikingly.com
+maestroroompartner.com
 mailaogu.com
 maitr.com
 majestytwltd.com
@@ -1753,6 +1749,7 @@ mall-lazada.com
 mall.bmeson.com
 mall.bvuemall-sp.top
 mall.gnuaf.top
+mall.haven-sp.top
 mall.hghygk.com
 mall.lyqfl.com
 mall.oksadj12.cn
@@ -3290,7 +3287,6 @@ www.bachel0r.com
 www.baexrbs.vip
 www.baextwf.vip
 www.balusd.com
-www.basex.cc
 www.bastionikt.com
 www.batchpantry.com
 www.batecoin.com
@@ -3300,7 +3296,6 @@ www.bbhhshf.cc
 www.bbshhshf.cc
 www.bc-tw.com
 www.bcast-live.cyou
-www.bdgte036.top
 www.belc.bellagio.world
 www.beoronurss.cc
 www.beorsuvzt.cc
@@ -3416,9 +3411,7 @@ www.ceexex.ru
 www.ceffknks.vip
 www.ceffkno.com
 www.ceffkox.com
-www.cetuschd.com
 www.cetusjsc.com
-www.cetusruq.com
 www.cfvvip-twonline.sbs
 www.cgsyer.com
 www.chanbrothers.cc
@@ -3432,7 +3425,6 @@ www.citex11.top
 www.citibh.com
 www.citics3013.com
 www.citics3066.com
-www.citics7168.com
 www.cititw.com
 www.citiwo.com
 www.cjbdax.com
@@ -3661,9 +3653,6 @@ www.eshkues.com
 www.etases.com
 www.etharca.com
 www.ethena-dapp.com
-www.etherrki.xyz
-www.etherrkr.xyz
-www.etherzje.xyz
 www.ethmz.com
 www.ethnls.com
 www.ethpix.com
@@ -3773,6 +3762,7 @@ www.gaoei.com
 www.gate168.com
 www.gcfetg.cc
 www.gcgroup.cc
+www.gdesnas.vip
 www.gdexlds.vip
 www.gdpnd.com
 www.gdzhtw.org
@@ -3879,7 +3869,6 @@ www.hotsmg.life
 www.hrthrd.cc
 www.hsct.cc
 www.hsvhdk.com
-www.hsywg2145.top
 www.htrye.com
 www.htxcc.site
 www.huananglobal.com
@@ -4512,6 +4501,7 @@ www.superfluidvjr.xyz
 www.superlendeth.com
 www.supertrust.pro
 www.svglobals.com
+www.swetfly.com
 www.sxkhhb.com
 www.synapselatticetw.com
 www.syuan-cyong.com
@@ -4601,7 +4591,6 @@ www.tsmcec.com
 www.tugvq.com
 www.tuxue002.com
 www.tw-booking.com
-www.tw-ciphermining.com
 www.tw-tokopearfvbkcinp.com
 www.tw-tokopevumtjlosp.com
 www.tw88.com.tw
@@ -4654,7 +4643,6 @@ www.usdcfru.com
 www.usdcjsj.com
 www.usdckorxp.com
 www.usdcoin.one
-www.usdcoindapp.click
 www.usdcsyh.com
 www.usdtseek.com
 www.usgforex.com
@@ -4693,7 +4681,6 @@ www.vrrmtw.lat
 www.vrrmtw.top
 www.vtmarkegtweb.com
 www.vtmarketswebs.com
-www.vugvqs.com
 www.vviptkmartonline.cc
 www.vwetiong.com
 www.vymyr.com
@@ -4815,7 +4802,6 @@ www.yinguvz.com
 www.yingyk.com
 www.yingzoc.com
 www.yinhe.lat
-www.yinhe608.com
 www.yinheyl.xyz
 www.ymceliw.cc
 www.yookeodwo.com
@@ -5032,7 +5018,6 @@ zh.emartly-shop.me
 zh.emartly-shop.vip
 zh.planetshop-shop.org
 zh.planetshop-shop.vip
-zh.sellercenter.vip
 zh.sienna-shop.shop
 zh.sienna-shop.xin
 zhds888.com
