@@ -86,7 +86,6 @@ OANDA.ME
 Public.login.do
 STBIT.com
 Spex.One
-TJ777.NET
 USport.Ai
 XT.COM
 Z.COM
@@ -244,9 +243,9 @@ app.marketfxa.com
 app.nftcreatoras.com
 app.nhkeysu.com
 app.nkhurst.vip
+app.nvxedn.vip
 app.phktuse.com
 app.pkhurse.vip
-app.pkhutdr.com
 app.pkhutes.com
 app.ptkhusd.com
 app.sa-platform.com
@@ -1771,7 +1770,6 @@ markets-shop.site
 markets-shop.xyz
 marketschange.info
 marketshopp.store
-marketshopping.site
 marketstrad.com
 marketven.xyz
 martfordeal.com
@@ -2392,6 +2390,7 @@ shinystorress.com
 shippingwishs.com
 shivs.icu
 shop.dfjzt.net
+shop.eedmc.com
 shop.mansa.site
 shop.sdhhmy.com
 shop.tiktokshops.vip
@@ -2487,7 +2486,6 @@ sorqelavin.com
 sotnssssvvvvvip.store
 soulmatec.xyz
 sovirass.com
-spad1010.shop
 sqg.app
 sqts-ss.store
 sqts-ts.shop
@@ -2711,7 +2709,6 @@ tradestations.z7.web.core.windows.net
 tradestationse-secondary.z7.web.core.windows.net
 tradestationso-secondary.z7.web.core.windows.net
 tradetw.com
-tradetw.xyz
 trading-area.galidix-v3.com
 translategoogle.com
 treasurybolw.com
@@ -2793,7 +2790,6 @@ tw.smartsai.com
 tw.strongshop.top
 tw.taihuajk.com
 tw.vibetwtapp.com
-tw.wdexd.com
 tw.xadro.vip
 tw.yueaxin.com
 tw1.shopjjj.com
@@ -3131,7 +3127,6 @@ www.1shoplooket.cc
 www.2u6d.cn
 www.3737.tw
 www.3xabest.com
-www.919471.com
 www.9994tt.com
 www.Coincheckex.com
 www.I-gamer.net
@@ -3346,7 +3341,6 @@ www.bjlcn.com
 www.blacetota.com
 www.blackrocktrade.cc
 www.blexem.com
-www.blockchainjj.com
 www.blockrisexr.com
 www.blspop.com
 www.blueseaeye.com
@@ -3649,7 +3643,6 @@ www.erobitvip.com
 www.erqwfbrty.com
 www.erstoken.com
 www.esg-bridge.com
-www.eshkues.com
 www.etases.com
 www.etharca.com
 www.ethena-dapp.com
@@ -3739,7 +3732,6 @@ www.fullsee.com.cn
 www.functional-start.com
 www.functional-start.top
 www.functional-start.vip
-www.functional-start.xin
 www.functionall-start.com
 www.fungifyfje.com
 www.fungifyzah.com
@@ -3762,7 +3754,6 @@ www.gaoei.com
 www.gate168.com
 www.gcfetg.cc
 www.gcgroup.cc
-www.gdesnas.vip
 www.gdexlds.vip
 www.gdpnd.com
 www.gdzhtw.org
@@ -4500,6 +4491,7 @@ www.superfluidpok.xyz
 www.superfluidvjr.xyz
 www.superlendeth.com
 www.supertrust.pro
+www.supremetw.com
 www.svglobals.com
 www.swetfly.com
 www.sxkhhb.com
@@ -4656,7 +4648,6 @@ www.vaultx-tradingxx.com
 www.veightepx.com
 www.veightkab.com
 www.velumas.xyz
-www.velvixopro.com
 www.velvixotrading.com
 www.velvixotradpro.top
 www.venetians.cc
