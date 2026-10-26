@@ -507,6 +507,7 @@
 ||p.e-invoiceplatfm-twb.com^
 ||einvoice-tw.blog^
 ||r-hyinvioicek.com^
+||einvonlce-tw-gov.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
