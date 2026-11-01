@@ -29,6 +29,7 @@ WHITELIST = [
     "apple.com",
     "bit.ly",
     "tinyurl.com",
+    "crypto.com",
 ]
 
 # ControlD rule action: https://docs.controld.com/reference/post_profiles-profile-id-rules
