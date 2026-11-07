@@ -239,9 +239,11 @@ app.knhurde.vip
 app.luxe-lane.site
 app.lvo.world
 app.marketfxa.com
+app.n-plus.org
 app.nexusqal.beer
 app.nftcreatoras.com
 app.nkhurst.vip
+app.ovumicc.com
 app.pkhurse.vip
 app.pkhutes.com
 app.ptkhusd.com
@@ -256,7 +258,6 @@ app.thkusyer.com
 app.tkhuredr.vip
 app.trading-vip.net
 app.trendyos.top
-app.tw-pro.vip
 app.wass1.cn
 app.xingyuanapp.com
 app.yzdcoininv.com
@@ -517,6 +518,7 @@ btctousdt.com
 btse.club
 btwwishpp.com
 buionsxzmrs.cc
+bullishd.com
 businessloans-a.com
 bustyfun.vip
 bustyfunapp.cc
@@ -822,7 +824,6 @@ dfxn28v1rrap2.cloudfront.net
 dg18.cc
 dgaecrede.com
 dgtas.shop
-dh-twn.com
 dhaecrede.com
 dhktusyr.com
 diamondsrich.com
@@ -1014,7 +1015,6 @@ fetche-fex.com
 fffuniha.eu.cc
 fg.edxmarkets.top
 fg.mkads.top
-fg888.becs888.com
 fhstocks.com
 figurevex.com
 figurevex.space
@@ -1037,7 +1037,6 @@ flownovbaa-tw.com
 fm888.org
 fmoexinc.net
 fnes.eu.cc
-foa1688.topakaken.com
 fogofin.com
 forbes888.net
 fordealline.com
@@ -1214,7 +1213,6 @@ h5.biocounty.com
 h5.bit-main.cc
 h5.bitmain-ex.co
 h5.bitxex.quest
-h5.btse.club
 h5.ccxwh.cc
 h5.cjkiscl.com
 h5.cjkiscq.com
@@ -1900,7 +1898,6 @@ mp.fbushop.vip
 mp.rolxetf.me
 mp.rolxetf.sbs
 mql5.com
-mqyorr.com
 ms.saxdta.site
 msci.beitog.com
 mturk.shop
@@ -1956,14 +1953,12 @@ neurochipjhj.com
 neurochipjpl.com
 neurochiplxw.com
 neurochipvca.com
-new.montgsop.com
 newedbest.com
 newedence.com
 newedents.com
 newedin.com
 newedran.com
 newedrane.com
-neweggexp.xyz
 newheights-hk.com
 newinternationxtwgold.com
 news.montrd.com
@@ -2045,8 +2040,6 @@ okxny.com
 okxstart.com
 okxyd.com
 olyrenvalestrium.com
-ond1688.topakaken.com
-ond1688.topbkaken.com
 onekey2.top
 onenight.life
 oni618.gm1788.net
@@ -2099,7 +2092,6 @@ owmnu.com
 oxcx.eu.cc
 oxhpw2.iomsyebu.com
 oxtcoin.com
-p.tyc28.cn
 p2pll.com
 p2pswsj.com
 p8.apexcoins.net
@@ -2301,12 +2293,14 @@ rxiteky-trade.top
 rxnjpj.com
 rzu8888.com
 s.bauncy.space
+s.mixmix.vip
 s2.sm-shopcts.com
 s2.sm-shopdtw.com
 s2.sm-shopxyz.com
 sa.bbdhsdsd.com
 sa.nbdhsd.cc
 sa.tgsvvss.cc
+sab.ynsdko.com
 safeger.com
 safegmr.com
 safegor.com
@@ -2707,6 +2701,7 @@ tokyo-financial-xchanges.com
 tokyofinancialexchange.com
 tokyofinancialexchange.xyz
 tokyofinancialexchanges.info
+tokyofinancialexchanges.org
 tokyofinancialexchanges.vip
 tokyofinancialexchanges.xyz
 tokyofinancialxchange.info
@@ -2718,7 +2713,6 @@ toptiertradcen.com
 toptiertradermn.com
 toptiertradertex.com
 torninbank.top
-torninbank.xin
 tosatwrlp.pro
 touching.love
 tq5grx4du.rkgpnbz6c.com
@@ -2958,7 +2952,6 @@ vip-tiikonline.cc
 vip.citics3013.com
 vip.citics7128.com
 vip.clyra.sbs
-vip.erersed.top
 vip.fortcoins.vip
 vip.hanqzl.com
 vip.hyllf33333.vip
@@ -3306,7 +3299,6 @@ www.axlyt.top
 www.axoptys.com
 www.axtey.top
 www.azevedioclub.com
-www.ba-etcworld.com
 www.babyswapao.com
 www.babyswapea.com
 www.babyswapes.com
@@ -3398,9 +3390,9 @@ www.btctrex.com
 www.bucointw.com
 www.bucoinyu.com
 www.buionsxzmrs.cc
+www.bullishd.com
 www.buttdog3-g.com
 www.bvffjk.sbs
-www.bybitcoink.xyz
 www.byuwlpd.cc
 www.c2cvwh.com
 www.c2cxtop.com
@@ -3620,6 +3612,7 @@ www.divbsc.com
 www.djowk.com
 www.dkhjbk.com
 www.dkhurds.com
+www.dkhurer.com
 www.dnfsss.com
 www.dogecoineuf.com
 www.dogecoineuk.com
@@ -4258,6 +4251,7 @@ www.pigdead.com
 www.pinklipslove.com
 www.pioneuy.com
 www.pjeaktaorty.com
+www.pkhurdsrt.com
 www.pkhutdtw.com
 www.play.novax.game
 www.plcapital.co
