@@ -85,8 +85,8 @@ USport.Ai
 XT.COM
 Z.COM
 Z.com
-a.ainx.com
 a.mc62.cn
+a.opensky.guru
 a.wns5158.com
 a.ylhg86.xyz
 a001.bellagio.fun
@@ -232,6 +232,7 @@ app.hkurdtw.vip
 app.hkxau.cc
 app.hkxauu.cc
 app.hkxxau.cc
+app.hkyrridt.com
 app.htkueryu.vip
 app.jrxaus.cc
 app.khutetw.vip
@@ -258,6 +259,7 @@ app.tkhuredr.vip
 app.trading-vip.net
 app.trendyos.top
 app.wass1.cn
+app.weex-ex.com
 app.xingyuanapp.com
 app.yzdcoininv.com
 app.yzdcoinwel.com
@@ -815,7 +817,6 @@ desk.ragenlan.com
 desk.ragenlang.com
 dex-ls.com
 dexarovintal.com
-df136.xyz
 dfpipelineaa.com
 dfx168.top
 dfxn28v1rrap2.cloudfront.net
@@ -1117,7 +1118,6 @@ giftssaylor.io
 gjhy666.com
 gjvysv.com
 gkbikx.com
-gleneaglemarkets.com
 global.bittrex.com
 global001.pages.dev
 globalshopmax.com
@@ -1126,7 +1126,6 @@ globas-whiskey.top
 glodetf.cc
 gm888.welove999.com
 gmo.com
-gmo.com.tw
 go.apexmax.cc
 go.truefix.lat
 go.tww8.top
@@ -1239,7 +1238,6 @@ h5.jdfbit.com
 h5.jdfbitd.com
 h5.jdfbitpro.com
 h5.jdfbits.com
-h5.jdfibit.com
 h5.jdfibitg.com
 h5.jdfibitj.com
 h5.jdfibitm.com
@@ -1267,6 +1265,7 @@ h5.mgxoweb.top
 h5.mitrade-store.com
 h5.optixaiplusassociation.com
 h5.optixaiplusorganization.com
+h5.pain88.shop
 h5.pxycoin.com
 h5.riotplat.xyz
 h5.sikmaxtrade.com
@@ -1307,6 +1306,7 @@ hegu-invest.estate
 hegu-investor.com
 helixpointmarkets.com
 hellowork.tech
+heu.kacsu.com
 hexorifypro.com
 hfxetn.com
 hg.jy1233.com
@@ -1775,7 +1775,6 @@ manycoin.com
 maogox.com
 maplecji.com
 market-shops.xyz
-market4global.shop
 markets-shop.site
 markets-shop.xyz
 marketschange.info
@@ -1852,7 +1851,6 @@ mkrex.ws
 ml.gaiaiex.com
 mm5698.shop
 mmiscx.com
-mmm.btcc.click
 mmm.btcc.shop
 mmm.btccnet.shop
 mmnh9653.icu
@@ -1911,7 +1909,6 @@ mykeycoin.com
 mymeting.com
 myshop-mall.com
 myth.etoroe.com
-mzn.wiyesh.com
 n8866.slamne.com
 nascencemate.com
 nasdaq-bhm.it.com
@@ -2271,7 +2268,6 @@ roventrapro.com
 roviqelant.com
 royal-33.com
 royalone.site
-roytalcapitall.com
 rs777.net
 rs8899.com
 rtxworld.com
@@ -2863,7 +2859,6 @@ tztgw8.cc
 tztgw99.cc
 u8ane.bachelor.live
 ucboost.com
-ucex.cc
 uebulai.xyz
 ugrflit.cn
 uhhuebwb.ai-sctt.com
@@ -2998,10 +2993,8 @@ w1.pnnxgysxe23.cc
 w1.rpflhh.cc
 w1.rwyszm.cc
 w1.thshdsd.cc
-w1.tudsufhdfxe23.cc
 w1.tusuhfns.vip
 w1.ygujnjbixekj.cc
-w1.yudsudfhxe24.cc
 w1.zpvbjk.cc
 w777.sentgp.com
 wafersync.com
@@ -3012,9 +3005,7 @@ walmstore.com
 wap.chanbrothers-tw.com
 wap.cptex.cn.com
 wap.dersins.com
-wap.equivalent.shop
 wap.lhfeb.com
-wap.nt.equivalent.shop
 wap.tmgmtws.cn.com
 wap.xghj99.vip
 war00401.long5668.net
@@ -3201,7 +3192,6 @@ www.aismex.com
 www.aixintw.com
 www.ajhoqij.com
 www.alchemixx.com
-www.aliexpress-shop.cn
 www.alignagn.com
 www.alignmkta.com
 www.alignmktcrm.com
@@ -3245,7 +3235,6 @@ www.apexglobal-market.store
 www.apexglobal-marketplace.shop
 www.apexnovausa.com
 www.apos-el.com
-www.appcoin.click
 www.appdozo.com
 www.appskcostco.com
 www.ar888.top
@@ -3380,7 +3369,6 @@ www.btcc.shop
 www.btccapp.love
 www.btccorg.cc
 www.btccorg.top
-www.btcctw.help
 www.btccvip.shop
 www.btctrex.com
 www.bucointw.com
@@ -3644,7 +3632,6 @@ www.ebayinbest.vip
 www.ebaytwtw.com
 www.edxmarkets.top
 www.edxmax.top
-www.edxtrade.top
 www.edxtrde.icu
 www.edxtride.icu
 www.edxtride.top
@@ -4031,7 +4018,6 @@ www.lpggame.com
 www.lps-ser.com
 www.lsh008tw.com
 www.lsh01tw.com
-www.ltbhuq.vip
 www.luck7.plus
 www.macys-deal.com
 www.maihaowanjia.com
@@ -4248,7 +4234,6 @@ www.plumax.com
 www.pluspolesmtcrm.com
 www.plusproaspin.com
 www.poizinsvip.cc
-www.poizvip-online.cc
 www.pojia.site
 www.polesmktcrm.com
 www.polesmktpro.com
@@ -4468,10 +4453,8 @@ www.sp88.bet
 www.spark-cast.com
 www.sparkdeu.com
 www.sparkvfm.com
-www.sparkvji.com
 www.sparkvry.com
 www.sparkxur.com
-www.sparkzhr.com
 www.spknoy.com
 www.spknoyl.com
 www.spkoce.com
@@ -4646,7 +4629,6 @@ www.usdtseek.com
 www.usgforex.com
 www.usgfx.global
 www.usportai.com
-www.utubedp.vip
 www.uucoinsapp.com
 www.uzorjuafzv.cc
 www.valretrace.com
@@ -4834,7 +4816,6 @@ www.zbtcexcjr.com
 www.zbtcexvfj.com
 www.zbtcexvjr.com
 www.zds4523.vip
-www.zefith.top
 www.zeonsvomy.cc
 www.zfxfa.vip
 www.zgrs928.com
@@ -4880,7 +4861,6 @@ xpj16888.xyz
 xpj19208.com
 xpj9998.com
 xqxmg.amazonolin.com
-xrp.web.baibaifakai22.xyz
 xt-z8x1.top
 xt.fbctspc.cn.cdn.cloudflare.net
 xt1l1l1l1.tt23.life.cdn.cloudflare.net
@@ -4922,7 +4902,6 @@ yaiwor.top
 yangzhouzc.com
 yawh.top
 yayajk.sbs
-yc50zlv.cn
 ydzq656.pages.dev
 yearnme.com
 yh-vip.club
