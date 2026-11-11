@@ -223,7 +223,6 @@ app.fdsilj.com
 app.foranny.com
 app.fq3007.com
 app.godramapot.com
-app.gztigu.com
 app.hepsiburad.lat
 app.hklxau.cc
 app.hktuetw.vip
@@ -262,7 +261,6 @@ app.wass1.cn
 app.weex-ex.com
 app.xingyuanapp.com
 app.yzdcoininv.com
-app.yzdcoinwel.com
 app.yzdcoinwils.com
 app.zeroexpro.store
 app.zhihell.com
@@ -423,7 +421,6 @@ bitget.wvvip.top
 bitgetglobal.top
 bitharvest.io
 bititem.com
-bititem.net
 bito.win
 bitom.com
 bitopro.vip
@@ -437,7 +434,6 @@ bitsampweb3.com
 bitseo-tw.pro
 bitseotw.pro
 bittrex-tw.pro
-bittrextw.pro
 bittrexw.pro
 bitunex.pro
 bitutun.com
@@ -1265,7 +1261,6 @@ h5.mgxoweb.top
 h5.mitrade-store.com
 h5.optixaiplusassociation.com
 h5.optixaiplusorganization.com
-h5.pain88.shop
 h5.pxycoin.com
 h5.riotplat.xyz
 h5.sikmaxtrade.com
@@ -1540,7 +1535,6 @@ lazada-ss1.xyz
 lazadaa-ss.shop
 lcmaticklfisyng.com
 lehinsecurities.com
-lgcay.com
 lgcna.com
 lgcne.com
 lgdcb.com
@@ -1632,13 +1626,13 @@ m.900256.com
 m.a758887.com
 m.a853333.com
 m.aabaxx.lat
-m.aeool.xyz
 m.afbc25.top
 m.ai-infras.co
 m.avatradstw.cc
 m.bakkc.top
 m.balisans2.com
 m.binora.lat
+m.binora.lol
 m.binora.sbs
 m.binova.cfd
 m.binova.lat
@@ -1703,6 +1697,7 @@ m.majestytwltd.com
 m.majestytwn.com
 m.make788.vip
 m.monex-tws.cn.com
+m.mxjys.top
 m.nasdaqln.com
 m.newfutureus.cc
 m.okx-swap.com
@@ -2871,7 +2866,6 @@ umkatwshop.com
 umlbvbhw.cn
 uniexswap.com
 union.eosoceanpark.com
-uniswapbtc.xyz
 upecoins.com
 us.clyrau.top
 us.truefix.top
@@ -3190,7 +3184,6 @@ www.aiqxqxh.cc
 www.airena.top
 www.aismex.com
 www.aixintw.com
-www.ajhoqij.com
 www.alchemixx.com
 www.alignagn.com
 www.alignmkta.com
@@ -3405,6 +3398,7 @@ www.careermatching.xyz
 www.carrtransaotzons.com
 www.cartelelectrinioarbaddoum.shop
 www.cbntw.com
+www.cbytpsj.com
 www.ccdcostcosdg.com
 www.ccsscostoss.com
 www.ceexex.ru
@@ -3464,10 +3458,6 @@ www.coinhakoin.com
 www.coiniir.com
 www.coinitems.com
 www.coinjir.com
-www.coinmarkcappro.com
-www.coinmarkcapvjr.com
-www.coinmarkcapweq.com
-www.coinmarkcapzwh.com
 www.coinminius-tradingx.com
 www.coinpayex.com
 www.coinsancex.com
@@ -3596,12 +3586,8 @@ www.dkhurds.com
 www.dkhurer.com
 www.dnfsss.com
 www.dogecoineuf.com
-www.dogecoineuk.com
-www.dogecoinkvm.com
-www.dogecoinlgk.com
 www.dogecoinlok.com
 www.dogecoinqwe.com
-www.dogecoinzkr.com
 www.dogejfr.com
 www.doopojronforex.com
 www.douqibh.com
@@ -4035,16 +4021,13 @@ www.mceysiz.com
 www.mdexast.com
 www.mdexchd.com
 www.mdexchu.com
-www.mdexhbf.com
 www.mdexhhj.com
-www.mdexkfj.com
 www.mdexpyo.com
 www.mdexpzrfv.com
 www.mdexqaz.com
 www.mdexvfr.com
 www.mdexvhf.com
 www.mdexweq.com
-www.mdexwqe.com
 www.mdexwyh.com
 www.mdexzbh.com
 www.mdexzde.com
@@ -4136,13 +4119,10 @@ www.nodaforextrading.com
 www.nodcule.com
 www.nojng.com
 www.notionalcej.com
-www.notionalcjf.com
 www.notionalhgh.com
-www.notionalktk.com
 www.notionalriu.com
 www.notionalrjb.com
 www.notionalrtj.com
-www.notionaltjg.com
 www.notionalzje.com
 www.novax-exchange.com
 www.nplus.top
@@ -4690,6 +4670,7 @@ www.waveinamorato.com
 www.wdfound02.com
 www.webswap.vip
 www.welove999.com
+www.wenmx.com
 www.wepno.com
 www.wfascxaxz.com
 www.wgcesweb.com
@@ -4839,6 +4820,7 @@ wwwt.tradingaxsac.com
 wwww.morxcfg.com
 wzgold.vip
 wzgz2.wexfc.com
+x-eg.com
 x-tokentrad.com
 x1.xemes.cyou
 x2vif.stick.ws
@@ -4939,7 +4921,6 @@ yubit-ujmz.com
 yubqwyo.cc
 yuenidc.com
 yugjwe.com
-yuglschool.com
 yusiaasi.cc
 yutdprocrm.com
 yuykhbsajxe21.cc
