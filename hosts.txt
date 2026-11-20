@@ -213,6 +213,7 @@
 ||cht-com.tw^
 ||cenf.eu.cc^
 ||cioo.eu.cc^
+||portal.vrimalpe.shop^
 
 ! Apple 帳號釣魚
 ||wrightonyourmoney.com^
@@ -513,6 +514,7 @@
 ||r-hyinvioicek.com^
 ||einvonlce-tw-gov.com^
 ||eiinivonlce-tw-gov.com^
+||notice-tw.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
