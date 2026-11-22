@@ -215,6 +215,10 @@
 ||cioo.eu.cc^
 ||portal.vrimalpe.shop^
 
+! 中華電信釣魚
+||svpchts.com^
+
+
 ! Apple 帳號釣魚
 ||wrightonyourmoney.com^
 ||polikani.eu.cc^
