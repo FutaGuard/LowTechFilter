@@ -519,6 +519,7 @@
 ||einvonlce-tw-gov.com^
 ||eiinivonlce-tw-gov.com^
 ||notice-tw.com^
+||dot-gov.net^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
