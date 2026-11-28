@@ -31,20 +31,10 @@
 
 ! --------------------------------------------------
 ! 黑名單
-||5hz.org^
 ||melonss.xyz^
 
-! axios npm 供應鏈攻擊
-||sfrclak.com^
-
 ! 針對台灣的簡訊詐騙
-||awetd.club^
 ||sexsa.xyz^
-||waetd.xyz^
-||super-1.vip^
-
-! 針對香港的簡訊詐騙
-||hongkongpost.cf^
 
 ! 追蹤
 ||t.holmesmind.com^
@@ -64,153 +54,37 @@
 ||videoapi.manhuaren.com^
 
 ! 詐騙
-||nd.udntwn.com^
-||wildernbus1.live^
 ||ladiestofuck.com^
-||taiwan-bestdeals.com^
-||fghjkd.com^
-||track-post-tw.com^
-||track-post-gov-tw.info^
 ||brainstudy.info^
-||m2j1.ukwwx.com^
-||tw-redpacket-51.com^
-||gzjysd.com^
-! https://web.archive.org/web/20220928033642/https://bnfallshop.com/gqm6ua516d8c4a5
-||bnfallshop.com^
 ||junjiamuye.com^
-||fjroijv.com^
-||kqzyu.com^
 ||llqfwyfzj.com^
-||axhz6688.com^
-||fkhyjlwmdshyw1.top^
 ||telenet.be^
 ||rnicrosoft.com^
-||temofex.com^
 ||servicewui.sbs^
 ! 這個網站未詳細揭露資訊，且偽裝自己是一般訂位網站，還收錢
 ||autoreserve.com^
 ! 偽裝訂房網站
 ||bookstaygo.com^
 
-! 木馬
-||gerikinage.com^
-
 ! 釣魚
-||track-post-gov-tw.info^
-||post-chunghwa-tw.app^
 ||goodluckdog.space^
-||beats.com.tw^
-||buy.ssggddh.top^
-||m.tgh119.com^
-||bushearnpalm.live^
-||maincaptcha.top^
 ||heavyhittervapes.com^
-||00000255123135324.ml^
-||exia-angel.com^
-||zxw-tw.cn^
-||cht.cmobamteu.pro^
-||wdaq-tw.cn^
-||cht.bdferf.com^
-||a1f3777dfa6416ee9714da3c7f3a55cd.rgft.sbs^
-||tw.fetnare.cn^
-||fenzxct.cn^
-||shopee89.shop^
-||chtkon.top^
-||lkd49d.vip^
-||fetnet.c06nz.site^
 ||kexip-65213.builderallwppro.com^
-||tw.tracks-packages.com^
-||insl22s.vip^
-||telegram-ms.net^
-||chtadl.top^
-||w1e1yh.top^
-||uh1sdf.top^
-||twfacebook.xyz^
-||cha820.top^
-||in1fpp.top^
 ||etc33.oss-ap-southeast-1.aliyuncs.com^
-||chtkontw.cc^
-||ri6pe.xyz^
-||hmai-poinetos.com^
-||inl12s.top^
-||mvdis.idj3s.top^
-||tw-etc.nl^
-||klo-tag.top^
-||new-etc.icu^
-||fetnet-tw.com^
-||twfetc-tw.top^
-||pormx.ink^
-||catw-cat.top^
-||sdbcm.vip^
-||nwiiu.ink^
-||dy2ar.ink^
-||litw-cat.top^
-||ubtw-cat.top^
-||mhtw-cat.top^
-||twfetc-5.icu^
 ||mgpericias.com.br^
-||tw-catpack.top^
-||gov-info.top^
-||businessmentor.sa.com^
-||fetguict.icu^
-||lyxrmbszx.com^
-||thelikooei.xyz^
-||service-myups.com^
-||spil-yz.top^
-||telepgrm.work^
-||web.integm.shop^
 ||canadavisas.net^
-||godkendsuoabn.com^
 ||steamcommunllty.com^
-||abloeic.online^
-||mxwnaqo.cn^
-||donggpt.cn^
-||usaniik.top^
-||shoplinestickers.com^
-||signin.authen-connexion.info^
-||pqrxclhv.cc^
-||wwvvv-telegram.com^
-||mvkqpl.cc^
-||kerry03.top^
 ||expresk1.top^
-||cristenova.bond^
-||nxjqvlp.org^
-||edmestonny.com^
-||crawkers.com^
-||mvdis-i.nvestigate-tw.solistra.bond^
-||mvdis-gov-twg.net^
-||sneamcommnumnlty.com^
-||steamcommun1lty.com^
-||ozjqfl.pro^
 ||dhiaiqav.elementor.cloud^
-||dhqzlf.beer^
-||trafficx.mvdistpyg.shop^
-||mvd.mvdas-tw.shop^
-||bitwardendesktop.app^
-||bitwardenteam.blog^
-||1password-desktop.com^
-||keepass-xc.com^
 ||u54294316.ct.sendgrid.net^
 ||u57040603.ct.sendgrid.net^
-||eliteoceansports.com^
-||ww77773.xyz^
 ||eelzq.grtmold.com^
-||openpoint-invoice.com^
-||my711postoffice.com^
-||inetsourcing.com^
 ||content.brivity.com^
-||sunsoonfook.com^
 ||hailifeng.eu.cc^
-||cm.wijayapedia.com^
-||bitter-gourd.com^
-||dhl-north-eu.com^
-||gassenrealestate.com^
 ||duorvices11.bendan2026.com^
 ||ecpayconnect.com^
 ||61momoinvoice06.zycr911.com^
-||sfexpresi-tw.sfxpuerse.top^
 ||ovovjn.jingshunchangcheng.com^
-||cht-com.tw^
 ||cenf.eu.cc^
 ||cioo.eu.cc^
 ||portal.vrimalpe.shop^
@@ -220,64 +94,40 @@
 ||svpchtinks.com^
 
 ! Apple 帳號釣魚
-||wrightonyourmoney.com^
 ||polikani.eu.cc^
-||newwayto.eu.cc^newwayto.eu.cc
-||cn3-aoke.com^
+||newwayto.eu.cc^
 ||api.diao.one^
 ||api.heikeji.me^
 ||zp6auz64.pages.dev^
 ||cui-tg-uoen.xyz^
-||tel-safety-verify.xyz^
 
 ! 全家 Famiport 釣魚
 ||famiport-com-tw.fit^
 ||tw.family-ramu-tw.shop^
 ||apefw.top^
-||familymart.family-co.top^
 ||official2.jiaoyancehui.com^
-||twmar2.xyz^
 ||vip-famly-com-tw.fcja.shop^
 
 ! momo 購物釣魚
 ||lala22.corpmkow.online^
-||yuioi.gywsyz.one^
-||einvoice11111.e83506.com^
 ||hxytzhongchou.com^
-
-! 美廉社釣魚
-||r51u8.yonghai-express.com^
 
 ! 麥當勞釣魚
 ||tysjz.diaoche222.com^
 
 ! 蝦皮拍賣釣魚
-||connectliv.sbs^
-||hndbuoa.ink^
 ||xl8mk.scloud-cdn.com^
-||okok37@dtacnetwork.co.th
 ||intojoe.com^
 ||shoe20808308303.us-mia-1.linodeobjects.com^
-||aiqi-15.amydixonhansen.com^
-||1303oo.jpdaisuki.com^
 
 ! 遠通電收釣魚
-||xvqplz.qpon^
-||plorevx.onl^
-||provexl.onl^
-||zxplq.onl^
-||oprvhzkt.mom^
-||wmrqpl.mom^
-||fetc-centres.com^
 ||fetc-centren.com^
 ||fetc-netj.com^
 ||fetc-twi.com^
-||fetc-netwh.com^
 ||fetc-govneth-tw.com^
 ||fetc-govnb-tw.net^
 ||fetc-govne-tw.com^
 ||fetc-net-twgova.net^
-||twfetco.net^
 ||elp0q.7blazg.online
 ||wtta.6kkm76.online^
 ||bletc1.yyqqbkefag.online^
@@ -288,74 +138,33 @@
 ||twscw.86plob5f.online^
 ||yyk05.qa3u8erl.online^
 ||fetc-twygov.com^
-||f-jaocaeefetc-tw.com^
 ||tewc1.zsjrsr54.site^
 
 ! 金融機構釣魚
-||esansk.top^
-||esunebk.top^
-||esun.to^
-||twfuban.site^
-||cothoyinsuronce-tw.site^
-||ctbcbank.sinhc.icu^
-||ecpayatw.com^
-||sommehouse.store^
-||cdic-gov.com^
-||www-yuanta.12378so.com^
 ||ecoserdiana.com^
-||upplayer.jkoytw.com^
-||jkomtw.net^
-||twctbtctbank.com^
-||vips.ipass-stw.cloud^
-||vip.ipass-lpay.live^
-||ipass-ipay.net^
-||ipass-spay.net^
-||i-passwwwe.com^
 ||url900.everbee.com^
 ||cbuptctw.it.com^
-||aceft.com^
 ||sabrorganico.com^
 ||taiwandelivey.com^
-||444.robertcimasi.com^
 ||ww-ctbcofficee.putamadre.cz^
-||t-cat.com.psejr.top^
 ||neparudraksha.com^
 ||kirimid.com^
 
 ! 原網站已被駭
 ||aceft.com^
-||bernnercookies.com^
-
-! 嘉里大榮貨運
-||tw-tjc.top^
 
 ! 新竹貨運釣魚
 ||rs6.net^
-
-! 加密貨幣釣魚
-||app.exodus.com.alchemys.cl^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
 
 ! 垃圾 Line 詐騙
-||baixingnew.com^
 ||free-point-receive.weebly.com^
-||freedlinestore.com^
-||healthy001.top^
-||kfc-vip.vip^
 ||linemestickershop.weebly.com^
-||owo-owo.vip^
-||sjpop1z.com^
-||xtwnjf.com^
-||xvlpazn.cn^
-||healthy007.top^
-||vip-l53.work^
-||cjfeicui.net^
 ||linecbc.com^
 
 ! ETC 詐騙
-||fetcservice.com^
 ||masonblakeapparel.com^
 
 ! Weebly 詐騙
@@ -372,32 +181,13 @@
 
 ! 混淆垃圾農場網頁
 ||7box.vip^
-||renaultpassonxperience.co^
 ||softwarebrother.com^
-||yuutoday.com^
-||aiwriter.money^
-
-! 抽獎廣告
-||weeklywinningluckydayextra.cyou^
-||winning-coupon-theday-congrats.cyou^
-||ytu567.monster^
 
 ! 影音媒體廣告
 ||onead.onevision.com.tw^
 ||ad-specs.guoshipartners.com^
 
-! 色情廣告
-||xdfaus.cn^
-
-! 假冒虛擬貨幣交易所網站詐騙
-||bianceance.com^
-||aivarsity.org^
-||bibliotecageneral.me^
-
 ! 假冒串流影音網站詐騙
-||netfltiw.com^
-||fine-art.ge^
-||4stextiles.com^
 ||vymdio0.sa.com^
 
 ! 低卡廣告
@@ -407,369 +197,73 @@
 ||cpt.geniee.jp^
 
 ! 假冒政府網站詐騙
-||nigov.tw^
-||oovgov.com^
-||scyjdm.com.tw^
-||avogov.com^
-||hhigov.com^
-||oiigov.com^
-||rvegov.com^
-||jjhrt.net^
-||jscgov.com^
-||rie.vtrgov.com^
 ||ynrgov.com^
-||eiegov.com^
-||tw1988.link^
-||trkwis.com^
-||qiigov.tv^
-||viigov.tv^
-||lttgov.tv^
-||sigov.top^
-||stugov.tv^
-||ycxgov.tv^
-||vtigov.com^
-||vstgov.com^
-||trrgov.com^
-||uvvgov.com^
-||htsgov.com^
-||oiigov.com^
-||fsngov.com^
-||ucxgov.com^
-||ymsgov.com^
-||nsrgov.com^
-||kragov.com^
-||cpggov.com^
-||iigov.xyz^
-||aogov.xyz^
-||wsflojgov.xyz^
-||wsfliagov.xyz^
-||wsflbwgov.xyz^
-||wsflikygov.xyz^
-||wsflojgov.xyz^
-||wsfliegov.xyz^
 ||wsfltlwgov.xyz^
-||wsflzogov.xyz^
-||wsflbtgov.xyz^
-||twxgov.com^
-||twnjkgov.com^
-||twtwdfjgov.xyz^
-||twfgfjgov.shop^
-||aagov.shop^
-||drsgov.com^
-||welfareml.com^
-||twysgov.com^
-||celgov.com^
-||tiigov.tv^
-||twsgov.me^
-||twtla.me^
-||twmqn.me^
-||twvxp.me^
-||twspk.me^
-||twvrj.me^
-||ztcgov.me^
-||livekl.top^
-||jdcgov.com^
-||shukunjin.com^
-||vdegov.com^
-||yqbz2.xyz^
-||fucgov.tv^
-||twcdq.me^
-||fgov.shop^
-||tyfegov.site^
-||hfdewgov.site^
-||aogov.xyz^
-||hjxgov.com^
-||rinsr.vip^
-||inloe1xf.vip^
-||mvdis-gov.vip^
-||ipost-post-gov-tw.com^
-||tawan.podob.sbs^
-||tawan.pfksf.sbs^
 ||awardsto.sbs^
-||pkwjlrz.org^
 ||sportnews654.com^
-||einvoice-tus-natgov-tw.com^
-||einvoiceplatformd-tw.com^
-||e-uhyseinvoisce.com^
-||e-invoice-twca.com^
 ||e-invoice-twcb.net^
-||e-smheinvoicebc.com^
 ||einvolaev.com^
-||einvolaea.com^
 ||eivasicu.com^
 ||einvoicen.com^
-||einvoiceo.com^
-||einvoiceod.com^
-||einvoicenata.sbs^
 ||einvoiclao.com^
-||einvoiceoz.com^
-||einvoiceom.com^
-||einvhchek.com^
 ||zoal122.einvoiceo.vip
 ||xxoo1.einvoiceo.vip^
 ||elsza.dencokie.com^
 ||zhuzhou360.com^
-||p2xiekan.1688tuike.com^
 ||1s1k.kuxin-sign.com^
 ||e-invoicechecka-tw.com^
 ||e-invoicemanagement-twp.com^
 ||e-invoicemanagement-twv.com^
 ||p.e-invoiceplatfm-twb.com^
-||einvoice-tw.blog^
-||r-hyinvioicek.com^
 ||einvonlce-tw-gov.com^
 ||eiinivonlce-tw-gov.com^
 ||notice-tw.com^
-||dot-gov.net^
 ||postmaster-tw-serve.com^
 
-||taiwan-free-store.com^
-||tw-track.com^
 ||discord-i.com^
 ||viewty.xyz^
-||tw-beaxfun.fun^
 ||investing-reads.com^
 ||adsv.svc.litv.tv^
-||vatrack.hinet.net^
 ||sun.advividnetwork.com^
 ||ad.setn.com^
 ||elads.kocpc.com.tw^
 ||spotirfy-help-b49b36.ingress-bonde.ewp.live^
-||acefinance.asia^
-||waitwhy.buzz^
 ||lesartisansdubio.fr^
-||mohwgovl.com^
 
-||captchaless.top^
 ||postchunghwa-tw.sytes.net^
-||shopeeo.online^
-||xiapee.com^
-||ip.ophe.im^
-||1315.kaefsick.live^
-||proshares.cc^
 
 ! 詐騙清單
-||appdown.aexusdt.com^
-||app.aexusdt.com^
-||awsotc.com^
-||axiexchange.net^
-||ac88.bitomax.net^
 ||blockvc.com^
-||blueshield-ex.com^
-||chcura.com^
-||climpup188.com^
-||cmivpg.com^
-||mctu.coingcx.com^
 ||coinx.ai^
-||e7888.ddixf.com^
-||nk01.ddixf.com^
 ||www.discf.com^
-||member.etfxi.com^
-||fbs-market.com^
-||fusion-roa.com^
-||fizoption.com^
-||hotcoine.com^
-||kpcb88.com^
-||kutoken.io^
-||www.massf.net^
-||rkfxhc.cn^
-||downloadomg.wheppc.com^
-||anuefund.ozmazb.net^
-||ozzoco.xyz^
-||paybis.thegoodd.com^
-||grdwd5.com^
-||keisbdubdjfi.buzz^
-||www.usdyuenv16.com^
-||tdku1.com^
-||thldownload.wheppc.com^
-||thmtu.xyz^
-||tite-coin.pro^
-||down.xcmznk.com^
-||m.tmgnfx.com^
-||tzek6.com^
-||b.ydfxm.com^
-||meb-sll.net^
-||damuzhi668.com^
-||zhongzhenghk.cc^
-||zxtz.zyji668.com^
 ||wuzint.com^
-||656278.com^
-||angel0857.net^
-||sjddyc3398.com^
-||gwsc886.com^
-||abq88b.com^
-||97uy.cn^
-||m.7587758.com^
-||m.qdrlxz.com^
-||jinsha1678.com^
 ||m.js6789.cc^
-||jintaiassets.co^
 ||max555.net^
 ||buy888.net^
-||opwql.xinanfinancial.net^
-||m.wei7658.com^
-||hsetf888.com^
-||smgetrich4.hxscsn.com^
-||btc5.hxscsn.com^
-||mgao1688.com^
-||m.y69988.com^
-||fkforextw.com^
-||ktinvest.co^
 ||gaoshengzx.com^
-||gaoshengxx.com^
-||marketsfortw.cc^
-||hongkongll.com^
 ||hc812.com^
-||s656819a6.com^
-||jygjqp.cn^
-||fast8886.opqersw.net^
-||zhixin.nu^
-||buy-forex.net^
 ||at68.net^
-||hkobdbank.com^
-||yulonfortw.com^
-||passiveoutcomes.com^
-||www.gaojugonsi8.com^
-||ac88.bitomaxc.com^
-||qb168.bitomax.net^
-||vvv5588.bitomax.net^
 ||spwin58.com^
-||giantwin7.com^
-||a019.leying168.com^
-||m.rfxauhk.com^
-||std.amuud.com^
-||altobb.net^
-||ybgj8866.com^
-||download.longwangguoji.com^
-||xu1688.net^
-||xins9.com^
-||z01.diamondecg.net^
-||1236.theaminobar.com^
 
-||foaodnoa.com^
-||telegram-ss.com^
-||teiegram-tw.me^
-||telegrom-web.cc^
-||jnksdn.vip^
-||bjyvw.com^
-||discordnltro.pro^
-||mydvids.com^
 ||ak.alklinker.com^
 ||exnessaffiliates.com^
-||iflshop.online^
 ||fragment.club^
-||fragment.link^
-||fragmentnft.xyz^
-||xunjie.store^
-||tawan.pdbvn.sbs^
-||twan.pfgkjb.sbs^
-||eyusunbmk.top^
-||twwater.xyz^
 ||ads.superad.cc^
 ||ad-channel.diwodiwo.xyz^
-||egm.ehws.top^
-||webtelagrm.com^
 ||www.cdwew.com^
-||zhaosvips.com^
-||zhaosnidf.com^
 ||matomo.businesstoday.com.tw^
-||api.firebaseo.com^
-||api.aliyung.com^
 ||api.aliyung.org^
-||uploads.99ai.world^
-||socket.99ai.world^
 ||api.googleapps.top^
-||dogoitimil02.tw^
-||magzintopmark.lol^
-||web.telaycaer.com^
 ||hitechprovider.com^
 
 ! 7-11 賣貨便釣魚
-||xuy6.vip^
-||ttrcy.cyou^
-||shop-711.today^
-||shop-711.shop^
-||shop-7-11-tw.cloud^
-||shop.7-11.com.tw-aseyr.top^
-||7-11-eleven352.art^
-||7-11-eleven085.xyz^
-||7-11-eleven778.xyz^
-||7-11-eleven991.xyz^
-||tw1.tumhb.top^
-||7-eleven-shop-tw.sbs^
-||7-eleven-shop-tw.xin^
-||7-eleven-shop-tw.shop^
-||7-eleven-shop-tw.bond^
-||7-eleven-ig.qpon^
-||7-eleven-ig.cfd^
-||tw.vlhip1-7-11-ovm.cyou^
-||tw.7-11-eleven00.xyz^
-||ts1.7-eleevn711.xyz^
-||myship-7-11.icu^
-||7-11-envenb-jm.asia^
-||7-11.myship1-tw.asia^
-||7-11.myship1-tw.icu^
-||7-11.myship1-tw.space^
-||711.buy-buy.cc^
-||myship-7-11-com.tw^
-||myship-711-com-tw.ink^
-||myship-711-tw-nsdu.top^
-||myship-711-tw-vzl.top^
-||myship-711-com-tw-yya.site^
-||myship.7-11.sdatw.top^
-||myship.7-11.vajtw.top^
-||myship.7-11.vzatw.top^
-||myshipie-711-com-tw.top^
-||myshlp-7-11.cc^
-||myship7-11-com.top^
 ||qrcode-711.rxytu.com^
-||7-11-ig-tw.xyz^
-||7-11-myship-kgi.top^
-||7-11-myship-tw.top^
-||7-11-twig-ship.top^
-||7-11-twmyship.top^
-||7-11-eleven-com-tw1o.top
-||7-11.eleven-dzb.top^
-||711-myship-ig.cyou^
-||711-myship-ig.qpon^
-||711-myshipoqz-tw.top^
-||711-sl.tp5765.com^
 ||711.ykkpkj.com^
-||my-ship-711-tw.cyou^
-||my-ship-711-tw.icu^
-||my-ship-711-tw.ink^
-||my-ship-711-tw.qpon^
-||my-ship-711-tw.top^
-||my-ship-711-tw.xin^
-||my-ship-711-tw.xyz^
-||my-shipne-711-tw.top^
-||myship--711-tw.cc^
-||myship--711-tw.top^
-||myship-711-tw-izj.top^
-||myship-711-tw-zvjg.top^
-||myship-711-tw-zxa.top^
-||myship-711-tw.cfd^
-||myship-711-tw.shop^
 ||myship-711-tw.us.cc^
-||myship-711-tw.xin^
-||myship-tw-711.cc^
 ||myship-tw-711.us.cc^
-||myship.7-11.cemtw.top^
-||myship.7-11.cwmtw.top^
-||myship.7-11.com.tw.x5f.top^
-||myship9i-711-com-tw.top^
-||myshipo7-11.top^
-||myshlp-7-11.vip^
-||myshlpi-7-11.com^
-||tw-myship-7-11.cc^
-||tw.myship-7-11.cfd^
-||www.7-11-sh1p.top^
-||usg5.top^
 ||d9h7.top^
 ||jaif.top^
-||^xzhss.link
 
 ||shovel-heroes.com^
-||brainstudy.info^
 ||uts-front.line-apps.com^
 ||pagead2.googlesyndication.com^
